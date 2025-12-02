@@ -57,34 +57,30 @@ export function FeedbackSupremo({
   return (
     <div className="space-y-8">
       {/* Hero: Contexto da Análise */}
-      <div className="glass-card p-8">
-        <div className="space-y-6">
+      <Card className="bg-gradient-to-br from-purple-50 via-white to-purple-50 border-purple-200">
+        <div className="space-y-4">
           <div className="flex items-start justify-between">
             <div className="space-y-2">
-              <div className="flex items-center gap-3">
-                <div className="w-12 h-12 rounded-xl bg-genis-yellow/20 border border-genis-yellow/30 flex items-center justify-center glow-yellow">
-                  <Quote className="w-6 h-6 text-genis-yellow" />
-                </div>
-                <div>
-                  <h2 className="text-3xl font-bold text-white headline-premium">
-                    Análise Detalhada
-                  </h2>
-                  <p className="text-sm text-white/60 mt-1">
-                    {data_analise} • {analise_id}
-                  </p>
-                </div>
+              <div className="flex items-center gap-2">
+                <Quote className="w-5 h-5 text-purple-600" />
+                <h2 className="text-2xl font-bold text-neutral-900">
+                  Análise Detalhada por Pilar
+                </h2>
               </div>
+              <p className="text-sm text-neutral-500">
+                {data_analise} • {analise_id}
+              </p>
             </div>
-            <div className="badge-premium">SUPREMO</div>
+            <CategoryBadge label="SUPREMO" category="excelente" size="lg" />
           </div>
 
-          <div className="bg-white/5 backdrop-blur rounded-xl p-6 border border-white/10">
-            <p className="text-base text-white/90 leading-relaxed">
+          <div className="bg-white/60 backdrop-blur rounded-lg p-4 border border-purple-100">
+            <p className="text-sm font-medium text-purple-900 leading-relaxed">
               {contexto}
             </p>
           </div>
         </div>
-      </div>
+      </Card>
 
       {/* Seção 1: Pontos Fortes (Âncoras) */}
       {pontos_fortes.length > 0 && (
