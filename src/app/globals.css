@@ -300,9 +300,9 @@ html {
 
 .bg-hero-glow {
   background: radial-gradient(
-    ellipse 80% 50% at 50% -20%,
-    rgba(232, 210, 29, 0.15) 0%,
-    transparent 50%
+    ellipse 60% 35% at 50% -15%,
+    rgba(232, 210, 29, 0.08) 0%,
+    transparent 45%
   );
 }
 

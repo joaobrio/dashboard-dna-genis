@@ -21,7 +21,7 @@ interface UnifiedRadarProps {
 export function UnifiedRadar({ data }: UnifiedRadarProps) {
   return (
     <div className="glass-card p-8 bg-white text-gray-900 shadow-lg border border-gray-200">
-      <ResponsiveContainer width="100%" height={460}>
+      <ResponsiveContainer width="100%" height={480}>
         <RadarChart
           data={data}
           margin={{ top: 16, right: 16, bottom: 16, left: 16 }}
@@ -35,7 +35,7 @@ export function UnifiedRadar({ data }: UnifiedRadarProps) {
             dataKey="subject"
             tick={{
               fill: '#111827',
-              fontSize: 13,
+              fontSize: 14,
               fontWeight: 600,
             }}
             tickLine={false}
