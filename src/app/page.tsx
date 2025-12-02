@@ -61,7 +61,7 @@ export default function DashboardPage() {
   return (
     <div className="min-h-screen bg-genis-black">
       {/* Hero Gradient Background */}
-      <div className="bg-hero-glow fixed top-0 left-0 right-0 h-[600px] -z-10" />
+      <div className="bg-hero-glow fixed top-0 left-0 right-0 h-[360px] opacity-60 pointer-events-none -z-10" />
 
       {/* Header */}
       <header className="border-b border-white/10 backdrop-blur-xl bg-white/5 sticky top-0 z-50">
