@@ -3,11 +3,11 @@ import { prettyNameFromSlug, loadStudentJson, getAllStudentSlugs } from '@/lib/l
 import { notFound } from 'next/navigation';
 
 interface PageProps {
-  params: { aluno: string };
+  params: Promise<{ aluno: string }>;
 }
 
 export default async function AlunoPage({ params }: PageProps) {
-  const slug = params?.aluno;
+  const { aluno: slug } = await params;
   if (!slug) return notFound();
 
   const data = await loadStudentJson(slug);
