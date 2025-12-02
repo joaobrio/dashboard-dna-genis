@@ -4,27 +4,37 @@
   --background: #F9FAFB;
   --foreground: #111827;
 
+  /* === GENIS DESIGN SYSTEM === */
+  --genis-yellow: #E8D21D;
+  --genis-gold: #D4AF37;
+  --genis-black: #0A0A0A;
+  --genis-dark: #1A1A1A;
+
   /* DNA Genis Score Colors */
   --dna-alta-performance: #10B981;
-  --dna-operacional: #F59E0B;
+  --dna-operacional: #E8D21D; /* Genis Yellow */
   --dna-essencial: #F97316;
   --dna-critico: #EF4444;
 
-  /* Accent Colors */
-  --accent-primary: #8B5CF6;
-  --accent-secondary: #EC4899;
+  /* Accent Colors - Genis Brand */
+  --accent-primary: #E8D21D;
+  --accent-secondary: #D4AF37;
 
   /* Pilar Colors */
   --pilar-oratoria: #3B82F6;
   --pilar-interpessoal: #10B981;
   --pilar-intrapessoal: #8B5CF6;
-  --pilar-repertorio: #F59E0B;
+  --pilar-repertorio: #E8D21D;
 
-  /* Score Glows */
-  --glow-alta-performance: 0 0 20px rgba(16, 185, 129, 0.4), 0 0 60px rgba(16, 185, 129, 0.2);
-  --glow-operacional: 0 0 20px rgba(245, 158, 11, 0.4), 0 0 60px rgba(245, 158, 11, 0.2);
-  --glow-essencial: 0 0 20px rgba(249, 115, 22, 0.4), 0 0 60px rgba(249, 115, 22, 0.2);
-  --glow-critico: 0 0 20px rgba(239, 68, 68, 0.4), 0 0 60px rgba(239, 68, 68, 0.2);
+  /* Score Glows - Intensificados */
+  --glow-alta-performance: 0 0 25px rgba(16, 185, 129, 0.5), 0 0 70px rgba(16, 185, 129, 0.3);
+  --glow-operacional: 0 0 25px rgba(232, 210, 29, 0.5), 0 0 70px rgba(232, 210, 29, 0.3);
+  --glow-essencial: 0 0 25px rgba(249, 115, 22, 0.5), 0 0 70px rgba(249, 115, 22, 0.3);
+  --glow-critico: 0 0 25px rgba(239, 68, 68, 0.5), 0 0 70px rgba(239, 68, 68, 0.3);
+
+  /* Genis Glow */
+  --shadow-glow-yellow: 0 0 20px rgba(232, 210, 29, 0.4), 0 0 60px rgba(232, 210, 29, 0.2);
+  --shadow-glow-gold: 0 0 20px rgba(212, 175, 55, 0.4), 0 0 60px rgba(212, 175, 55, 0.2);
 
   /* Premium Shadows */
   --shadow-soft-sm: 0 2px 8px rgba(0, 0, 0, 0.04);
@@ -68,7 +78,7 @@ html {
   outline-offset: 2px;
 }
 
-/* Premium Scrollbar */
+/* Premium Scrollbar - Genis Gold */
 ::-webkit-scrollbar {
   width: 10px;
   height: 10px;
@@ -80,65 +90,65 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(180deg, #8B5CF6 0%, #7C3AED 100%);
+  background: linear-gradient(180deg, #E8D21D 0%, #D4AF37 100%);
   border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(180deg, #A78BFA 0%, #8B5CF6 100%);
+  background: linear-gradient(180deg, #F0DC4D 0%, #E8D21D 100%);
 }
 
-/* Custom Selection */
+/* Custom Selection - Genis Yellow */
 ::selection {
-  background: #8B5CF6;
-  color: #FFFFFF;
+  background: #E8D21D;
+  color: #0A0A0A;
 }
 
 ::-moz-selection {
-  background: #8B5CF6;
-  color: #FFFFFF;
+  background: #E8D21D;
+  color: #0A0A0A;
 }
 
 /* === GLASSMORPHISM CLASSES === */
 
 .glass {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(232, 210, 29, 0.15);
 }
 
 .glass-card {
-  background: rgba(255, 255, 255, 0.8);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(232, 210, 29, 0.2);
   border-radius: var(--radius);
-  box-shadow: var(--shadow-soft-md);
+  box-shadow: var(--shadow-soft-md), inset 0 1px 0 rgba(255, 255, 255, 0.6);
 }
 
 .glass-card-dark {
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(26, 26, 26, 0.8);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(232, 210, 29, 0.2);
   border-radius: var(--radius);
 }
 
 .glass-card-hover {
-  background: rgba(255, 255, 255, 0.8);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(232, 210, 29, 0.2);
   border-radius: var(--radius);
-  box-shadow: var(--shadow-soft-md);
+  box-shadow: var(--shadow-soft-md), inset 0 1px 0 rgba(255, 255, 255, 0.6);
   transition: all 0.3s ease;
 }
 
 .glass-card-hover:hover {
-  background: rgba(255, 255, 255, 0.9);
-  border-color: rgba(255, 255, 255, 0.3);
-  box-shadow: var(--shadow-soft-lg);
+  background: rgba(255, 255, 255, 0.85);
+  border-color: rgba(232, 210, 29, 0.4);
+  box-shadow: var(--shadow-soft-lg), var(--shadow-glow-yellow);
   transform: translateY(-4px);
 }
 
@@ -170,29 +180,44 @@ html {
   box-shadow: var(--glow-critico);
 }
 
+/* Genis Glow Classes */
+.glow-yellow {
+  box-shadow: var(--shadow-glow-yellow);
+}
+
+.glow-gold {
+  box-shadow: var(--shadow-glow-gold);
+}
+
 /* Intense variants for hover/focus */
 .glow-alta-performance-intense {
-  box-shadow: 0 0 30px rgba(16, 185, 129, 0.6),
-              0 0 80px rgba(16, 185, 129, 0.4),
-              0 0 120px rgba(16, 185, 129, 0.2);
+  box-shadow: 0 0 35px rgba(16, 185, 129, 0.7),
+              0 0 90px rgba(16, 185, 129, 0.5),
+              0 0 140px rgba(16, 185, 129, 0.3);
 }
 
 .glow-operacional-intense {
-  box-shadow: 0 0 30px rgba(245, 158, 11, 0.6),
-              0 0 80px rgba(245, 158, 11, 0.4),
-              0 0 120px rgba(245, 158, 11, 0.2);
+  box-shadow: 0 0 35px rgba(232, 210, 29, 0.7),
+              0 0 90px rgba(232, 210, 29, 0.5),
+              0 0 140px rgba(232, 210, 29, 0.3);
 }
 
 .glow-essencial-intense {
-  box-shadow: 0 0 30px rgba(249, 115, 22, 0.6),
-              0 0 80px rgba(249, 115, 22, 0.4),
-              0 0 120px rgba(249, 115, 22, 0.2);
+  box-shadow: 0 0 35px rgba(249, 115, 22, 0.7),
+              0 0 90px rgba(249, 115, 22, 0.5),
+              0 0 140px rgba(249, 115, 22, 0.3);
 }
 
 .glow-critico-intense {
-  box-shadow: 0 0 30px rgba(239, 68, 68, 0.6),
-              0 0 80px rgba(239, 68, 68, 0.4),
-              0 0 120px rgba(239, 68, 68, 0.2);
+  box-shadow: 0 0 35px rgba(239, 68, 68, 0.7),
+              0 0 90px rgba(239, 68, 68, 0.5),
+              0 0 140px rgba(239, 68, 68, 0.3);
+}
+
+.glow-yellow-intense {
+  box-shadow: 0 0 35px rgba(232, 210, 29, 0.7),
+              0 0 90px rgba(232, 210, 29, 0.5),
+              0 0 140px rgba(232, 210, 29, 0.3);
 }
 
 /* Pilar Glows */
@@ -247,7 +272,7 @@ html {
 }
 
 .gradient-text-operacional {
-  background: linear-gradient(135deg, #F59E0B 0%, #D97706 100%);
+  background: linear-gradient(135deg, #E8D21D 0%, #D4AF37 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -276,7 +301,12 @@ html {
 .bg-hero-glow {
   background: radial-gradient(
     ellipse 80% 50% at 50% -20%,
-    rgba(139, 92, 246, 0.15) 0%,
+    rgba(232, 210, 29, 0.15) 0%,
     transparent 50%
   );
+}
+
+/* Genis Brand Background */
+.bg-genis-gradient {
+  background: linear-gradient(135deg, rgba(232, 210, 29, 0.1) 0%, rgba(212, 175, 55, 0.05) 100%);
 }

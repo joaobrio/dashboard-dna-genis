@@ -182,10 +182,18 @@ export const PILAR_PESOS: Record<PilarType, number> = {
   REPERTORIO: 0.15,
 };
 
-// Cores dos pilares
+// Cores dos pilares - Genis Design System
 export const PILAR_COLORS: Record<PilarType, string> = {
   ORATORIA: '#3B82F6',
   INTERPESSOAL: '#10B981',
   INTRAPESSOAL: '#8B5CF6',
-  REPERTORIO: '#F59E0B',
+  REPERTORIO: '#E8D21D', // Genis Yellow
 };
+
+// Genis Brand Colors
+export const GENIS_COLORS = {
+  yellow: '#E8D21D',
+  gold: '#D4AF37',
+  black: '#0A0A0A',
+  dark: '#1A1A1A',
+} as const;

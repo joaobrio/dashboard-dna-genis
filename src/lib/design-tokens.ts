@@ -1,14 +1,26 @@
 /**
  * Design Tokens - DNA Genis Dashboard
  * Baseado no planejamento oficial e escala DNA Genis 3.0
+ * Atualizado com Genis Design System
  */
+
+// Genis Design System Colors
+export const genis = {
+  yellow: '#E8D21D',
+  gold: '#D4AF37',
+  black: '#0A0A0A',
+  dark: '#1A1A1A',
+} as const;
 
 // Cores da escala oficial DNA Genis 3.0
 export const colors = {
+  // Genis Brand
+  genis,
+
   // Escala de Performance
   score: {
     altaPerformance: '#10B981', // Verde - 85-100%
-    operacional: '#F59E0B',     // Amarelo - 70-84%
+    operacional: '#E8D21D',     // Genis Yellow - 70-84%
     essencial: '#F97316',       // Laranja - 50-69%
     critico: '#EF4444',         // Vermelho - 0-49%
   },
@@ -16,7 +28,7 @@ export const colors = {
   // Backgrounds por categoria
   scoreBg: {
     altaPerformance: 'from-emerald-50 to-emerald-100',
-    operacional: 'from-amber-50 to-amber-100',
+    operacional: 'from-yellow-50 to-amber-100',
     essencial: 'from-orange-50 to-orange-100',
     critico: 'from-red-50 to-red-100',
   },
@@ -24,7 +36,7 @@ export const colors = {
   // Bordas por categoria
   scoreBorder: {
     altaPerformance: 'border-emerald-200',
-    operacional: 'border-amber-200',
+    operacional: 'border-yellow-300',
     essencial: 'border-orange-200',
     critico: 'border-red-200',
   },
@@ -43,10 +55,10 @@ export const colors = {
     900: '#111827',
   },
 
-  // Accent
+  // Accent - Genis Brand
   accent: {
-    primary: '#8B5CF6',   // Roxo - CTA principal
-    secondary: '#EC4899', // Rosa - Notificações
+    primary: '#E8D21D',   // Genis Yellow - CTA principal
+    secondary: '#D4AF37', // Genis Gold - Destaques
   },
 
   // Pilares
@@ -54,7 +66,7 @@ export const colors = {
     oratoria: '#3B82F6',      // Azul
     interpessoal: '#10B981',  // Verde
     intrapessoal: '#8B5CF6',  // Roxo
-    repertorio: '#F59E0B',    // Amarelo
+    repertorio: '#E8D21D',    // Genis Yellow
   },
 } as const;
 

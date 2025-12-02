@@ -24,13 +24,17 @@ interface PillarRadarProps {
   title?: string;
 }
 
-// Pilar color mapping
+// Pilar color mapping - Genis Design System
 const pilarColors: Record<string, string> = {
   'Oratória': '#3B82F6',
   'Interpessoal': '#10B981',
   'Intrapessoal': '#8B5CF6',
-  'Repertório': '#F59E0B',
+  'Repertório': '#E8D21D', // Genis Yellow
 };
+
+// Genis Brand Colors
+const GENIS_YELLOW = '#E8D21D';
+const GENIS_GOLD = '#D4AF37';
 
 const pilarGlowClasses: Record<string, string> = {
   'Oratória': 'glow-oratoria',
@@ -95,27 +99,27 @@ export function PillarRadar({ data, title = 'Seus 4 Pilares' }: PillarRadarProps
                 <Radar
                   name="Score"
                   dataKey="score"
-                  stroke="#8B5CF6"
+                  stroke={GENIS_YELLOW}
                   fill="url(#radarGradient)"
-                  fillOpacity={0.3}
-                  strokeWidth={2}
+                  fillOpacity={0.5}
+                  strokeWidth={3}
                   dot={{
-                    r: 4,
-                    fill: '#8B5CF6',
+                    r: 5,
+                    fill: GENIS_YELLOW,
                     stroke: '#fff',
                     strokeWidth: 2,
                   }}
                   activeDot={{
-                    r: 6,
-                    fill: '#8B5CF6',
+                    r: 7,
+                    fill: GENIS_GOLD,
                     stroke: '#fff',
                     strokeWidth: 2,
                   }}
                 />
                 <defs>
                   <linearGradient id="radarGradient" x1="0" y1="0" x2="1" y2="1">
-                    <stop offset="0%" stopColor="#8B5CF6" stopOpacity={0.4} />
-                    <stop offset="100%" stopColor="#3B82F6" stopOpacity={0.2} />
+                    <stop offset="0%" stopColor={GENIS_YELLOW} stopOpacity={0.6} />
+                    <stop offset="100%" stopColor={GENIS_GOLD} stopOpacity={0.3} />
                   </linearGradient>
                 </defs>
                 <Tooltip content={<CustomTooltip />} />
