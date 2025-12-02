@@ -130,12 +130,19 @@ export default function DashboardPage() {
 
               <div className="space-y-4">
                 <div>
-                  <div className="text-7xl font-black text-genis-yellow score-display glow-yellow">
-                    {data.resumo.score_geral}
+                  <div className="rounded-xl border border-genis-yellow/20 bg-white/5 px-5 py-4 shadow-[0_20px_60px_rgba(0,0,0,0.35)]">
+                    <div className="text-6xl md:text-7xl font-black text-genis-yellow score-display">
+                      {data.resumo.score_geral}
+                    </div>
+                    <div className="flex items-center gap-2 mt-3">
+                      <span className="text-sm font-bold text-white uppercase tracking-wide">
+                        {getCategoriaLabel(data.resumo.categoria_geral)}
+                      </span>
+                      <span className="px-2 py-1 rounded-md border border-genis-yellow/30 bg-genis-yellow/10 text-[11px] font-semibold uppercase text-genis-yellow tracking-wide">
+                        Score
+                      </span>
+                    </div>
                   </div>
-                  <p className="text-lg font-bold text-white mt-2">
-                    {getCategoriaLabel(data.resumo.categoria_geral)}
-                  </p>
                 </div>
 
                 <div className="pt-6 border-t border-white/10">
