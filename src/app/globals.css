@@ -20,6 +20,19 @@
   --accent-primary: #E8D21D;
   --accent-secondary: #D4AF37;
 
+  /* Cards - Dark surface */
+  --card-bg: rgba(255, 255, 255, 0.05);
+  --card-bg-strong: rgba(255, 255, 255, 0.08);
+  --card-border: rgba(255, 255, 255, 0.1);
+  --card-text-primary: #FFFFFF;
+  --card-text-secondary: #9CA3AF;
+  --card-text-tertiary: #6B7280;
+
+  /* Status colors for dark */
+  --status-forte: #FDE047;      /* yellow-300 */
+  --status-excelente: #4ADE80;  /* green-400 */
+  --status-atencao: #FB923C;    /* orange-400 */
+
   /* Pilar Colors */
   --pilar-oratoria: #3B82F6;
   --pilar-interpessoal: #10B981;
@@ -112,43 +125,43 @@ html {
 /* === GLASSMORPHISM CLASSES === */
 
 .glass {
-  background: rgba(255, 255, 255, 0.15);
+  background: var(--card-bg);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border: 1px solid rgba(232, 210, 29, 0.15);
+  border: 1px solid var(--card-border);
 }
 
 .glass-card {
-  background: rgba(255, 255, 255, 0.95);
+  background: var(--card-bg);
   backdrop-filter: blur(24px);
   -webkit-backdrop-filter: blur(24px);
-  border: 1px solid rgba(232, 210, 29, 0.3);
+  border: 1px solid var(--card-border);
   border-radius: var(--radius);
-  box-shadow: var(--shadow-soft-md), inset 0 1px 0 rgba(255, 255, 255, 0.8);
+  box-shadow: var(--shadow-soft-md);
 }
 
 .glass-card-dark {
-  background: rgba(26, 26, 26, 0.8);
+  background: rgba(26, 26, 26, 0.85);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border: 1px solid rgba(232, 210, 29, 0.2);
+  border: 1px solid var(--card-border);
   border-radius: var(--radius);
 }
 
 .glass-card-hover {
-  background: rgba(255, 255, 255, 0.95);
+  background: var(--card-bg-strong);
   backdrop-filter: blur(24px);
   -webkit-backdrop-filter: blur(24px);
-  border: 1px solid rgba(232, 210, 29, 0.3);
+  border: 1px solid var(--card-border);
   border-radius: var(--radius);
-  box-shadow: var(--shadow-soft-md), inset 0 1px 0 rgba(255, 255, 255, 0.8);
+  box-shadow: var(--shadow-soft-md);
   transition: all 0.3s ease;
 }
 
 .glass-card-hover:hover {
-  background: rgba(255, 255, 255, 1);
-  border-color: rgba(232, 210, 29, 0.5);
-  box-shadow: var(--shadow-soft-lg), var(--shadow-glow-yellow);
+  background: var(--card-bg-strong);
+  border-color: rgba(232, 210, 29, 0.25);
+  box-shadow: var(--shadow-soft-lg);
   transform: translateY(-4px);
 }
 
@@ -158,7 +171,7 @@ html {
   .glass-card,
   .glass-card-dark,
   .glass-card-hover {
-    background: rgba(255, 255, 255, 0.95);
+    background: var(--card-bg);
   }
 }
 

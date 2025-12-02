@@ -68,6 +68,28 @@ export const colors = {
     intrapessoal: '#8B5CF6',  // Roxo
     repertorio: '#E8D21D',    // Genis Yellow
   },
+
+  // Cards - dark surfaces
+  card: {
+    bg: 'rgba(255, 255, 255, 0.05)',
+    bgStrong: 'rgba(255, 255, 255, 0.08)',
+    border: 'rgba(255, 255, 255, 0.1)',
+  },
+
+  // Status colors otimizados para fundo escuro
+  status: {
+    forte: '#FDE047',      // yellow-300
+    excelente: '#4ADE80',  // green-400
+    atencao: '#FB923C',    // orange-400
+    bom: '#60A5FA',        // blue-400
+  },
+
+  // Texto para cards dark
+  text: {
+    cardPrimary: '#FFFFFF',
+    cardSecondary: '#9CA3AF',
+    cardTertiary: '#6B7280',
+  },
 } as const;
 
 // Tipografia
