@@ -3,7 +3,8 @@
     "versao": "1.0-supremo",
     "timestamp": "2025-12-01T11:00:00Z",
     "analise_id": "vitor-sim-001",
-    "aluno_id": "vitor-sim"
+    "aluno_id": "vitor-sim",
+    "access_key": "wlsvs5"
   },
   "resumo": {
     "score_geral": 62,

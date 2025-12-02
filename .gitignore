@@ -40,3 +40,6 @@ Thumbs.db
 # TypeScript
 *.tsbuildinfo
 next-env.d.ts
+
+# Access Keys (sensitive - do not commit)
+src/data/access-keys.json

@@ -3,7 +3,8 @@
     "versao": "1.0-supremo",
     "timestamp": "2025-12-01T10:00:00Z",
     "analise_id": "ricardo-petri-001",
-    "aluno_id": "ricardo-petri"
+    "aluno_id": "ricardo-petri",
+    "access_key": "mtmjpn"
   },
   "resumo": {
     "score_geral": 58,

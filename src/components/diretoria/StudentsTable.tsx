@@ -151,7 +151,7 @@ export function StudentsTable({ students }: StudentsTableProps) {
                   </td>
                   <td className="px-6 py-4 text-center">
                     <Link
-                      href={`/${student.slug}`}
+                      href={`/${student.slug}/${student.accessKey}`}
                       className="inline-flex items-center gap-1 text-sm text-genis-yellow hover:text-genis-gold transition-colors"
                     >
                       Ver Dashboard

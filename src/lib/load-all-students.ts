@@ -1,9 +1,11 @@
 import { getAllStudentSlugs, loadStudentJson, prettyNameFromSlug } from './load-student-analysis';
+import { getAccessKey } from './access-keys';
 import type { DnaGenisAnalysis } from './zod-student';
 
 export interface StudentSummary {
   slug: string;
   nome: string;
+  accessKey: string;
   scoreGeral: number;
   scoreAutoconfianca: number;
   categoria: string;
@@ -45,6 +47,7 @@ export async function loadAllStudentsData(): Promise<{
   const students: StudentSummary[] = allData.map(({ slug, data }) => ({
     slug,
     nome: prettyNameFromSlug(slug),
+    accessKey: getAccessKey(slug) || '',
     scoreGeral: data.resumo.score_geral,
     scoreAutoconfianca: data.resumo.score_autoconfianca,
     categoria: data.resumo.categoria_geral,
