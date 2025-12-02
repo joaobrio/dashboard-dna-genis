@@ -24,7 +24,7 @@ export function UnifiedRadar({ data }: UnifiedRadarProps) {
       <ResponsiveContainer width="100%" height={480}>
         <RadarChart
           data={data}
-          margin={{ top: 16, right: 16, bottom: 16, left: 16 }}
+          margin={{ top: 28, right: 16, bottom: 16, left: 16 }}
           style={{ background: 'transparent' }}
         >
           <PolarGrid
@@ -37,6 +37,7 @@ export function UnifiedRadar({ data }: UnifiedRadarProps) {
               fill: '#E5E7EB',
               fontSize: 14,
               fontWeight: 600,
+              dy: -6,
             }}
             tickLine={false}
           />
