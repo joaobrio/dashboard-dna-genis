@@ -4,7 +4,9 @@ import { HeroScore } from '@/components/dashboard/HeroScore';
 import { PillarRadar } from '@/components/charts/PillarRadar';
 import { IndicatorRanking } from '@/components/dashboard/IndicatorRanking';
 import { ActionPlanSection } from '@/components/dashboard/ActionPlan';
+import { FeedbackSupremo } from '@/components/feedback/FeedbackSupremo';
 import { pedroWerlangData } from '@/data/pedro-werlang';
+import { pedroWerlangFeedback } from '@/data/pedro-werlang-feedback';
 import { PILAR_LABELS, PilarType } from '@/types/dna-genis';
 import { Dna, User } from 'lucide-react';
 
@@ -100,11 +102,23 @@ export default function DashboardPage() {
         </section>
 
         {/* Action Plan Section */}
-        <section>
+        <section className="mb-8">
           <ActionPlanSection
             actionPlan={data.plano_acao}
             nextSteps={data.proximos_passos}
             currentScore={data.resumo.score_geral}
+          />
+        </section>
+
+        {/* Feedback Supremo Section */}
+        <section className="mb-8">
+          <FeedbackSupremo
+            analise_id={pedroWerlangFeedback.analise_id}
+            data_analise={pedroWerlangFeedback.data_analise}
+            contexto={pedroWerlangFeedback.contexto}
+            feedback_items={pedroWerlangFeedback.feedback_items}
+            mensagem_final={pedroWerlangFeedback.mensagem_final}
+            planos_acao={pedroWerlangFeedback.planos_acao}
           />
         </section>
       </main>
