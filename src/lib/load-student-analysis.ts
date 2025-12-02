@@ -3,7 +3,9 @@ import path from 'path';
 import { DNAGenisAnalysis } from '@/types/dna-genis';
 import { pedroWerlangData } from '@/data/pedro-werlang';
 
-const FEEDBACK_DIR = path.resolve(process.cwd(), '../feedbacks-supremos-011225');
+// Em produção (Vercel), arquivos fora do projeto não são acessíveis.
+// Mantemos os MDs em data/feedbacks-supremos-011225 dentro do projeto.
+const FEEDBACK_DIR = path.resolve(process.cwd(), 'data/feedbacks-supremos-011225');
 
 export function prettyNameFromSlug(slug: string): string {
   return slug
