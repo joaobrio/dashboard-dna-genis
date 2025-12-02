@@ -86,13 +86,13 @@ export function PillarRadar({ data, title = 'Seus 4 Pilares' }: PillarRadarProps
                 />
                 <PolarAngleAxis
                   dataKey="pilar"
-                  tick={{ fill: '#374151', fontSize: 14, fontWeight: 500 }}
+                  tick={{ fill: '#374151', fontSize: 14, fontWeight: 500, dy: -4 }}
                   tickLine={false}
                 />
                 <PolarRadiusAxis
-                  angle={90}
+                  angle={45}
                   domain={[0, 100]}
-                  tick={{ fill: '#9CA3AF', fontSize: 12 }}
+                  tick={{ fill: '#9CA3AF', fontSize: 11 }}
                   tickCount={5}
                   axisLine={false}
                 />
