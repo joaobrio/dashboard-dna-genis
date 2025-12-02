@@ -274,13 +274,13 @@ export function DashboardShell({ data, userName, analysisDate }: DashboardShellP
           </div>
         </motion.section>
 
-        {/* Análise Narrativa - Feedback Supremo */}
+        {/* Analise Narrativa - Feedback Supremo */}
         <motion.section
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.35 }}
         >
-          <AnalysisDigest />
+          <AnalysisDigest data={data} userName={userName} analysisDate={analysisDate} />
         </motion.section>
       </main>
 

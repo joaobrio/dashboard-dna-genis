@@ -42,6 +42,92 @@ export const dnaGenisAnalysisSchema = z.object({
       aplicavel: z.boolean().optional(),
     })
   ),
+  // Campos adicionais para evolucao e plano de acao
+  evolucao: z.object({
+    historico: z.array(z.object({
+      data: z.string(),
+      score_geral: z.number(),
+      destaque: z.string(),
+    })).optional(),
+    tendencia: z.string().nullable().optional(),
+    projecao_30_dias: z.number().optional(),
+    projecao_90_dias: z.number().optional(),
+  }).optional(),
+
+  plano_acao: z.object({
+    duracao_semanas: z.number().optional(),
+    indicadores_priorizados: z.array(z.string()).optional(),
+    trilhas: z.array(z.object({
+      semanas: z.string(),
+      foco: z.string(),
+      objetivo: z.string(),
+      aula_id: z.number().optional(),
+      aula_nome: z.string().optional(),
+      exercicios: z.array(z.object({
+        nome: z.string(),
+        frequencia: z.string(),
+        duracao_minutos: z.number(),
+      })).optional(),
+      criterios_sucesso: z.array(z.string()).optional(),
+    })).optional(),
+    desafio_mes: z.object({
+      nome: z.string(),
+      descricao: z.string(),
+    }).optional(),
+  }).optional(),
+
+  materiais: z.array(z.object({
+    tipo: z.string(),
+    nome: z.string(),
+    indicador_relacionado: z.string(),
+    prioridade: z.string(),
+    link: z.string().nullable(),
+  })).optional(),
+
+  proximos_passos: z.object({
+    imediatos: z.array(z.string()).optional(),
+    curto_prazo: z.array(z.string()).optional(),
+    proxima_avaliacao: z.string().optional(),
+    meta_score_30_dias: z.number().optional(),
+    meta_score_90_dias: z.number().optional(),
+  }).optional(),
+
+  // Campos para dados narrativos do AnalysisDigest (formato legado)
+  narrativa: z.object({
+    meta: z.object({
+      data: z.string(),
+      analise: z.string(),
+      contexto: z.string(),
+      duracao: z.string(),
+    }),
+    sumario: z.object({
+      visaoGeral: z.string(),
+      sintese: z.string(),
+    }),
+    numeros: z.array(z.object({
+      rotulo: z.string(),
+      valor: z.string(),
+      detalhe: z.string(),
+    })),
+    destaques: z.array(z.object({
+      titulo: z.string(),
+      texto: z.string(),
+      cor: z.string(),
+    })),
+    plano30dias: z.object({
+      focoPrincipal: z.string(),
+      focoSecundario: z.string(),
+      manutencao: z.string(),
+      trilha12: z.array(z.string()),
+      trilha34: z.array(z.string()),
+    }),
+    projecao: z.object({
+      atual: z.string(),
+      dias30: z.string(),
+      dias90: z.string(),
+    }),
+    proximosPassos: z.array(z.string()),
+  }).optional(),
 });
 
 export type DnaGenisAnalysis = z.infer<typeof dnaGenisAnalysisSchema>;
