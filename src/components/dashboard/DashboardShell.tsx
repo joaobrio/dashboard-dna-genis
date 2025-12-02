@@ -38,7 +38,8 @@ export function DashboardShell({ data, userName, analysisDate }: DashboardShellP
     }
   };
 
-  const getCategoriaLabel = (categoria: string) => {
+  const getCategoriaLabel = (categoria?: string | null) => {
+    if (!categoria) return 'N/D';
     const labels: Record<string, string> = {
       excelente: 'EXCELENTE',
       altaPerformance: 'ALTA PERFORMANCE',
@@ -46,6 +47,8 @@ export function DashboardShell({ data, userName, analysisDate }: DashboardShellP
       operacional: 'OPERACIONAL',
       essencial: 'ESSENCIAL',
       critico: 'CRÍTICO',
+      adequado: 'ADEQUADO',
+      'a_desenvolver': 'A DESENVOLVER',
     };
     return labels[categoria] || categoria.toUpperCase();
   };
