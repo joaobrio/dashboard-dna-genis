@@ -89,11 +89,16 @@ export default function DashboardPage() {
               animate={{ opacity: 1, x: 0 }}
               className="flex items-center gap-3"
             >
-              <div className="text-right hidden sm:block">
-                <p className="text-sm font-semibold text-white">{userName}</p>
-                <p className="text-xs text-white/60">{analysisDate}</p>
+              <div className="hidden sm:flex items-center gap-2 px-3 py-2 rounded-xl border border-white/15 bg-white/5 backdrop-blur-md shadow-sm">
+                <div className="flex flex-col leading-tight">
+                  <p className="text-sm font-semibold text-white">{userName}</p>
+                  <p className="text-xs text-gray-400">{analysisDate}</p>
+                </div>
+                <span className="px-2 py-1 text-[11px] font-bold uppercase tracking-wide text-genis-yellow bg-genis-yellow/10 rounded-md border border-genis-yellow/30">
+                  Aluno
+                </span>
               </div>
-              <div className="w-10 h-10 rounded-full bg-gradient-to-br from-genis-yellow to-genis-gold flex items-center justify-center text-genis-black font-bold">
+              <div className="w-10 h-10 rounded-full bg-gradient-to-br from-genis-yellow to-genis-gold flex items-center justify-center text-genis-black font-bold shadow-md">
                 {userName.split(' ').map((n) => n[0]).join('')}
               </div>
             </motion.div>
