@@ -18,11 +18,20 @@ export async function loadAnalysisFromMarkdown(slug: string): Promise<DNAGenisAn
     if (!fs.existsSync(filePath)) return null;
     const raw = await fs.promises.readFile(filePath, 'utf-8');
 
-    const match = raw.match(/---DNA_GENIS_DASHBOARD_START---\s*```json\s*({[\s\S]*?})\s*```/);
-    if (!match?.[1]) return null;
+    // Suporta blocos com ou sem fence ```json
+    const patterns = [
+      /---DNA_GENIS_DASHBOARD_START---\s*```json\s*({[\s\S]*?})\s*---DNA_GENIS_DASHBOARD_END---\s*```/m,
+      /---DNA_GENIS_DASHBOARD_START---\s*({[\s\S]*?})\s*---DNA_GENIS_DASHBOARD_END---/m,
+    ];
 
-    const parsed = JSON.parse(match[1]);
-    return parsed as DNAGenisAnalysis;
+    for (const regex of patterns) {
+      const m = regex.exec(raw);
+      if (m?.[1]) {
+        const parsed = JSON.parse(m[1]);
+        return parsed as DNAGenisAnalysis;
+      }
+    }
+    return null;
   } catch (error) {
     console.error('Erro ao carregar análise do aluno', slug, error);
     return pedroWerlangData;
