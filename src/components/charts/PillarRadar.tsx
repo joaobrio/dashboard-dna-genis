@@ -10,8 +10,8 @@ import {
   ResponsiveContainer,
   Tooltip,
 } from 'recharts';
-import { motion } from 'framer-motion';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/shared/Card';
+import { motion, FadeUp, StaggerContainer, StaggerItem } from '@/components/motion';
 
 interface PillarData {
   pilar: string;
@@ -24,14 +24,36 @@ interface PillarRadarProps {
   title?: string;
 }
 
-// Custom Tooltip Component
+// Pilar color mapping
+const pilarColors: Record<string, string> = {
+  'Oratória': '#3B82F6',
+  'Interpessoal': '#10B981',
+  'Intrapessoal': '#8B5CF6',
+  'Repertório': '#F59E0B',
+};
+
+const pilarGlowClasses: Record<string, string> = {
+  'Oratória': 'glow-oratoria',
+  'Interpessoal': 'glow-interpessoal',
+  'Intrapessoal': 'glow-intrapessoal',
+  'Repertório': 'glow-repertorio',
+};
+
+// Custom Tooltip Component with glassmorphism
 function CustomTooltip({ active, payload }: { active?: boolean; payload?: Array<{ value: number; payload: PillarData }> }) {
   if (active && payload && payload.length) {
     const data = payload[0].payload;
+    const color = pilarColors[data.pilar] || '#3B82F6';
+
     return (
-      <div className="bg-white px-4 py-2 rounded-lg shadow-lg border border-neutral-200">
+      <div className="glass-card px-4 py-3">
         <p className="font-semibold text-neutral-900">{data.pilar}</p>
-        <p className="text-2xl font-bold text-blue-600">{data.score}</p>
+        <p
+          className="text-2xl font-bold"
+          style={{ color }}
+        >
+          {data.score}
+        </p>
       </div>
     );
   }
@@ -40,17 +62,18 @@ function CustomTooltip({ active, payload }: { active?: boolean; payload?: Array<
 
 export function PillarRadar({ data, title = 'Seus 4 Pilares' }: PillarRadarProps) {
   return (
-    <motion.div
-      initial={{ opacity: 0, scale: 0.95 }}
-      animate={{ opacity: 1, scale: 1 }}
-      transition={{ duration: 0.5, delay: 0.2 }}
-    >
-      <Card>
+    <FadeUp>
+      <Card variant="glass" animate>
         <CardHeader>
           <CardTitle>{title}</CardTitle>
         </CardHeader>
         <CardContent>
-          <div className="h-[350px] w-full">
+          <motion.div
+            className="h-[350px] w-full"
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.6, delay: 0.3 }}
+          >
             <ResponsiveContainer width="100%" height="100%">
               <RadarChart data={data} cx="50%" cy="50%" outerRadius="75%">
                 <PolarGrid
@@ -72,39 +95,61 @@ export function PillarRadar({ data, title = 'Seus 4 Pilares' }: PillarRadarProps
                 <Radar
                   name="Score"
                   dataKey="score"
-                  stroke="#3B82F6"
-                  fill="#3B82F6"
-                  fillOpacity={0.25}
+                  stroke="#8B5CF6"
+                  fill="url(#radarGradient)"
+                  fillOpacity={0.3}
                   strokeWidth={2}
                   dot={{
                     r: 4,
-                    fill: '#3B82F6',
+                    fill: '#8B5CF6',
                     stroke: '#fff',
                     strokeWidth: 2,
                   }}
                   activeDot={{
                     r: 6,
-                    fill: '#3B82F6',
+                    fill: '#8B5CF6',
                     stroke: '#fff',
                     strokeWidth: 2,
                   }}
                 />
+                <defs>
+                  <linearGradient id="radarGradient" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0%" stopColor="#8B5CF6" stopOpacity={0.4} />
+                    <stop offset="100%" stopColor="#3B82F6" stopOpacity={0.2} />
+                  </linearGradient>
+                </defs>
                 <Tooltip content={<CustomTooltip />} />
               </RadarChart>
             </ResponsiveContainer>
-          </div>
+          </motion.div>
 
-          {/* Legend with scores */}
-          <div className="grid grid-cols-2 gap-4 mt-6 pt-4 border-t border-neutral-100">
+          {/* Legend with scores - Staggered animation */}
+          <StaggerContainer className="grid grid-cols-2 gap-4 mt-6 pt-4 border-t border-neutral-100">
             {data.map((item) => (
-              <div key={item.pilar} className="flex items-center justify-between">
-                <span className="text-sm text-neutral-600">{item.pilar}</span>
-                <span className="text-sm font-semibold text-neutral-900">{item.score}</span>
-              </div>
+              <StaggerItem key={item.pilar}>
+                <motion.div
+                  className="flex items-center justify-between p-2 rounded-lg transition-all hover:bg-neutral-50"
+                  whileHover={{ scale: 1.02 }}
+                >
+                  <div className="flex items-center gap-2">
+                    <span
+                      className="w-2 h-2 rounded-full"
+                      style={{ backgroundColor: pilarColors[item.pilar] || '#3B82F6' }}
+                    />
+                    <span className="text-sm text-neutral-600">{item.pilar}</span>
+                  </div>
+                  <span
+                    className="text-sm font-bold"
+                    style={{ color: pilarColors[item.pilar] || '#3B82F6' }}
+                  >
+                    {item.score}
+                  </span>
+                </motion.div>
+              </StaggerItem>
             ))}
-          </div>
+          </StaggerContainer>
         </CardContent>
       </Card>
-    </motion.div>
+    </FadeUp>
   );
 }

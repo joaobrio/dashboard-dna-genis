@@ -2,20 +2,20 @@
 
 import React from 'react';
 import { cva, type VariantProps } from 'class-variance-authority';
-import { motion } from 'framer-motion';
 import { cn } from '@/lib/utils';
 import { getScoreCategory, getCategoryLabelPt, type ScoreCategory } from '@/lib/design-tokens';
 import { CategoryBadge } from '@/components/shared/CategoryBadge';
+import { motion, AnimatedOrb, ScoreReveal } from '@/components/motion';
 
 const heroVariants = cva(
-  'flex flex-col items-center justify-center p-8 md:p-12 rounded-3xl border-2 transition-all',
+  'relative flex flex-col items-center justify-center p-8 md:p-12 rounded-3xl transition-all overflow-hidden',
   {
     variants: {
       category: {
-        altaPerformance: 'bg-gradient-to-br from-emerald-50 to-emerald-100 border-emerald-200',
-        operacional: 'bg-gradient-to-br from-amber-50 to-amber-100 border-amber-200',
-        essencial: 'bg-gradient-to-br from-orange-50 to-orange-100 border-orange-200',
-        critico: 'bg-gradient-to-br from-red-50 to-red-100 border-red-200',
+        altaPerformance: 'glass-card border-emerald-200/50',
+        operacional: 'glass-card border-amber-200/50',
+        essencial: 'glass-card border-orange-200/50',
+        critico: 'glass-card border-red-200/50',
       },
     },
     defaultVariants: {
@@ -24,11 +24,25 @@ const heroVariants = cva(
   }
 );
 
-const scoreColorVariants: Record<ScoreCategory, string> = {
-  altaPerformance: 'text-emerald-600',
-  operacional: 'text-amber-600',
-  essencial: 'text-orange-600',
-  critico: 'text-red-600',
+const scoreGradientVariants: Record<ScoreCategory, string> = {
+  altaPerformance: 'gradient-text-alta-performance',
+  operacional: 'gradient-text-operacional',
+  essencial: 'gradient-text-essencial',
+  critico: 'gradient-text-critico',
+};
+
+const scoreGlowVariants: Record<ScoreCategory, string> = {
+  altaPerformance: 'glow-alta-performance',
+  operacional: 'glow-operacional',
+  essencial: 'glow-essencial',
+  critico: 'glow-critico',
+};
+
+const orbColorMap: Record<ScoreCategory, 'emerald' | 'amber' | 'purple' | 'blue'> = {
+  altaPerformance: 'emerald',
+  operacional: 'amber',
+  essencial: 'amber',
+  critico: 'purple',
 };
 
 interface HeroScoreProps extends VariantProps<typeof heroVariants> {
@@ -56,88 +70,111 @@ export function HeroScore({
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
     >
-      {/* Greeting */}
-      <motion.span
-        className="text-neutral-600 text-lg md:text-xl mb-2"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 0.2 }}
-      >
-        Olá, {userName}!
-      </motion.span>
+      {/* Animated Background Orbs */}
+      <AnimatedOrb
+        size="lg"
+        color={orbColorMap[category]}
+        position="top-left"
+        delay={0}
+      />
+      <AnimatedOrb
+        size="md"
+        color="purple"
+        position="bottom-right"
+        delay={2}
+      />
 
-      {/* Score Label */}
-      <motion.span
-        className="text-neutral-500 text-sm md:text-base mt-4"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 0.3 }}
-      >
-        Sua comunicação está na categoria
-      </motion.span>
-
-      {/* Main Score */}
-      <motion.div
-        className="flex flex-col items-center my-6"
-        initial={{ scale: 0.5, opacity: 0 }}
-        animate={{ scale: 1, opacity: 1 }}
-        transition={{ type: 'spring', stiffness: 200, delay: 0.4 }}
-      >
-        <span
-          className={cn(
-            'text-6xl md:text-8xl font-extrabold tracking-tight',
-            scoreColorVariants[category]
-          )}
-          style={{ fontFamily: '"Space Grotesk", sans-serif' }}
-        >
-          {score.toFixed(1)}
-        </span>
-
-        {/* Category Badge */}
-        <motion.div
-          initial={{ opacity: 0, y: 10 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.6 }}
-          className="mt-4"
-        >
-          <CategoryBadge
-            label={categoryLabel}
-            category={category === 'operacional' ? 'forte' : category}
-            size="lg"
-          />
-        </motion.div>
-      </motion.div>
-
-      {/* Autoconfianca Score */}
-      {autoconfianca !== undefined && (
-        <motion.div
-          className="flex items-center gap-2 text-neutral-500 text-sm"
+      {/* Content Layer */}
+      <div className="relative z-10 flex flex-col items-center">
+        {/* Greeting */}
+        <motion.span
+          className="text-neutral-600 text-lg md:text-xl mb-2 subheadline-premium"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ delay: 0.7 }}
+          transition={{ delay: 0.2 }}
         >
-          <span>Autoconfiança:</span>
-          <span className="font-semibold text-neutral-700">{autoconfianca.toFixed(1)}</span>
-        </motion.div>
-      )}
+          Olá, {userName}!
+        </motion.span>
 
-      {/* Analysis Info */}
-      <motion.div
-        className="flex flex-col md:flex-row items-center gap-2 mt-6 text-neutral-400 text-sm"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 0.8 }}
-      >
-        <span>Análise #{analysisNumber}</span>
-        {analysisDate && (
-          <>
-            <span className="hidden md:inline">•</span>
-            <span>{analysisDate}</span>
-          </>
+        {/* Score Label */}
+        <motion.span
+          className="text-neutral-500 text-sm md:text-base mt-4"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.3 }}
+        >
+          Sua comunicação está na categoria
+        </motion.span>
+
+        {/* Main Score - Premium Display */}
+        <ScoreReveal className="flex flex-col items-center my-6">
+          <motion.div
+            className={cn(
+              'relative p-4 rounded-2xl',
+              scoreGlowVariants[category]
+            )}
+            whileHover={{
+              scale: 1.02,
+              transition: { type: 'spring', stiffness: 300 }
+            }}
+          >
+            <span
+              className={cn(
+                'text-7xl md:text-9xl score-display',
+                scoreGradientVariants[category]
+              )}
+              style={{ fontFamily: '"Space Grotesk", sans-serif' }}
+            >
+              {score.toFixed(1)}
+            </span>
+          </motion.div>
+
+          {/* Category Badge */}
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.6 }}
+            className="mt-6"
+          >
+            <CategoryBadge
+              label={categoryLabel}
+              category={category === 'operacional' ? 'forte' : category}
+              size="lg"
+            />
+          </motion.div>
+        </ScoreReveal>
+
+        {/* Autoconfianca Score */}
+        {autoconfianca !== undefined && (
+          <motion.div
+            className="flex items-center gap-2 text-neutral-500 text-sm glass px-4 py-2 rounded-full"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.7 }}
+          >
+            <span>Autoconfiança:</span>
+            <span className="font-semibold text-neutral-700">{autoconfianca.toFixed(1)}</span>
+          </motion.div>
         )}
-        <span className="hidden md:inline">•</span>
-        <span>DNA Genis</span>
-      </motion.div>
+
+        {/* Analysis Info */}
+        <motion.div
+          className="flex flex-col md:flex-row items-center gap-2 mt-6 text-neutral-400 text-sm"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.8 }}
+        >
+          <span>Análise #{analysisNumber}</span>
+          {analysisDate && (
+            <>
+              <span className="hidden md:inline">•</span>
+              <span>{analysisDate}</span>
+            </>
+          )}
+          <span className="hidden md:inline">•</span>
+          <span className="font-medium text-purple-600">DNA Genis</span>
+        </motion.div>
+      </div>
     </motion.div>
   );
 }

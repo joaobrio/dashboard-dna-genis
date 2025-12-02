@@ -2,22 +2,142 @@
 
 import { cn } from '@/lib/utils';
 import React from 'react';
+import { motion, HoverLift, HoverGlow } from '@/components/motion';
+
+type CardVariant = 'solid' | 'glass' | 'glass-hover';
+type GlowColor = 'purple' | 'amber' | 'emerald' | 'orange' | 'red';
 
 interface CardProps {
   children: React.ReactNode;
   className?: string;
+  variant?: CardVariant;
   hover?: boolean;
+  hoverLift?: boolean;
+  glow?: boolean;
+  glowColor?: GlowColor;
+  animate?: boolean;
 }
 
-export function Card({ children, className, hover = false }: CardProps) {
+const variantStyles: Record<CardVariant, string> = {
+  solid: 'bg-white rounded-2xl border border-neutral-200 shadow-sm',
+  glass: 'glass-card',
+  'glass-hover': 'glass-card-hover',
+};
+
+export function Card({
+  children,
+  className,
+  variant = 'solid',
+  hover = false,
+  hoverLift = false,
+  glow = false,
+  glowColor = 'purple',
+  animate = false,
+}: CardProps) {
+  const baseClassName = cn(
+    variantStyles[variant],
+    'p-6',
+    hover && variant === 'solid' && 'transition-all duration-200 hover:shadow-md hover:-translate-y-1',
+    className
+  );
+
+  // Animated + Glow + Lift
+  if (animate && glow && hoverLift) {
+    return (
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.5 }}
+      >
+        <HoverGlow glowColor={glowColor}>
+          <HoverLift className={baseClassName}>
+            {children}
+          </HoverLift>
+        </HoverGlow>
+      </motion.div>
+    );
+  }
+
+  // Animated + Lift
+  if (animate && hoverLift) {
+    return (
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.5 }}
+      >
+        <HoverLift className={baseClassName}>
+          {children}
+        </HoverLift>
+      </motion.div>
+    );
+  }
+
+  // Animated + Glow
+  if (animate && glow) {
+    return (
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.5 }}
+      >
+        <HoverGlow glowColor={glowColor} className={baseClassName}>
+          {children}
+        </HoverGlow>
+      </motion.div>
+    );
+  }
+
+  // Animated only
+  if (animate) {
+    return (
+      <motion.div
+        className={baseClassName}
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.5 }}
+      >
+        {children}
+      </motion.div>
+    );
+  }
+
+  // Glow + Lift
+  if (glow && hoverLift) {
+    return (
+      <HoverGlow glowColor={glowColor}>
+        <HoverLift className={baseClassName}>
+          {children}
+        </HoverLift>
+      </HoverGlow>
+    );
+  }
+
+  // Lift only
+  if (hoverLift) {
+    return (
+      <HoverLift className={baseClassName}>
+        {children}
+      </HoverLift>
+    );
+  }
+
+  // Glow only
+  if (glow) {
+    return (
+      <HoverGlow glowColor={glowColor} className={baseClassName}>
+        {children}
+      </HoverGlow>
+    );
+  }
+
+  // Default
   return (
-    <div
-      className={cn(
-        'bg-white rounded-2xl border border-neutral-200 p-6 shadow-sm',
-        hover && 'transition-all duration-200 hover:shadow-md hover:-translate-y-1',
-        className
-      )}
-    >
+    <div className={baseClassName}>
       {children}
     </div>
   );
@@ -43,7 +163,7 @@ interface CardTitleProps {
 
 export function CardTitle({ children, className }: CardTitleProps) {
   return (
-    <h3 className={cn('text-lg font-semibold text-neutral-900', className)}>
+    <h3 className={cn('text-lg font-semibold text-neutral-900 headline-premium', className)}>
       {children}
     </h3>
   );
