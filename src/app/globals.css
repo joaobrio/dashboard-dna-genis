@@ -119,12 +119,12 @@ html {
 }
 
 .glass-card {
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(24px);
   -webkit-backdrop-filter: blur(24px);
-  border: 1px solid rgba(232, 210, 29, 0.2);
+  border: 1px solid rgba(232, 210, 29, 0.3);
   border-radius: var(--radius);
-  box-shadow: var(--shadow-soft-md), inset 0 1px 0 rgba(255, 255, 255, 0.6);
+  box-shadow: var(--shadow-soft-md), inset 0 1px 0 rgba(255, 255, 255, 0.8);
 }
 
 .glass-card-dark {
@@ -136,18 +136,18 @@ html {
 }
 
 .glass-card-hover {
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(24px);
   -webkit-backdrop-filter: blur(24px);
-  border: 1px solid rgba(232, 210, 29, 0.2);
+  border: 1px solid rgba(232, 210, 29, 0.3);
   border-radius: var(--radius);
-  box-shadow: var(--shadow-soft-md), inset 0 1px 0 rgba(255, 255, 255, 0.6);
+  box-shadow: var(--shadow-soft-md), inset 0 1px 0 rgba(255, 255, 255, 0.8);
   transition: all 0.3s ease;
 }
 
 .glass-card-hover:hover {
-  background: rgba(255, 255, 255, 0.85);
-  border-color: rgba(232, 210, 29, 0.4);
+  background: rgba(255, 255, 255, 1);
+  border-color: rgba(232, 210, 29, 0.5);
   box-shadow: var(--shadow-soft-lg), var(--shadow-glow-yellow);
   transform: translateY(-4px);
 }

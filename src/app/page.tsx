@@ -117,24 +117,24 @@ export default function DashboardPage() {
             <div className="relative z-10">
               <div className="flex items-center gap-2 mb-6">
                 <Target className="w-5 h-5 text-genis-yellow" />
-                <span className="text-sm font-bold text-white/80 uppercase tracking-wider">
+                <span className="text-sm font-bold text-gray-600 uppercase tracking-wider">
                   Score Geral
                 </span>
               </div>
 
               <div className="space-y-4">
                 <div>
-                  <div className="text-7xl font-black text-white score-display glow-yellow">
+                  <div className="text-7xl font-black text-genis-yellow score-display glow-yellow">
                     {data.resumo.score_geral}
                   </div>
-                  <p className="text-lg font-bold text-genis-yellow mt-2">
+                  <p className="text-lg font-bold text-gray-900 mt-2">
                     {getCategoriaLabel(data.resumo.categoria_geral)}
                   </p>
                 </div>
 
-                <div className="pt-6 border-t border-white/10">
-                  <p className="text-sm text-white/60 mb-2">Autoconfiança</p>
-                  <div className="text-3xl font-bold text-white">
+                <div className="pt-6 border-t border-gray-200">
+                  <p className="text-sm text-gray-600 mb-2">Autoconfiança</p>
+                  <div className="text-3xl font-bold text-gray-900">
                     {data.resumo.score_autoconfianca}
                   </div>
                 </div>
@@ -146,7 +146,7 @@ export default function DashboardPage() {
           <div className="lg:col-span-2 glass-card p-8">
             <div className="flex items-center gap-2 mb-6">
               <Zap className="w-5 h-5 text-genis-yellow" />
-              <span className="text-sm font-bold text-white/80 uppercase tracking-wider">
+              <span className="text-sm font-bold text-gray-600 uppercase tracking-wider">
                 Pilares DNA Genis
               </span>
             </div>
@@ -160,11 +160,11 @@ export default function DashboardPage() {
                     initial={{ opacity: 0, scale: 0.95 }}
                     animate={{ opacity: 1, scale: 1 }}
                     whileHover={{ scale: 1.02 }}
-                    className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-6 hover:border-genis-yellow/30 transition-all duration-300"
+                    className="bg-gray-50 backdrop-blur-sm border border-gray-200 rounded-xl p-6 hover:border-genis-yellow/50 transition-all duration-300"
                   >
-                    <p className="text-sm text-white/60 mb-2">{pilarLabel}</p>
+                    <p className="text-sm text-gray-600 mb-2">{pilarLabel}</p>
                     <div className="flex items-baseline gap-2">
-                      <span className="text-4xl font-bold text-white">{pilar.score}</span>
+                      <span className="text-4xl font-bold text-genis-yellow">{pilar.score}</span>
                       <span className={`text-sm font-semibold ${getCategoriaColor(pilar.categoria)}`}>
                         {getCategoriaLabel(pilar.categoria)}
                       </span>
@@ -186,7 +186,7 @@ export default function DashboardPage() {
             <h2 className="text-2xl font-bold text-white mb-2">
               Mapa de Competências
             </h2>
-            <p className="text-white/60">
+            <p className="text-gray-400">
               Visualização unificada de todos os seus indicadores DNA Genis
             </p>
           </div>
@@ -204,8 +204,8 @@ export default function DashboardPage() {
           {/* Top 3 Indicators */}
           <div className="glass-card p-8">
             <div className="flex items-center gap-2 mb-6">
-              <TrendingUp className="w-5 h-5 text-green-400" />
-              <h3 className="text-lg font-bold text-white">Pontos Fortes</h3>
+              <TrendingUp className="w-5 h-5 text-green-500" />
+              <h3 className="text-lg font-bold text-gray-900">Pontos Fortes</h3>
             </div>
 
             <div className="space-y-4">
@@ -215,18 +215,18 @@ export default function DashboardPage() {
                 .map((ind, index) => (
                   <div
                     key={ind.codigo}
-                    className="flex items-center justify-between p-4 bg-white/5 rounded-xl border border-green-400/20 hover:border-green-400/40 transition-colors"
+                    className="flex items-center justify-between p-4 bg-green-50 rounded-xl border border-green-200 hover:border-green-400 transition-colors"
                   >
                     <div className="flex items-center gap-3">
-                      <div className="flex items-center justify-center w-8 h-8 rounded-full bg-green-400/20 text-green-400 text-sm font-bold">
+                      <div className="flex items-center justify-center w-8 h-8 rounded-full bg-green-500 text-white text-sm font-bold">
                         {index + 1}
                       </div>
                       <div>
-                        <p className="font-semibold text-white">{ind.nome}</p>
-                        <p className="text-xs text-white/60">{ind.pilar}</p>
+                        <p className="font-semibold text-gray-900">{ind.nome}</p>
+                        <p className="text-xs text-gray-600">{ind.pilar}</p>
                       </div>
                     </div>
-                    <div className="text-2xl font-bold text-green-400">{ind.score}</div>
+                    <div className="text-2xl font-bold text-green-600">{ind.score}</div>
                   </div>
                 ))}
             </div>
@@ -235,8 +235,8 @@ export default function DashboardPage() {
           {/* Bottom 3 Indicators (Oportunidades) */}
           <div className="glass-card p-8">
             <div className="flex items-center gap-2 mb-6">
-              <Target className="w-5 h-5 text-orange-400" />
-              <h3 className="text-lg font-bold text-white">Oportunidades de Melhoria</h3>
+              <Target className="w-5 h-5 text-orange-500" />
+              <h3 className="text-lg font-bold text-gray-900">Oportunidades de Melhoria</h3>
             </div>
 
             <div className="space-y-4">
@@ -246,18 +246,18 @@ export default function DashboardPage() {
                 .map((ind, index) => (
                   <div
                     key={ind.codigo}
-                    className="flex items-center justify-between p-4 bg-white/5 rounded-xl border border-orange-400/20 hover:border-orange-400/40 transition-colors"
+                    className="flex items-center justify-between p-4 bg-orange-50 rounded-xl border border-orange-200 hover:border-orange-400 transition-colors"
                   >
                     <div className="flex items-center gap-3">
-                      <div className="flex items-center justify-center w-8 h-8 rounded-full bg-orange-400/20 text-orange-400 text-sm font-bold">
+                      <div className="flex items-center justify-center w-8 h-8 rounded-full bg-orange-500 text-white text-sm font-bold">
                         {index + 1}
                       </div>
                       <div>
-                        <p className="font-semibold text-white">{ind.nome}</p>
-                        <p className="text-xs text-white/60">{ind.pilar}</p>
+                        <p className="font-semibold text-gray-900">{ind.nome}</p>
+                        <p className="text-xs text-gray-600">{ind.pilar}</p>
                       </div>
                     </div>
-                    <div className="text-2xl font-bold text-orange-400">{ind.score}</div>
+                    <div className="text-2xl font-bold text-orange-600">{ind.score}</div>
                   </div>
                 ))}
             </div>
