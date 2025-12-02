@@ -20,11 +20,12 @@ interface UnifiedRadarProps {
 
 export function UnifiedRadar({ data }: UnifiedRadarProps) {
   return (
-    <div className="glass-card p-8 bg-white text-gray-900">
-      <ResponsiveContainer width="100%" height={500}>
+    <div className="glass-card p-8 bg-white text-gray-900 shadow-lg border border-gray-200">
+      <ResponsiveContainer width="100%" height={460}>
         <RadarChart
           data={data}
-          margin={{ top: 12, right: 12, bottom: 12, left: 12 }}
+          margin={{ top: 16, right: 16, bottom: 16, left: 16 }}
+          style={{ background: '#F9FAFB' }}
         >
           <PolarGrid
             stroke="rgba(232, 210, 29, 0.35)"
@@ -56,7 +57,7 @@ export function UnifiedRadar({ data }: UnifiedRadarProps) {
             dataKey="score"
             stroke="#E8D21D"
             fill="#E8D21D"
-            fillOpacity={0.18}
+            fillOpacity={0.14}
             strokeWidth={3}
           />
           <Tooltip
