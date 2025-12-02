@@ -71,7 +71,7 @@ export function FeedbackSupremo({
                 {data_analise} • {analise_id}
               </p>
             </div>
-            <CategoryBadge category="SUPREMO" size="lg" />
+            <CategoryBadge label="SUPREMO" category="excelente" size="lg" />
           </div>
 
           <div className="bg-white/60 backdrop-blur rounded-lg p-4 border border-purple-100">
@@ -312,7 +312,11 @@ function FeedbackItemCard({
           </div>
           <div className="flex-1">
             <h4 className="text-lg font-bold text-neutral-900">{item.indicador}</h4>
-            <CategoryBadge category={item.categoria} size="sm" />
+            <CategoryBadge
+              label={item.categoria.charAt(0).toUpperCase() + item.categoria.slice(1)}
+              category={item.categoria as any}
+              size="sm"
+            />
           </div>
         </div>
         <div className="text-right">
