@@ -1,0 +1,322 @@
+{
+  "meta": {
+    "versao": "1.0-supremo",
+    "timestamp": "2025-12-01T14:30:00Z",
+    "analise_id": "bruno-monteiro-001",
+    "aluno_id": "bruno-monteiro"
+  },
+  "resumo": {
+    "score_geral": 52.3,
+    "score_autoconfianca": 51.8,
+    "categoria_geral": "adequado",
+    "evolucao_percentual": null,
+    "numero_analise": 1,
+    "dias_desde_anterior": null
+  },
+  "pilares": {
+    "oratoria": {
+      "score": 48,
+      "peso": 0.4,
+      "categoria": "adequado",
+      "delta": null,
+      "indicador_ancora": "DICCAO",
+      "indicador_gap": "FLUENCIA"
+    },
+    "interpessoal": {
+      "score": 58,
+      "peso": 0.2,
+      "categoria": "adequado",
+      "delta": null,
+      "indicador_ancora": "ADAPTABILIDADE",
+      "indicador_gap": "PERSUASAO"
+    },
+    "intrapessoal": {
+      "score": 52,
+      "peso": 0.25,
+      "categoria": "adequado",
+      "delta": null,
+      "indicador_ancora": "CRIATIVIDADE",
+      "indicador_gap": "LIDERANCA"
+    },
+    "repertorio": {
+      "score": null,
+      "peso": 0.15,
+      "categoria": null,
+      "delta": null,
+      "indicador_ancora": null,
+      "indicador_gap": null
+    }
+  },
+  "indicadores": [
+    {
+      "codigo": "FLUENCIA",
+      "nome": "Fluencia",
+      "pilar": "ORATORIA",
+      "score": 38,
+      "categoria": "a_desenvolver",
+      "delta": null,
+      "confianca": 0.9,
+      "evidencias": [
+        "Pausas frequentes",
+        "Repeticoes de palavras",
+        "Vicios 'eee'",
+        "Trocou nomes"
+      ],
+      "timestamps": [
+        "00:00",
+        "00:02",
+        "00:13"
+      ],
+      "aula_recomendada": "Aula 3: Fluencia Magnetica",
+      "tecnica_recomendada": "Pausa Estrategica",
+      "prioridade_acao": 1
+    },
+    {
+      "codigo": "LINGUAGEM_NAO_VERBAL",
+      "nome": "Linguagem Nao Verbal",
+      "pilar": "ORATORIA",
+      "score": 55,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.85,
+      "evidencias": [
+        "Maos inquietas",
+        "Movimento pendular",
+        "Olhar direto para camera",
+        "Sorriso genuino"
+      ],
+      "timestamps": [
+        "00:00-00:25"
+      ],
+      "aula_recomendada": "Aula 2: Postura de Dominio",
+      "tecnica_recomendada": "Power Pose",
+      "prioridade_acao": 3
+    },
+    {
+      "codigo": "MODULACAO_VOZ",
+      "nome": "Modulacao de Voz",
+      "pilar": "ORATORIA",
+      "score": 50,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.8,
+      "evidencias": [
+        "Tom moderado",
+        "Pouca variacao",
+        "Volume consistente"
+      ],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "DICCAO",
+      "nome": "Diccao",
+      "pilar": "ORATORIA",
+      "score": 58,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.85,
+      "evidencias": [
+        "Articulacao clara",
+        "Palavras compreensiveis"
+      ],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "ASSERTIVIDADE",
+      "nome": "Assertividade",
+      "pilar": "ORATORIA",
+      "score": 42,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.85,
+      "evidencias": [
+        "Estrutura fragmentada",
+        "Falta de objetivo claro",
+        "Hesitacoes"
+      ],
+      "timestamps": [
+        "00:17-00:20"
+      ],
+      "aula_recomendada": "Aula 4: Estrutura de Raciocinio",
+      "tecnica_recomendada": "Framework GIVE",
+      "prioridade_acao": 2
+    },
+    {
+      "codigo": "ADAPTABILIDADE",
+      "nome": "Adaptabilidade",
+      "pilar": "INTERPESSOAL",
+      "score": 68,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.9,
+      "evidencias": [
+        "Lidou bem com erro",
+        "Usou humor",
+        "Risos genuinos",
+        "Autoironia positiva"
+      ],
+      "timestamps": [
+        "00:02",
+        "00:23"
+      ],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "CRIATIVIDADE",
+      "nome": "Criatividade",
+      "pilar": "INTRAPESSOAL",
+      "score": 55,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.75,
+      "evidencias": [
+        "Humor como recurso",
+        "Pergunta final criativa"
+      ],
+      "timestamps": [
+        "00:23"
+      ],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "LIDERANCA",
+      "nome": "Lideranca/Posicionamento",
+      "pilar": "INTRAPESSOAL",
+      "score": 48,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.8,
+      "evidencias": [
+        "Postura tensa",
+        "Ombros elevados",
+        "Balanço corporal",
+        "Maos inquietas"
+      ],
+      "timestamps": [
+        "00:00-00:25"
+      ],
+      "aula_recomendada": "Aula 2: Postura de Dominio",
+      "tecnica_recomendada": "Power Pose",
+      "prioridade_acao": 4
+    }
+  ],
+  "evolucao": {
+    "historico": [],
+    "tendencia": null,
+    "projecao_30_dias": 58,
+    "projecao_90_dias": 65
+  },
+  "plano_acao": {
+    "duracao_semanas": 4,
+    "indicadores_priorizados": [
+      "FLUENCIA",
+      "ASSERTIVIDADE",
+      "LINGUAGEM_NAO_VERBAL"
+    ],
+    "trilhas": [
+      {
+        "semanas": "1-2",
+        "foco": "FLUENCIA",
+        "objetivo": "Reduzir em 50% os vicios de linguagem",
+        "aula_id": 3,
+        "aula_nome": "Fluencia Magnetica",
+        "exercicios": [
+          {
+            "nome": "Desafio 60 Segundos",
+            "frequencia": "diaria",
+            "duracao_minutos": 10
+          },
+          {
+            "nome": "Pausa Estrategica",
+            "frequencia": "diaria",
+            "duracao_minutos": 5
+          }
+        ],
+        "criterios_sucesso": [
+          "Menos de 3 vicios em 60s",
+          "Pausas intencionais sem desconforto"
+        ]
+      },
+      {
+        "semanas": "3-4",
+        "foco": "ASSERTIVIDADE",
+        "objetivo": "Estruturar apresentacao pessoal de 45 segundos",
+        "aula_id": 2,
+        "aula_nome": "Postura de Dominio",
+        "exercicios": [
+          {
+            "nome": "Pitch Pessoal Estruturado",
+            "frequencia": "diaria",
+            "duracao_minutos": 15
+          },
+          {
+            "nome": "Power Pose",
+            "frequencia": "diaria",
+            "duracao_minutos": 2
+          }
+        ],
+        "criterios_sucesso": [
+          "Pitch de 45s sem balanco",
+          "Estrutura clara percebida"
+        ]
+      }
+    ],
+    "desafio_mes": {
+      "nome": "Apresentacao Perfeita",
+      "descricao": "Gravar apresentacao pessoal de 60s com menos de 3 vicios, postura estavel e estrutura clara"
+    }
+  },
+  "materiais": [
+    {
+      "tipo": "aula",
+      "nome": "Aula 3: Fluencia Magnetica",
+      "indicador_relacionado": "FLUENCIA",
+      "prioridade": "alta",
+      "link": null
+    },
+    {
+      "tipo": "aula",
+      "nome": "Aula 2: Postura de Dominio",
+      "indicador_relacionado": "LINGUAGEM_NAO_VERBAL",
+      "prioridade": "alta",
+      "link": null
+    },
+    {
+      "tipo": "exercicio",
+      "nome": "Desafio 60 Segundos",
+      "indicador_relacionado": "FLUENCIA",
+      "prioridade": "alta",
+      "link": null
+    },
+    {
+      "tipo": "tecnica",
+      "nome": "Pausa Estrategica",
+      "indicador_relacionado": "FLUENCIA",
+      "prioridade": "alta",
+      "link": null
+    }
+  ],
+  "proximos_passos": {
+    "imediatos": [
+      "Assistir Aula 3: Fluencia Magnetica",
+      "Gravar baseline de 60 segundos"
+    ],
+    "curto_prazo": [
+      "Completar trilhas semana 1-4",
+      "Enviar novo video para reavaliacao"
+    ],
+    "proxima_avaliacao": "2026-01-01",
+    "meta_score_30_dias": 58,
+    "meta_score_90_dias": 65
+  }
+}

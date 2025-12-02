@@ -1,0 +1,317 @@
+{
+  "meta": {
+    "versao": "1.0-supremo",
+    "timestamp": "2025-12-01T15:30:00Z",
+    "analise_id": "marco-birck-001",
+    "aluno_id": "marco-birck"
+  },
+  "resumo": {
+    "score_geral": 69.8,
+    "score_autoconfianca": 68.5,
+    "categoria_geral": "forte",
+    "evolucao_percentual": null,
+    "numero_analise": 1,
+    "dias_desde_anterior": null
+  },
+  "pilares": {
+    "oratoria": {
+      "score": 65,
+      "peso": 0.4,
+      "categoria": "adequado",
+      "delta": null,
+      "indicador_ancora": "ASSERTIVIDADE",
+      "indicador_gap": "FLUENCIA"
+    },
+    "interpessoal": {
+      "score": 74,
+      "peso": 0.2,
+      "categoria": "forte",
+      "delta": null,
+      "indicador_ancora": "MARKETING_PESSOAL",
+      "indicador_gap": "PERSUASAO_TECNICA"
+    },
+    "intrapessoal": {
+      "score": 68,
+      "peso": 0.25,
+      "categoria": "forte",
+      "delta": null,
+      "indicador_ancora": "AUTOCONHECIMENTO",
+      "indicador_gap": "PRESENCA_FISICA"
+    },
+    "repertorio": {
+      "score": null,
+      "peso": 0.15,
+      "categoria": null,
+      "delta": null,
+      "indicador_ancora": null,
+      "indicador_gap": null
+    }
+  },
+  "indicadores": [
+    {
+      "codigo": "FLUENCIA",
+      "nome": "Fluencia",
+      "pilar": "ORATORIA",
+      "score": 58,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.9,
+      "evidencias": [
+        "5 pausas preenchidas eh... em 55s",
+        "Pausas bem distribuidas em transicoes"
+      ],
+      "timestamps": [
+        "00:06",
+        "00:19",
+        "00:25",
+        "00:37"
+      ],
+      "aula_recomendada": "Aula 3: Fluencia Magnetica",
+      "tecnica_recomendada": "Pausa Estrategica",
+      "prioridade_acao": 2
+    },
+    {
+      "codigo": "LINGUAGEM_NAO_VERBAL",
+      "nome": "Linguagem Nao Verbal",
+      "pilar": "ORATORIA",
+      "score": 68,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.9,
+      "evidencias": [
+        "Gestos naturais na caixa",
+        "Oscilacao lateral constante",
+        "Maos assimetricas"
+      ],
+      "timestamps": [
+        "00:05-00:55",
+        "00:12-00:20"
+      ],
+      "aula_recomendada": "Aula 2: Postura de Dominio",
+      "tecnica_recomendada": "Ancoramento Postural",
+      "prioridade_acao": 1
+    },
+    {
+      "codigo": "ASSERTIVIDADE",
+      "nome": "Assertividade",
+      "pilar": "ORATORIA",
+      "score": 70,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.95,
+      "evidencias": [
+        "Estrutura bipartida profissional + pessoal",
+        "Fechamento poetico sintetizando pilares"
+      ],
+      "timestamps": [
+        "00:05-00:32",
+        "00:37-00:50",
+        "00:51"
+      ],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "MARKETING_PESSOAL",
+      "nome": "Marketing Pessoal",
+      "pilar": "INTERPESSOAL",
+      "score": 78,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.95,
+      "evidencias": [
+        "Bom vivant como diferencial memoravel",
+        "Equilibrio profissional-pessoal",
+        "Fechamento poetico"
+      ],
+      "timestamps": [
+        "00:37",
+        "00:43",
+        "00:51"
+      ],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "AUTENTICIDADE",
+      "nome": "Autenticidade",
+      "pilar": "INTERPESSOAL",
+      "score": 80,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.95,
+      "evidencias": [
+        "Vulnerabilidade genuina",
+        "Reflexao critica sobre jornada",
+        "Gestos naturais"
+      ],
+      "timestamps": [
+        "00:25"
+      ],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "PERSUASAO_TECNICA",
+      "nome": "Persuasao Tecnica",
+      "pilar": "INTERPESSOAL",
+      "score": 68,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.85,
+      "evidencias": [
+        "Falta dados concretos da empresa",
+        "10 anos mas sem resultados quantitativos"
+      ],
+      "timestamps": [],
+      "aula_recomendada": "Aula 6: Storytelling",
+      "tecnica_recomendada": "Adicionar 1-2 dados concretos",
+      "prioridade_acao": 3
+    },
+    {
+      "codigo": "AUTOCONHECIMENTO",
+      "nome": "Autoconhecimento",
+      "pilar": "INTRAPESSOAL",
+      "score": 75,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.9,
+      "evidencias": [
+        "Reflexao critica sobre jornada",
+        "Definicao alem do trabalho",
+        "Inteligencia emocional"
+      ],
+      "timestamps": [
+        "00:25",
+        "00:37-00:50"
+      ],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "PRESENCA_FISICA",
+      "nome": "Presenca Fisica",
+      "pilar": "INTRAPESSOAL",
+      "score": 58,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.9,
+      "evidencias": [
+        "Oscilacao lateral constante tipo pendulo",
+        "Movimento dispersa energia"
+      ],
+      "timestamps": [
+        "00:05-00:55"
+      ],
+      "aula_recomendada": "Aula 2: Postura de Dominio",
+      "tecnica_recomendada": "Ancoramento Postural",
+      "prioridade_acao": 1
+    }
+  ],
+  "evolucao": {
+    "historico": [],
+    "tendencia": null,
+    "projecao_30_dias": 73,
+    "projecao_90_dias": 75
+  },
+  "plano_acao": {
+    "duracao_semanas": 4,
+    "indicadores_priorizados": [
+      "PRESENCA_FISICA",
+      "FLUENCIA",
+      "PERSUASAO_TECNICA"
+    ],
+    "trilhas": [
+      {
+        "semanas": "1-2",
+        "foco": "PRESENCA_FISICA",
+        "objetivo": "Eliminar 80% da oscilacao lateral",
+        "aula_id": 2,
+        "aula_nome": "Postura de Dominio",
+        "exercicios": [
+          {
+            "nome": "Ancoramento Postural",
+            "frequencia": "diaria",
+            "duracao_minutos": 15
+          },
+          {
+            "nome": "Power Pose",
+            "frequencia": "diaria",
+            "duracao_minutos": 5
+          }
+        ],
+        "criterios_sucesso": [
+          "Menos de 20% oscilacao em 60s",
+          "Peso distribuido 50/50"
+        ]
+      },
+      {
+        "semanas": "3-4",
+        "foco": "FLUENCIA",
+        "objetivo": "Reduzir eh... de 5 para menos de 2 em 60s",
+        "aula_id": 3,
+        "aula_nome": "Fluencia Magnetica",
+        "exercicios": [
+          {
+            "nome": "Pausa Estrategica",
+            "frequencia": "diaria",
+            "duracao_minutos": 15
+          },
+          {
+            "nome": "Adicionar Dado Concreto",
+            "frequencia": "3x/semana",
+            "duracao_minutos": 10
+          }
+        ],
+        "criterios_sucesso": [
+          "Menos de 2 eh... em 60s",
+          "Dado concreto integrado"
+        ]
+      }
+    ],
+    "desafio_mes": {
+      "nome": "Apresentacao Ancorada e Poetica",
+      "descricao": "Gravar apresentacao 60s com zero oscilacao, pausas estrategicas, dado concreto, fechamento poetico"
+    }
+  },
+  "materiais": [
+    {
+      "tipo": "aula",
+      "nome": "Aula 2: Postura de Dominio",
+      "indicador_relacionado": "PRESENCA_FISICA",
+      "prioridade": "alta",
+      "link": null
+    },
+    {
+      "tipo": "aula",
+      "nome": "Aula 3: Fluencia Magnetica",
+      "indicador_relacionado": "FLUENCIA",
+      "prioridade": "alta",
+      "link": null
+    },
+    {
+      "tipo": "aula",
+      "nome": "Aula 6: Storytelling",
+      "indicador_relacionado": "PERSUASAO_TECNICA",
+      "prioridade": "media",
+      "link": null
+    }
+  ],
+  "proximos_passos": {
+    "imediatos": [
+      "Assistir Aula 2: Postura de Dominio",
+      "Gravar baseline observando oscilacao"
+    ],
+    "curto_prazo": [
+      "Completar trilhas semana 1-4",
+      "Enviar novo video"
+    ],
+    "proxima_avaliacao": "2026-01-01",
+    "meta_score_30_dias": 73,
+    "meta_score_90_dias": 75
+  }
+}

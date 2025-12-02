@@ -1,0 +1,481 @@
+{
+  "meta": {
+    "versao": "1.0-supremo",
+    "timestamp": "2025-12-01T15:30:00Z",
+    "analise_id": "theo-fogaca-001",
+    "aluno_id": "theo-fogaca-555184462514"
+  },
+  "resumo": {
+    "score_geral": 74.8,
+    "score_autoconfianca": 74.2,
+    "categoria_geral": "forte",
+    "evolucao_percentual": null,
+    "numero_analise": 1,
+    "dias_desde_anterior": null
+  },
+  "pilares": {
+    "oratoria": {
+      "score": 72,
+      "peso": 0.4,
+      "categoria": "forte",
+      "delta": null,
+      "indicador_ancora": "LINGUAGEM_NAO_VERBAL",
+      "indicador_gap": "GRAMATICA"
+    },
+    "interpessoal": {
+      "score": 72,
+      "peso": 0.2,
+      "categoria": "forte",
+      "delta": null,
+      "indicador_ancora": "MARKETING_PESSOAL",
+      "indicador_gap": "DIDATICA"
+    },
+    "intrapessoal": {
+      "score": 78,
+      "peso": 0.25,
+      "categoria": "forte",
+      "delta": null,
+      "indicador_ancora": "CRIATIVIDADE",
+      "indicador_gap": "LIDERANCA"
+    },
+    "repertorio": {
+      "score": 74,
+      "peso": 0.15,
+      "categoria": "forte",
+      "delta": null,
+      "indicador_ancora": null,
+      "indicador_gap": null
+    }
+  },
+  "indicadores": [
+    {
+      "codigo": "FLUENCIA",
+      "nome": "Fluência",
+      "pilar": "ORATORIA",
+      "score": 68,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.9,
+      "evidencias": [
+        "Velocidade rápida, acelerações em listas",
+        "~6 pausas preenchidas por minuto ('ai', 'tipo', 'é')",
+        "Conectivos coloquiais: 'aí daí', 'é como se fosse', 'assim'"
+      ],
+      "timestamps": [
+        "00:11",
+        "00:15",
+        "00:19",
+        "00:44",
+        "00:54",
+        "00:59"
+      ],
+      "aula_recomendada": "Aula 3: Fluência Magnética",
+      "tecnica_recomendada": "Code-Switching Comunicacional + Desaceleração Intencional",
+      "prioridade_acao": 1
+    },
+    {
+      "codigo": "LINGUAGEM_NAO_VERBAL",
+      "nome": "Linguagem Não Verbal",
+      "pilar": "ORATORIA",
+      "score": 80,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.95,
+      "evidencias": [
+        "Gesticulação ativa constante na caixa (umbigo-peito)",
+        "Olhar direto 90% do tempo",
+        "Movimentos circulares ao listar áreas",
+        "Amplitude aumenta ao enfatizar ('qualquer coisa')",
+        "Auto-toque ao falar de amizade (humanização)"
+      ],
+      "timestamps": [
+        "00:03",
+        "00:20",
+        "00:40",
+        "00:54",
+        "01:05"
+      ],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "MODULACAO_VOZ",
+      "nome": "Modulação de Voz",
+      "pilar": "ORATORIA",
+      "score": 72,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.85,
+      "evidencias": [
+        "Volume moderado a alto",
+        "Acelerações significativas em listas técnicas",
+        "Variação natural entre tom técnico e relaxado"
+      ],
+      "timestamps": [
+        "00:19",
+        "00:26"
+      ],
+      "aula_recomendada": "Aula 3: Fluência Magnética",
+      "tecnica_recomendada": "Micro-Pausas em Listas",
+      "prioridade_acao": 2
+    },
+    {
+      "codigo": "DICCAO",
+      "nome": "Dicção",
+      "pilar": "ORATORIA",
+      "score": 70,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.85,
+      "evidencias": [
+        "Articulação informal",
+        "Corta finais de plural ('nos evento', 'dos trabalho')",
+        "Não é problema muscular, é lapso em fala rápida"
+      ],
+      "timestamps": [
+        "01:12"
+      ],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "ASSERTIVIDADE",
+      "nome": "Assertividade",
+      "pilar": "ORATORIA",
+      "score": 78,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.95,
+      "evidencias": [
+        "Segurança extrema no conteúdo",
+        "'Eu consigo lidar', 'É minha especialidade', 'Eu consigo dar conta'",
+        "Sem 'eu acho', 'talvez', 'pode ser'",
+        "Tom confiante sem arrogância"
+      ],
+      "timestamps": [
+        "00:11",
+        "00:35",
+        "00:41",
+        "00:49"
+      ],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "VOCABULARIO",
+      "nome": "Vocabulário",
+      "pilar": "ORATORIA",
+      "score": 75,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.9,
+      "evidencias": [
+        "Termos técnicos corretos: 'branding', 'ecom', 'gestão de tráfego'",
+        "Gírias autênticas: 'mano', 'na real'",
+        "Equilíbrio técnico + coloquial"
+      ],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "GRAMATICA",
+      "nome": "Gramática",
+      "pilar": "ORATORIA",
+      "score": 65,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.85,
+      "evidencias": [
+        "Lapsos de concordância: 'nos evento', 'dos trabalho'",
+        "Supressão de plurais em fala rápida",
+        "Não é erro de conhecimento, é lapso em velocidade"
+      ],
+      "timestamps": [
+        "01:12"
+      ],
+      "aula_recomendada": null,
+      "tecnica_recomendada": "Consciência Gramatical em Contextos Formais",
+      "prioridade_acao": 3
+    },
+    {
+      "codigo": "PERSUASAO",
+      "nome": "Persuasão",
+      "pilar": "INTERPESSOAL",
+      "score": 75,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.9,
+      "evidencias": [
+        "Humor autêntico: 'fazer dinheiro é mais legal que não fazer'",
+        "Autoconsciência humorada: 'ninguém reclamou na minha frente'",
+        "Versatilidade como valor: 'especialista que atua em qualquer nicho'"
+      ],
+      "timestamps": [
+        "00:11",
+        "00:59"
+      ],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "MARKETING_PESSOAL",
+      "nome": "Marketing Pessoal",
+      "pilar": "INTERPESSOAL",
+      "score": 78,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.95,
+      "evidencias": [
+        "Posicionamento 360°: profissional + pessoal + proposta de valor",
+        "Diferencial claro: 'qualquer nicho'",
+        "CTA disfarçado: 'qualquer coisa que tu queira criar, eu consigo lidar'",
+        "Humanização: 'bom amigo', 'esportes', 'sair de casa'"
+      ],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "DIDATICA",
+      "nome": "Didática",
+      "pilar": "INTERPESSOAL",
+      "score": 70,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.85,
+      "evidencias": [
+        "Estrutura lógica presente",
+        "Transições rápidas demais em listas",
+        "7 itens em 7 segundos [00:19-00:26]",
+        "Audiência pode 'perder' itens do meio"
+      ],
+      "timestamps": [
+        "00:19",
+        "00:26"
+      ],
+      "aula_recomendada": "Aula 4: Estrutura de Raciocínio",
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "ADAPTABILIDADE",
+      "nome": "Adaptabilidade",
+      "pilar": "INTERPESSOAL",
+      "score": 72,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.9,
+      "evidencias": [
+        "Transição natural: modo técnico [00:03-00:54] → modo relaxado [00:54-01:16]",
+        "Tom assertivo ao falar de trabalho",
+        "Tom descontraído ao falar de vida pessoal",
+        "Inteligência emocional evidente"
+      ],
+      "timestamps": [
+        "00:03",
+        "00:54",
+        "01:16"
+      ],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "CRIATIVIDADE",
+      "nome": "Criatividade",
+      "pilar": "INTRAPESSOAL",
+      "score": 82,
+      "categoria": "excelente",
+      "delta": null,
+      "confianca": 0.95,
+      "evidencias": [
+        "Humor pragmático: 'fazer dinheiro é mais legal que não fazer'",
+        "Autoconsciência humorada: 'ninguém reclamou na minha frente'",
+        "Tentativa de analogia: 'nicho ramificado'",
+        "Refrescante, inesperado, autêntico"
+      ],
+      "timestamps": [
+        "00:11",
+        "00:44",
+        "00:59"
+      ],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "LIDERANCA",
+      "nome": "Liderança/Posicionamento",
+      "pilar": "INTRAPESSOAL",
+      "score": 75,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.9,
+      "evidencias": [
+        "Tom de dono: 'EU CONSIGO' (afirmação pura)",
+        "Postura física confiante: queixo elevado, peito aberto",
+        "Energia de empreendedor jovem que 'viu de tudo'",
+        "Confiante sem arrogância"
+      ],
+      "timestamps": [
+        "00:35",
+        "00:40",
+        "00:49",
+        "00:54"
+      ],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    }
+  ],
+  "evolucao": {
+    "historico": [
+      {
+        "data": "2025-12-01",
+        "score_geral": 74.8,
+        "destaque": "Primeira análise - Alta energia, versatilidade, autenticidade marcante"
+      }
+    ],
+    "tendencia": null,
+    "projecao_30_dias": 78,
+    "projecao_90_dias": 81
+  },
+  "plano_acao": {
+    "duracao_semanas": 4,
+    "indicadores_priorizados": [
+      "FLUENCIA",
+      "GRAMATICA",
+      "CRIATIVIDADE"
+    ],
+    "trilhas": [
+      {
+        "semanas": "1-2",
+        "foco": "FLUENCIA",
+        "objetivo": "Desenvolver modo formal (sem vícios, velocidade moderada) mantendo modo informal autêntico",
+        "aula_id": 3,
+        "aula_nome": "Aula 3: Fluência Magnética",
+        "exercicios": [
+          {
+            "nome": "Gravação Baseline 2 Modos (Informal + Formal)",
+            "frequencia": "semanal",
+            "duracao_minutos": 15
+          },
+          {
+            "nome": "Treino Modo Formal",
+            "frequencia": "3x_semana",
+            "duracao_minutos": 15
+          },
+          {
+            "nome": "Treino Transição de Modos",
+            "frequencia": "2x_semana",
+            "duracao_minutos": 15
+          },
+          {
+            "nome": "Simulação Contexto Real (2 cenários)",
+            "frequencia": "semanal",
+            "duracao_minutos": 20
+          }
+        ],
+        "criterios_sucesso": [
+          "Apresentação de 60seg com ZERO vícios coloquiais (modo formal)",
+          "Alternância intencional entre modos",
+          "Plurais corretos em modo formal",
+          "Velocidade 20% mais lenta em modo formal"
+        ]
+      },
+      {
+        "semanas": "3-4",
+        "foco": "MODULACAO_VOZ",
+        "objetivo": "Reduzir velocidade em 20% durante listas para aumentar retenção",
+        "aula_id": 3,
+        "aula_nome": "Aula 3: Fluência Magnética",
+        "exercicios": [
+          {
+            "nome": "Identificação de Listas",
+            "frequencia": "semanal",
+            "duracao_minutos": 10
+          },
+          {
+            "nome": "Treino com Micro-Pausas",
+            "frequencia": "3x_semana",
+            "duracao_minutos": 15
+          },
+          {
+            "nome": "Gravação com Pausas",
+            "frequencia": "semanal",
+            "duracao_minutos": 15
+          }
+        ],
+        "criterios_sucesso": [
+          "Listar 4+ itens com pausas de 0.5seg",
+          "Pausas naturais, não robóticas",
+          "Feedback: 'consegui acompanhar tudo'"
+        ]
+      }
+    ],
+    "desafio_mes": {
+      "nome": "Pitch Duplo: 2 Versões, 1 Theo",
+      "descricao": "Gravar apresentação em 2 versões: (A) Informal com vícios/velocidade/humor, (B) Formal sem vícios/moderada/gramática correta. Obter feedback sobre adequação a contextos diferentes e autenticidade em ambas."
+    }
+  },
+  "materiais": [
+    {
+      "tipo": "aula",
+      "nome": "Aula 3: Fluência Magnética",
+      "indicador_relacionado": "FLUENCIA",
+      "prioridade": "alta",
+      "link": null
+    },
+    {
+      "tipo": "tecnica",
+      "nome": "Code-Switching Comunicacional",
+      "indicador_relacionado": "FLUENCIA",
+      "prioridade": "alta",
+      "link": null
+    },
+    {
+      "tipo": "tecnica",
+      "nome": "Desaceleração Intencional",
+      "indicador_relacionado": "FLUENCIA",
+      "prioridade": "alta",
+      "link": null
+    },
+    {
+      "tipo": "tecnica",
+      "nome": "Micro-Pausas em Listas",
+      "indicador_relacionado": "MODULACAO_VOZ",
+      "prioridade": "media",
+      "link": null
+    },
+    {
+      "tipo": "aula",
+      "nome": "Aula 6: Repertório Criativo",
+      "indicador_relacionado": "CRIATIVIDADE",
+      "prioridade": "baixa",
+      "link": null
+    }
+  ],
+  "proximos_passos": {
+    "imediatos": [
+      "Assistir Aula 3: Fluência Magnética",
+      "Fazer gravação baseline em 2 modos (informal + formal)",
+      "Contar vícios em cada versão"
+    ],
+    "curto_prazo": [
+      "Completar Trilha Semana 1-2 (Modulação Contextual)",
+      "Completar Trilha Semana 3-4 (Desaceleração Intencional)",
+      "Executar Desafio do Mês (Pitch Duplo)",
+      "Enviar novo vídeo para reavaliação"
+    ],
+    "proxima_avaliacao": "2026-01-01",
+    "meta_score_30_dias": 78,
+    "meta_score_90_dias": 81
+  }
+}

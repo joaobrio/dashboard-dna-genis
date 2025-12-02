@@ -1,0 +1,298 @@
+{
+  "meta": {
+    "versao": "1.0-supremo",
+    "timestamp": "2025-12-01T15:00:00Z",
+    "analise_id": "lucas-harth-001",
+    "aluno_id": "lucas-harth"
+  },
+  "resumo": {
+    "score_geral": 68.2,
+    "score_autoconfianca": 67.5,
+    "categoria_geral": "forte",
+    "evolucao_percentual": null,
+    "numero_analise": 1,
+    "dias_desde_anterior": null
+  },
+  "pilares": {
+    "oratoria": {
+      "score": 62,
+      "peso": 0.4,
+      "categoria": "adequado",
+      "delta": null,
+      "indicador_ancora": "VOCABULARIO",
+      "indicador_gap": "FLUENCIA"
+    },
+    "interpessoal": {
+      "score": 68,
+      "peso": 0.2,
+      "categoria": "forte",
+      "delta": null,
+      "indicador_ancora": "DIDATICA",
+      "indicador_gap": "MARKETING_PESSOAL"
+    },
+    "intrapessoal": {
+      "score": 73,
+      "peso": 0.25,
+      "categoria": "forte",
+      "delta": null,
+      "indicador_ancora": "LIDERANCA",
+      "indicador_gap": "PRESENCA_FISICA"
+    },
+    "repertorio": {
+      "score": null,
+      "peso": 0.15,
+      "categoria": null,
+      "delta": null,
+      "indicador_ancora": null,
+      "indicador_gap": null
+    }
+  },
+  "indicadores": [
+    {
+      "codigo": "FLUENCIA",
+      "nome": "Fluencia",
+      "pilar": "ORATORIA",
+      "score": 55,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.9,
+      "evidencias": [
+        "Pausas frequentes entre oracoes",
+        "Ritmo cadenciado demais",
+        "12+ pausas em 57s"
+      ],
+      "timestamps": [
+        "00:07",
+        "00:22",
+        "00:33"
+      ],
+      "aula_recomendada": "Aula 3: Fluencia Magnetica",
+      "tecnica_recomendada": "Conexao de Clausulas",
+      "prioridade_acao": 1
+    },
+    {
+      "codigo": "LINGUAGEM_NAO_VERBAL",
+      "nome": "Linguagem Nao Verbal",
+      "pilar": "ORATORIA",
+      "score": 72,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.95,
+      "evidencias": [
+        "Gesticulacao bilateral simetrica 80%",
+        "Maos em prece 3x",
+        "Gestos sincronizados com fala"
+      ],
+      "timestamps": [
+        "00:05-00:15",
+        "00:34",
+        "00:43"
+      ],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "VOCABULARIO",
+      "nome": "Vocabulario",
+      "pilar": "ORATORIA",
+      "score": 75,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.95,
+      "evidencias": [
+        "Ecossistema",
+        "Desconstruir unidades",
+        "Know-how",
+        "Trajetoria de altos e baixos"
+      ],
+      "timestamps": [
+        "00:07",
+        "00:22",
+        "00:46"
+      ],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "DIDATICA",
+      "nome": "Didatica",
+      "pilar": "INTERPESSOAL",
+      "score": 72,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.9,
+      "evidencias": [
+        "Estrutura narrativa clara",
+        "Contexto-transicao-foco-proposta",
+        "Numeros concretos"
+      ],
+      "timestamps": [
+        "00:00-00:57"
+      ],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "MARKETING_PESSOAL",
+      "nome": "Marketing Pessoal",
+      "pilar": "INTERPESSOAL",
+      "score": 68,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.85,
+      "evidencias": [
+        "Foca na empresa nao na pessoa",
+        "Falta elemento humano/diferencial pessoal"
+      ],
+      "timestamps": [],
+      "aula_recomendada": "Aula 10: Personal Branding",
+      "tecnica_recomendada": "Formula Quem eu sou + O que faco + Por que importa",
+      "prioridade_acao": 3
+    },
+    {
+      "codigo": "LIDERANCA",
+      "nome": "Lideranca/Posicionamento",
+      "pilar": "INTRAPESSOAL",
+      "score": 75,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.9,
+      "evidencias": [
+        "Verbos de acao no plural",
+        "Decisoes dificeis comunicadas claramente",
+        "Maos em prece ao falar de foco"
+      ],
+      "timestamps": [
+        "00:22",
+        "00:38"
+      ],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "PRESENCA_FISICA",
+      "nome": "Presenca Fisica",
+      "pilar": "INTRAPESSOAL",
+      "score": 58,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.85,
+      "evidencias": [
+        "Balanco postural constante",
+        "Oscilacao peso corpo frente-tras"
+      ],
+      "timestamps": [
+        "00:00-00:57"
+      ],
+      "aula_recomendada": "Aula 2: Postura de Dominio",
+      "tecnica_recomendada": "Ancoramento Postural",
+      "prioridade_acao": 2
+    }
+  ],
+  "evolucao": {
+    "historico": [],
+    "tendencia": null,
+    "projecao_30_dias": 72,
+    "projecao_90_dias": 75
+  },
+  "plano_acao": {
+    "duracao_semanas": 4,
+    "indicadores_priorizados": [
+      "FLUENCIA",
+      "PRESENCA_FISICA",
+      "MARKETING_PESSOAL"
+    ],
+    "trilhas": [
+      {
+        "semanas": "1-2",
+        "foco": "FLUENCIA",
+        "objetivo": "Reduzir pausas em 40% e acelerar ritmo em 15%",
+        "aula_id": 3,
+        "aula_nome": "Fluencia Magnetica",
+        "exercicios": [
+          {
+            "nome": "Conexao de Clausulas",
+            "frequencia": "diaria",
+            "duracao_minutos": 15
+          },
+          {
+            "nome": "Leitura Acelerada",
+            "frequencia": "diaria",
+            "duracao_minutos": 10
+          }
+        ],
+        "criterios_sucesso": [
+          "Menos de 5 pausas em 60s",
+          "Ritmo 15% mais rapido"
+        ]
+      },
+      {
+        "semanas": "3-4",
+        "foco": "PRESENCA_FISICA",
+        "objetivo": "Eliminar balanco postural e adicionar elemento pessoal",
+        "aula_id": 2,
+        "aula_nome": "Postura de Dominio",
+        "exercicios": [
+          {
+            "nome": "Ancoramento Postural",
+            "frequencia": "diaria",
+            "duracao_minutos": 15
+          },
+          {
+            "nome": "Personal Branding Formula",
+            "frequencia": "3x/semana",
+            "duracao_minutos": 20
+          }
+        ],
+        "criterios_sucesso": [
+          "Zero balanco postural",
+          "Elemento pessoal memoravel"
+        ]
+      }
+    ],
+    "desafio_mes": {
+      "nome": "Apresentacao Executiva Perfeita",
+      "descricao": "Gravar apresentacao de 75s com ritmo acelerado, zero balanco, elemento pessoal claro"
+    }
+  },
+  "materiais": [
+    {
+      "tipo": "aula",
+      "nome": "Aula 3: Fluencia Magnetica",
+      "indicador_relacionado": "FLUENCIA",
+      "prioridade": "alta",
+      "link": null
+    },
+    {
+      "tipo": "aula",
+      "nome": "Aula 2: Postura de Dominio",
+      "indicador_relacionado": "PRESENCA_FISICA",
+      "prioridade": "alta",
+      "link": null
+    },
+    {
+      "tipo": "aula",
+      "nome": "Aula 10: Personal Branding",
+      "indicador_relacionado": "MARKETING_PESSOAL",
+      "prioridade": "media",
+      "link": null
+    }
+  ],
+  "proximos_passos": {
+    "imediatos": [
+      "Assistir Aula 3: Fluencia Magnetica",
+      "Gravar baseline e contar pausas"
+    ],
+    "curto_prazo": [
+      "Completar trilhas semana 1-4",
+      "Enviar novo video"
+    ],
+    "proxima_avaliacao": "2026-01-01",
+    "meta_score_30_dias": 72,
+    "meta_score_90_dias": 75
+  }
+}

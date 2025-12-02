@@ -1,0 +1,462 @@
+{
+  "meta": {
+    "versao": "1.0-supremo",
+    "timestamp": "2025-12-01T10:30:00Z",
+    "analise_id": "victoria-clasen-001",
+    "aluno_id": "victoria-clasen"
+  },
+  "resumo": {
+    "score_geral": 68,
+    "score_autoconfianca": 70,
+    "categoria_geral": "forte",
+    "evolucao_percentual": 0,
+    "numero_analise": 1,
+    "dias_desde_anterior": null
+  },
+  "pilares": {
+    "oratoria": {
+      "score": 64,
+      "peso": 0.4,
+      "categoria": "forte",
+      "delta": null,
+      "indicador_ancora": "GRAMATICA",
+      "indicador_gap": "FLUENCIA"
+    },
+    "interpessoal": {
+      "score": 75,
+      "peso": 0.2,
+      "categoria": "forte",
+      "delta": null,
+      "indicador_ancora": "DIDATICA",
+      "indicador_gap": "MARKETING_PESSOAL"
+    },
+    "intrapessoal": {
+      "score": 72,
+      "peso": 0.25,
+      "categoria": "forte",
+      "delta": null,
+      "indicador_ancora": "CRIATIVIDADE",
+      "indicador_gap": null
+    },
+    "repertorio": {
+      "score": null,
+      "peso": 0.15,
+      "categoria": "nao_avaliado",
+      "delta": null,
+      "indicador_ancora": null,
+      "indicador_gap": null
+    }
+  },
+  "indicadores": [
+    {
+      "codigo": "FLUENCIA",
+      "nome": "Fluencia",
+      "pilar": "ORATORIA",
+      "score": 58,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.88,
+      "evidencias": [
+        "Hesitacoes na busca de palavras (ambos videos)",
+        "Pausas para formulacao mental",
+        "Leve truncamento em transicoes de ideias"
+      ],
+      "timestamps": [
+        "Video1: 00:08, 00:22",
+        "Video2: 00:45, 01:15, 01:58"
+      ],
+      "aula_recomendada": "Aula 4: Estrutura de Raciocinio",
+      "tecnica_recomendada": "Framework GIVE",
+      "prioridade_acao": 1
+    },
+    {
+      "codigo": "LINGUAGEM_NAO_VERBAL",
+      "nome": "Linguagem Nao Verbal",
+      "pilar": "ORATORIA",
+      "score": 72,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.92,
+      "evidencias": [
+        "Video1: Gesticulacao unilateral (segurando copo), balanco lateral, pes descalcos",
+        "Video2: Deslocamento espacial intencional, gestos amplos, metafora da mochila visual, quebra de personagem com riso"
+      ],
+      "timestamps": [
+        "Video1: 00:05, 00:18, 00:30",
+        "Video2: 01:20, 01:45, 02:18"
+      ],
+      "aula_recomendada": "Aula 2: Postura de Dominio",
+      "tecnica_recomendada": "Power Pose + Ancoragem Espacial",
+      "prioridade_acao": 2
+    },
+    {
+      "codigo": "MODULACAO_VOZ",
+      "nome": "Modulacao de Voz",
+      "pilar": "ORATORIA",
+      "score": 68,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.85,
+      "evidencias": [
+        "Variacoes naturais de entonacao",
+        "Energia adequada ao contexto",
+        "Enfases em palavras-chave"
+      ],
+      "timestamps": [
+        "Video2: 00:30, 01:10, 01:50"
+      ],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "DICCAO",
+      "nome": "Diccao",
+      "pilar": "ORATORIA",
+      "score": 70,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.9,
+      "evidencias": [
+        "Pronuncia clara e compreensivel",
+        "Boa articulacao",
+        "Facilidade de compreensao"
+      ],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "ASSERTIVIDADE",
+      "nome": "Assertividade",
+      "pilar": "ORATORIA",
+      "score": 62,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.82,
+      "evidencias": [
+        "Video2: Discurso articulado sobre geracao Z e educacao",
+        "Estrutura narrativa presente",
+        "Poderia ser mais direta em alguns momentos"
+      ],
+      "timestamps": [
+        "Video2: 00:20, 01:00"
+      ],
+      "aula_recomendada": "Aula 4: Estrutura de Raciocinio",
+      "tecnica_recomendada": "Framework GIVE",
+      "prioridade_acao": 1
+    },
+    {
+      "codigo": "VOCABULARIO",
+      "nome": "Vocabulario",
+      "pilar": "ORATORIA",
+      "score": 66,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.8,
+      "evidencias": [
+        "Vocabulario adequado e variado",
+        "Uso de expressoes criativas",
+        "Adaptacao ao contexto"
+      ],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "GRAMATICA",
+      "nome": "Gramatica",
+      "pilar": "ORATORIA",
+      "score": 72,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.95,
+      "evidencias": [
+        "Construcao frasal correta",
+        "Concordancia adequada",
+        "Uso apropriado da norma"
+      ],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "PERSUASAO",
+      "nome": "Persuasao",
+      "pilar": "INTERPESSOAL",
+      "score": 70,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.85,
+      "evidencias": [
+        "Uso de storytelling persuasivo",
+        "Conexao emocional com audiencia",
+        "Argumentacao clara"
+      ],
+      "timestamps": [
+        "Video2: 00:40, 01:30"
+      ],
+      "aula_recomendada": "Aula 15: Timing e Fechamento",
+      "tecnica_recomendada": "Storytelling em 3 Atos",
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "MARKETING_PESSOAL",
+      "nome": "Marketing Pessoal",
+      "pilar": "INTERPESSOAL",
+      "score": 68,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.88,
+      "evidencias": [
+        "Video1: 'Socia e co-fundadora do Grupo Brio'",
+        "Posicionamento claro e objetivo",
+        "Comunicacao de diferenciais sem arrogancia"
+      ],
+      "timestamps": [
+        "Video1: 00:02"
+      ],
+      "aula_recomendada": "Aula 10: Personal Branding",
+      "tecnica_recomendada": "Storytelling de Cases",
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "DIDATICA",
+      "nome": "Didatica",
+      "pilar": "INTERPESSOAL",
+      "score": 82,
+      "categoria": "excelente",
+      "delta": null,
+      "confianca": 0.95,
+      "evidencias": [
+        "Video1: Sintese clara de proposta de valor complexa",
+        "Video2: Analogia da mochila cheia - metafora visual potente",
+        "Storytelling em camadas (geracao Z → desafios → educacao → transformacao)"
+      ],
+      "timestamps": [
+        "Video1: 00:10",
+        "Video2: 01:20"
+      ],
+      "aula_recomendada": "Aula 7: Recursos Didaticos",
+      "tecnica_recomendada": "Ancoragem Espacial Sistematizada",
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "ADAPTABILIDADE",
+      "nome": "Adaptabilidade",
+      "pilar": "INTERPESSOAL",
+      "score": 78,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.92,
+      "evidencias": [
+        "Transicao fluida entre contexto empresarial (video1) e pedagogico (video2)",
+        "Ajuste de tom, vocabulario e energia conforme contexto",
+        "Versatilidade comunicacional evidente"
+      ],
+      "timestamps": [
+        "Comparacao entre videos"
+      ],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "CRIATIVIDADE",
+      "nome": "Criatividade",
+      "pilar": "INTRAPESSOAL",
+      "score": 76,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.9,
+      "evidencias": [
+        "Metafora da mochila cheia com gesticulacao visual",
+        "Quebra de personagem intencional (riso genuino)",
+        "Deslocamento espacial para ilustrar ideias",
+        "Conexao criativa: geracao Z + educacao + transformacao"
+      ],
+      "timestamps": [
+        "Video2: 01:20, 02:18"
+      ],
+      "aula_recomendada": "Aula 6: Repertorio Criativo",
+      "tecnica_recomendada": "Metaforas Originais Sistematicas",
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "LIDERANCA",
+      "nome": "Lideranca/Posicionamento",
+      "pilar": "INTRAPESSOAL",
+      "score": 68,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.85,
+      "evidencias": [
+        "Tom seguro ao falar de proposito do Grupo Brio",
+        "Posicionamento claro sobre educacao transformadora",
+        "Conduz narrativa com clareza",
+        "Quebra de personagem demonstra seguranca"
+      ],
+      "timestamps": [
+        "Video1: 00:05",
+        "Video2: 00:30, 02:18"
+      ],
+      "aula_recomendada": "Aula 16: Lider Comunicador",
+      "tecnica_recomendada": "Comandos Verbais Diretos",
+      "prioridade_acao": null
+    }
+  ],
+  "evolucao": {
+    "historico": [
+      {
+        "data": "2025-12-01",
+        "score_geral": 68,
+        "destaque": "Primeira analise - Didatica excelente (82), Adaptabilidade forte (78), Fluencia a aprimorar (58)"
+      }
+    ],
+    "tendencia": "baseline",
+    "projecao_30_dias": 74,
+    "projecao_90_dias": 80
+  },
+  "plano_acao": {
+    "duracao_semanas": 4,
+    "indicadores_priorizados": [
+      "FLUENCIA",
+      "ASSERTIVIDADE",
+      "LINGUAGEM_NAO_VERBAL"
+    ],
+    "trilhas": [
+      {
+        "semanas": "1-2",
+        "foco": "FLUENCIA",
+        "objetivo": "Reduzir hesitacoes em 40% atraves de preparacao estruturada previa (framework GIVE)",
+        "aula_id": 4,
+        "aula_nome": "Estrutura de Raciocinio",
+        "exercicios": [
+          {
+            "nome": "Estruturar Pitches com GIVE",
+            "frequencia": "3x_semana",
+            "duracao_minutos": 20
+          },
+          {
+            "nome": "Gravar Pitches Estruturados",
+            "frequencia": "3x_semana",
+            "duracao_minutos": 15
+          },
+          {
+            "nome": "Analise de Hesitacoes",
+            "frequencia": "semanal",
+            "duracao_minutos": 25
+          }
+        ],
+        "criterios_sucesso": [
+          "Reducao de 40% nas hesitacoes",
+          "Estruturar apresentacao mental em menos de 2 minutos",
+          "Feedback externo positivo sobre clareza"
+        ]
+      },
+      {
+        "semanas": "3-4",
+        "foco": "LINGUAGEM_NAO_VERBAL",
+        "objetivo": "Eliminar balanco corporal em contextos formais e sistematizar metaforas",
+        "aula_id": 2,
+        "aula_nome": "Postura de Dominio",
+        "exercicios": [
+          {
+            "nome": "Power Pose Pre-Apresentacao",
+            "frequencia": "diaria",
+            "duracao_minutos": 2
+          },
+          {
+            "nome": "Criacao de Metaforas Visuais",
+            "frequencia": "3x_semana",
+            "duracao_minutos": 15
+          },
+          {
+            "nome": "Pratica de Ancoragem Espacial",
+            "frequencia": "2x_semana",
+            "duracao_minutos": 20
+          }
+        ],
+        "criterios_sucesso": [
+          "Eliminar balanco lateral em gravacoes",
+          "Criar 4+ metaforas novas",
+          "Usar Ancoragem Espacial naturalmente"
+        ]
+      }
+    ],
+    "desafio_mes": {
+      "nome": "Apresentacao Completa Grupo Brio - 3 Minutos",
+      "descricao": "Gravar video de 3min apresentando Grupo Brio com: GIVE impecavel, 2 metaforas criativas, ancoragem corporal (zero balanco), ancoragem espacial (3 zonas), quebra de personagem intencional. Validar em apresentacao comercial real."
+    }
+  },
+  "materiais": [
+    {
+      "tipo": "aula",
+      "nome": "Aula 4: Estrutura de Raciocinio",
+      "indicador_relacionado": "ASSERTIVIDADE",
+      "prioridade": "alta",
+      "link": null
+    },
+    {
+      "tipo": "aula",
+      "nome": "Aula 2: Postura de Dominio",
+      "indicador_relacionado": "LINGUAGEM_NAO_VERBAL",
+      "prioridade": "alta",
+      "link": null
+    },
+    {
+      "tipo": "aula",
+      "nome": "Aula 6: Repertorio Criativo",
+      "indicador_relacionado": "CRIATIVIDADE",
+      "prioridade": "media",
+      "link": null
+    },
+    {
+      "tipo": "aula",
+      "nome": "Aula 7: Recursos Didaticos",
+      "indicador_relacionado": "DIDATICA",
+      "prioridade": "media",
+      "link": null
+    },
+    {
+      "tipo": "tecnica",
+      "nome": "Framework GIVE",
+      "indicador_relacionado": "ASSERTIVIDADE",
+      "prioridade": "alta",
+      "link": null
+    },
+    {
+      "tipo": "tecnica",
+      "nome": "Power Pose",
+      "indicador_relacionado": "LINGUAGEM_NAO_VERBAL",
+      "prioridade": "alta",
+      "link": null
+    },
+    {
+      "tipo": "leitura",
+      "nome": "Resonate - Nancy Duarte",
+      "indicador_relacionado": "DIDATICA",
+      "prioridade": "media",
+      "link": null
+    }
+  ],
+  "proximos_passos": {
+    "imediatos": [
+      "Assistir Aula 4: Estrutura de Raciocinio (30 min)",
+      "Estruturar 3 pitches do Grupo Brio usando framework GIVE",
+      "Gravar primeiro pitch e contar hesitacoes (baseline)"
+    ],
+    "curto_prazo": [
+      "Completar Trilha Semana 1-2 (Estrutura e Fluencia)",
+      "Completar Trilha Semana 3-4 (Ancoragem e Metaforas)",
+      "Gravar Apresentacao Completa Grupo Brio - 3 Minutos",
+      "Enviar novo video para reavaliacao"
+    ],
+    "proxima_avaliacao": "2026-01-01",
+    "meta_score_30_dias": 74,
+    "meta_score_90_dias": 80
+  }
+}

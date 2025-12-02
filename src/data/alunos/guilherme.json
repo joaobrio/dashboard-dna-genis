@@ -1,0 +1,445 @@
+{
+  "meta": {
+    "versao": "1.0-supremo",
+    "timestamp": "2025-12-01T00:00:00Z",
+    "analise_id": "guilherme-001",
+    "aluno_id": "guilherme"
+  },
+  "resumo": {
+    "score_geral": 54,
+    "score_autoconfianca": 58,
+    "categoria_geral": "adequado",
+    "evolucao_percentual": 0,
+    "numero_analise": 1,
+    "dias_desde_anterior": null
+  },
+  "pilares": {
+    "oratoria": {
+      "score": 56,
+      "peso": 0.4,
+      "categoria": "adequado",
+      "delta": null,
+      "indicador_ancora": "GRAMATICA",
+      "indicador_gap": "MODULACAO_VOZ"
+    },
+    "interpessoal": {
+      "score": 42,
+      "peso": 0.2,
+      "categoria": "adequado",
+      "delta": null,
+      "indicador_ancora": "ADAPTABILIDADE",
+      "indicador_gap": "PERSUASAO"
+    },
+    "intrapessoal": {
+      "score": 63,
+      "peso": 0.25,
+      "categoria": "forte",
+      "delta": null,
+      "indicador_ancora": "LIDERANCA",
+      "indicador_gap": "CRIATIVIDADE"
+    },
+    "repertorio": {
+      "score": 55,
+      "peso": 0.15,
+      "categoria": "adequado",
+      "delta": null,
+      "indicador_ancora": "APLICACAO_REPERTORIO",
+      "indicador_gap": "VARIEDADE_CONHECIMENTO"
+    }
+  },
+  "indicadores": [
+    {
+      "codigo": "FLUENCIA",
+      "nome": "Fluência",
+      "pilar": "ORATORIA",
+      "score": 68,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.8,
+      "evidencias": [
+        "Fala contínua sem travas",
+        "Transições claras entre tópicos"
+      ],
+      "timestamps": [
+        "00:00-00:10"
+      ],
+      "aula_recomendada": "Aula 3: Fluência Magnética",
+      "tecnica_recomendada": "Pausa Estratégica",
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "LINGUAGEM_NAO_VERBAL",
+      "nome": "Linguagem Não Verbal",
+      "pilar": "ORATORIA",
+      "score": 58,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.85,
+      "evidencias": [
+        "Postura estável",
+        "Gestual unilateral presente",
+        "Contato visual direto"
+      ],
+      "timestamps": [
+        "00:00-00:10"
+      ],
+      "aula_recomendada": "Aula 2: Postura de Domínio",
+      "tecnica_recomendada": "Expansão Gestual",
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "MODULACAO_VOZ",
+      "nome": "Modulação de Voz",
+      "pilar": "ORATORIA",
+      "score": 42,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.9,
+      "evidencias": [
+        "Tom plano e consistente",
+        "Falta variação de energia",
+        "Ausência de pausas de ênfase"
+      ],
+      "timestamps": [
+        "00:00-00:10"
+      ],
+      "aula_recomendada": "Aula 3: Fluência Magnética",
+      "tecnica_recomendada": "4 Tons de Voz + Pausa Estratégica",
+      "prioridade_acao": 2
+    },
+    {
+      "codigo": "DICCAO",
+      "nome": "Dicção",
+      "pilar": "ORATORIA",
+      "score": 65,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.85,
+      "evidencias": [
+        "Articulação clara",
+        "Pronúncia adequada"
+      ],
+      "timestamps": [
+        "00:00-00:10"
+      ],
+      "aula_recomendada": "Aula 3: Fluência Magnética",
+      "tecnica_recomendada": "Rotina Matinal de Voz",
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "ASSERTIVIDADE",
+      "nome": "Assertividade",
+      "pilar": "ORATORIA",
+      "score": 48,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.8,
+      "evidencias": [
+        "Informação sem estrutura GIVE",
+        "Falta proposta de valor",
+        "Sem encerramento claro"
+      ],
+      "timestamps": [
+        "00:00-00:10"
+      ],
+      "aula_recomendada": "Aula 4: Estrutura de Raciocínio",
+      "tecnica_recomendada": "Framework GIVE",
+      "prioridade_acao": 3
+    },
+    {
+      "codigo": "VOCABULARIO",
+      "nome": "Vocabulário",
+      "pilar": "ORATORIA",
+      "score": 60,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.7,
+      "evidencias": [
+        "Linguagem clara e adequada"
+      ],
+      "timestamps": [
+        "00:00-00:10"
+      ],
+      "aula_recomendada": "Aula 6: Repertório Criativo",
+      "tecnica_recomendada": "Sinônimos Práticos",
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "GRAMATICA",
+      "nome": "Gramática",
+      "pilar": "ORATORIA",
+      "score": 70,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.9,
+      "evidencias": [
+        "Construção frasal correta",
+        "Concordância adequada"
+      ],
+      "timestamps": [
+        "00:00-00:10"
+      ],
+      "aula_recomendada": "Aula 4: Estrutura de Raciocínio",
+      "tecnica_recomendada": "Leitura em Voz Alta",
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "PERSUASAO",
+      "nome": "Persuasão",
+      "pilar": "INTERPESSOAL",
+      "score": 35,
+      "categoria": "a_desenvolver",
+      "delta": null,
+      "confianca": 0.85,
+      "evidencias": [
+        "Ausência de gatilhos mentais",
+        "Sem CTA",
+        "Falta storytelling"
+      ],
+      "timestamps": [
+        "00:00-00:10"
+      ],
+      "aula_recomendada": "Aula 15: Timing e Fechamento",
+      "tecnica_recomendada": "Gatilhos Mentais Éticos",
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "MARKETING_PESSOAL",
+      "nome": "Marketing Pessoal",
+      "pilar": "INTERPESSOAL",
+      "score": 38,
+      "categoria": "a_desenvolver",
+      "delta": null,
+      "confianca": 0.9,
+      "evidencias": [
+        "3 áreas mencionadas sem conexão",
+        "Posicionamento genérico",
+        "Falta diferencial claro"
+      ],
+      "timestamps": [
+        "00:00-00:10"
+      ],
+      "aula_recomendada": "Aula 10: Personal Branding",
+      "tecnica_recomendada": "Pitch Pessoal + Zona de Potência",
+      "prioridade_acao": 1
+    },
+    {
+      "codigo": "DIDATICA",
+      "nome": "Didática",
+      "pilar": "INTERPESSOAL",
+      "score": 48,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.7,
+      "evidencias": [
+        "Informação básica sem profundidade"
+      ],
+      "timestamps": [
+        "00:00-00:10"
+      ],
+      "aula_recomendada": "Aula 7: Recursos Didáticos",
+      "tecnica_recomendada": "Analogias Simplificadoras",
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "ADAPTABILIDADE",
+      "nome": "Adaptabilidade",
+      "pilar": "INTERPESSOAL",
+      "score": 52,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.75,
+      "evidencias": [
+        "Mantém coerência em formato ultra-curto"
+      ],
+      "timestamps": [
+        "00:00-00:10"
+      ],
+      "aula_recomendada": "Aula 5: Autoconfiança",
+      "tecnica_recomendada": "Gestão do Nervosismo",
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "CRIATIVIDADE",
+      "nome": "Criatividade",
+      "pilar": "INTRAPESSOAL",
+      "score": 42,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.8,
+      "evidencias": [
+        "Formato previsível",
+        "Sem analogias ou metáforas"
+      ],
+      "timestamps": [
+        "00:00-00:10"
+      ],
+      "aula_recomendada": "Aula 6: Repertório Criativo",
+      "tecnica_recomendada": "Gerador de Analogias",
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "LIDERANCA",
+      "nome": "Liderança/Posicionamento",
+      "pilar": "INTRAPESSOAL",
+      "score": 72,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.9,
+      "evidencias": [
+        "Postura estável",
+        "Contato visual direto",
+        "Tom calmo e controlado"
+      ],
+      "timestamps": [
+        "00:00-00:10"
+      ],
+      "aula_recomendada": "Aula 16: Líder Comunicador",
+      "tecnica_recomendada": "Power Pose",
+      "prioridade_acao": null
+    }
+  ],
+  "evolucao": {
+    "historico": [
+      {
+        "data": "2025-12-01",
+        "score_geral": 54,
+        "destaque": "Primeira análise - Base estável para expansão"
+      }
+    ],
+    "tendencia": "primeira_analise",
+    "projecao_30_dias": 66,
+    "projecao_90_dias": 76
+  },
+  "plano_acao": {
+    "duracao_semanas": 4,
+    "indicadores_priorizados": [
+      "MARKETING_PESSOAL",
+      "MODULACAO_VOZ",
+      "ASSERTIVIDADE"
+    ],
+    "trilhas": [
+      {
+        "semanas": "1-2",
+        "foco": "MARKETING_PESSOAL",
+        "objetivo": "Desenvolver pitch de 45-60s conectando as 3 experiências em narrativa coesa com proposta de valor clara",
+        "aula_id": 10,
+        "aula_nome": "Personal Branding e Poder da Influência",
+        "exercicios": [
+          {
+            "nome": "Mapear conexão entre financeiro/tráfego/automação",
+            "frequencia": "única",
+            "duracao_minutos": 15
+          },
+          {
+            "nome": "Escrever e gravar pitch com Framework GIVE",
+            "frequencia": "diária",
+            "duracao_minutos": 20
+          },
+          {
+            "nome": "Identificar e comunicar 1 diferencial claro",
+            "frequencia": "única",
+            "duracao_minutos": 15
+          }
+        ],
+        "criterios_sucesso": [
+          "Pitch 45-60s com estrutura GIVE",
+          "Conexão explícita entre 3 experiências",
+          "2 pessoas explicam 'o que Guilherme faz' após ouvir"
+        ]
+      },
+      {
+        "semanas": "3-4",
+        "foco": "MODULACAO_VOZ",
+        "objetivo": "Desenvolver variação vocal para criar hierarquia de importância nas informações",
+        "aula_id": 3,
+        "aula_nome": "Fluência Magnética",
+        "exercicios": [
+          {
+            "nome": "Praticar 3 tons: neutro, entusiasmado, confidencial",
+            "frequencia": "diária",
+            "duracao_minutos": 15
+          },
+          {
+            "nome": "Gravar pitch com pausas estratégicas",
+            "frequencia": "3x_semana",
+            "duracao_minutos": 20
+          },
+          {
+            "nome": "Aumentar energia vocal progressivamente",
+            "frequencia": "diária",
+            "duracao_minutos": 15
+          }
+        ],
+        "criterios_sucesso": [
+          "Varia tom em 3 níveis",
+          "Pausas não quebram fluidez",
+          "Energia vocal aumentou 30%"
+        ]
+      }
+    ],
+    "desafio_mes": {
+      "nome": "Pitch Evolutivo 3 Atos",
+      "descricao": "Gravar mesma apresentação em 3 durações: Elevator (20s), Networking (60s), Apresentação (90s)"
+    }
+  },
+  "materiais": [
+    {
+      "tipo": "aula",
+      "nome": "Aula 10: Personal Branding",
+      "indicador_relacionado": "MARKETING_PESSOAL",
+      "prioridade": "alta",
+      "link": null
+    },
+    {
+      "tipo": "aula",
+      "nome": "Aula 3: Fluência Magnética",
+      "indicador_relacionado": "MODULACAO_VOZ",
+      "prioridade": "alta",
+      "link": null
+    },
+    {
+      "tipo": "aula",
+      "nome": "Aula 4: Estrutura de Raciocínio",
+      "indicador_relacionado": "ASSERTIVIDADE",
+      "prioridade": "media",
+      "link": null
+    },
+    {
+      "tipo": "tecnica",
+      "nome": "Framework GIVE",
+      "indicador_relacionado": "ASSERTIVIDADE",
+      "prioridade": "alta",
+      "link": null
+    },
+    {
+      "tipo": "exercicio",
+      "nome": "4 Tons de Voz",
+      "indicador_relacionado": "MODULACAO_VOZ",
+      "prioridade": "alta",
+      "link": null
+    },
+    {
+      "tipo": "tecnica",
+      "nome": "Zona de Potência",
+      "indicador_relacionado": "MARKETING_PESSOAL",
+      "prioridade": "alta",
+      "link": null
+    }
+  ],
+  "proximos_passos": {
+    "imediatos": [
+      "Assistir Aula 10 focando em Zona de Potência",
+      "Mapear conexão entre financeiro/tráfego/automação",
+      "Escrever primeira versão pitch 45-60s"
+    ],
+    "curto_prazo": [
+      "Completar Trilhas Semana 1-4",
+      "Gravar vídeo final 45-60s",
+      "Executar Desafio Pitch Evolutivo 3 Atos"
+    ],
+    "proxima_avaliacao": "2025-12-31",
+    "meta_score_30_dias": 66,
+    "meta_score_90_dias": 76
+  }
+}

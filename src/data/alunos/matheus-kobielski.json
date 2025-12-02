@@ -1,0 +1,447 @@
+{
+  "meta": {
+    "versao": "1.0-supremo",
+    "timestamp": "2025-12-01T14:00:00Z",
+    "analise_id": "matheus-kobielski-001",
+    "aluno_id": "matheus-kobielski-555180351446"
+  },
+  "resumo": {
+    "score_geral": 76.2,
+    "score_autoconfianca": 75.8,
+    "categoria_geral": "forte",
+    "evolucao_percentual": null,
+    "numero_analise": 1,
+    "dias_desde_anterior": null
+  },
+  "pilares": {
+    "oratoria": {
+      "score": 75,
+      "peso": 0.4,
+      "categoria": "forte",
+      "delta": null,
+      "indicador_ancora": "DICCAO",
+      "indicador_gap": "LINGUAGEM_NAO_VERBAL"
+    },
+    "interpessoal": {
+      "score": 80,
+      "peso": 0.2,
+      "categoria": "forte",
+      "delta": null,
+      "indicador_ancora": "DIDATICA",
+      "indicador_gap": "PERSUASAO"
+    },
+    "intrapessoal": {
+      "score": 75,
+      "peso": 0.25,
+      "categoria": "forte",
+      "delta": null,
+      "indicador_ancora": "LIDERANCA",
+      "indicador_gap": "CRIATIVIDADE"
+    },
+    "repertorio": {
+      "score": 74,
+      "peso": 0.15,
+      "categoria": "forte",
+      "delta": null,
+      "indicador_ancora": null,
+      "indicador_gap": null
+    }
+  },
+  "indicadores": [
+    {
+      "codigo": "FLUENCIA",
+      "nome": "Fluência",
+      "pilar": "ORATORIA",
+      "score": 78,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.9,
+      "evidencias": [
+        "Ritmo constante, pausas naturais entre tópicos",
+        "Apenas 2-3 preenchimentos vocais leves em 73 segundos",
+        "Pausas intencionais entre blocos (trabalho, origem, família)"
+      ],
+      "timestamps": [
+        "00:04",
+        "00:18",
+        "00:29",
+        "00:47"
+      ],
+      "aula_recomendada": "Aula 3: Fluência Magnética",
+      "tecnica_recomendada": "Pausa Estratégica",
+      "prioridade_acao": 3
+    },
+    {
+      "codigo": "LINGUAGEM_NAO_VERBAL",
+      "nome": "Linguagem Não Verbal",
+      "pilar": "ORATORIA",
+      "score": 70,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.95,
+      "evidencias": [
+        "Mãos entrelaçadas na cintura 80% do tempo",
+        "Transferência de peso lateral constante (balanço)",
+        "Breve abertura ao falar 'família grande' (30cm)",
+        "Gestos limitados à zona baixa"
+      ],
+      "timestamps": [
+        "00:00",
+        "00:10",
+        "00:25",
+        "00:40",
+        "00:55",
+        "01:13"
+      ],
+      "aula_recomendada": "Aula 2: Postura de Domínio",
+      "tecnica_recomendada": "Caixa dos Gestos + Triângulo de Apoio",
+      "prioridade_acao": 1
+    },
+    {
+      "codigo": "MODULACAO_VOZ",
+      "nome": "Modulação de Voz",
+      "pilar": "ORATORIA",
+      "score": 75,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.85,
+      "evidencias": [
+        "Volume claro e projetado",
+        "Ritmo moderado constante",
+        "Pouca variação de velocidade"
+      ],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "DICCAO",
+      "nome": "Dicção",
+      "pilar": "ORATORIA",
+      "score": 82,
+      "categoria": "excelente",
+      "delta": null,
+      "confianca": 0.95,
+      "evidencias": [
+        "Articulação nítida, cada sílaba bem marcada",
+        "Sotaque sul característico não interfere em compreensão",
+        "Frases complexas pronunciadas com clareza"
+      ],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "ASSERTIVIDADE",
+      "nome": "Assertividade",
+      "pilar": "ORATORIA",
+      "score": 75,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.85,
+      "evidencias": [
+        "Seguro no conteúdo apresentado",
+        "Sem pedidos de validação ('né?', 'tá?')",
+        "Tom firme ao apresentar informações"
+      ],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "VOCABULARIO",
+      "nome": "Vocabulário",
+      "pilar": "ORATORIA",
+      "score": 72,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.8,
+      "evidencias": [
+        "Adequado ao contexto de networking",
+        "Sem termos técnicos desnecessários",
+        "Linguagem acessível"
+      ],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "GRAMATICA",
+      "nome": "Gramática",
+      "pilar": "ORATORIA",
+      "score": 80,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.9,
+      "evidencias": [
+        "Uso correto de conectivos",
+        "Concordância adequada",
+        "Estrutura frasal completa"
+      ],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "PERSUASAO",
+      "nome": "Persuasão",
+      "pilar": "INTERPESSOAL",
+      "score": 75,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.85,
+      "evidencias": [
+        "Encerramento com propósito claro ('prestigiar')",
+        "Tom humilde e acessível",
+        "Gera simpatia imediata"
+      ],
+      "timestamps": [
+        "01:04",
+        "01:09"
+      ],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "MARKETING_PESSOAL",
+      "nome": "Marketing Pessoal",
+      "pilar": "INTERPESSOAL",
+      "score": 78,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.9,
+      "evidencias": [
+        "Posicionamento completo em 73 segundos",
+        "Identidade profissional + trajetória + contexto familiar + diferencial",
+        "Menciona pertencimento (Tríade Genesis)"
+      ],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "DIDATICA",
+      "nome": "Didática",
+      "pilar": "INTERPESSOAL",
+      "score": 88,
+      "categoria": "excelente",
+      "delta": null,
+      "confianca": 0.95,
+      "evidencias": [
+        "Estrutura linear perfeita: profissão → origem → família → hobby → expectativa",
+        "Cada bloco prepara o próximo",
+        "Sem informações desconexas"
+      ],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "ADAPTABILIDADE",
+      "nome": "Adaptabilidade",
+      "pilar": "INTERPESSOAL",
+      "score": 78,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.8,
+      "evidencias": [
+        "Transições fluidas entre tópicos",
+        "Ajusta conteúdo ao contexto (networking)",
+        "Menciona objetivos adequados ao evento"
+      ],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "CRIATIVIDADE",
+      "nome": "Criatividade",
+      "pilar": "INTRAPESSOAL",
+      "score": 72,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.85,
+      "evidencias": [
+        "Estrutura tradicional/clássica",
+        "Sem elementos de storytelling",
+        "Oportunidade em transformar '2 maratonas' em micro-história"
+      ],
+      "timestamps": [
+        "00:41"
+      ],
+      "aula_recomendada": "Aula 6: Repertório Criativo",
+      "tecnica_recomendada": "Micro-Storytelling (Fato→Sentimento→Lição)",
+      "prioridade_acao": 2
+    },
+    {
+      "codigo": "LIDERANCA",
+      "nome": "Liderança/Posicionamento",
+      "pilar": "INTRAPESSOAL",
+      "score": 78,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.9,
+      "evidencias": [
+        "Olhar direto constante",
+        "Sorriso genuíno em momentos-chave",
+        "Tom seguro, sem pedidos de validação",
+        "Transmite acessibilidade + confiança"
+      ],
+      "timestamps": [
+        "00:00",
+        "00:29",
+        "00:41",
+        "01:09"
+      ],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    }
+  ],
+  "evolucao": {
+    "historico": [
+      {
+        "data": "2025-12-01",
+        "score_geral": 76.2,
+        "destaque": "Primeira análise - Apresentação pessoal evento networking"
+      }
+    ],
+    "tendencia": null,
+    "projecao_30_dias": 79,
+    "projecao_90_dias": 83
+  },
+  "plano_acao": {
+    "duracao_semanas": 4,
+    "indicadores_priorizados": [
+      "LINGUAGEM_NAO_VERBAL",
+      "CRIATIVIDADE",
+      "DIDATICA"
+    ],
+    "trilhas": [
+      {
+        "semanas": "1-2",
+        "foco": "LINGUAGEM_NAO_VERBAL",
+        "objetivo": "Desenvolver 3 posições de repouso diferentes para as mãos e reduzir em 70% o balanço lateral",
+        "aula_id": 2,
+        "aula_nome": "Aula 2: Postura de Domínio",
+        "exercicios": [
+          {
+            "nome": "Gravação de Baseline Gestual",
+            "frequencia": "semanal",
+            "duracao_minutos": 10
+          },
+          {
+            "nome": "Treino 3 Posições de Mão",
+            "frequencia": "3x_semana",
+            "duracao_minutos": 10
+          },
+          {
+            "nome": "Treino de Apoio Central",
+            "frequencia": "diaria",
+            "duracao_minutos": 15
+          }
+        ],
+        "criterios_sucesso": [
+          "Gravação mostra mãos em pelo menos 2 posições diferentes",
+          "Consegue falar 2 min sem balanço lateral visível",
+          "Sente conforto com mãos soltas ao lado do corpo"
+        ]
+      },
+      {
+        "semanas": "3-4",
+        "foco": "CRIATIVIDADE",
+        "objetivo": "Inserir 1 elemento de storytelling em apresentação pessoal",
+        "aula_id": 6,
+        "aula_nome": "Aula 6: Repertório Criativo",
+        "exercicios": [
+          {
+            "nome": "Identificação de Pontos de História",
+            "frequencia": "semanal",
+            "duracao_minutos": 10
+          },
+          {
+            "nome": "Desenvolvimento de Micro-História",
+            "frequencia": "2x_semana",
+            "duracao_minutos": 10
+          },
+          {
+            "nome": "Feedback Externo",
+            "frequencia": "semanal",
+            "duracao_minutos": 15
+          }
+        ],
+        "criterios_sucesso": [
+          "Micro-história soa natural",
+          "2 de 3 pessoas mencionam história como ponto marcante",
+          "Apresentação completa ainda cabe em 2 minutos"
+        ]
+      }
+    ],
+    "desafio_mes": {
+      "nome": "Elevator Pitch Completo com Avaliação 360",
+      "descricao": "Gravar apresentação de 90-120seg aplicando variação gestual, apoio central, 1 micro-história e estrutura lógica. Obter feedback de 3 pessoas sobre memorabilidade e confiança transmitida."
+    }
+  },
+  "materiais": [
+    {
+      "tipo": "aula",
+      "nome": "Aula 2: Postura de Domínio",
+      "indicador_relacionado": "LINGUAGEM_NAO_VERBAL",
+      "prioridade": "alta",
+      "link": null
+    },
+    {
+      "tipo": "aula",
+      "nome": "Aula 6: Repertório Criativo",
+      "indicador_relacionado": "CRIATIVIDADE",
+      "prioridade": "alta",
+      "link": null
+    },
+    {
+      "tipo": "tecnica",
+      "nome": "Triângulo de Apoio",
+      "indicador_relacionado": "LINGUAGEM_NAO_VERBAL",
+      "prioridade": "alta",
+      "link": null
+    },
+    {
+      "tipo": "tecnica",
+      "nome": "Micro-Storytelling (Fato→Sentimento→Lição)",
+      "indicador_relacionado": "CRIATIVIDADE",
+      "prioridade": "alta",
+      "link": null
+    },
+    {
+      "tipo": "exercicio",
+      "nome": "Treino 3 Posições de Mão",
+      "indicador_relacionado": "LINGUAGEM_NAO_VERBAL",
+      "prioridade": "alta",
+      "link": null
+    }
+  ],
+  "proximos_passos": {
+    "imediatos": [
+      "Assistir Aula 2: Postura de Domínio",
+      "Fazer gravação de baseline de 2 minutos",
+      "Contar tempo com mãos entrelaçadas e frequência de balanço"
+    ],
+    "curto_prazo": [
+      "Completar Trilha Semana 1-2 (Repertório Gestual)",
+      "Completar Trilha Semana 3-4 (Micro-Storytelling)",
+      "Executar Desafio do Mês",
+      "Enviar novo vídeo para reavaliação"
+    ],
+    "proxima_avaliacao": "2026-01-01",
+    "meta_score_30_dias": 79,
+    "meta_score_90_dias": 83
+  }
+}

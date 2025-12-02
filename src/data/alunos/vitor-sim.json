@@ -1,0 +1,462 @@
+{
+  "meta": {
+    "versao": "1.0-supremo",
+    "timestamp": "2025-12-01T11:00:00Z",
+    "analise_id": "vitor-sim-001",
+    "aluno_id": "vitor-sim"
+  },
+  "resumo": {
+    "score_geral": 62,
+    "score_autoconfianca": 64,
+    "categoria_geral": "forte",
+    "evolucao_percentual": 0,
+    "numero_analise": 1,
+    "dias_desde_anterior": null
+  },
+  "pilares": {
+    "oratoria": {
+      "score": 58,
+      "peso": 0.4,
+      "categoria": "adequado",
+      "delta": null,
+      "indicador_ancora": "DICCAO",
+      "indicador_gap": "FLUENCIA"
+    },
+    "interpessoal": {
+      "score": 68,
+      "peso": 0.2,
+      "categoria": "forte",
+      "delta": null,
+      "indicador_ancora": "MARKETING_PESSOAL",
+      "indicador_gap": "PERSUASAO"
+    },
+    "intrapessoal": {
+      "score": 64,
+      "peso": 0.25,
+      "categoria": "forte",
+      "delta": null,
+      "indicador_ancora": "LIDERANCA",
+      "indicador_gap": "CRIATIVIDADE"
+    },
+    "repertorio": {
+      "score": null,
+      "peso": 0.15,
+      "categoria": "nao_avaliado",
+      "delta": null,
+      "indicador_ancora": null,
+      "indicador_gap": null
+    }
+  },
+  "indicadores": [
+    {
+      "codigo": "FLUENCIA",
+      "nome": "Fluencia",
+      "pilar": "ORATORIA",
+      "score": 48,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.9,
+      "evidencias": [
+        "Pausas preenchidas (eee) em video de 46 segundos",
+        "Desvio de olhar nas hesitacoes",
+        "Frequencia alta de vicios em contexto curto"
+      ],
+      "timestamps": [
+        "00:08",
+        "00:18",
+        "00:32"
+      ],
+      "aula_recomendada": "Aula 3: Fluencia Magnetica",
+      "tecnica_recomendada": "Pausa Estrategica",
+      "prioridade_acao": 1
+    },
+    {
+      "codigo": "LINGUAGEM_NAO_VERBAL",
+      "nome": "Linguagem Nao Verbal",
+      "pilar": "ORATORIA",
+      "score": 54,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.88,
+      "evidencias": [
+        "Gesticulacao unilateral (segurando celular)",
+        "Inclinacao da cabeca (leve desconforto)",
+        "Sorriso genuino no final (autenticidade)"
+      ],
+      "timestamps": [
+        "00:15",
+        "00:30",
+        "00:44"
+      ],
+      "aula_recomendada": "Aula 2: Postura de Dominio",
+      "tecnica_recomendada": "Gesticulacao Bilateral na Caixa",
+      "prioridade_acao": 2
+    },
+    {
+      "codigo": "MODULACAO_VOZ",
+      "nome": "Modulacao de Voz",
+      "pilar": "ORATORIA",
+      "score": 60,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.78,
+      "evidencias": [
+        "Tom adequado e profissional",
+        "Variacoes naturais presentes",
+        "Energia moderada"
+      ],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "DICCAO",
+      "nome": "Diccao",
+      "pilar": "ORATORIA",
+      "score": 68,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.95,
+      "evidencias": [
+        "Pronuncia clara e compreensivel",
+        "Boa articulacao das palavras",
+        "Facilidade de compreensao imediata"
+      ],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "ASSERTIVIDADE",
+      "nome": "Assertividade",
+      "pilar": "ORATORIA",
+      "score": 64,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.92,
+      "evidencias": [
+        "Vai direto ao ponto em 46 segundos",
+        "Estrutura clara: nicho, publico, diferenciais",
+        "Objetividade evidente"
+      ],
+      "timestamps": [
+        "00:05",
+        "00:20",
+        "00:35"
+      ],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "VOCABULARIO",
+      "nome": "Vocabulario",
+      "pilar": "ORATORIA",
+      "score": 58,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.75,
+      "evidencias": [
+        "Vocabulario adequado e acessivel",
+        "Clareza na comunicacao",
+        "Poderia enriquecer com termos mais especificos"
+      ],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "GRAMATICA",
+      "nome": "Gramatica",
+      "pilar": "ORATORIA",
+      "score": 66,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.9,
+      "evidencias": [
+        "Construcao frasal correta",
+        "Concordancia adequada",
+        "Uso apropriado da norma"
+      ],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "PERSUASAO",
+      "nome": "Persuasao",
+      "pilar": "INTERPESSOAL",
+      "score": 62,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.82,
+      "evidencias": [
+        "Uso de prova social (Gabriel como cliente)",
+        "Experiencia comunicada (10+ anos)",
+        "Especializacao evidenciada",
+        "Poderia adicionar resultado/transformacao"
+      ],
+      "timestamps": [
+        "00:35"
+      ],
+      "aula_recomendada": "Aula 15: Timing e Fechamento",
+      "tecnica_recomendada": "Storytelling de Resultados",
+      "prioridade_acao": 2
+    },
+    {
+      "codigo": "MARKETING_PESSOAL",
+      "nome": "Marketing Pessoal",
+      "pilar": "INTERPESSOAL",
+      "score": 76,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.95,
+      "evidencias": [
+        "POSICIONAMENTO EXEMPLAR: nicho (retrato profissional), publico (profissionais que vendem via imagem), diferenciais (estudio, 10+ anos), prova social (Gabriel), localizacao",
+        "Comunicacao clara em 46 segundos - habilidade diferenciada",
+        "Nao ha linguagem minimizadora"
+      ],
+      "timestamps": [
+        "00:02",
+        "00:12",
+        "00:28",
+        "00:38"
+      ],
+      "aula_recomendada": "Aula 10: Personal Branding",
+      "tecnica_recomendada": "Storytelling de Cases",
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "DIDATICA",
+      "nome": "Didatica",
+      "pilar": "INTERPESSOAL",
+      "score": 66,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.85,
+      "evidencias": [
+        "'Todo mundo que vende ou necessita se comunicar atraves da propria imagem' - sintese clara do problema que resolve",
+        "Cliente entende imediatamente se precisa do servico"
+      ],
+      "timestamps": [
+        "00:15"
+      ],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "ADAPTABILIDADE",
+      "nome": "Adaptabilidade",
+      "pilar": "INTERPESSOAL",
+      "score": 65,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.7,
+      "evidencias": [
+        "Contexto limitado para avaliar adaptabilidade completa",
+        "Demonstra capacidade de sintese (comunicacao objetiva)"
+      ],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "CRIATIVIDADE",
+      "nome": "Criatividade",
+      "pilar": "INTRAPESSOAL",
+      "score": 60,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.65,
+      "evidencias": [
+        "Contexto limitado (video curto de apresentacao)",
+        "Apresentacao direta e objetiva",
+        "Criatividade pode estar na execucao do trabalho, nao no pitch"
+      ],
+      "timestamps": [],
+      "aula_recomendada": "Aula 6: Repertorio Criativo",
+      "tecnica_recomendada": "Analogias para Servicos Criativos",
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "LIDERANCA",
+      "nome": "Lideranca/Posicionamento",
+      "pilar": "INTRAPESSOAL",
+      "score": 68,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.88,
+      "evidencias": [
+        "Tom seguro ao se posicionar",
+        "Especialista, nao generalista",
+        "Transmite autoridade no nicho"
+      ],
+      "timestamps": [
+        "00:10",
+        "00:25"
+      ],
+      "aula_recomendada": "Aula 16: Lider Comunicador",
+      "tecnica_recomendada": "Comandos Verbais Diretos",
+      "prioridade_acao": null
+    }
+  ],
+  "evolucao": {
+    "historico": [
+      {
+        "data": "2025-12-01",
+        "score_geral": 62,
+        "destaque": "Primeira analise - Marketing Pessoal forte (76), Fluencia a desenvolver (48)"
+      }
+    ],
+    "tendencia": "baseline",
+    "projecao_30_dias": 68,
+    "projecao_90_dias": 74
+  },
+  "plano_acao": {
+    "duracao_semanas": 4,
+    "indicadores_priorizados": [
+      "FLUENCIA",
+      "LINGUAGEM_NAO_VERBAL",
+      "PERSUASAO"
+    ],
+    "trilhas": [
+      {
+        "semanas": "1-2",
+        "foco": "FLUENCIA",
+        "objetivo": "Reduzir pausas preenchidas em 60% e criar pitch de 60s sem vicios, com maos livres",
+        "aula_id": 3,
+        "aula_nome": "Fluencia Magnetica",
+        "exercicios": [
+          {
+            "nome": "Desafio 60 Segundos",
+            "frequencia": "3x_semana",
+            "duracao_minutos": 15
+          },
+          {
+            "nome": "Rotina Matinal de Voz",
+            "frequencia": "diaria",
+            "duracao_minutos": 10
+          },
+          {
+            "nome": "Pitch com Maos Livres",
+            "frequencia": "diaria",
+            "duracao_minutos": 15
+          }
+        ],
+        "criterios_sucesso": [
+          "Reducao de 60% na contagem de vicios (eee)",
+          "Gesticulacao bilateral natural (maos livres)",
+          "Eliminar inclinacao de cabeca",
+          "Pitch de 60s sem vicios"
+        ]
+      },
+      {
+        "semanas": "3-4",
+        "foco": "PERSUASAO",
+        "objetivo": "Criar pitch de 90s com micro-case de transformacao, mantendo fluencia",
+        "aula_id": 10,
+        "aula_nome": "Personal Branding e Poder da Influencia",
+        "exercicios": [
+          {
+            "nome": "Mapeamento de Transformacoes de Clientes",
+            "frequencia": "semanal",
+            "duracao_minutos": 20
+          },
+          {
+            "nome": "Estruturar Pitch 90s com Storytelling",
+            "frequencia": "2x_semana",
+            "duracao_minutos": 25
+          },
+          {
+            "nome": "Pratica de Pitch Expandido",
+            "frequencia": "diaria",
+            "duracao_minutos": 20
+          }
+        ],
+        "criterios_sucesso": [
+          "Pitch de 90s estruturado com micro-case",
+          "Mantem fluencia em formato expandido",
+          "Storytelling transmite transformacao",
+          "Feedback externo positivo"
+        ]
+      }
+    ],
+    "desafio_mes": {
+      "nome": "Pitch Perfeito de 90 Segundos para Instagram/Site",
+      "descricao": "Gravar video de 90s para Instagram/Site com: zero vicios, maos livres, gesticulacao bilateral, estrutura (apresentacao + micro-case + call-to-action), sorriso genuino, contato visual constante. Publicar e medir engajamento (meta: 10+ interacoes)."
+    }
+  },
+  "materiais": [
+    {
+      "tipo": "aula",
+      "nome": "Aula 3: Fluencia Magnetica",
+      "indicador_relacionado": "FLUENCIA",
+      "prioridade": "alta",
+      "link": null
+    },
+    {
+      "tipo": "aula",
+      "nome": "Aula 10: Personal Branding e Poder da Influencia",
+      "indicador_relacionado": "MARKETING_PESSOAL",
+      "prioridade": "alta",
+      "link": null
+    },
+    {
+      "tipo": "aula",
+      "nome": "Aula 2: Postura de Dominio",
+      "indicador_relacionado": "LINGUAGEM_NAO_VERBAL",
+      "prioridade": "media",
+      "link": null
+    },
+    {
+      "tipo": "tecnica",
+      "nome": "Pausa Estrategica",
+      "indicador_relacionado": "FLUENCIA",
+      "prioridade": "alta",
+      "link": null
+    },
+    {
+      "tipo": "exercicio",
+      "nome": "Desafio 60 Segundos",
+      "indicador_relacionado": "FLUENCIA",
+      "prioridade": "alta",
+      "link": null
+    },
+    {
+      "tipo": "tecnica",
+      "nome": "Storytelling de Cases",
+      "indicador_relacionado": "MARKETING_PESSOAL",
+      "prioridade": "alta",
+      "link": null
+    },
+    {
+      "tipo": "leitura",
+      "nome": "Building a StoryBrand - Donald Miller",
+      "indicador_relacionado": "PERSUASAO",
+      "prioridade": "media",
+      "link": null
+    }
+  ],
+  "proximos_passos": {
+    "imediatos": [
+      "Assistir Aula 3: Fluencia Magnetica (25 min)",
+      "Gravar pitch atual com maos livres e contar vicios (baseline)",
+      "Iniciar Rotina Matinal de Voz (5-10 min/dia)"
+    ],
+    "curto_prazo": [
+      "Completar Trilha Semana 1-2 (Fluencia)",
+      "Completar Trilha Semana 3-4 (Expansao com Storytelling)",
+      "Gravar Pitch Perfeito de 90 Segundos e publicar no Instagram",
+      "Enviar novo video de 2-3 minutos para reavaliacao"
+    ],
+    "proxima_avaliacao": "2026-01-01",
+    "meta_score_30_dias": 68,
+    "meta_score_90_dias": 74
+  }
+}

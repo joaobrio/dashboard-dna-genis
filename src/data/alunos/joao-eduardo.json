@@ -1,0 +1,451 @@
+{
+  "meta": {
+    "versao": "1.0-supremo",
+    "timestamp": "2025-12-01T00:00:00Z",
+    "analise_id": "joao-eduardo-001",
+    "aluno_id": "joao-eduardo"
+  },
+  "resumo": {
+    "score_geral": 62,
+    "score_autoconfianca": 66,
+    "categoria_geral": "forte",
+    "evolucao_percentual": 0,
+    "numero_analise": 1,
+    "dias_desde_anterior": null
+  },
+  "pilares": {
+    "oratoria": {
+      "score": 58,
+      "peso": 0.4,
+      "categoria": "adequado",
+      "delta": null,
+      "indicador_ancora": "ASSERTIVIDADE",
+      "indicador_gap": "LINGUAGEM_NAO_VERBAL"
+    },
+    "interpessoal": {
+      "score": 68,
+      "peso": 0.2,
+      "categoria": "forte",
+      "delta": null,
+      "indicador_ancora": "PERSUASAO",
+      "indicador_gap": "MARKETING_PESSOAL"
+    },
+    "intrapessoal": {
+      "score": 65,
+      "peso": 0.25,
+      "categoria": "forte",
+      "delta": null,
+      "indicador_ancora": "LIDERANCA",
+      "indicador_gap": "CRIATIVIDADE"
+    },
+    "repertorio": {
+      "score": 62,
+      "peso": 0.15,
+      "categoria": "forte",
+      "delta": null,
+      "indicador_ancora": "APLICACAO_REPERTORIO",
+      "indicador_gap": "VARIEDADE_CONHECIMENTO"
+    }
+  },
+  "indicadores": [
+    {
+      "codigo": "FLUENCIA",
+      "nome": "Fluência",
+      "pilar": "ORATORIA",
+      "score": 65,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.8,
+      "evidencias": [
+        "Fala contínua sem travas significativas",
+        "Transições claras"
+      ],
+      "timestamps": [
+        "00:00-00:46"
+      ],
+      "aula_recomendada": "Aula 3: Fluência Magnética",
+      "tecnica_recomendada": "Pausa Estratégica",
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "LINGUAGEM_NAO_VERBAL",
+      "nome": "Linguagem Não Verbal",
+      "pilar": "ORATORIA",
+      "score": 38,
+      "categoria": "a_desenvolver",
+      "delta": null,
+      "confianca": 0.95,
+      "evidencias": [
+        "Mãos em ogiva na virilha 80% do tempo",
+        "Oscilação corporal constante",
+        "Inclinação lateral da cabeça recorrente"
+      ],
+      "timestamps": [
+        "00:00-00:46"
+      ],
+      "aula_recomendada": "Aula 2: Postura de Domínio",
+      "tecnica_recomendada": "Power Pose + Técnica da Caixa + Distribuição de Peso 50-50",
+      "prioridade_acao": 1
+    },
+    {
+      "codigo": "MODULACAO_VOZ",
+      "nome": "Modulação de Voz",
+      "pilar": "ORATORIA",
+      "score": 58,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.75,
+      "evidencias": [
+        "Variação moderada de tom",
+        "Sorriso genuíno transmite calor"
+      ],
+      "timestamps": [
+        "00:00-00:46"
+      ],
+      "aula_recomendada": "Aula 3: Fluência Magnética",
+      "tecnica_recomendada": "4 Tons de Voz",
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "DICCAO",
+      "nome": "Dicção",
+      "pilar": "ORATORIA",
+      "score": 62,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.8,
+      "evidencias": [
+        "Articulação razoável",
+        "Algumas palavras contraídas informalmente"
+      ],
+      "timestamps": [
+        "00:00-00:46"
+      ],
+      "aula_recomendada": "Aula 3: Fluência Magnética",
+      "tecnica_recomendada": "Rotina Matinal de Voz",
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "ASSERTIVIDADE",
+      "nome": "Assertividade",
+      "pilar": "ORATORIA",
+      "score": 70,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.9,
+      "evidencias": [
+        "Estrutura clara: identidade-família-profissão-propósito",
+        "Objetivo direto sem rodeios"
+      ],
+      "timestamps": [
+        "00:00-00:46"
+      ],
+      "aula_recomendada": "Aula 4: Estrutura de Raciocínio",
+      "tecnica_recomendada": "Framework GIVE",
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "VOCABULARIO",
+      "nome": "Vocabulário",
+      "pilar": "ORATORIA",
+      "score": 55,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.75,
+      "evidencias": [
+        "Linguagem conversacional adequada mas informal para contexto profissional"
+      ],
+      "timestamps": [
+        "00:00-00:46"
+      ],
+      "aula_recomendada": "Aula 6: Repertório Criativo",
+      "tecnica_recomendada": "Sinônimos Práticos",
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "GRAMATICA",
+      "nome": "Gramática",
+      "pilar": "ORATORIA",
+      "score": 58,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.9,
+      "evidencias": [
+        "'Sou cara família' (informalidade extrema)",
+        "'pras pessoas adquirir' (erro de concordância)"
+      ],
+      "timestamps": [
+        "00:10-00:15",
+        "00:25-00:30"
+      ],
+      "aula_recomendada": "Aula 4: Estrutura de Raciocínio",
+      "tecnica_recomendada": "Reescrevendo Hesitações + Leitura em Voz Alta",
+      "prioridade_acao": 2
+    },
+    {
+      "codigo": "PERSUASAO",
+      "nome": "Persuasão",
+      "pilar": "INTERPESSOAL",
+      "score": 72,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.85,
+      "evidencias": [
+        "Foco em benefício final (independência financeira)",
+        "Linguagem inclusiva ('traçamos')"
+      ],
+      "timestamps": [
+        "00:25-00:40"
+      ],
+      "aula_recomendada": "Aula 15: Timing e Fechamento",
+      "tecnica_recomendada": "Gatilhos Mentais Éticos",
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "MARKETING_PESSOAL",
+      "nome": "Marketing Pessoal",
+      "pilar": "INTERPESSOAL",
+      "score": 65,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.8,
+      "evidencias": [
+        "Comunica valores (família, fé) claramente",
+        "Falta diferencial competitivo ou nicho específico"
+      ],
+      "timestamps": [
+        "00:00-00:46"
+      ],
+      "aula_recomendada": "Aula 10: Personal Branding",
+      "tecnica_recomendada": "Zona de Potência",
+      "prioridade_acao": 3
+    },
+    {
+      "codigo": "DIDATICA",
+      "nome": "Didática",
+      "pilar": "INTERPESSOAL",
+      "score": 68,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.8,
+      "evidencias": [
+        "Estrutura progressiva fácil de seguir",
+        "Apresenta-se como pessoa antes de profissional"
+      ],
+      "timestamps": [
+        "00:00-00:46"
+      ],
+      "aula_recomendada": "Aula 7: Recursos Didáticos",
+      "tecnica_recomendada": "Framework GIVE",
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "ADAPTABILIDADE",
+      "nome": "Adaptabilidade",
+      "pilar": "INTERPESSOAL",
+      "score": 70,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.75,
+      "evidencias": [
+        "Mantém coerência em apresentação de 46s",
+        "Sorriso genuíno demonstra conforto"
+      ],
+      "timestamps": [
+        "00:00-00:46"
+      ],
+      "aula_recomendada": "Aula 5: Autoconfiança",
+      "tecnica_recomendada": "Gestão do Nervosismo",
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "CRIATIVIDADE",
+      "nome": "Criatividade",
+      "pilar": "INTRAPESSOAL",
+      "score": 58,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.75,
+      "evidencias": [
+        "Estrutura funcional mas previsível",
+        "Sem analogias ou metáforas"
+      ],
+      "timestamps": [
+        "00:00-00:46"
+      ],
+      "aula_recomendada": "Aula 6: Repertório Criativo",
+      "tecnica_recomendada": "Gerador de Analogias",
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "LIDERANCA",
+      "nome": "Liderança/Posicionamento",
+      "pilar": "INTRAPESSOAL",
+      "score": 68,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.85,
+      "evidencias": [
+        "Afirmação de identidade forte ('filho amado de Deus')",
+        "Sorriso genuíno",
+        "Tom firme"
+      ],
+      "timestamps": [
+        "00:00-00:10"
+      ],
+      "aula_recomendada": "Aula 16: Líder Comunicador",
+      "tecnica_recomendada": "Comandos Verbais Diretos",
+      "prioridade_acao": null
+    }
+  ],
+  "evolucao": {
+    "historico": [
+      {
+        "data": "2025-12-01",
+        "score_geral": 62,
+        "destaque": "Primeira análise - Valores claros, postura a desenvolver"
+      }
+    ],
+    "tendencia": "primeira_analise",
+    "projecao_30_dias": 70,
+    "projecao_90_dias": 78
+  },
+  "plano_acao": {
+    "duracao_semanas": 4,
+    "indicadores_priorizados": [
+      "LINGUAGEM_NAO_VERBAL",
+      "GRAMATICA",
+      "MARKETING_PESSOAL"
+    ],
+    "trilhas": [
+      {
+        "semanas": "1-2",
+        "foco": "LINGUAGEM_NAO_VERBAL",
+        "objetivo": "Corrigir posicionamento corporal para transmitir estabilidade e confiança alinhadas ao discurso",
+        "aula_id": 2,
+        "aula_nome": "Postura de Domínio",
+        "exercicios": [
+          {
+            "nome": "Power Pose 2 min antes de apresentar",
+            "frequencia": "diária",
+            "duracao_minutos": 2
+          },
+          {
+            "nome": "Praticar ogiva na altura do peito (não virilha)",
+            "frequencia": "diária",
+            "duracao_minutos": 15
+          },
+          {
+            "nome": "Gravar apresentação focando em Triângulo da Confiança",
+            "frequencia": "3x_semana",
+            "duracao_minutos": 20
+          }
+        ],
+        "criterios_sucesso": [
+          "Mãos acima da cintura 80% do tempo",
+          "Oscilação corporal reduzida 70%",
+          "Cabeça centralizada 90% do tempo"
+        ]
+      },
+      {
+        "semanas": "3-4",
+        "foco": "GRAMATICA",
+        "objetivo": "Elevar linguagem para nível profissional sem perder autenticidade",
+        "aula_id": 4,
+        "aula_nome": "Estrutura de Raciocínio",
+        "exercicios": [
+          {
+            "nome": "Substituir expressões informais por formais autênticas",
+            "frequencia": "diária",
+            "duracao_minutos": 15
+          },
+          {
+            "nome": "Corrigir erros gramaticais específicos",
+            "frequencia": "diária",
+            "duracao_minutos": 15
+          },
+          {
+            "nome": "Ler artigo profissional em voz alta",
+            "frequencia": "semanal",
+            "duracao_minutos": 20
+          }
+        ],
+        "criterios_sucesso": [
+          "Apresentação livre de erros gramaticais evidentes",
+          "Linguagem profissional sem perder calor humano",
+          "Adicionou frase de diferenciação clara"
+        ]
+      }
+    ],
+    "desafio_mes": {
+      "nome": "Gravação Progressiva 4 Semanas - Evolução Visual Documentada",
+      "descricao": "Gravar mesma apresentação toda segunda durante 4 semanas aplicando progressivamente: Semana 1 (baseline), Semana 2 (postura), Semana 3 (linguagem), Semana 4 (completo)"
+    }
+  },
+  "materiais": [
+    {
+      "tipo": "aula",
+      "nome": "Aula 2: Postura de Domínio",
+      "indicador_relacionado": "LINGUAGEM_NAO_VERBAL",
+      "prioridade": "alta",
+      "link": null
+    },
+    {
+      "tipo": "aula",
+      "nome": "Aula 4: Estrutura de Raciocínio",
+      "indicador_relacionado": "GRAMATICA",
+      "prioridade": "alta",
+      "link": null
+    },
+    {
+      "tipo": "aula",
+      "nome": "Aula 10: Personal Branding",
+      "indicador_relacionado": "MARKETING_PESSOAL",
+      "prioridade": "media",
+      "link": null
+    },
+    {
+      "tipo": "tecnica",
+      "nome": "Power Pose",
+      "indicador_relacionado": "LINGUAGEM_NAO_VERBAL",
+      "prioridade": "alta",
+      "link": null
+    },
+    {
+      "tipo": "tecnica",
+      "nome": "Técnica da Caixa",
+      "indicador_relacionado": "LINGUAGEM_NAO_VERBAL",
+      "prioridade": "alta",
+      "link": null
+    },
+    {
+      "tipo": "exercicio",
+      "nome": "Reescrevendo Hesitações",
+      "indicador_relacionado": "GRAMATICA",
+      "prioridade": "alta",
+      "link": null
+    },
+    {
+      "tipo": "leitura",
+      "nome": "Presença - Amy Cuddy",
+      "indicador_relacionado": "LINGUAGEM_NAO_VERBAL",
+      "prioridade": "media",
+      "link": null
+    }
+  ],
+  "proximos_passos": {
+    "imediatos": [
+      "Assistir Aula 2 focando em Power Pose e Técnica da Caixa",
+      "Gravar apresentação atual SEM SOM e analisar postura",
+      "Praticar Power Pose 2 min + gravar com mãos no peito"
+    ],
+    "curto_prazo": [
+      "Completar Trilhas Semana 1-4",
+      "Executar Desafio Gravação Progressiva 4 Semanas",
+      "Gravar vídeo final demonstrando evolução completa"
+    ],
+    "proxima_avaliacao": "2025-12-31",
+    "meta_score_30_dias": 70,
+    "meta_score_90_dias": 78
+  }
+}

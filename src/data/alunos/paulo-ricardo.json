@@ -1,0 +1,457 @@
+{
+  "meta": {
+    "versao": "1.0-supremo",
+    "timestamp": "2025-12-01T15:00:00Z",
+    "analise_id": "paulo-ricardo-001",
+    "aluno_id": "paulo-ricardo-555184251484"
+  },
+  "resumo": {
+    "score_geral": 65.8,
+    "score_autoconfianca": 64.5,
+    "categoria_geral": "adequado",
+    "evolucao_percentual": null,
+    "numero_analise": 1,
+    "dias_desde_anterior": null
+  },
+  "pilares": {
+    "oratoria": {
+      "score": 60,
+      "peso": 0.4,
+      "categoria": "adequado",
+      "delta": null,
+      "indicador_ancora": "VOCABULARIO",
+      "indicador_gap": "LINGUAGEM_NAO_VERBAL"
+    },
+    "interpessoal": {
+      "score": 64,
+      "peso": 0.2,
+      "categoria": "adequado",
+      "delta": null,
+      "indicador_ancora": "DIDATICA",
+      "indicador_gap": "ADAPTABILIDADE"
+    },
+    "intrapessoal": {
+      "score": 70,
+      "peso": 0.25,
+      "categoria": "adequado_plus",
+      "delta": null,
+      "indicador_ancora": "CRIATIVIDADE",
+      "indicador_gap": "LIDERANCA"
+    },
+    "repertorio": {
+      "score": 71,
+      "peso": 0.15,
+      "categoria": "forte",
+      "delta": null,
+      "indicador_ancora": null,
+      "indicador_gap": null
+    }
+  },
+  "indicadores": [
+    {
+      "codigo": "FLUENCIA",
+      "nome": "Fluência",
+      "pilar": "ORATORIA",
+      "score": 65,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.85,
+      "evidencias": [
+        "Pausas frequentes ('é...', 'hum...', 'né')",
+        "Ritmo pausado, moderado a lento",
+        "Hesitações em conectivos"
+      ],
+      "timestamps": [
+        "00:01",
+        "00:22",
+        "00:35"
+      ],
+      "aula_recomendada": "Aula 3: Fluência Magnética",
+      "tecnica_recomendada": "Pausa Estratégica",
+      "prioridade_acao": 3
+    },
+    {
+      "codigo": "LINGUAGEM_NAO_VERBAL",
+      "nome": "Linguagem Não Verbal",
+      "pilar": "ORATORIA",
+      "score": 52,
+      "categoria": "insuficiente",
+      "delta": null,
+      "confianca": 0.95,
+      "evidencias": [
+        "Braços rígidos ao lado do corpo TODA a apresentação",
+        "Zero gesticulação ativa acima da cintura",
+        "Postura estática, pés plantados",
+        "Mãos realizam apenas micro-movimentos (abre/fecha dedos)",
+        "Sem sorriso social ao finalizar"
+      ],
+      "timestamps": [
+        "00:00",
+        "00:05",
+        "00:20",
+        "00:35",
+        "00:45"
+      ],
+      "aula_recomendada": "Aula 2: Postura de Domínio",
+      "tecnica_recomendada": "Mapeamento Gesto-Conceito + Caixa dos Gestos",
+      "prioridade_acao": 1
+    },
+    {
+      "codigo": "MODULACAO_VOZ",
+      "nome": "Modulação de Voz",
+      "pilar": "ORATORIA",
+      "score": 62,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.85,
+      "evidencias": [
+        "Tom sério, linear, pouca variação emocional",
+        "Volume consistente",
+        "Sem variação de ritmo em conceitos filosóficos"
+      ],
+      "timestamps": [],
+      "aula_recomendada": "Aula 3: Fluência Magnética",
+      "tecnica_recomendada": "Pausa Dramática",
+      "prioridade_acao": 2
+    },
+    {
+      "codigo": "DICCAO",
+      "nome": "Dicção",
+      "pilar": "ORATORIA",
+      "score": 68,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.85,
+      "evidencias": [
+        "Articulação clara no geral",
+        "Hesitações em conectivos",
+        "Boca articula minimamente necessário"
+      ],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "ASSERTIVIDADE",
+      "nome": "Assertividade",
+      "pilar": "ORATORIA",
+      "score": 65,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.8,
+      "evidencias": [
+        "Conteúdo firme sobre valores",
+        "Entrega contida",
+        "Declaração clara de propósito"
+      ],
+      "timestamps": [
+        "00:40"
+      ],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "VOCABULARIO",
+      "nome": "Vocabulário",
+      "pilar": "ORATORIA",
+      "score": 72,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.9,
+      "evidencias": [
+        "Termos filosóficos: 'estoicismo', 'espiritualidade', 'evolução'",
+        "Menciona 'Nova Acrópole' (escola de filosofia)",
+        "Vocabulário conceitual rico"
+      ],
+      "timestamps": [
+        "00:14",
+        "00:22",
+        "00:40"
+      ],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "GRAMATICA",
+      "nome": "Gramática",
+      "pilar": "ORATORIA",
+      "score": 70,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.85,
+      "evidencias": [
+        "Correto no geral",
+        "Estrutura frasal completa",
+        "Uso adequado de conectivos"
+      ],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "PERSUASAO",
+      "nome": "Persuasão",
+      "pilar": "INTERPESSOAL",
+      "score": 62,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.8,
+      "evidencias": [
+        "Propósito claro conceitualmente ('evolução própria e dos outros')",
+        "Entrega sem variação vocal",
+        "Sem gesticulação de conexão",
+        "Sem expressão facial de convite",
+        "Mensagem gera CONCEITO, não SENTIMENTO de conexão"
+      ],
+      "timestamps": [
+        "00:40"
+      ],
+      "aula_recomendada": "Aula 5: Arte da Persuasão",
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "MARKETING_PESSOAL",
+      "nome": "Marketing Pessoal",
+      "pilar": "INTERPESSOAL",
+      "score": 65,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.85,
+      "evidencias": [
+        "Posicionamento baseado em VALORES (filosofia, espiritualidade, propósito)",
+        "Menciona trabalho (cartório), estudo (filosofia), voluntariado",
+        "Marketing pessoal filosófico, não comercial",
+        "Atrai perfil específico (desenvolvimento pessoal)"
+      ],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "DIDATICA",
+      "nome": "Didática",
+      "pilar": "INTERPESSOAL",
+      "score": 68,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.85,
+      "evidencias": [
+        "Estrutura linear: nome → trabalho → estudo → valores → propósito",
+        "Coerente, sem saltos de raciocínio",
+        "Rápida demais (7 blocos em 45seg = 6seg/bloco)",
+        "Conceitos importantes passam sem 'pousar'"
+      ],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "ADAPTABILIDADE",
+      "nome": "Adaptabilidade",
+      "pilar": "INTERPESSOAL",
+      "score": 60,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.75,
+      "evidencias": [
+        "Apresentação genérica",
+        "Pouco ajustada ao contexto específico do evento",
+        "Não menciona expectativa para o evento"
+      ],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "CRIATIVIDADE",
+      "nome": "Criatividade",
+      "pilar": "INTRAPESSOAL",
+      "score": 72,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.9,
+      "evidencias": [
+        "NÃO segue padrão tradicional (nome-idade-profissão-hobby)",
+        "Estrutura em torno de PROPÓSITO",
+        "Fala sobre estoicismo em evento de networking (escolha criativa)",
+        "Memorável, sobressai da massa"
+      ],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "LIDERANCA",
+      "nome": "Liderança/Posicionamento",
+      "pilar": "INTRAPESSOAL",
+      "score": 68,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.85,
+      "evidencias": [
+        "Declaração de missão pessoal clara ('evolução própria e dos outros')",
+        "Propósito presente no CONTEÚDO",
+        "Ausente na EXPRESSÃO (postura rígida, olhar fixo, tom linear)",
+        "Tem mindset de líder, falta presença física de líder"
+      ],
+      "timestamps": [
+        "00:40"
+      ],
+      "aula_recomendada": "Aula 16: Líder Comunicador",
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    }
+  ],
+  "evolucao": {
+    "historico": [
+      {
+        "data": "2025-12-01",
+        "score_geral": 65.8,
+        "destaque": "Primeira análise - Conteúdo reflexivo forte, expressão corporal contida"
+      }
+    ],
+    "tendencia": null,
+    "projecao_30_dias": 69,
+    "projecao_90_dias": 73
+  },
+  "plano_acao": {
+    "duracao_semanas": 4,
+    "indicadores_priorizados": [
+      "LINGUAGEM_NAO_VERBAL",
+      "MODULACAO_VOZ",
+      "CRIATIVIDADE"
+    ],
+    "trilhas": [
+      {
+        "semanas": "1-2",
+        "foco": "LINGUAGEM_NAO_VERBAL",
+        "objetivo": "Desenvolver 5 gestos específicos para conceitos-chave e executá-los naturalmente",
+        "aula_id": 2,
+        "aula_nome": "Aula 2: Postura de Domínio",
+        "exercicios": [
+          {
+            "nome": "Mapeamento de Conceitos-Chave",
+            "frequencia": "semanal",
+            "duracao_minutos": 10
+          },
+          {
+            "nome": "Criação de Gestos (1 por conceito)",
+            "frequencia": "semanal",
+            "duracao_minutos": 20
+          },
+          {
+            "nome": "Treino Isolado de Gestos",
+            "frequencia": "3x_semana",
+            "duracao_minutos": 15
+          },
+          {
+            "nome": "Integração Palavra+Gesto",
+            "frequencia": "diaria",
+            "duracao_minutos": 15
+          }
+        ],
+        "criterios_sucesso": [
+          "5 gestos específicos criados",
+          "Execução natural (não robótica)",
+          "Mãos acima da cintura 50% do tempo",
+          "Feedback: 'consigo visualizar o que você fala'"
+        ]
+      },
+      {
+        "semanas": "3-4",
+        "foco": "MODULACAO_VOZ",
+        "objetivo": "Adicionar pausas dramáticas e variação de ritmo em conceitos filosóficos",
+        "aula_id": 3,
+        "aula_nome": "Aula 3: Fluência Magnética",
+        "exercicios": [
+          {
+            "nome": "Identificação de Palavras-Chave",
+            "frequencia": "semanal",
+            "duracao_minutos": 10
+          },
+          {
+            "nome": "Treino de Pausa Antes+Depois",
+            "frequencia": "3x_semana",
+            "duracao_minutos": 10
+          },
+          {
+            "nome": "Gravação com Pausas",
+            "frequencia": "semanal",
+            "duracao_minutos": 15
+          }
+        ],
+        "criterios_sucesso": [
+          "Pausas de 1seg antes/depois de 3 palavras-chave",
+          "Pausas soam intencionais, não nervosas",
+          "Feedback: 'suas palavras têm mais peso'"
+        ]
+      }
+    ],
+    "desafio_mes": {
+      "nome": "Apresentação Filosófica Completa",
+      "descricao": "Apresentação de 60-90seg com 5 gestos específicos, 3 pausas dramáticas, 1 momento de acelerar + 1 de desacelerar. Feedback de 2 pessoas sobre memorabilidade e visualização dos conceitos."
+    }
+  },
+  "materiais": [
+    {
+      "tipo": "aula",
+      "nome": "Aula 2: Postura de Domínio",
+      "indicador_relacionado": "LINGUAGEM_NAO_VERBAL",
+      "prioridade": "critica",
+      "link": null
+    },
+    {
+      "tipo": "aula",
+      "nome": "Aula 3: Fluência Magnética",
+      "indicador_relacionado": "MODULACAO_VOZ",
+      "prioridade": "alta",
+      "link": null
+    },
+    {
+      "tipo": "tecnica",
+      "nome": "Mapeamento Gesto-Conceito",
+      "indicador_relacionado": "LINGUAGEM_NAO_VERBAL",
+      "prioridade": "critica",
+      "link": null
+    },
+    {
+      "tipo": "tecnica",
+      "nome": "Pausa Dramática",
+      "indicador_relacionado": "MODULACAO_VOZ",
+      "prioridade": "alta",
+      "link": null
+    },
+    {
+      "tipo": "exercicio",
+      "nome": "Caixa dos Gestos",
+      "indicador_relacionado": "LINGUAGEM_NAO_VERBAL",
+      "prioridade": "critica",
+      "link": null
+    }
+  ],
+  "proximos_passos": {
+    "imediatos": [
+      "Assistir Aula 2: Postura de Domínio",
+      "Fazer gravação de baseline de 1 minuto",
+      "Identificar os 5 conceitos-chave da apresentação"
+    ],
+    "curto_prazo": [
+      "Completar Trilha Semana 1-2 (Liberação Gestual)",
+      "Completar Trilha Semana 3-4 (Modulação de Voz)",
+      "Executar Desafio do Mês",
+      "Enviar novo vídeo para reavaliação"
+    ],
+    "proxima_avaliacao": "2026-01-01",
+    "meta_score_30_dias": 69,
+    "meta_score_90_dias": 73
+  }
+}

@@ -2,12 +2,13 @@
 
 import { UnifiedRadar } from '@/components/charts/UnifiedRadar';
 import { AnalysisDigest } from '@/components/analysis/AnalysisDigest';
-import { PILAR_LABELS, PilarType, DNAGenisAnalysis } from '@/types/dna-genis';
+import { PILAR_LABELS, PilarType } from '@/types/dna-genis';
 import { Dna, TrendingUp, Target, Zap } from 'lucide-react';
 import { motion } from 'framer-motion';
+import { DnaGenisAnalysis } from '@/lib/zod-student';
 
 interface DashboardShellProps {
-  data: DNAGenisAnalysis;
+  data: DnaGenisAnalysis;
   userName: string;
   analysisDate?: string;
 }
@@ -161,6 +162,8 @@ export function DashboardShell({ data, userName, analysisDate }: DashboardShellP
             <div className="grid grid-cols-2 gap-4">
               {Object.entries(data.pilares).map(([key, pilar]) => {
                 const pilarLabel = PILAR_LABELS[key.toUpperCase() as PilarType] || key;
+                const pilarScore = (pilar as any)?.score ?? 0;
+                const pilarCategoria = (pilar as any)?.categoria ?? '';
                 return (
                   <motion.div
                     key={key}
@@ -171,9 +174,9 @@ export function DashboardShell({ data, userName, analysisDate }: DashboardShellP
                   >
                     <p className="text-sm text-gray-400 mb-2">{pilarLabel}</p>
                     <div className="flex items-baseline gap-2">
-                      <span className="text-4xl font-bold text-genis-yellow">{pilar.score}</span>
-                      <span className={`text-sm font-semibold ${getCategoriaColor(pilar.categoria)}`}>
-                        {getCategoriaLabel(pilar.categoria)}
+                      <span className="text-4xl font-bold text-genis-yellow">{pilarScore}</span>
+                      <span className={`text-sm font-semibold ${getCategoriaColor(pilarCategoria)}`}>
+                        {getCategoriaLabel(pilarCategoria)}
                       </span>
                     </div>
                   </motion.div>

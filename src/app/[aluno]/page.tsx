@@ -1,15 +1,18 @@
 import { DashboardShell } from '@/components/dashboard/DashboardShell';
-import { pedroWerlangData } from '@/data/pedro-werlang';
-import { loadAnalysisFromMarkdown, prettyNameFromSlug } from '@/lib/load-student-analysis';
+import { prettyNameFromSlug, loadStudentJson, getAllStudentSlugs } from '@/lib/load-student-analysis';
+import { notFound } from 'next/navigation';
 
 interface PageProps {
   params: { aluno: string };
 }
 
 export default async function AlunoPage({ params }: PageProps) {
-  const slug = params.aluno;
-  const loaded = await loadAnalysisFromMarkdown(slug);
-  const data = loaded ?? pedroWerlangData;
+  const slug = params?.aluno;
+  if (!slug) return notFound();
+
+  const data = await loadStudentJson(slug);
+  if (!data) return notFound();
+
   const userName = prettyNameFromSlug(slug);
   const analysisDate = new Date(data.meta.timestamp).toLocaleDateString('pt-BR', {
     day: '2-digit',
@@ -24,4 +27,9 @@ export default async function AlunoPage({ params }: PageProps) {
       analysisDate={analysisDate}
     />
   );
+}
+
+export async function generateStaticParams() {
+  const slugs = getAllStudentSlugs();
+  return slugs.map((slug) => ({ aluno: slug }));
 }
