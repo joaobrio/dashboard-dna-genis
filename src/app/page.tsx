@@ -3,6 +3,7 @@
 import { UnifiedRadar } from '@/components/charts/UnifiedRadar';
 // import { FeedbackSupremo } from '@/components/feedback/FeedbackSupremo';
 import { pedroWerlangData } from '@/data/pedro-werlang';
+import { AnalysisDigest } from '@/components/analysis/AnalysisDigest';
 // import { pedroWerlangFeedback } from '@/data/pedro-werlang-feedback';
 import { PILAR_LABELS, PilarType } from '@/types/dna-genis';
 import { Dna, TrendingUp, Target, Zap } from 'lucide-react';
@@ -281,6 +282,15 @@ export default function DashboardPage() {
           />
         </motion.section>
         */}
+
+        {/* Análise Narrativa - Feedback Supremo */}
+        <motion.section
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.35 }}
+        >
+          <AnalysisDigest />
+        </motion.section>
       </main>
 
       {/* Footer */}
