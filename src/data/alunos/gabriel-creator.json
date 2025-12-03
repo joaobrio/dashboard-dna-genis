@@ -3,8 +3,7 @@
     "versao": "1.0-supremo",
     "timestamp": "2025-12-01T15:00:00Z",
     "analise_id": "gabriel-creator-001",
-    "aluno_id": "gabriel-creator",
-    "access_key": "aqezea"
+    "aluno_id": "gabriel-creator"
   },
   "resumo": {
     "score_geral": 76.5,
@@ -45,7 +44,8 @@
       "categoria": "forte",
       "delta": null,
       "indicador_ancora": null,
-      "indicador_gap": null
+      "indicador_gap": null,
+      "observacao": "Avaliacao indireta baseada em vocabulario, criatividade e didatica demonstrados no video"
     }
   },
   "indicadores": [

@@ -474,7 +474,6 @@ Manda ver.
     "analise_id": "paulo-ricardo-001",
     "aluno_id": "paulo-ricardo-555184251484"
   },
-
   "resumo": {
     "score_geral": 65.8,
     "score_autoconfianca": 64.5,
@@ -483,11 +482,10 @@ Manda ver.
     "numero_analise": 1,
     "dias_desde_anterior": null
   },
-
   "pilares": {
     "oratoria": {
       "score": 60,
-      "peso": 0.40,
+      "peso": 0.4,
       "categoria": "adequado",
       "delta": null,
       "indicador_ancora": "VOCABULARIO",
@@ -495,7 +493,7 @@ Manda ver.
     },
     "interpessoal": {
       "score": 64,
-      "peso": 0.20,
+      "peso": 0.2,
       "categoria": "adequado",
       "delta": null,
       "indicador_ancora": "DIDATICA",
@@ -515,10 +513,10 @@ Manda ver.
       "categoria": "forte",
       "delta": null,
       "indicador_ancora": null,
-      "indicador_gap": null
+      "indicador_gap": null,
+      "observacao": "Avaliacao indireta baseada em vocabulario, criatividade e didatica demonstrados no video"
     }
   },
-
   "indicadores": [
     {
       "codigo": "FLUENCIA",
@@ -533,7 +531,11 @@ Manda ver.
         "Ritmo pausado, moderado a lento",
         "Hesitações em conectivos"
       ],
-      "timestamps": ["00:01", "00:22", "00:35"],
+      "timestamps": [
+        "00:01",
+        "00:22",
+        "00:35"
+      ],
       "aula_recomendada": "Aula 3: Fluência Magnética",
       "tecnica_recomendada": "Pausa Estratégica",
       "prioridade_acao": 3
@@ -553,7 +555,13 @@ Manda ver.
         "Mãos realizam apenas micro-movimentos (abre/fecha dedos)",
         "Sem sorriso social ao finalizar"
       ],
-      "timestamps": ["00:00", "00:05", "00:20", "00:35", "00:45"],
+      "timestamps": [
+        "00:00",
+        "00:05",
+        "00:20",
+        "00:35",
+        "00:45"
+      ],
       "aula_recomendada": "Aula 2: Postura de Domínio",
       "tecnica_recomendada": "Mapeamento Gesto-Conceito + Caixa dos Gestos",
       "prioridade_acao": 1
@@ -607,7 +615,9 @@ Manda ver.
         "Entrega contida",
         "Declaração clara de propósito"
       ],
-      "timestamps": ["00:40"],
+      "timestamps": [
+        "00:40"
+      ],
       "aula_recomendada": null,
       "tecnica_recomendada": null,
       "prioridade_acao": null
@@ -625,7 +635,11 @@ Manda ver.
         "Menciona 'Nova Acrópole' (escola de filosofia)",
         "Vocabulário conceitual rico"
       ],
-      "timestamps": ["00:14", "00:22", "00:40"],
+      "timestamps": [
+        "00:14",
+        "00:22",
+        "00:40"
+      ],
       "aula_recomendada": null,
       "tecnica_recomendada": null,
       "prioridade_acao": null
@@ -663,7 +677,9 @@ Manda ver.
         "Sem expressão facial de convite",
         "Mensagem gera CONCEITO, não SENTIMENTO de conexão"
       ],
-      "timestamps": ["00:40"],
+      "timestamps": [
+        "00:40"
+      ],
       "aula_recomendada": "Aula 5: Arte da Persuasão",
       "tecnica_recomendada": null,
       "prioridade_acao": null
@@ -757,13 +773,104 @@ Manda ver.
         "Ausente na EXPRESSÃO (postura rígida, olhar fixo, tom linear)",
         "Tem mindset de líder, falta presença física de líder"
       ],
-      "timestamps": ["00:40"],
+      "timestamps": [
+        "00:40"
+      ],
       "aula_recomendada": "Aula 16: Líder Comunicador",
       "tecnica_recomendada": null,
       "prioridade_acao": null
+    },
+    {
+      "codigo": "ESCUTATORIA",
+      "nome": "Escutatoria",
+      "pilar": "INTERPESSOAL",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao aplicavel em contexto de monologo - requer analise de dialogo/conversa"
+    },
+    {
+      "codigo": "VARIEDADE_CONHECIMENTO",
+      "nome": "Variedade de Conhecimento",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "CONEXAO_IDEIAS",
+      "nome": "Conexao de Ideias",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "ATUALIZACAO",
+      "nome": "Atualizacao",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "CULTURA_GERAL",
+      "nome": "Cultura Geral",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "APLICACAO_REPERTORIO",
+      "nome": "Aplicacao do Repertorio",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
     }
   ],
-
   "evolucao": {
     "historico": [
       {
@@ -776,10 +883,13 @@ Manda ver.
     "projecao_30_dias": 69,
     "projecao_90_dias": 73
   },
-
   "plano_acao": {
     "duracao_semanas": 4,
-    "indicadores_priorizados": ["LINGUAGEM_NAO_VERBAL", "MODULACAO_VOZ", "CRIATIVIDADE"],
+    "indicadores_priorizados": [
+      "LINGUAGEM_NAO_VERBAL",
+      "MODULACAO_VOZ",
+      "CRIATIVIDADE"
+    ],
     "trilhas": [
       {
         "semanas": "1-2",
@@ -851,7 +961,6 @@ Manda ver.
       "descricao": "Apresentação de 60-90seg com 5 gestos específicos, 3 pausas dramáticas, 1 momento de acelerar + 1 de desacelerar. Feedback de 2 pessoas sobre memorabilidade e visualização dos conceitos."
     }
   },
-
   "materiais": [
     {
       "tipo": "aula",
@@ -889,7 +998,6 @@ Manda ver.
       "link": null
     }
   ],
-
   "proximos_passos": {
     "imediatos": [
       "Assistir Aula 2: Postura de Domínio",

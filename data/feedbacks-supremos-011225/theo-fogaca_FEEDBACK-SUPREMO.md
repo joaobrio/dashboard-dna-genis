@@ -535,7 +535,6 @@ Manda ver.
     "analise_id": "theo-fogaca-001",
     "aluno_id": "theo-fogaca-555184462514"
   },
-
   "resumo": {
     "score_geral": 74.8,
     "score_autoconfianca": 74.2,
@@ -544,11 +543,10 @@ Manda ver.
     "numero_analise": 1,
     "dias_desde_anterior": null
   },
-
   "pilares": {
     "oratoria": {
       "score": 72,
-      "peso": 0.40,
+      "peso": 0.4,
       "categoria": "forte",
       "delta": null,
       "indicador_ancora": "LINGUAGEM_NAO_VERBAL",
@@ -556,7 +554,7 @@ Manda ver.
     },
     "interpessoal": {
       "score": 72,
-      "peso": 0.20,
+      "peso": 0.2,
       "categoria": "forte",
       "delta": null,
       "indicador_ancora": "MARKETING_PESSOAL",
@@ -576,10 +574,10 @@ Manda ver.
       "categoria": "forte",
       "delta": null,
       "indicador_ancora": null,
-      "indicador_gap": null
+      "indicador_gap": null,
+      "observacao": "Avaliacao indireta baseada em vocabulario, criatividade e didatica demonstrados no video"
     }
   },
-
   "indicadores": [
     {
       "codigo": "FLUENCIA",
@@ -594,7 +592,14 @@ Manda ver.
         "~6 pausas preenchidas por minuto ('ai', 'tipo', 'é')",
         "Conectivos coloquiais: 'aí daí', 'é como se fosse', 'assim'"
       ],
-      "timestamps": ["00:11", "00:15", "00:19", "00:44", "00:54", "00:59"],
+      "timestamps": [
+        "00:11",
+        "00:15",
+        "00:19",
+        "00:44",
+        "00:54",
+        "00:59"
+      ],
       "aula_recomendada": "Aula 3: Fluência Magnética",
       "tecnica_recomendada": "Code-Switching Comunicacional + Desaceleração Intencional",
       "prioridade_acao": 1
@@ -614,7 +619,13 @@ Manda ver.
         "Amplitude aumenta ao enfatizar ('qualquer coisa')",
         "Auto-toque ao falar de amizade (humanização)"
       ],
-      "timestamps": ["00:03", "00:20", "00:40", "00:54", "01:05"],
+      "timestamps": [
+        "00:03",
+        "00:20",
+        "00:40",
+        "00:54",
+        "01:05"
+      ],
       "aula_recomendada": null,
       "tecnica_recomendada": null,
       "prioridade_acao": null
@@ -632,7 +643,10 @@ Manda ver.
         "Acelerações significativas em listas técnicas",
         "Variação natural entre tom técnico e relaxado"
       ],
-      "timestamps": ["00:19", "00:26"],
+      "timestamps": [
+        "00:19",
+        "00:26"
+      ],
       "aula_recomendada": "Aula 3: Fluência Magnética",
       "tecnica_recomendada": "Micro-Pausas em Listas",
       "prioridade_acao": 2
@@ -650,7 +664,9 @@ Manda ver.
         "Corta finais de plural ('nos evento', 'dos trabalho')",
         "Não é problema muscular, é lapso em fala rápida"
       ],
-      "timestamps": ["01:12"],
+      "timestamps": [
+        "01:12"
+      ],
       "aula_recomendada": null,
       "tecnica_recomendada": null,
       "prioridade_acao": null
@@ -669,7 +685,12 @@ Manda ver.
         "Sem 'eu acho', 'talvez', 'pode ser'",
         "Tom confiante sem arrogância"
       ],
-      "timestamps": ["00:11", "00:35", "00:41", "00:49"],
+      "timestamps": [
+        "00:11",
+        "00:35",
+        "00:41",
+        "00:49"
+      ],
       "aula_recomendada": null,
       "tecnica_recomendada": null,
       "prioridade_acao": null
@@ -705,7 +726,9 @@ Manda ver.
         "Supressão de plurais em fala rápida",
         "Não é erro de conhecimento, é lapso em velocidade"
       ],
-      "timestamps": ["01:12"],
+      "timestamps": [
+        "01:12"
+      ],
       "aula_recomendada": null,
       "tecnica_recomendada": "Consciência Gramatical em Contextos Formais",
       "prioridade_acao": 3
@@ -723,7 +746,10 @@ Manda ver.
         "Autoconsciência humorada: 'ninguém reclamou na minha frente'",
         "Versatilidade como valor: 'especialista que atua em qualquer nicho'"
       ],
-      "timestamps": ["00:11", "00:59"],
+      "timestamps": [
+        "00:11",
+        "00:59"
+      ],
       "aula_recomendada": null,
       "tecnica_recomendada": null,
       "prioridade_acao": null
@@ -761,7 +787,10 @@ Manda ver.
         "7 itens em 7 segundos [00:19-00:26]",
         "Audiência pode 'perder' itens do meio"
       ],
-      "timestamps": ["00:19", "00:26"],
+      "timestamps": [
+        "00:19",
+        "00:26"
+      ],
       "aula_recomendada": "Aula 4: Estrutura de Raciocínio",
       "tecnica_recomendada": null,
       "prioridade_acao": null
@@ -780,7 +809,11 @@ Manda ver.
         "Tom descontraído ao falar de vida pessoal",
         "Inteligência emocional evidente"
       ],
-      "timestamps": ["00:03", "00:54", "01:16"],
+      "timestamps": [
+        "00:03",
+        "00:54",
+        "01:16"
+      ],
       "aula_recomendada": null,
       "tecnica_recomendada": null,
       "prioridade_acao": null
@@ -799,7 +832,11 @@ Manda ver.
         "Tentativa de analogia: 'nicho ramificado'",
         "Refrescante, inesperado, autêntico"
       ],
-      "timestamps": ["00:11", "00:44", "00:59"],
+      "timestamps": [
+        "00:11",
+        "00:44",
+        "00:59"
+      ],
       "aula_recomendada": null,
       "tecnica_recomendada": null,
       "prioridade_acao": null
@@ -818,13 +855,107 @@ Manda ver.
         "Energia de empreendedor jovem que 'viu de tudo'",
         "Confiante sem arrogância"
       ],
-      "timestamps": ["00:35", "00:40", "00:49", "00:54"],
+      "timestamps": [
+        "00:35",
+        "00:40",
+        "00:49",
+        "00:54"
+      ],
       "aula_recomendada": null,
       "tecnica_recomendada": null,
       "prioridade_acao": null
+    },
+    {
+      "codigo": "ESCUTATORIA",
+      "nome": "Escutatoria",
+      "pilar": "INTERPESSOAL",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao aplicavel em contexto de monologo - requer analise de dialogo/conversa"
+    },
+    {
+      "codigo": "VARIEDADE_CONHECIMENTO",
+      "nome": "Variedade de Conhecimento",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "CONEXAO_IDEIAS",
+      "nome": "Conexao de Ideias",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "ATUALIZACAO",
+      "nome": "Atualizacao",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "CULTURA_GERAL",
+      "nome": "Cultura Geral",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "APLICACAO_REPERTORIO",
+      "nome": "Aplicacao do Repertorio",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
     }
   ],
-
   "evolucao": {
     "historico": [
       {
@@ -837,10 +968,13 @@ Manda ver.
     "projecao_30_dias": 78,
     "projecao_90_dias": 81
   },
-
   "plano_acao": {
     "duracao_semanas": 4,
-    "indicadores_priorizados": ["FLUENCIA", "GRAMATICA", "CRIATIVIDADE"],
+    "indicadores_priorizados": [
+      "FLUENCIA",
+      "GRAMATICA",
+      "CRIATIVIDADE"
+    ],
     "trilhas": [
       {
         "semanas": "1-2",
@@ -912,7 +1046,6 @@ Manda ver.
       "descricao": "Gravar apresentação em 2 versões: (A) Informal com vícios/velocidade/humor, (B) Formal sem vícios/moderada/gramática correta. Obter feedback sobre adequação a contextos diferentes e autenticidade em ambas."
     }
   },
-
   "materiais": [
     {
       "tipo": "aula",
@@ -950,7 +1083,6 @@ Manda ver.
       "link": null
     }
   ],
-
   "proximos_passos": {
     "imediatos": [
       "Assistir Aula 3: Fluência Magnética",

@@ -3,12 +3,11 @@
     "versao": "1.0-supremo",
     "timestamp": "2025-12-01T15:45:00Z",
     "analise_id": "marina-rocha-001",
-    "aluno_id": "marina-rocha",
-    "access_key": "27btrd"
+    "aluno_id": "marina-rocha"
   },
   "resumo": {
     "score_geral": 72.8,
-    "score_autoconfianca": 60.3,
+    "score_autoconfianca": 72,
     "categoria_geral": "forte",
     "evolucao_percentual": null,
     "numero_analise": 1,
@@ -42,10 +41,11 @@
     "repertorio": {
       "score": null,
       "peso": 0.15,
-      "categoria": null,
+      "categoria": "nao_avaliavel",
       "delta": null,
       "indicador_ancora": null,
-      "indicador_gap": null
+      "indicador_gap": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
     }
   },
   "indicadores": [

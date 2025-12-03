@@ -3,12 +3,11 @@
     "versao": "1.0-supremo",
     "timestamp": "2025-12-01T00:00:00Z",
     "analise_id": "enio-prado-001",
-    "aluno_id": "enio-prado",
-    "access_key": "k8mwui"
+    "aluno_id": "enio-prado"
   },
   "resumo": {
     "score_geral": 58,
-    "score_autoconfianca": 59.35,
+    "score_autoconfianca": 61,
     "categoria_geral": "adequado",
     "evolucao_percentual": 0,
     "numero_analise": 1,
@@ -45,7 +44,8 @@
       "categoria": "adequado",
       "delta": null,
       "indicador_ancora": "APLICACAO_REPERTORIO",
-      "indicador_gap": "VARIEDADE_CONHECIMENTO"
+      "indicador_gap": "VARIEDADE_CONHECIMENTO",
+      "observacao": "Avaliacao indireta baseada em vocabulario, criatividade e didatica demonstrados no video"
     }
   },
   "indicadores": [

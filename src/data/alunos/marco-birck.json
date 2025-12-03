@@ -3,12 +3,11 @@
     "versao": "1.0-supremo",
     "timestamp": "2025-12-01T15:30:00Z",
     "analise_id": "marco-birck-001",
-    "aluno_id": "marco-birck",
-    "access_key": "57hyg6"
+    "aluno_id": "marco-birck"
   },
   "resumo": {
     "score_geral": 69.8,
-    "score_autoconfianca": 57.8,
+    "score_autoconfianca": 68.5,
     "categoria_geral": "forte",
     "evolucao_percentual": null,
     "numero_analise": 1,
@@ -42,10 +41,11 @@
     "repertorio": {
       "score": null,
       "peso": 0.15,
-      "categoria": null,
+      "categoria": "nao_avaliavel",
       "delta": null,
       "indicador_ancora": null,
-      "indicador_gap": null
+      "indicador_gap": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
     }
   },
   "indicadores": [

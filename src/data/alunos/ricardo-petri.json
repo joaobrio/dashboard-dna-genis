@@ -3,12 +3,11 @@
     "versao": "1.0-supremo",
     "timestamp": "2025-12-01T10:00:00Z",
     "analise_id": "ricardo-petri-001",
-    "aluno_id": "ricardo-petri",
-    "access_key": "mtmjpn"
+    "aluno_id": "ricardo-petri"
   },
   "resumo": {
     "score_geral": 58,
-    "score_autoconfianca": 48.8,
+    "score_autoconfianca": 56,
     "categoria_geral": "adequado",
     "evolucao_percentual": 0,
     "numero_analise": 1,
@@ -42,10 +41,11 @@
     "repertorio": {
       "score": null,
       "peso": 0.15,
-      "categoria": "nao_avaliado",
+      "categoria": "nao_avaliavel",
       "delta": null,
       "indicador_ancora": null,
-      "indicador_gap": null
+      "indicador_gap": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
     }
   },
   "indicadores": [

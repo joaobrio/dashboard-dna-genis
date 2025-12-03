@@ -336,7 +336,6 @@ Vamos transformar tua comunicacao no mesmo nivel de excelencia das tuas fotograf
     "analise_id": "vitor-sim-001",
     "aluno_id": "vitor-sim"
   },
-
   "resumo": {
     "score_geral": 62,
     "score_autoconfianca": 64,
@@ -345,11 +344,10 @@ Vamos transformar tua comunicacao no mesmo nivel de excelencia das tuas fotograf
     "numero_analise": 1,
     "dias_desde_anterior": null
   },
-
   "pilares": {
     "oratoria": {
       "score": 58,
-      "peso": 0.40,
+      "peso": 0.4,
       "categoria": "adequado",
       "delta": null,
       "indicador_ancora": "DICCAO",
@@ -357,7 +355,7 @@ Vamos transformar tua comunicacao no mesmo nivel de excelencia das tuas fotograf
     },
     "interpessoal": {
       "score": 68,
-      "peso": 0.20,
+      "peso": 0.2,
       "categoria": "forte",
       "delta": null,
       "indicador_ancora": "MARKETING_PESSOAL",
@@ -374,13 +372,13 @@ Vamos transformar tua comunicacao no mesmo nivel de excelencia das tuas fotograf
     "repertorio": {
       "score": null,
       "peso": 0.15,
-      "categoria": "nao_avaliado",
+      "categoria": "nao_avaliavel",
       "delta": null,
       "indicador_ancora": null,
-      "indicador_gap": null
+      "indicador_gap": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
     }
   },
-
   "indicadores": [
     {
       "codigo": "FLUENCIA",
@@ -389,13 +387,17 @@ Vamos transformar tua comunicacao no mesmo nivel de excelencia das tuas fotograf
       "score": 48,
       "categoria": "adequado",
       "delta": null,
-      "confianca": 0.90,
+      "confianca": 0.9,
       "evidencias": [
         "Pausas preenchidas (eee) em video de 46 segundos",
         "Desvio de olhar nas hesitacoes",
         "Frequencia alta de vicios em contexto curto"
       ],
-      "timestamps": ["00:08", "00:18", "00:32"],
+      "timestamps": [
+        "00:08",
+        "00:18",
+        "00:32"
+      ],
       "aula_recomendada": "Aula 3: Fluencia Magnetica",
       "tecnica_recomendada": "Pausa Estrategica",
       "prioridade_acao": 1
@@ -413,7 +415,11 @@ Vamos transformar tua comunicacao no mesmo nivel de excelencia das tuas fotograf
         "Inclinacao da cabeca (leve desconforto)",
         "Sorriso genuino no final (autenticidade)"
       ],
-      "timestamps": ["00:15", "00:30", "00:44"],
+      "timestamps": [
+        "00:15",
+        "00:30",
+        "00:44"
+      ],
       "aula_recomendada": "Aula 2: Postura de Dominio",
       "tecnica_recomendada": "Gesticulacao Bilateral na Caixa",
       "prioridade_acao": 2
@@ -467,7 +473,11 @@ Vamos transformar tua comunicacao no mesmo nivel de excelencia das tuas fotograf
         "Estrutura clara: nicho, publico, diferenciais",
         "Objetividade evidente"
       ],
-      "timestamps": ["00:05", "00:20", "00:35"],
+      "timestamps": [
+        "00:05",
+        "00:20",
+        "00:35"
+      ],
       "aula_recomendada": null,
       "tecnica_recomendada": null,
       "prioridade_acao": null
@@ -497,7 +507,7 @@ Vamos transformar tua comunicacao no mesmo nivel de excelencia das tuas fotograf
       "score": 66,
       "categoria": "forte",
       "delta": null,
-      "confianca": 0.90,
+      "confianca": 0.9,
       "evidencias": [
         "Construcao frasal correta",
         "Concordancia adequada",
@@ -522,7 +532,9 @@ Vamos transformar tua comunicacao no mesmo nivel de excelencia das tuas fotograf
         "Especializacao evidenciada",
         "Poderia adicionar resultado/transformacao"
       ],
-      "timestamps": ["00:35"],
+      "timestamps": [
+        "00:35"
+      ],
       "aula_recomendada": "Aula 15: Timing e Fechamento",
       "tecnica_recomendada": "Storytelling de Resultados",
       "prioridade_acao": 2
@@ -540,7 +552,12 @@ Vamos transformar tua comunicacao no mesmo nivel de excelencia das tuas fotograf
         "Comunicacao clara em 46 segundos - habilidade diferenciada",
         "Nao ha linguagem minimizadora"
       ],
-      "timestamps": ["00:02", "00:12", "00:28", "00:38"],
+      "timestamps": [
+        "00:02",
+        "00:12",
+        "00:28",
+        "00:38"
+      ],
       "aula_recomendada": "Aula 10: Personal Branding",
       "tecnica_recomendada": "Storytelling de Cases",
       "prioridade_acao": null
@@ -557,7 +574,9 @@ Vamos transformar tua comunicacao no mesmo nivel de excelencia das tuas fotograf
         "'Todo mundo que vende ou necessita se comunicar atraves da propria imagem' - sintese clara do problema que resolve",
         "Cliente entende imediatamente se precisa do servico"
       ],
-      "timestamps": ["00:15"],
+      "timestamps": [
+        "00:15"
+      ],
       "aula_recomendada": null,
       "tecnica_recomendada": null,
       "prioridade_acao": null
@@ -569,7 +588,7 @@ Vamos transformar tua comunicacao no mesmo nivel de excelencia das tuas fotograf
       "score": 65,
       "categoria": "forte",
       "delta": null,
-      "confianca": 0.70,
+      "confianca": 0.7,
       "evidencias": [
         "Contexto limitado para avaliar adaptabilidade completa",
         "Demonstra capacidade de sintese (comunicacao objetiva)"
@@ -610,13 +629,105 @@ Vamos transformar tua comunicacao no mesmo nivel de excelencia das tuas fotograf
         "Especialista, nao generalista",
         "Transmite autoridade no nicho"
       ],
-      "timestamps": ["00:10", "00:25"],
+      "timestamps": [
+        "00:10",
+        "00:25"
+      ],
       "aula_recomendada": "Aula 16: Lider Comunicador",
       "tecnica_recomendada": "Comandos Verbais Diretos",
       "prioridade_acao": null
+    },
+    {
+      "codigo": "ESCUTATORIA",
+      "nome": "Escutatoria",
+      "pilar": "INTERPESSOAL",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao aplicavel em contexto de monologo - requer analise de dialogo/conversa"
+    },
+    {
+      "codigo": "VARIEDADE_CONHECIMENTO",
+      "nome": "Variedade de Conhecimento",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "CONEXAO_IDEIAS",
+      "nome": "Conexao de Ideias",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "ATUALIZACAO",
+      "nome": "Atualizacao",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "CULTURA_GERAL",
+      "nome": "Cultura Geral",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "APLICACAO_REPERTORIO",
+      "nome": "Aplicacao do Repertorio",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
     }
   ],
-
   "evolucao": {
     "historico": [
       {
@@ -629,10 +740,13 @@ Vamos transformar tua comunicacao no mesmo nivel de excelencia das tuas fotograf
     "projecao_30_dias": 68,
     "projecao_90_dias": 74
   },
-
   "plano_acao": {
     "duracao_semanas": 4,
-    "indicadores_priorizados": ["FLUENCIA", "LINGUAGEM_NAO_VERBAL", "PERSUASAO"],
+    "indicadores_priorizados": [
+      "FLUENCIA",
+      "LINGUAGEM_NAO_VERBAL",
+      "PERSUASAO"
+    ],
     "trilhas": [
       {
         "semanas": "1-2",
@@ -700,7 +814,6 @@ Vamos transformar tua comunicacao no mesmo nivel de excelencia das tuas fotograf
       "descricao": "Gravar video de 90s para Instagram/Site com: zero vicios, maos livres, gesticulacao bilateral, estrutura (apresentacao + micro-case + call-to-action), sorriso genuino, contato visual constante. Publicar e medir engajamento (meta: 10+ interacoes)."
     }
   },
-
   "materiais": [
     {
       "tipo": "aula",
@@ -752,7 +865,6 @@ Vamos transformar tua comunicacao no mesmo nivel de excelencia das tuas fotograf
       "link": null
     }
   ],
-
   "proximos_passos": {
     "imediatos": [
       "Assistir Aula 3: Fluencia Magnetica (25 min)",

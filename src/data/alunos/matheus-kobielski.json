@@ -3,8 +3,7 @@
     "versao": "1.0-supremo",
     "timestamp": "2025-12-01T14:00:00Z",
     "analise_id": "matheus-kobielski-001",
-    "aluno_id": "matheus-kobielski-555180351446",
-    "access_key": "hzbli5"
+    "aluno_id": "matheus-kobielski-555180351446"
   },
   "resumo": {
     "score_geral": 76.2,
@@ -45,7 +44,8 @@
       "categoria": "forte",
       "delta": null,
       "indicador_ancora": null,
-      "indicador_gap": null
+      "indicador_gap": null,
+      "observacao": "Avaliacao indireta baseada em vocabulario, criatividade e didatica demonstrados no video"
     }
   },
   "indicadores": [

@@ -349,7 +349,6 @@ Bora pra cima, João. Te vejo na próxima avaliação com presença profissional
     "analise_id": "joao-eduardo-001",
     "aluno_id": "joao-eduardo"
   },
-
   "resumo": {
     "score_geral": 62,
     "score_autoconfianca": 66,
@@ -358,11 +357,10 @@ Bora pra cima, João. Te vejo na próxima avaliação com presença profissional
     "numero_analise": 1,
     "dias_desde_anterior": null
   },
-
   "pilares": {
     "oratoria": {
       "score": 58,
-      "peso": 0.40,
+      "peso": 0.4,
       "categoria": "adequado",
       "delta": null,
       "indicador_ancora": "ASSERTIVIDADE",
@@ -370,7 +368,7 @@ Bora pra cima, João. Te vejo na próxima avaliação com presença profissional
     },
     "interpessoal": {
       "score": 68,
-      "peso": 0.20,
+      "peso": 0.2,
       "categoria": "forte",
       "delta": null,
       "indicador_ancora": "PERSUASAO",
@@ -390,10 +388,10 @@ Bora pra cima, João. Te vejo na próxima avaliação com presença profissional
       "categoria": "forte",
       "delta": null,
       "indicador_ancora": "APLICACAO_REPERTORIO",
-      "indicador_gap": "VARIEDADE_CONHECIMENTO"
+      "indicador_gap": "VARIEDADE_CONHECIMENTO",
+      "observacao": "Avaliacao indireta baseada em vocabulario, criatividade e didatica demonstrados no video"
     }
   },
-
   "indicadores": [
     {
       "codigo": "FLUENCIA",
@@ -402,9 +400,14 @@ Bora pra cima, João. Te vejo na próxima avaliação com presença profissional
       "score": 65,
       "categoria": "forte",
       "delta": null,
-      "confianca": 0.80,
-      "evidencias": ["Fala contínua sem travas significativas", "Transições claras"],
-      "timestamps": ["00:00-00:46"],
+      "confianca": 0.8,
+      "evidencias": [
+        "Fala contínua sem travas significativas",
+        "Transições claras"
+      ],
+      "timestamps": [
+        "00:00-00:46"
+      ],
       "aula_recomendada": "Aula 3: Fluência Magnética",
       "tecnica_recomendada": "Pausa Estratégica",
       "prioridade_acao": null
@@ -417,8 +420,14 @@ Bora pra cima, João. Te vejo na próxima avaliação com presença profissional
       "categoria": "a_desenvolver",
       "delta": null,
       "confianca": 0.95,
-      "evidencias": ["Mãos em ogiva na virilha 80% do tempo", "Oscilação corporal constante", "Inclinação lateral da cabeça recorrente"],
-      "timestamps": ["00:00-00:46"],
+      "evidencias": [
+        "Mãos em ogiva na virilha 80% do tempo",
+        "Oscilação corporal constante",
+        "Inclinação lateral da cabeça recorrente"
+      ],
+      "timestamps": [
+        "00:00-00:46"
+      ],
       "aula_recomendada": "Aula 2: Postura de Domínio",
       "tecnica_recomendada": "Power Pose + Técnica da Caixa + Distribuição de Peso 50-50",
       "prioridade_acao": 1
@@ -431,8 +440,13 @@ Bora pra cima, João. Te vejo na próxima avaliação com presença profissional
       "categoria": "adequado",
       "delta": null,
       "confianca": 0.75,
-      "evidencias": ["Variação moderada de tom", "Sorriso genuíno transmite calor"],
-      "timestamps": ["00:00-00:46"],
+      "evidencias": [
+        "Variação moderada de tom",
+        "Sorriso genuíno transmite calor"
+      ],
+      "timestamps": [
+        "00:00-00:46"
+      ],
       "aula_recomendada": "Aula 3: Fluência Magnética",
       "tecnica_recomendada": "4 Tons de Voz",
       "prioridade_acao": null
@@ -444,9 +458,14 @@ Bora pra cima, João. Te vejo na próxima avaliação com presença profissional
       "score": 62,
       "categoria": "forte",
       "delta": null,
-      "confianca": 0.80,
-      "evidencias": ["Articulação razoável", "Algumas palavras contraídas informalmente"],
-      "timestamps": ["00:00-00:46"],
+      "confianca": 0.8,
+      "evidencias": [
+        "Articulação razoável",
+        "Algumas palavras contraídas informalmente"
+      ],
+      "timestamps": [
+        "00:00-00:46"
+      ],
       "aula_recomendada": "Aula 3: Fluência Magnética",
       "tecnica_recomendada": "Rotina Matinal de Voz",
       "prioridade_acao": null
@@ -458,9 +477,14 @@ Bora pra cima, João. Te vejo na próxima avaliação com presença profissional
       "score": 70,
       "categoria": "forte",
       "delta": null,
-      "confianca": 0.90,
-      "evidencias": ["Estrutura clara: identidade-família-profissão-propósito", "Objetivo direto sem rodeios"],
-      "timestamps": ["00:00-00:46"],
+      "confianca": 0.9,
+      "evidencias": [
+        "Estrutura clara: identidade-família-profissão-propósito",
+        "Objetivo direto sem rodeios"
+      ],
+      "timestamps": [
+        "00:00-00:46"
+      ],
       "aula_recomendada": "Aula 4: Estrutura de Raciocínio",
       "tecnica_recomendada": "Framework GIVE",
       "prioridade_acao": null
@@ -473,8 +497,12 @@ Bora pra cima, João. Te vejo na próxima avaliação com presença profissional
       "categoria": "adequado",
       "delta": null,
       "confianca": 0.75,
-      "evidencias": ["Linguagem conversacional adequada mas informal para contexto profissional"],
-      "timestamps": ["00:00-00:46"],
+      "evidencias": [
+        "Linguagem conversacional adequada mas informal para contexto profissional"
+      ],
+      "timestamps": [
+        "00:00-00:46"
+      ],
       "aula_recomendada": "Aula 6: Repertório Criativo",
       "tecnica_recomendada": "Sinônimos Práticos",
       "prioridade_acao": null
@@ -486,9 +514,15 @@ Bora pra cima, João. Te vejo na próxima avaliação com presença profissional
       "score": 58,
       "categoria": "adequado",
       "delta": null,
-      "confianca": 0.90,
-      "evidencias": ["'Sou cara família' (informalidade extrema)", "'pras pessoas adquirir' (erro de concordância)"],
-      "timestamps": ["00:10-00:15", "00:25-00:30"],
+      "confianca": 0.9,
+      "evidencias": [
+        "'Sou cara família' (informalidade extrema)",
+        "'pras pessoas adquirir' (erro de concordância)"
+      ],
+      "timestamps": [
+        "00:10-00:15",
+        "00:25-00:30"
+      ],
       "aula_recomendada": "Aula 4: Estrutura de Raciocínio",
       "tecnica_recomendada": "Reescrevendo Hesitações + Leitura em Voz Alta",
       "prioridade_acao": 2
@@ -501,8 +535,13 @@ Bora pra cima, João. Te vejo na próxima avaliação com presença profissional
       "categoria": "forte",
       "delta": null,
       "confianca": 0.85,
-      "evidencias": ["Foco em benefício final (independência financeira)", "Linguagem inclusiva ('traçamos')"],
-      "timestamps": ["00:25-00:40"],
+      "evidencias": [
+        "Foco em benefício final (independência financeira)",
+        "Linguagem inclusiva ('traçamos')"
+      ],
+      "timestamps": [
+        "00:25-00:40"
+      ],
       "aula_recomendada": "Aula 15: Timing e Fechamento",
       "tecnica_recomendada": "Gatilhos Mentais Éticos",
       "prioridade_acao": null
@@ -514,9 +553,14 @@ Bora pra cima, João. Te vejo na próxima avaliação com presença profissional
       "score": 65,
       "categoria": "forte",
       "delta": null,
-      "confianca": 0.80,
-      "evidencias": ["Comunica valores (família, fé) claramente", "Falta diferencial competitivo ou nicho específico"],
-      "timestamps": ["00:00-00:46"],
+      "confianca": 0.8,
+      "evidencias": [
+        "Comunica valores (família, fé) claramente",
+        "Falta diferencial competitivo ou nicho específico"
+      ],
+      "timestamps": [
+        "00:00-00:46"
+      ],
       "aula_recomendada": "Aula 10: Personal Branding",
       "tecnica_recomendada": "Zona de Potência",
       "prioridade_acao": 3
@@ -528,9 +572,14 @@ Bora pra cima, João. Te vejo na próxima avaliação com presença profissional
       "score": 68,
       "categoria": "forte",
       "delta": null,
-      "confianca": 0.80,
-      "evidencias": ["Estrutura progressiva fácil de seguir", "Apresenta-se como pessoa antes de profissional"],
-      "timestamps": ["00:00-00:46"],
+      "confianca": 0.8,
+      "evidencias": [
+        "Estrutura progressiva fácil de seguir",
+        "Apresenta-se como pessoa antes de profissional"
+      ],
+      "timestamps": [
+        "00:00-00:46"
+      ],
       "aula_recomendada": "Aula 7: Recursos Didáticos",
       "tecnica_recomendada": "Framework GIVE",
       "prioridade_acao": null
@@ -543,8 +592,13 @@ Bora pra cima, João. Te vejo na próxima avaliação com presença profissional
       "categoria": "forte",
       "delta": null,
       "confianca": 0.75,
-      "evidencias": ["Mantém coerência em apresentação de 46s", "Sorriso genuíno demonstra conforto"],
-      "timestamps": ["00:00-00:46"],
+      "evidencias": [
+        "Mantém coerência em apresentação de 46s",
+        "Sorriso genuíno demonstra conforto"
+      ],
+      "timestamps": [
+        "00:00-00:46"
+      ],
       "aula_recomendada": "Aula 5: Autoconfiança",
       "tecnica_recomendada": "Gestão do Nervosismo",
       "prioridade_acao": null
@@ -557,8 +611,13 @@ Bora pra cima, João. Te vejo na próxima avaliação com presença profissional
       "categoria": "adequado",
       "delta": null,
       "confianca": 0.75,
-      "evidencias": ["Estrutura funcional mas previsível", "Sem analogias ou metáforas"],
-      "timestamps": ["00:00-00:46"],
+      "evidencias": [
+        "Estrutura funcional mas previsível",
+        "Sem analogias ou metáforas"
+      ],
+      "timestamps": [
+        "00:00-00:46"
+      ],
       "aula_recomendada": "Aula 6: Repertório Criativo",
       "tecnica_recomendada": "Gerador de Analogias",
       "prioridade_acao": null
@@ -571,14 +630,109 @@ Bora pra cima, João. Te vejo na próxima avaliação com presença profissional
       "categoria": "forte",
       "delta": null,
       "confianca": 0.85,
-      "evidencias": ["Afirmação de identidade forte ('filho amado de Deus')", "Sorriso genuíno", "Tom firme"],
-      "timestamps": ["00:00-00:10"],
+      "evidencias": [
+        "Afirmação de identidade forte ('filho amado de Deus')",
+        "Sorriso genuíno",
+        "Tom firme"
+      ],
+      "timestamps": [
+        "00:00-00:10"
+      ],
       "aula_recomendada": "Aula 16: Líder Comunicador",
       "tecnica_recomendada": "Comandos Verbais Diretos",
       "prioridade_acao": null
+    },
+    {
+      "codigo": "ESCUTATORIA",
+      "nome": "Escutatoria",
+      "pilar": "INTERPESSOAL",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao aplicavel em contexto de monologo - requer analise de dialogo/conversa"
+    },
+    {
+      "codigo": "VARIEDADE_CONHECIMENTO",
+      "nome": "Variedade de Conhecimento",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "CONEXAO_IDEIAS",
+      "nome": "Conexao de Ideias",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "ATUALIZACAO",
+      "nome": "Atualizacao",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "CULTURA_GERAL",
+      "nome": "Cultura Geral",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "APLICACAO_REPERTORIO",
+      "nome": "Aplicacao do Repertorio",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
     }
   ],
-
   "evolucao": {
     "historico": [
       {
@@ -591,10 +745,13 @@ Bora pra cima, João. Te vejo na próxima avaliação com presença profissional
     "projecao_30_dias": 70,
     "projecao_90_dias": 78
   },
-
   "plano_acao": {
     "duracao_semanas": 4,
-    "indicadores_priorizados": ["LINGUAGEM_NAO_VERBAL", "GRAMATICA", "MARKETING_PESSOAL"],
+    "indicadores_priorizados": [
+      "LINGUAGEM_NAO_VERBAL",
+      "GRAMATICA",
+      "MARKETING_PESSOAL"
+    ],
     "trilhas": [
       {
         "semanas": "1-2",
@@ -660,7 +817,6 @@ Bora pra cima, João. Te vejo na próxima avaliação com presença profissional
       "descricao": "Gravar mesma apresentação toda segunda durante 4 semanas aplicando progressivamente: Semana 1 (baseline), Semana 2 (postura), Semana 3 (linguagem), Semana 4 (completo)"
     }
   },
-
   "materiais": [
     {
       "tipo": "aula",
@@ -712,7 +868,6 @@ Bora pra cima, João. Te vejo na próxima avaliação com presença profissional
       "link": null
     }
   ],
-
   "proximos_passos": {
     "imediatos": [
       "Assistir Aula 2 focando em Power Pose e Técnica da Caixa",

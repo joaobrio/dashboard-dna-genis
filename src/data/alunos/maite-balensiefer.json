@@ -3,12 +3,11 @@
     "versao": "1.0-supremo",
     "timestamp": "2025-12-01T15:15:00Z",
     "analise_id": "maite-balensiefer-001",
-    "aluno_id": "maite-balensiefer",
-    "access_key": "7cc15d"
+    "aluno_id": "maite-balensiefer"
   },
   "resumo": {
     "score_geral": 71.5,
-    "score_autoconfianca": 59.9,
+    "score_autoconfianca": 70.8,
     "categoria_geral": "forte",
     "evolucao_percentual": null,
     "numero_analise": 1,
@@ -36,16 +35,17 @@
       "peso": 0.25,
       "categoria": "forte",
       "delta": null,
-      "indicador_ancora": "ENERGIA_POSITIVA",
-      "indicador_gap": "FOCO_PROFUNDIDADE"
+      "indicador_ancora": "LIDERANCA",
+      "indicador_gap": "CRIATIVIDADE"
     },
     "repertorio": {
       "score": null,
       "peso": 0.15,
-      "categoria": null,
+      "categoria": "nao_avaliavel",
       "delta": null,
       "indicador_ancora": null,
-      "indicador_gap": null
+      "indicador_gap": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
     }
   },
   "indicadores": [
@@ -167,25 +167,24 @@
       "prioridade_acao": 2
     },
     {
-      "codigo": "ENERGIA_POSITIVA",
-      "nome": "Energia Positiva",
+      "codigo": "CRIATIVIDADE",
+      "nome": "Criatividade",
       "pilar": "INTRAPESSOAL",
-      "score": 78,
+      "score": 68,
       "categoria": "forte",
       "delta": null,
-      "confianca": 0.95,
+      "confianca": 0.85,
       "evidencias": [
-        "Sorriso constante genuino",
-        "Sorriso amplia no final",
-        "Energia contagiante"
+        "Versatilidade como expressao criativa",
+        "Transita entre areas distintas",
+        "Sorriso genuino constante como recurso"
       ],
       "timestamps": [
-        "00:00-00:47",
-        "00:40-00:47"
+        "00:00-00:47"
       ],
-      "aula_recomendada": null,
-      "tecnica_recomendada": null,
-      "prioridade_acao": null
+      "aula_recomendada": "Aula 6: Repertorio Criativo",
+      "tecnica_recomendada": "Gerador de Analogias",
+      "prioridade_acao": 3
     },
     {
       "codigo": "LIDERANCA",

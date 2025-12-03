@@ -377,7 +377,7 @@ Em 30 dias, essa apresentacao vai estar no nivel de keynote speaker. Manda ver, 
   "pilares": {
     "oratoria": {
       "score": 65,
-      "peso": 0.40,
+      "peso": 0.4,
       "categoria": "adequado",
       "delta": null,
       "indicador_ancora": "ASSERTIVIDADE",
@@ -385,7 +385,7 @@ Em 30 dias, essa apresentacao vai estar no nivel de keynote speaker. Manda ver, 
     },
     "interpessoal": {
       "score": 74,
-      "peso": 0.20,
+      "peso": 0.2,
       "categoria": "forte",
       "delta": null,
       "indicador_ancora": "MARKETING_PESSOAL",
@@ -402,10 +402,11 @@ Em 30 dias, essa apresentacao vai estar no nivel de keynote speaker. Manda ver, 
     "repertorio": {
       "score": null,
       "peso": 0.15,
-      "categoria": null,
+      "categoria": "nao_avaliavel",
       "delta": null,
       "indicador_ancora": null,
-      "indicador_gap": null
+      "indicador_gap": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
     }
   },
   "indicadores": [
@@ -417,8 +418,16 @@ Em 30 dias, essa apresentacao vai estar no nivel de keynote speaker. Manda ver, 
       "categoria": "adequado",
       "delta": null,
       "confianca": 0.9,
-      "evidencias": ["5 pausas preenchidas eh... em 55s", "Pausas bem distribuidas em transicoes"],
-      "timestamps": ["00:06", "00:19", "00:25", "00:37"],
+      "evidencias": [
+        "5 pausas preenchidas eh... em 55s",
+        "Pausas bem distribuidas em transicoes"
+      ],
+      "timestamps": [
+        "00:06",
+        "00:19",
+        "00:25",
+        "00:37"
+      ],
       "aula_recomendada": "Aula 3: Fluencia Magnetica",
       "tecnica_recomendada": "Pausa Estrategica",
       "prioridade_acao": 2
@@ -431,8 +440,15 @@ Em 30 dias, essa apresentacao vai estar no nivel de keynote speaker. Manda ver, 
       "categoria": "forte",
       "delta": null,
       "confianca": 0.9,
-      "evidencias": ["Gestos naturais na caixa", "Oscilacao lateral constante", "Maos assimetricas"],
-      "timestamps": ["00:05-00:55", "00:12-00:20"],
+      "evidencias": [
+        "Gestos naturais na caixa",
+        "Oscilacao lateral constante",
+        "Maos assimetricas"
+      ],
+      "timestamps": [
+        "00:05-00:55",
+        "00:12-00:20"
+      ],
       "aula_recomendada": "Aula 2: Postura de Dominio",
       "tecnica_recomendada": "Ancoramento Postural",
       "prioridade_acao": 1
@@ -445,8 +461,15 @@ Em 30 dias, essa apresentacao vai estar no nivel de keynote speaker. Manda ver, 
       "categoria": "forte",
       "delta": null,
       "confianca": 0.95,
-      "evidencias": ["Estrutura bipartida profissional + pessoal", "Fechamento poetico sintetizando pilares"],
-      "timestamps": ["00:05-00:32", "00:37-00:50", "00:51"],
+      "evidencias": [
+        "Estrutura bipartida profissional + pessoal",
+        "Fechamento poetico sintetizando pilares"
+      ],
+      "timestamps": [
+        "00:05-00:32",
+        "00:37-00:50",
+        "00:51"
+      ],
       "aula_recomendada": null,
       "tecnica_recomendada": null,
       "prioridade_acao": null
@@ -459,67 +482,244 @@ Em 30 dias, essa apresentacao vai estar no nivel de keynote speaker. Manda ver, 
       "categoria": "forte",
       "delta": null,
       "confianca": 0.95,
-      "evidencias": ["Bom vivant como diferencial memoravel", "Equilibrio profissional-pessoal", "Fechamento poetico"],
-      "timestamps": ["00:37", "00:43", "00:51"],
+      "evidencias": [
+        "Bom vivant como diferencial memoravel",
+        "Equilibrio profissional-pessoal",
+        "Fechamento poetico"
+      ],
+      "timestamps": [
+        "00:37",
+        "00:43",
+        "00:51"
+      ],
       "aula_recomendada": null,
       "tecnica_recomendada": null,
       "prioridade_acao": null
     },
     {
-      "codigo": "AUTENTICIDADE",
-      "nome": "Autenticidade",
+      "codigo": "ESCUTATORIA",
+      "nome": "Escutatoria",
       "pilar": "INTERPESSOAL",
-      "score": 80,
-      "categoria": "forte",
+      "score": null,
+      "categoria": "nao_avaliavel",
       "delta": null,
-      "confianca": 0.95,
-      "evidencias": ["Vulnerabilidade genuina", "Reflexao critica sobre jornada", "Gestos naturais"],
-      "timestamps": ["00:25"],
-      "aula_recomendada": null,
-      "tecnica_recomendada": null,
-      "prioridade_acao": null
-    },
-    {
-      "codigo": "PERSUASAO_TECNICA",
-      "nome": "Persuasao Tecnica",
-      "pilar": "INTERPESSOAL",
-      "score": 68,
-      "categoria": "forte",
-      "delta": null,
-      "confianca": 0.85,
-      "evidencias": ["Falta dados concretos da empresa", "10 anos mas sem resultados quantitativos"],
+      "confianca": 0,
+      "evidencias": [],
       "timestamps": [],
-      "aula_recomendada": "Aula 6: Storytelling",
-      "tecnica_recomendada": "Adicionar 1-2 dados concretos",
-      "prioridade_acao": 3
-    },
-    {
-      "codigo": "AUTOCONHECIMENTO",
-      "nome": "Autoconhecimento",
-      "pilar": "INTRAPESSOAL",
-      "score": 75,
-      "categoria": "forte",
-      "delta": null,
-      "confianca": 0.9,
-      "evidencias": ["Reflexao critica sobre jornada", "Definicao alem do trabalho", "Inteligencia emocional"],
-      "timestamps": ["00:25", "00:37-00:50"],
       "aula_recomendada": null,
       "tecnica_recomendada": null,
-      "prioridade_acao": null
+      "prioridade_acao": null,
+      "observacao": "Nao aplicavel em contexto de monologo - requer analise de dialogo/conversa"
     },
     {
-      "codigo": "PRESENCA_FISICA",
-      "nome": "Presenca Fisica",
-      "pilar": "INTRAPESSOAL",
-      "score": 58,
-      "categoria": "adequado",
+      "codigo": "VARIEDADE_CONHECIMENTO",
+      "nome": "Variedade de Conhecimento",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
       "delta": null,
-      "confianca": 0.9,
-      "evidencias": ["Oscilacao lateral constante tipo pendulo", "Movimento dispersa energia"],
-      "timestamps": ["00:05-00:55"],
-      "aula_recomendada": "Aula 2: Postura de Dominio",
-      "tecnica_recomendada": "Ancoramento Postural",
-      "prioridade_acao": 1
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "CONEXAO_IDEIAS",
+      "nome": "Conexao de Ideias",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "ATUALIZACAO",
+      "nome": "Atualizacao",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "CULTURA_GERAL",
+      "nome": "Cultura Geral",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "APLICACAO_REPERTORIO",
+      "nome": "Aplicacao do Repertorio",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "MODULACAO_VOZ",
+      "nome": "Modulacao de Voz",
+      "pilar": "ORATORIA",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliado neste video - dados insuficientes"
+    },
+    {
+      "codigo": "DICCAO",
+      "nome": "Diccao",
+      "pilar": "ORATORIA",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliado neste video - dados insuficientes"
+    },
+    {
+      "codigo": "VOCABULARIO",
+      "nome": "Vocabulario",
+      "pilar": "ORATORIA",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliado neste video - dados insuficientes"
+    },
+    {
+      "codigo": "GRAMATICA",
+      "nome": "Gramatica",
+      "pilar": "ORATORIA",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliado neste video - dados insuficientes"
+    },
+    {
+      "codigo": "PERSUASAO",
+      "nome": "Persuasao",
+      "pilar": "INTERPESSOAL",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliado neste video - dados insuficientes"
+    },
+    {
+      "codigo": "DIDATICA",
+      "nome": "Didatica",
+      "pilar": "INTERPESSOAL",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliado neste video - dados insuficientes"
+    },
+    {
+      "codigo": "ADAPTABILIDADE",
+      "nome": "Adaptabilidade",
+      "pilar": "INTERPESSOAL",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliado neste video - dados insuficientes"
+    },
+    {
+      "codigo": "CRIATIVIDADE",
+      "nome": "Criatividade",
+      "pilar": "INTRAPESSOAL",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliado neste video - dados insuficientes"
+    },
+    {
+      "codigo": "LIDERANCA",
+      "nome": "Lideranca/Posicionamento",
+      "pilar": "INTRAPESSOAL",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliado neste video - dados insuficientes"
     }
   ],
   "evolucao": {
@@ -530,7 +730,11 @@ Em 30 dias, essa apresentacao vai estar no nivel de keynote speaker. Manda ver, 
   },
   "plano_acao": {
     "duracao_semanas": 4,
-    "indicadores_priorizados": ["PRESENCA_FISICA", "FLUENCIA", "PERSUASAO_TECNICA"],
+    "indicadores_priorizados": [
+      "PRESENCA_FISICA",
+      "FLUENCIA",
+      "PERSUASAO_TECNICA"
+    ],
     "trilhas": [
       {
         "semanas": "1-2",
@@ -550,7 +754,10 @@ Em 30 dias, essa apresentacao vai estar no nivel de keynote speaker. Manda ver, 
             "duracao_minutos": 5
           }
         ],
-        "criterios_sucesso": ["Menos de 20% oscilacao em 60s", "Peso distribuido 50/50"]
+        "criterios_sucesso": [
+          "Menos de 20% oscilacao em 60s",
+          "Peso distribuido 50/50"
+        ]
       },
       {
         "semanas": "3-4",
@@ -570,7 +777,10 @@ Em 30 dias, essa apresentacao vai estar no nivel de keynote speaker. Manda ver, 
             "duracao_minutos": 10
           }
         ],
-        "criterios_sucesso": ["Menos de 2 eh... em 60s", "Dado concreto integrado"]
+        "criterios_sucesso": [
+          "Menos de 2 eh... em 60s",
+          "Dado concreto integrado"
+        ]
       }
     ],
     "desafio_mes": {
@@ -602,485 +812,17 @@ Em 30 dias, essa apresentacao vai estar no nivel de keynote speaker. Manda ver, 
     }
   ],
   "proximos_passos": {
-    "imediatos": ["Assistir Aula 2: Postura de Dominio", "Gravar baseline observando oscilacao"],
-    "curto_prazo": ["Completar trilhas semana 1-4", "Enviar novo video"],
+    "imediatos": [
+      "Assistir Aula 2: Postura de Dominio",
+      "Gravar baseline observando oscilacao"
+    ],
+    "curto_prazo": [
+      "Completar trilhas semana 1-4",
+      "Enviar novo video"
+    ],
     "proxima_avaliacao": "2026-01-01",
     "meta_score_30_dias": 73,
     "meta_score_90_dias": 75
   }
 }
 ---DNA_GENIS_DASHBOARD_END---
-
-```json
----DNA_GENIS_DASHBOARD_START---
-{
-  "meta": {
-    "versao": "1.0-supremo",
-    "timestamp": "2025-12-01T06:30:00Z",
-    "analise_id": "marco-birck-001",
-    "aluno_id": "marco-birck"
-  },
-  "resumo": {
-    "score_geral": 79.8,
-    "score_autoconfianca": 79.5,
-    "categoria_geral": "forte",
-    "evolucao_percentual": null,
-    "numero_analise": 1,
-    "dias_desde_anterior": null
-  },
-  "pilares": {
-    "oratoria": {
-      "score": 78,
-      "peso": 0.4,
-      "categoria": "forte",
-      "delta": null,
-      "indicador_ancora": "ASSERTIVIDADE",
-      "indicador_gap": "FLUENCIA"
-    },
-    "interpessoal": {
-      "score": 82,
-      "peso": 0.2,
-      "categoria": "excelente",
-      "delta": null,
-      "indicador_ancora": "PERSUASAO",
-      "indicador_gap": "MARKETING_PESSOAL"
-    },
-    "intrapessoal": {
-      "score": 80,
-      "peso": 0.25,
-      "categoria": "forte",
-      "delta": null,
-      "indicador_ancora": "LIDERANCA",
-      "indicador_gap": "CRIATIVIDADE"
-    },
-    "repertorio": {
-      "score": 77,
-      "peso": 0.15,
-      "categoria": "forte",
-      "delta": null,
-      "indicador_ancora": null,
-      "indicador_gap": null
-    }
-  },
-  "indicadores": [
-    {
-      "codigo": "FLUENCIA",
-      "nome": "Fluência",
-      "pilar": "ORATORIA",
-      "score": 72,
-      "categoria": "forte",
-      "delta": null,
-      "confianca": 0.9,
-      "evidencias": [
-        "Pitch principal bem controlado (0:36-3:28)",
-        "Vícios frequentes no Q&A: 'ah...', 'é...' a partir de 3:54",
-        "Timestamps: 4:29, 5:03, 5:51, 6:45"
-      ],
-      "timestamps": [
-        "04:29",
-        "05:03",
-        "05:51",
-        "06:45"
-      ],
-      "aula_recomendada": "Aula 3: Fluência Magnética",
-      "tecnica_recomendada": "Pausa Estratégica",
-      "prioridade_acao": 1
-    },
-    {
-      "codigo": "LINGUAGEM_NAO_VERBAL",
-      "nome": "Linguagem Não Verbal",
-      "pilar": "ORATORIA",
-      "score": 80,
-      "categoria": "forte",
-      "delta": null,
-      "confianca": 0.85,
-      "evidencias": [
-        "Gestos amplos para números (0:36-1:00)",
-        "Pacing intencional pelo palco",
-        "Corpo vira pro slide em alguns momentos (1:45-2:00, 5:27-6:00)"
-      ],
-      "timestamps": [
-        "00:36",
-        "01:00",
-        "01:45",
-        "02:00",
-        "05:27",
-        "06:00"
-      ],
-      "aula_recomendada": "Aula 2: Postura de Domínio",
-      "tecnica_recomendada": "Técnica do Ponteiro",
-      "prioridade_acao": 3
-    },
-    {
-      "codigo": "MODULACAO_VOZ",
-      "nome": "Modulação de Voz",
-      "pilar": "ORATORIA",
-      "score": 75,
-      "categoria": "forte",
-      "delta": null,
-      "confianca": 0.85,
-      "evidencias": [
-        "Volume alto e projetado (uso de microfone)",
-        "Velocidade acelera em 1:05-1:45 e 2:40-3:10",
-        "Números passam rápido demais"
-      ],
-      "timestamps": [
-        "01:05",
-        "01:45",
-        "02:40",
-        "03:10"
-      ],
-      "aula_recomendada": "Aula 3: Fluência Magnética",
-      "tecnica_recomendada": "Modulação de Ritmo",
-      "prioridade_acao": 2
-    },
-    {
-      "codigo": "DICCAO",
-      "nome": "Dicção",
-      "pilar": "ORATORIA",
-      "score": 75,
-      "categoria": "forte",
-      "delta": null,
-      "confianca": 0.8,
-      "evidencias": [
-        "Articulação clara no geral",
-        "Atropela palavras quando acelera",
-        "'re-resolvidos' em 0:46"
-      ],
-      "timestamps": [
-        "00:46"
-      ],
-      "aula_recomendada": null,
-      "tecnica_recomendada": null,
-      "prioridade_acao": null
-    },
-    {
-      "codigo": "ASSERTIVIDADE",
-      "nome": "Assertividade",
-      "pilar": "ORATORIA",
-      "score": 85,
-      "categoria": "excelente",
-      "delta": null,
-      "confianca": 0.95,
-      "evidencias": [
-        "Domínio total do conteúdo",
-        "Respostas diretas no Q&A",
-        "Não usa 'eu acho' ou linguagem hesitante"
-      ],
-      "timestamps": [],
-      "aula_recomendada": null,
-      "tecnica_recomendada": null,
-      "prioridade_acao": null
-    },
-    {
-      "codigo": "VOCABULARIO",
-      "nome": "Vocabulário",
-      "pilar": "ORATORIA",
-      "score": 82,
-      "categoria": "excelente",
-      "delta": null,
-      "confianca": 0.9,
-      "evidencias": [
-        "Termos técnicos: 'LTV/CAC', 'ROAS', 'B2B2C'",
-        "Linguagem acessível quando explica para leigos"
-      ],
-      "timestamps": [],
-      "aula_recomendada": null,
-      "tecnica_recomendada": null,
-      "prioridade_acao": null
-    },
-    {
-      "codigo": "GRAMATICA",
-      "nome": "Gramática",
-      "pilar": "ORATORIA",
-      "score": 78,
-      "categoria": "forte",
-      "delta": null,
-      "confianca": 0.8,
-      "evidencias": [
-        "Correto no geral",
-        "Pequenos tropeços em fala rápida",
-        "'re-resolvidos' (0:46), 'salt...passos' (2:51)"
-      ],
-      "timestamps": [
-        "00:46",
-        "02:51"
-      ],
-      "aula_recomendada": null,
-      "tecnica_recomendada": null,
-      "prioridade_acao": null
-    },
-    {
-      "codigo": "PERSUASAO",
-      "nome": "Persuasão",
-      "pilar": "INTERPESSOAL",
-      "score": 88,
-      "categoria": "excelente",
-      "delta": null,
-      "confianca": 0.95,
-      "evidencias": [
-        "Abertura com problema real: obesidade, saúde mental",
-        "CTA forte: 'Nos escolham como startup destaque'",
-        "Fechamento humanizado: 'é sobre eles, os protagonistas'"
-      ],
-      "timestamps": [
-        "00:36",
-        "00:57",
-        "03:28",
-        "03:45"
-      ],
-      "aula_recomendada": null,
-      "tecnica_recomendada": null,
-      "prioridade_acao": null
-    },
-    {
-      "codigo": "MARKETING_PESSOAL",
-      "nome": "Marketing Pessoal",
-      "pilar": "INTERPESSOAL",
-      "score": 80,
-      "categoria": "forte",
-      "delta": null,
-      "confianca": 0.85,
-      "evidencias": [
-        "Posicionamento claro do produto",
-        "Diferencial bem comunicado",
-        "Comparação com concorrentes"
-      ],
-      "timestamps": [
-        "02:51",
-        "03:21"
-      ],
-      "aula_recomendada": null,
-      "tecnica_recomendada": null,
-      "prioridade_acao": null
-    },
-    {
-      "codigo": "DIDATICA",
-      "nome": "Didática",
-      "pilar": "INTERPESSOAL",
-      "score": 85,
-      "categoria": "excelente",
-      "delta": null,
-      "confianca": 0.9,
-      "evidencias": [
-        "Estrutura: problema → solução → tração → ask",
-        "Uso de slides como apoio visual",
-        "Aponta para partes específicas enquanto explica"
-      ],
-      "timestamps": [],
-      "aula_recomendada": null,
-      "tecnica_recomendada": null,
-      "prioridade_acao": null
-    },
-    {
-      "codigo": "ADAPTABILIDADE",
-      "nome": "Adaptabilidade",
-      "pilar": "INTERPESSOAL",
-      "score": 82,
-      "categoria": "excelente",
-      "delta": null,
-      "confianca": 0.85,
-      "evidencias": [
-        "Transição pitch→Q&A fluida",
-        "Responde perguntas técnicas e de negócio",
-        "Referencia equipe quando relevante (Rafael)"
-      ],
-      "timestamps": [
-        "03:54",
-        "05:03"
-      ],
-      "aula_recomendada": null,
-      "tecnica_recomendada": null,
-      "prioridade_acao": null
-    },
-    {
-      "codigo": "CRIATIVIDADE",
-      "nome": "Criatividade",
-      "pilar": "INTRAPESSOAL",
-      "score": 78,
-      "categoria": "forte",
-      "delta": null,
-      "confianca": 0.8,
-      "evidencias": [
-        "Abertura com impacto emocional (dados de saúde)",
-        "Encerramento humanizado",
-        "Q&A factual, sem analogias"
-      ],
-      "timestamps": [
-        "00:36",
-        "03:28"
-      ],
-      "aula_recomendada": "Aula 6: Repertório Criativo",
-      "tecnica_recomendada": "Gerador de Analogias",
-      "prioridade_acao": null
-    },
-    {
-      "codigo": "LIDERANCA",
-      "nome": "Liderança/Posicionamento",
-      "pilar": "INTRAPESSOAL",
-      "score": 85,
-      "categoria": "excelente",
-      "delta": null,
-      "confianca": 0.9,
-      "evidencias": [
-        "Presença de palco forte (pacing)",
-        "Inclina-se ao ouvir perguntas (respeito)",
-        "Tom de autoridade nas respostas"
-      ],
-      "timestamps": [
-        "03:54",
-        "04:51",
-        "06:05"
-      ],
-      "aula_recomendada": null,
-      "tecnica_recomendada": null,
-      "prioridade_acao": null
-    }
-  ],
-  "evolucao": {
-    "historico": [
-      {
-        "data": "2025-12-01",
-        "score_geral": 79.8,
-        "destaque": "Primeira análise - Demo Day Master Training"
-      }
-    ],
-    "tendencia": null,
-    "projecao_30_dias": 83,
-    "projecao_90_dias": 87
-  },
-  "plano_acao": {
-    "duracao_semanas": 4,
-    "indicadores_priorizados": [
-      "FLUENCIA",
-      "MODULACAO_VOZ",
-      "LINGUAGEM_NAO_VERBAL"
-    ],
-    "trilhas": [
-      {
-        "semanas": "1-2",
-        "foco": "FLUENCIA",
-        "objetivo": "Reduzir em 50% as pausas preenchidas durante Q&A",
-        "aula_id": 3,
-        "aula_nome": "Aula 3: Fluência Magnética",
-        "exercicios": [
-          {
-            "nome": "Gravação de Baseline",
-            "frequencia": "semanal",
-            "duracao_minutos": 10
-          },
-          {
-            "nome": "Simulação com Pausa Forçada",
-            "frequencia": "3x_semana",
-            "duracao_minutos": 15
-          },
-          {
-            "nome": "Desafio 60 Segundos Sem Vícios",
-            "frequencia": "diaria",
-            "duracao_minutos": 5
-          }
-        ],
-        "criterios_sucesso": [
-          "Menos de 3 vícios em gravação de 2 minutos",
-          "Consegue responder perguntas sem começar com 'Ah' ou 'É'",
-          "Sente conforto durante pausas de 1-2 segundos"
-        ]
-      },
-      {
-        "semanas": "3-4",
-        "foco": "MODULACAO_VOZ",
-        "objetivo": "Criar micro-pausas de impacto antes e depois de números importantes",
-        "aula_id": 3,
-        "aula_nome": "Aula 3: Fluência Magnética",
-        "exercicios": [
-          {
-            "nome": "Identificação de Dados-Chave",
-            "frequencia": "semanal",
-            "duracao_minutos": 10
-          },
-          {
-            "nome": "Prática de Desaceleração",
-            "frequencia": "diaria",
-            "duracao_minutos": 15
-          },
-          {
-            "nome": "Simulação com Feedback",
-            "frequencia": "semanal",
-            "duracao_minutos": 15
-          }
-        ],
-        "criterios_sucesso": [
-          "Audiência lembra dos números após apresentação",
-          "Sente diferença de ritmo ao falar dados vs. resto",
-          "Gravação mostra pausas visíveis antes/depois de dados"
-        ]
-      }
-    ],
-    "desafio_mes": {
-      "nome": "Simulação de Demo Day Completa",
-      "descricao": "Gravar pitch 3min + Q&A 4min. Medir: vícios no pitch (<3), vícios no Q&A (<5), modulação em dados, postura ao apontar. Meta: redução de 50% nos vícios vs baseline."
-    }
-  },
-  "materiais": [
-    {
-      "tipo": "aula",
-      "nome": "Aula 3: Fluência Magnética",
-      "indicador_relacionado": "FLUENCIA",
-      "prioridade": "alta",
-      "link": null
-    },
-    {
-      "tipo": "aula",
-      "nome": "Aula 2: Postura de Domínio",
-      "indicador_relacionado": "LINGUAGEM_NAO_VERBAL",
-      "prioridade": "media",
-      "link": null
-    },
-    {
-      "tipo": "tecnica",
-      "nome": "Pausa Estratégica",
-      "indicador_relacionado": "FLUENCIA",
-      "prioridade": "alta",
-      "link": null
-    },
-    {
-      "tipo": "tecnica",
-      "nome": "Modulação de Ritmo",
-      "indicador_relacionado": "MODULACAO_VOZ",
-      "prioridade": "alta",
-      "link": null
-    },
-    {
-      "tipo": "exercicio",
-      "nome": "Desafio 60 Segundos Sem Vícios",
-      "indicador_relacionado": "FLUENCIA",
-      "prioridade": "alta",
-      "link": null
-    },
-    {
-      "tipo": "leitura",
-      "nome": "Talk Like TED - Carmine Gallo",
-      "indicador_relacionado": "MODULACAO_VOZ",
-      "prioridade": "baixa",
-      "link": null
-    }
-  ],
-  "proximos_passos": {
-    "imediatos": [
-      "Assistir Aula 3: Fluência Magnética",
-      "Fazer gravação de baseline de 2 minutos",
-      "Contar vícios e documentar número inicial"
-    ],
-    "curto_prazo": [
-      "Completar Trilha Semana 1-2 (Eliminação de Vícios)",
-      "Completar Trilha Semana 3-4 (Modulação de Ritmo)",
-      "Executar Desafio do Mês",
-      "Enviar novo vídeo para reavaliação"
-    ],
-    "proxima_avaliacao": "2026-01-01",
-    "meta_score_30_dias": 83,
-    "meta_score_90_dias": 87
-  }
-}
----DNA_GENIS_DASHBOARD_END---
-```

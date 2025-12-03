@@ -307,7 +307,6 @@ Bora pra cima, Enio. Te vejo na próxima avaliação com evolução consolidada.
     "analise_id": "enio-prado-001",
     "aluno_id": "enio-prado"
   },
-
   "resumo": {
     "score_geral": 58,
     "score_autoconfianca": 61,
@@ -316,11 +315,10 @@ Bora pra cima, Enio. Te vejo na próxima avaliação com evolução consolidada.
     "numero_analise": 1,
     "dias_desde_anterior": null
   },
-
   "pilares": {
     "oratoria": {
       "score": 65,
-      "peso": 0.40,
+      "peso": 0.4,
       "categoria": "forte",
       "delta": null,
       "indicador_ancora": "DICCAO",
@@ -328,7 +326,7 @@ Bora pra cima, Enio. Te vejo na próxima avaliação com evolução consolidada.
     },
     "interpessoal": {
       "score": 48,
-      "peso": 0.20,
+      "peso": 0.2,
       "categoria": "adequado",
       "delta": null,
       "indicador_ancora": "ADAPTABILIDADE",
@@ -348,10 +346,10 @@ Bora pra cima, Enio. Te vejo na próxima avaliação com evolução consolidada.
       "categoria": "adequado",
       "delta": null,
       "indicador_ancora": "APLICACAO_REPERTORIO",
-      "indicador_gap": "VARIEDADE_CONHECIMENTO"
+      "indicador_gap": "VARIEDADE_CONHECIMENTO",
+      "observacao": "Avaliacao indireta baseada em vocabulario, criatividade e didatica demonstrados no video"
     }
   },
-
   "indicadores": [
     {
       "codigo": "FLUENCIA",
@@ -361,8 +359,13 @@ Bora pra cima, Enio. Te vejo na próxima avaliação com evolução consolidada.
       "categoria": "forte",
       "delta": null,
       "confianca": 0.85,
-      "evidencias": ["Fala contínua sem travas", "Ausência de vícios linguísticos notáveis"],
-      "timestamps": ["00:00-00:24"],
+      "evidencias": [
+        "Fala contínua sem travas",
+        "Ausência de vícios linguísticos notáveis"
+      ],
+      "timestamps": [
+        "00:00-00:24"
+      ],
       "aula_recomendada": "Aula 3: Fluência Magnética",
       "tecnica_recomendada": "Pausa Estratégica",
       "prioridade_acao": null
@@ -374,9 +377,15 @@ Bora pra cima, Enio. Te vejo na próxima avaliação com evolução consolidada.
       "score": 58,
       "categoria": "adequado",
       "delta": null,
-      "confianca": 0.90,
-      "evidencias": ["Gesticulação simétrica na caixa", "Movimento 'rolar' das mãos repetitivo", "Olhar fixo consistente"],
-      "timestamps": ["00:00-00:24"],
+      "confianca": 0.9,
+      "evidencias": [
+        "Gesticulação simétrica na caixa",
+        "Movimento 'rolar' das mãos repetitivo",
+        "Olhar fixo consistente"
+      ],
+      "timestamps": [
+        "00:00-00:24"
+      ],
       "aula_recomendada": "Aula 2: Postura de Domínio",
       "tecnica_recomendada": "Expansão Gestual Progressiva",
       "prioridade_acao": 3
@@ -389,8 +398,13 @@ Bora pra cima, Enio. Te vejo na próxima avaliação com evolução consolidada.
       "categoria": "adequado",
       "delta": null,
       "confianca": 0.75,
-      "evidencias": ["Tom consistente sem grande variação", "Respiração audível natural"],
-      "timestamps": ["00:00-00:24"],
+      "evidencias": [
+        "Tom consistente sem grande variação",
+        "Respiração audível natural"
+      ],
+      "timestamps": [
+        "00:00-00:24"
+      ],
       "aula_recomendada": "Aula 3: Fluência Magnética",
       "tecnica_recomendada": "4 Tons de Voz",
       "prioridade_acao": null
@@ -403,8 +417,13 @@ Bora pra cima, Enio. Te vejo na próxima avaliação com evolução consolidada.
       "categoria": "forte",
       "delta": null,
       "confianca": 0.95,
-      "evidencias": ["Articulação clara", "Sotaque regional autêntico mas inteligível"],
-      "timestamps": ["00:00-00:24"],
+      "evidencias": [
+        "Articulação clara",
+        "Sotaque regional autêntico mas inteligível"
+      ],
+      "timestamps": [
+        "00:00-00:24"
+      ],
       "aula_recomendada": "Aula 3: Fluência Magnética",
       "tecnica_recomendada": "Rotina Matinal de Voz",
       "prioridade_acao": null
@@ -416,9 +435,14 @@ Bora pra cima, Enio. Te vejo na próxima avaliação com evolução consolidada.
       "score": 55,
       "categoria": "adequado",
       "delta": null,
-      "confianca": 0.80,
-      "evidencias": ["Estrutura básica presente mas superficial", "Falta gancho inicial e encerramento impactante"],
-      "timestamps": ["00:00-00:24"],
+      "confianca": 0.8,
+      "evidencias": [
+        "Estrutura básica presente mas superficial",
+        "Falta gancho inicial e encerramento impactante"
+      ],
+      "timestamps": [
+        "00:00-00:24"
+      ],
       "aula_recomendada": "Aula 4: Estrutura de Raciocínio",
       "tecnica_recomendada": "Framework GIVE",
       "prioridade_acao": 2
@@ -430,9 +454,13 @@ Bora pra cima, Enio. Te vejo na próxima avaliação com evolução consolidada.
       "score": 68,
       "categoria": "forte",
       "delta": null,
-      "confianca": 0.70,
-      "evidencias": ["Linguagem clara e adequada ao contexto"],
-      "timestamps": ["00:00-00:24"],
+      "confianca": 0.7,
+      "evidencias": [
+        "Linguagem clara e adequada ao contexto"
+      ],
+      "timestamps": [
+        "00:00-00:24"
+      ],
       "aula_recomendada": "Aula 6: Repertório Criativo",
       "tecnica_recomendada": "Sinônimos Práticos",
       "prioridade_acao": null
@@ -444,9 +472,14 @@ Bora pra cima, Enio. Te vejo na próxima avaliação com evolução consolidada.
       "score": 70,
       "categoria": "forte",
       "delta": null,
-      "confianca": 0.90,
-      "evidencias": ["Construção frasal correta", "Concordância adequada"],
-      "timestamps": ["00:00-00:24"],
+      "confianca": 0.9,
+      "evidencias": [
+        "Construção frasal correta",
+        "Concordância adequada"
+      ],
+      "timestamps": [
+        "00:00-00:24"
+      ],
       "aula_recomendada": "Aula 4: Estrutura de Raciocínio",
       "tecnica_recomendada": "Leitura em Voz Alta",
       "prioridade_acao": null
@@ -459,8 +492,13 @@ Bora pra cima, Enio. Te vejo na próxima avaliação com evolução consolidada.
       "categoria": "adequado",
       "delta": null,
       "confianca": 0.65,
-      "evidencias": ["Ausência de gatilhos mentais", "Falta de storytelling"],
-      "timestamps": ["00:00-00:24"],
+      "evidencias": [
+        "Ausência de gatilhos mentais",
+        "Falta de storytelling"
+      ],
+      "timestamps": [
+        "00:00-00:24"
+      ],
       "aula_recomendada": "Aula 15: Timing e Fechamento",
       "tecnica_recomendada": "Storytelling em 3 Atos",
       "prioridade_acao": null
@@ -473,8 +511,13 @@ Bora pra cima, Enio. Te vejo na próxima avaliação com evolução consolidada.
       "categoria": "adequado",
       "delta": null,
       "confianca": 0.85,
-      "evidencias": ["Descrição genérica do negócio", "Não comunica diferenciais ou proposta de valor"],
-      "timestamps": ["00:07-00:12"],
+      "evidencias": [
+        "Descrição genérica do negócio",
+        "Não comunica diferenciais ou proposta de valor"
+      ],
+      "timestamps": [
+        "00:07-00:12"
+      ],
       "aula_recomendada": "Aula 10: Personal Branding e Poder da Influência",
       "tecnica_recomendada": "Pitch Pessoal + Zona de Potência",
       "prioridade_acao": 1
@@ -486,9 +529,13 @@ Bora pra cima, Enio. Te vejo na próxima avaliação com evolução consolidada.
       "score": 52,
       "categoria": "adequado",
       "delta": null,
-      "confianca": 0.70,
-      "evidencias": ["Informações organizadas mas sem profundidade"],
-      "timestamps": ["00:00-00:24"],
+      "confianca": 0.7,
+      "evidencias": [
+        "Informações organizadas mas sem profundidade"
+      ],
+      "timestamps": [
+        "00:00-00:24"
+      ],
       "aula_recomendada": "Aula 7: Recursos Didáticos",
       "tecnica_recomendada": "Framework GIVE",
       "prioridade_acao": null
@@ -501,8 +548,12 @@ Bora pra cima, Enio. Te vejo na próxima avaliação com evolução consolidada.
       "categoria": "adequado",
       "delta": null,
       "confianca": 0.75,
-      "evidencias": ["Mantém calma e coerência no tempo limitado"],
-      "timestamps": ["00:00-00:24"],
+      "evidencias": [
+        "Mantém calma e coerência no tempo limitado"
+      ],
+      "timestamps": [
+        "00:00-00:24"
+      ],
       "aula_recomendada": "Aula 5: Autoconfiança",
       "tecnica_recomendada": "Gestão do Nervosismo",
       "prioridade_acao": null
@@ -514,9 +565,14 @@ Bora pra cima, Enio. Te vejo na próxima avaliação com evolução consolidada.
       "score": 48,
       "categoria": "adequado",
       "delta": null,
-      "confianca": 0.80,
-      "evidencias": ["Formato previsível", "Ausência de analogias ou metáforas"],
-      "timestamps": ["00:00-00:24"],
+      "confianca": 0.8,
+      "evidencias": [
+        "Formato previsível",
+        "Ausência de analogias ou metáforas"
+      ],
+      "timestamps": [
+        "00:00-00:24"
+      ],
       "aula_recomendada": "Aula 6: Repertório Criativo",
       "tecnica_recomendada": "Gerador de Analogias",
       "prioridade_acao": 2
@@ -528,15 +584,110 @@ Bora pra cima, Enio. Te vejo na próxima avaliação com evolução consolidada.
       "score": 68,
       "categoria": "forte",
       "delta": null,
-      "confianca": 0.90,
-      "evidencias": ["Olhar fixo na câmera", "Tom seguro", "Postura estável"],
-      "timestamps": ["00:00-00:24"],
+      "confianca": 0.9,
+      "evidencias": [
+        "Olhar fixo na câmera",
+        "Tom seguro",
+        "Postura estável"
+      ],
+      "timestamps": [
+        "00:00-00:24"
+      ],
       "aula_recomendada": "Aula 16: Líder Comunicador",
       "tecnica_recomendada": "Power Pose",
       "prioridade_acao": null
+    },
+    {
+      "codigo": "ESCUTATORIA",
+      "nome": "Escutatoria",
+      "pilar": "INTERPESSOAL",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao aplicavel em contexto de monologo - requer analise de dialogo/conversa"
+    },
+    {
+      "codigo": "VARIEDADE_CONHECIMENTO",
+      "nome": "Variedade de Conhecimento",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "CONEXAO_IDEIAS",
+      "nome": "Conexao de Ideias",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "ATUALIZACAO",
+      "nome": "Atualizacao",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "CULTURA_GERAL",
+      "nome": "Cultura Geral",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "APLICACAO_REPERTORIO",
+      "nome": "Aplicacao do Repertorio",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
     }
   ],
-
   "evolucao": {
     "historico": [
       {
@@ -549,10 +700,13 @@ Bora pra cima, Enio. Te vejo na próxima avaliação com evolução consolidada.
     "projecao_30_dias": 68,
     "projecao_90_dias": 78
   },
-
   "plano_acao": {
     "duracao_semanas": 4,
-    "indicadores_priorizados": ["MARKETING_PESSOAL", "CRIATIVIDADE", "ASSERTIVIDADE"],
+    "indicadores_priorizados": [
+      "MARKETING_PESSOAL",
+      "CRIATIVIDADE",
+      "ASSERTIVIDADE"
+    ],
     "trilhas": [
       {
         "semanas": "1-2",
@@ -618,7 +772,6 @@ Bora pra cima, Enio. Te vejo na próxima avaliação com evolução consolidada.
       "descricao": "Gravar pitch em 3 contextos adaptando tom e linguagem: Networking Executivo, Evento Comunitário, Vídeo Redes Sociais"
     }
   },
-
   "materiais": [
     {
       "tipo": "aula",
@@ -663,7 +816,6 @@ Bora pra cima, Enio. Te vejo na próxima avaliação com evolução consolidada.
       "link": null
     }
   ],
-
   "proximos_passos": {
     "imediatos": [
       "Assistir Aula 10 focando em Zona de Potência",

@@ -338,7 +338,6 @@ Vamos juntos transformar tua comunicacao de forte em excelente.
     "analise_id": "victoria-clasen-001",
     "aluno_id": "victoria-clasen"
   },
-
   "resumo": {
     "score_geral": 68,
     "score_autoconfianca": 70,
@@ -347,11 +346,10 @@ Vamos juntos transformar tua comunicacao de forte em excelente.
     "numero_analise": 1,
     "dias_desde_anterior": null
   },
-
   "pilares": {
     "oratoria": {
       "score": 64,
-      "peso": 0.40,
+      "peso": 0.4,
       "categoria": "forte",
       "delta": null,
       "indicador_ancora": "GRAMATICA",
@@ -359,7 +357,7 @@ Vamos juntos transformar tua comunicacao de forte em excelente.
     },
     "interpessoal": {
       "score": 75,
-      "peso": 0.20,
+      "peso": 0.2,
       "categoria": "forte",
       "delta": null,
       "indicador_ancora": "DIDATICA",
@@ -376,13 +374,13 @@ Vamos juntos transformar tua comunicacao de forte em excelente.
     "repertorio": {
       "score": null,
       "peso": 0.15,
-      "categoria": "nao_avaliado",
+      "categoria": "nao_avaliavel",
       "delta": null,
       "indicador_ancora": null,
-      "indicador_gap": null
+      "indicador_gap": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
     }
   },
-
   "indicadores": [
     {
       "codigo": "FLUENCIA",
@@ -397,7 +395,10 @@ Vamos juntos transformar tua comunicacao de forte em excelente.
         "Pausas para formulacao mental",
         "Leve truncamento em transicoes de ideias"
       ],
-      "timestamps": ["Video1: 00:08, 00:22", "Video2: 00:45, 01:15, 01:58"],
+      "timestamps": [
+        "Video1: 00:08, 00:22",
+        "Video2: 00:45, 01:15, 01:58"
+      ],
       "aula_recomendada": "Aula 4: Estrutura de Raciocinio",
       "tecnica_recomendada": "Framework GIVE",
       "prioridade_acao": 1
@@ -414,7 +415,10 @@ Vamos juntos transformar tua comunicacao de forte em excelente.
         "Video1: Gesticulacao unilateral (segurando copo), balanco lateral, pes descalcos",
         "Video2: Deslocamento espacial intencional, gestos amplos, metafora da mochila visual, quebra de personagem com riso"
       ],
-      "timestamps": ["Video1: 00:05, 00:18, 00:30", "Video2: 01:20, 01:45, 02:18"],
+      "timestamps": [
+        "Video1: 00:05, 00:18, 00:30",
+        "Video2: 01:20, 01:45, 02:18"
+      ],
       "aula_recomendada": "Aula 2: Postura de Dominio",
       "tecnica_recomendada": "Power Pose + Ancoragem Espacial",
       "prioridade_acao": 2
@@ -432,7 +436,9 @@ Vamos juntos transformar tua comunicacao de forte em excelente.
         "Energia adequada ao contexto",
         "Enfases em palavras-chave"
       ],
-      "timestamps": ["Video2: 00:30, 01:10, 01:50"],
+      "timestamps": [
+        "Video2: 00:30, 01:10, 01:50"
+      ],
       "aula_recomendada": null,
       "tecnica_recomendada": null,
       "prioridade_acao": null
@@ -444,7 +450,7 @@ Vamos juntos transformar tua comunicacao de forte em excelente.
       "score": 70,
       "categoria": "forte",
       "delta": null,
-      "confianca": 0.90,
+      "confianca": 0.9,
       "evidencias": [
         "Pronuncia clara e compreensivel",
         "Boa articulacao",
@@ -468,7 +474,9 @@ Vamos juntos transformar tua comunicacao de forte em excelente.
         "Estrutura narrativa presente",
         "Poderia ser mais direta em alguns momentos"
       ],
-      "timestamps": ["Video2: 00:20, 01:00"],
+      "timestamps": [
+        "Video2: 00:20, 01:00"
+      ],
       "aula_recomendada": "Aula 4: Estrutura de Raciocinio",
       "tecnica_recomendada": "Framework GIVE",
       "prioridade_acao": 1
@@ -480,7 +488,7 @@ Vamos juntos transformar tua comunicacao de forte em excelente.
       "score": 66,
       "categoria": "forte",
       "delta": null,
-      "confianca": 0.80,
+      "confianca": 0.8,
       "evidencias": [
         "Vocabulario adequado e variado",
         "Uso de expressoes criativas",
@@ -522,7 +530,9 @@ Vamos juntos transformar tua comunicacao de forte em excelente.
         "Conexao emocional com audiencia",
         "Argumentacao clara"
       ],
-      "timestamps": ["Video2: 00:40, 01:30"],
+      "timestamps": [
+        "Video2: 00:40, 01:30"
+      ],
       "aula_recomendada": "Aula 15: Timing e Fechamento",
       "tecnica_recomendada": "Storytelling em 3 Atos",
       "prioridade_acao": null
@@ -540,7 +550,9 @@ Vamos juntos transformar tua comunicacao de forte em excelente.
         "Posicionamento claro e objetivo",
         "Comunicacao de diferenciais sem arrogancia"
       ],
-      "timestamps": ["Video1: 00:02"],
+      "timestamps": [
+        "Video1: 00:02"
+      ],
       "aula_recomendada": "Aula 10: Personal Branding",
       "tecnica_recomendada": "Storytelling de Cases",
       "prioridade_acao": null
@@ -558,7 +570,10 @@ Vamos juntos transformar tua comunicacao de forte em excelente.
         "Video2: Analogia da mochila cheia - metafora visual potente",
         "Storytelling em camadas (geracao Z → desafios → educacao → transformacao)"
       ],
-      "timestamps": ["Video1: 00:10", "Video2: 01:20"],
+      "timestamps": [
+        "Video1: 00:10",
+        "Video2: 01:20"
+      ],
       "aula_recomendada": "Aula 7: Recursos Didaticos",
       "tecnica_recomendada": "Ancoragem Espacial Sistematizada",
       "prioridade_acao": null
@@ -576,7 +591,9 @@ Vamos juntos transformar tua comunicacao de forte em excelente.
         "Ajuste de tom, vocabulario e energia conforme contexto",
         "Versatilidade comunicacional evidente"
       ],
-      "timestamps": ["Comparacao entre videos"],
+      "timestamps": [
+        "Comparacao entre videos"
+      ],
       "aula_recomendada": null,
       "tecnica_recomendada": null,
       "prioridade_acao": null
@@ -588,14 +605,16 @@ Vamos juntos transformar tua comunicacao de forte em excelente.
       "score": 76,
       "categoria": "forte",
       "delta": null,
-      "confianca": 0.90,
+      "confianca": 0.9,
       "evidencias": [
         "Metafora da mochila cheia com gesticulacao visual",
         "Quebra de personagem intencional (riso genuino)",
         "Deslocamento espacial para ilustrar ideias",
         "Conexao criativa: geracao Z + educacao + transformacao"
       ],
-      "timestamps": ["Video2: 01:20, 02:18"],
+      "timestamps": [
+        "Video2: 01:20, 02:18"
+      ],
       "aula_recomendada": "Aula 6: Repertorio Criativo",
       "tecnica_recomendada": "Metaforas Originais Sistematicas",
       "prioridade_acao": null
@@ -614,13 +633,105 @@ Vamos juntos transformar tua comunicacao de forte em excelente.
         "Conduz narrativa com clareza",
         "Quebra de personagem demonstra seguranca"
       ],
-      "timestamps": ["Video1: 00:05", "Video2: 00:30, 02:18"],
+      "timestamps": [
+        "Video1: 00:05",
+        "Video2: 00:30, 02:18"
+      ],
       "aula_recomendada": "Aula 16: Lider Comunicador",
       "tecnica_recomendada": "Comandos Verbais Diretos",
       "prioridade_acao": null
+    },
+    {
+      "codigo": "ESCUTATORIA",
+      "nome": "Escutatoria",
+      "pilar": "INTERPESSOAL",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao aplicavel em contexto de monologo - requer analise de dialogo/conversa"
+    },
+    {
+      "codigo": "VARIEDADE_CONHECIMENTO",
+      "nome": "Variedade de Conhecimento",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "CONEXAO_IDEIAS",
+      "nome": "Conexao de Ideias",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "ATUALIZACAO",
+      "nome": "Atualizacao",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "CULTURA_GERAL",
+      "nome": "Cultura Geral",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "APLICACAO_REPERTORIO",
+      "nome": "Aplicacao do Repertorio",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
     }
   ],
-
   "evolucao": {
     "historico": [
       {
@@ -633,10 +744,13 @@ Vamos juntos transformar tua comunicacao de forte em excelente.
     "projecao_30_dias": 74,
     "projecao_90_dias": 80
   },
-
   "plano_acao": {
     "duracao_semanas": 4,
-    "indicadores_priorizados": ["FLUENCIA", "ASSERTIVIDADE", "LINGUAGEM_NAO_VERBAL"],
+    "indicadores_priorizados": [
+      "FLUENCIA",
+      "ASSERTIVIDADE",
+      "LINGUAGEM_NAO_VERBAL"
+    ],
     "trilhas": [
       {
         "semanas": "1-2",
@@ -702,7 +816,6 @@ Vamos juntos transformar tua comunicacao de forte em excelente.
       "descricao": "Gravar video de 3min apresentando Grupo Brio com: GIVE impecavel, 2 metaforas criativas, ancoragem corporal (zero balanco), ancoragem espacial (3 zonas), quebra de personagem intencional. Validar em apresentacao comercial real."
     }
   },
-
   "materiais": [
     {
       "tipo": "aula",
@@ -754,7 +867,6 @@ Vamos juntos transformar tua comunicacao de forte em excelente.
       "link": null
     }
   ],
-
   "proximos_passos": {
     "imediatos": [
       "Assistir Aula 4: Estrutura de Raciocinio (30 min)",

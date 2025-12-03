@@ -352,7 +352,6 @@ Vamos transformar tua comunicacao de forte em excelente. Tu ja tens o conteudo -
     "analise_id": "willian-001",
     "aluno_id": "willian"
   },
-
   "resumo": {
     "score_geral": 64,
     "score_autoconfianca": 66,
@@ -361,11 +360,10 @@ Vamos transformar tua comunicacao de forte em excelente. Tu ja tens o conteudo -
     "numero_analise": 1,
     "dias_desde_anterior": null
   },
-
   "pilares": {
     "oratoria": {
       "score": 66,
-      "peso": 0.40,
+      "peso": 0.4,
       "categoria": "forte",
       "delta": null,
       "indicador_ancora": "ASSERTIVIDADE",
@@ -373,7 +371,7 @@ Vamos transformar tua comunicacao de forte em excelente. Tu ja tens o conteudo -
     },
     "interpessoal": {
       "score": 60,
-      "peso": 0.20,
+      "peso": 0.2,
       "categoria": "adequado",
       "delta": null,
       "indicador_ancora": "MARKETING_PESSOAL",
@@ -390,13 +388,13 @@ Vamos transformar tua comunicacao de forte em excelente. Tu ja tens o conteudo -
     "repertorio": {
       "score": null,
       "peso": 0.15,
-      "categoria": "nao_avaliado",
+      "categoria": "nao_avaliavel",
       "delta": null,
       "indicador_ancora": null,
-      "indicador_gap": null
+      "indicador_gap": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
     }
   },
-
   "indicadores": [
     {
       "codigo": "FLUENCIA",
@@ -411,7 +409,9 @@ Vamos transformar tua comunicacao de forte em excelente. Tu ja tens o conteudo -
         "Fluencia adequada apos inicio",
         "Contexto muito curto (24s) limita avaliacao completa"
       ],
-      "timestamps": ["00:02"],
+      "timestamps": [
+        "00:02"
+      ],
       "aula_recomendada": "Aula 3: Fluencia Magnetica",
       "tecnica_recomendada": "Aquecimento Pre-Apresentacao",
       "prioridade_acao": null
@@ -429,7 +429,12 @@ Vamos transformar tua comunicacao de forte em excelente. Tu ja tens o conteudo -
         "Gestos simetricos (adequado)",
         "Piscar frequente (possivel nervosismo)"
       ],
-      "timestamps": ["00:05", "00:10", "00:15", "00:20"],
+      "timestamps": [
+        "00:05",
+        "00:10",
+        "00:15",
+        "00:20"
+      ],
       "aula_recomendada": "Aula 2: Postura de Dominio",
       "tecnica_recomendada": "Ancoragem Corporal + Power Pose",
       "prioridade_acao": 1
@@ -441,7 +446,7 @@ Vamos transformar tua comunicacao de forte em excelente. Tu ja tens o conteudo -
       "score": 64,
       "categoria": "forte",
       "delta": null,
-      "confianca": 0.80,
+      "confianca": 0.8,
       "evidencias": [
         "Tom executivo adequado",
         "Variacoes naturais presentes",
@@ -483,7 +488,11 @@ Vamos transformar tua comunicacao de forte em excelente. Tu ja tens o conteudo -
         "Densidade informacional maxima sem comprometer clareza",
         "Objetividade evidente - vai direto ao ponto"
       ],
-      "timestamps": ["00:02", "00:08", "00:15"],
+      "timestamps": [
+        "00:02",
+        "00:08",
+        "00:15"
+      ],
       "aula_recomendada": null,
       "tecnica_recomendada": null,
       "prioridade_acao": null
@@ -495,13 +504,15 @@ Vamos transformar tua comunicacao de forte em excelente. Tu ja tens o conteudo -
       "score": 70,
       "categoria": "forte",
       "delta": null,
-      "confianca": 0.90,
+      "confianca": 0.9,
       "evidencias": [
         "Uso preciso de termos tecnicos (infraestrutura, rede, analise de dados, performance, processos, rotinas, operacional)",
         "Vocabulario executivo adequado",
         "Demonstra dominio tecnico"
       ],
-      "timestamps": ["00:12"],
+      "timestamps": [
+        "00:12"
+      ],
       "aula_recomendada": null,
       "tecnica_recomendada": null,
       "prioridade_acao": null
@@ -555,7 +566,10 @@ Vamos transformar tua comunicacao de forte em excelente. Tu ja tens o conteudo -
         "Vinculo institucional forte (BTG)",
         "Escopo tecnico detalhado comunicado claramente"
       ],
-      "timestamps": ["00:05", "00:12"],
+      "timestamps": [
+        "00:05",
+        "00:12"
+      ],
       "aula_recomendada": "Aula 10: Personal Branding",
       "tecnica_recomendada": "Comunicar Impacto vs Funcao",
       "prioridade_acao": 2
@@ -567,13 +581,15 @@ Vamos transformar tua comunicacao de forte em excelente. Tu ja tens o conteudo -
       "score": 62,
       "categoria": "forte",
       "delta": null,
-      "confianca": 0.80,
+      "confianca": 0.8,
       "evidencias": [
         "Lista clara de areas de atuacao",
         "Poderia usar sintese ou analogia para facilitar compreensao",
         "Listagem vs Sintese"
       ],
-      "timestamps": ["00:12"],
+      "timestamps": [
+        "00:12"
+      ],
       "aula_recomendada": "Aula 7: Recursos Didaticos",
       "tecnica_recomendada": "Analogias para Conceitos Tecnicos",
       "prioridade_acao": 2
@@ -585,7 +601,7 @@ Vamos transformar tua comunicacao de forte em excelente. Tu ja tens o conteudo -
       "score": 56,
       "categoria": "adequado",
       "delta": null,
-      "confianca": 0.60,
+      "confianca": 0.6,
       "evidencias": [
         "Contexto muito limitado (24s) impede avaliacao completa",
         "Video curto nao permite observar versatilidade comunicacional"
@@ -602,7 +618,7 @@ Vamos transformar tua comunicacao de forte em excelente. Tu ja tens o conteudo -
       "score": 58,
       "categoria": "adequado",
       "delta": null,
-      "confianca": 0.70,
+      "confianca": 0.7,
       "evidencias": [
         "Apresentacao objetiva e direta",
         "Sem recursos criativos (analogias, metaforas) no contexto de 24s",
@@ -620,19 +636,111 @@ Vamos transformar tua comunicacao de forte em excelente. Tu ja tens o conteudo -
       "score": 74,
       "categoria": "forte",
       "delta": null,
-      "confianca": 0.90,
+      "confianca": 0.9,
       "evidencias": [
         "Tom de executivo evidente",
         "Posicionamento claro de lideranca dupla (economista-chefe + tech lead)",
         "Autoridade tecnica transmitida naturalmente"
       ],
-      "timestamps": ["00:05", "00:12"],
+      "timestamps": [
+        "00:05",
+        "00:12"
+      ],
       "aula_recomendada": "Aula 16: Lider Comunicador",
       "tecnica_recomendada": "Comandos Verbais Diretos",
       "prioridade_acao": null
+    },
+    {
+      "codigo": "ESCUTATORIA",
+      "nome": "Escutatoria",
+      "pilar": "INTERPESSOAL",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao aplicavel em contexto de monologo - requer analise de dialogo/conversa"
+    },
+    {
+      "codigo": "VARIEDADE_CONHECIMENTO",
+      "nome": "Variedade de Conhecimento",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "CONEXAO_IDEIAS",
+      "nome": "Conexao de Ideias",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "ATUALIZACAO",
+      "nome": "Atualizacao",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "CULTURA_GERAL",
+      "nome": "Cultura Geral",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "APLICACAO_REPERTORIO",
+      "nome": "Aplicacao do Repertorio",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
     }
   ],
-
   "evolucao": {
     "historico": [
       {
@@ -645,10 +753,13 @@ Vamos transformar tua comunicacao de forte em excelente. Tu ja tens o conteudo -
     "projecao_30_dias": 70,
     "projecao_90_dias": 76
   },
-
   "plano_acao": {
     "duracao_semanas": 4,
-    "indicadores_priorizados": ["LINGUAGEM_NAO_VERBAL", "PERSUASAO", "DIDATICA"],
+    "indicadores_priorizados": [
+      "LINGUAGEM_NAO_VERBAL",
+      "PERSUASAO",
+      "DIDATICA"
+    ],
     "trilhas": [
       {
         "semanas": "1-2",
@@ -714,7 +825,6 @@ Vamos transformar tua comunicacao de forte em excelente. Tu ja tens o conteudo -
       "descricao": "Gravar video de 2min para C-Level com: ancoragem impecavel (zero balanco), estrutura completa (apresentacao + areas + impacto + 2 analogias + visao futura), tom executivo, dados quantificados, call-to-action. Validar com colega/gestor."
     }
   },
-
   "materiais": [
     {
       "tipo": "aula",
@@ -773,7 +883,6 @@ Vamos transformar tua comunicacao de forte em excelente. Tu ja tens o conteudo -
       "link": null
     }
   ],
-
   "proximos_passos": {
     "imediatos": [
       "Assistir Aula 2: Postura de Dominio (25 min)",

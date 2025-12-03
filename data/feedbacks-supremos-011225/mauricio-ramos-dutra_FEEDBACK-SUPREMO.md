@@ -470,7 +470,6 @@ Manda ver. Você já começou a jornada. Agora é acelerar.
     "analise_id": "mauricio-ramos-dutra-001",
     "aluno_id": "mauricio-ramos-dutra-555193937827"
   },
-
   "resumo": {
     "score_geral": 68.5,
     "score_autoconfianca": 67.2,
@@ -479,11 +478,10 @@ Manda ver. Você já começou a jornada. Agora é acelerar.
     "numero_analise": 1,
     "dias_desde_anterior": null
   },
-
   "pilares": {
     "oratoria": {
       "score": 64,
-      "peso": 0.40,
+      "peso": 0.4,
       "categoria": "adequado",
       "delta": null,
       "indicador_ancora": "GRAMATICA",
@@ -491,7 +489,7 @@ Manda ver. Você já começou a jornada. Agora é acelerar.
     },
     "interpessoal": {
       "score": 68,
-      "peso": 0.20,
+      "peso": 0.2,
       "categoria": "adequado",
       "delta": null,
       "indicador_ancora": "MARKETING_PESSOAL",
@@ -511,10 +509,10 @@ Manda ver. Você já começou a jornada. Agora é acelerar.
       "categoria": "forte",
       "delta": null,
       "indicador_ancora": null,
-      "indicador_gap": null
+      "indicador_gap": null,
+      "observacao": "Avaliacao indireta baseada em vocabulario, criatividade e didatica demonstrados no video"
     }
   },
-
   "indicadores": [
     {
       "codigo": "FLUENCIA",
@@ -530,7 +528,15 @@ Manda ver. Você já começou a jornada. Agora é acelerar.
         "Hesitações silábicas: 'ge-gestão'",
         "Correções mid-phrase: 'aluno da... do grupo'"
       ],
-      "timestamps": ["00:00", "00:09", "00:18", "00:37", "00:46", "01:00", "01:07"],
+      "timestamps": [
+        "00:00",
+        "00:09",
+        "00:18",
+        "00:37",
+        "00:46",
+        "01:00",
+        "01:07"
+      ],
       "aula_recomendada": "Aula 3: Fluência Magnética",
       "tecnica_recomendada": "Pausa Estratégica + Respiração Diafragmática",
       "prioridade_acao": 1
@@ -585,7 +591,9 @@ Manda ver. Você já começou a jornada. Agora é acelerar.
         "Hesitações silábicas quebram fluxo: 'ge-gestão'",
         "Não é problema muscular, é sincronização pensamento-fala"
       ],
-      "timestamps": ["00:37"],
+      "timestamps": [
+        "00:37"
+      ],
       "aula_recomendada": null,
       "tecnica_recomendada": null,
       "prioridade_acao": null
@@ -657,7 +665,9 @@ Manda ver. Você já começou a jornada. Agora é acelerar.
         "Entrega hesitante reduz impacto emocional",
         "Oportunidade: mesma frase com pausa intencional teria 50% mais impacto"
       ],
-      "timestamps": ["01:27"],
+      "timestamps": [
+        "01:27"
+      ],
       "aula_recomendada": null,
       "tecnica_recomendada": null,
       "prioridade_acao": null
@@ -747,13 +757,105 @@ Manda ver. Você já começou a jornada. Agora é acelerar.
         "Menção explícita: 'perder medo de apresentar'",
         "Reconhecimento é pré-requisito para evolução"
       ],
-      "timestamps": ["01:07", "01:20"],
+      "timestamps": [
+        "01:07",
+        "01:20"
+      ],
       "aula_recomendada": "Aula 16: Líder Comunicador",
       "tecnica_recomendada": null,
       "prioridade_acao": null
+    },
+    {
+      "codigo": "ESCUTATORIA",
+      "nome": "Escutatoria",
+      "pilar": "INTERPESSOAL",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao aplicavel em contexto de monologo - requer analise de dialogo/conversa"
+    },
+    {
+      "codigo": "VARIEDADE_CONHECIMENTO",
+      "nome": "Variedade de Conhecimento",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "CONEXAO_IDEIAS",
+      "nome": "Conexao de Ideias",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "ATUALIZACAO",
+      "nome": "Atualizacao",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "CULTURA_GERAL",
+      "nome": "Cultura Geral",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "APLICACAO_REPERTORIO",
+      "nome": "Aplicacao do Repertorio",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
     }
   ],
-
   "evolucao": {
     "historico": [
       {
@@ -766,10 +868,13 @@ Manda ver. Você já começou a jornada. Agora é acelerar.
     "projecao_60_dias": 73,
     "projecao_120_dias": 78
   },
-
   "plano_acao": {
     "duracao_semanas": 8,
-    "indicadores_priorizados": ["FLUENCIA", "LINGUAGEM_NAO_VERBAL", "LIDERANCA"],
+    "indicadores_priorizados": [
+      "FLUENCIA",
+      "LINGUAGEM_NAO_VERBAL",
+      "LIDERANCA"
+    ],
     "trilhas": [
       {
         "semanas": "1-4",
@@ -835,7 +940,6 @@ Manda ver. Você já começou a jornada. Agora é acelerar.
       "descricao": "Apresentação de 60seg no BNI com: zero 'é'/'então'/'eu... eu', 2+ pausas estratégicas, mãos livres. Meta: máximo 1 vício, feedback positivo do grupo."
     }
   },
-
   "materiais": [
     {
       "tipo": "aula",
@@ -873,7 +977,6 @@ Manda ver. Você já começou a jornada. Agora é acelerar.
       "link": null
     }
   ],
-
   "proximos_passos": {
     "imediatos": [
       "Revisitar Aula 3: Fluência Magnética (já cursou, rever com foco em vícios)",

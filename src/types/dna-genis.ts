@@ -35,6 +35,7 @@ export interface PillarData {
   delta: number | null;
   indicador_ancora: string | null;
   indicador_gap: string | null;
+  observacao?: string; // Campo para pilar repertorio quando nao avaliavel
 }
 
 // Dados de um Indicador

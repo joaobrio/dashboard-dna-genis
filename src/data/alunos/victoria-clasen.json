@@ -3,12 +3,11 @@
     "versao": "1.0-supremo",
     "timestamp": "2025-12-01T10:30:00Z",
     "analise_id": "victoria-clasen-001",
-    "aluno_id": "victoria-clasen",
-    "access_key": "c3eqfp"
+    "aluno_id": "victoria-clasen"
   },
   "resumo": {
     "score_geral": 68,
-    "score_autoconfianca": 58.6,
+    "score_autoconfianca": 70,
     "categoria_geral": "forte",
     "evolucao_percentual": 0,
     "numero_analise": 1,
@@ -42,10 +41,11 @@
     "repertorio": {
       "score": null,
       "peso": 0.15,
-      "categoria": "nao_avaliado",
+      "categoria": "nao_avaliavel",
       "delta": null,
       "indicador_ancora": null,
-      "indicador_gap": null
+      "indicador_gap": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
     }
   },
   "indicadores": [

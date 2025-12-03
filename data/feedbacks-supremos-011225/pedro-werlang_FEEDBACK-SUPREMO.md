@@ -444,7 +444,6 @@ Manda ver.
     "analise_id": "pedro-werlang-001",
     "aluno_id": "pedro-werlang-555199483556"
   },
-
   "resumo": {
     "score_geral": 79.8,
     "score_autoconfianca": 79.5,
@@ -453,11 +452,10 @@ Manda ver.
     "numero_analise": 1,
     "dias_desde_anterior": null
   },
-
   "pilares": {
     "oratoria": {
       "score": 78,
-      "peso": 0.40,
+      "peso": 0.4,
       "categoria": "forte",
       "delta": null,
       "indicador_ancora": "ASSERTIVIDADE",
@@ -465,7 +463,7 @@ Manda ver.
     },
     "interpessoal": {
       "score": 82,
-      "peso": 0.20,
+      "peso": 0.2,
       "categoria": "excelente",
       "delta": null,
       "indicador_ancora": "PERSUASAO",
@@ -485,10 +483,10 @@ Manda ver.
       "categoria": "forte",
       "delta": null,
       "indicador_ancora": null,
-      "indicador_gap": null
+      "indicador_gap": null,
+      "observacao": "Avaliacao indireta baseada em vocabulario, criatividade e didatica demonstrados no video"
     }
   },
-
   "indicadores": [
     {
       "codigo": "FLUENCIA",
@@ -503,7 +501,12 @@ Manda ver.
         "Vícios frequentes no Q&A: 'ah...', 'é...' a partir de 3:54",
         "Timestamps: 4:29, 5:03, 5:51, 6:45"
       ],
-      "timestamps": ["04:29", "05:03", "05:51", "06:45"],
+      "timestamps": [
+        "04:29",
+        "05:03",
+        "05:51",
+        "06:45"
+      ],
       "aula_recomendada": "Aula 3: Fluência Magnética",
       "tecnica_recomendada": "Pausa Estratégica",
       "prioridade_acao": 1
@@ -521,7 +524,14 @@ Manda ver.
         "Pacing intencional pelo palco",
         "Corpo vira pro slide em alguns momentos (1:45-2:00, 5:27-6:00)"
       ],
-      "timestamps": ["00:36", "01:00", "01:45", "02:00", "05:27", "06:00"],
+      "timestamps": [
+        "00:36",
+        "01:00",
+        "01:45",
+        "02:00",
+        "05:27",
+        "06:00"
+      ],
       "aula_recomendada": "Aula 2: Postura de Domínio",
       "tecnica_recomendada": "Técnica do Ponteiro",
       "prioridade_acao": 3
@@ -539,7 +549,12 @@ Manda ver.
         "Velocidade acelera em 1:05-1:45 e 2:40-3:10",
         "Números passam rápido demais"
       ],
-      "timestamps": ["01:05", "01:45", "02:40", "03:10"],
+      "timestamps": [
+        "01:05",
+        "01:45",
+        "02:40",
+        "03:10"
+      ],
       "aula_recomendada": "Aula 3: Fluência Magnética",
       "tecnica_recomendada": "Modulação de Ritmo",
       "prioridade_acao": 2
@@ -557,7 +572,9 @@ Manda ver.
         "Atropela palavras quando acelera",
         "'re-resolvidos' em 0:46"
       ],
-      "timestamps": ["00:46"],
+      "timestamps": [
+        "00:46"
+      ],
       "aula_recomendada": null,
       "tecnica_recomendada": null,
       "prioridade_acao": null
@@ -610,7 +627,10 @@ Manda ver.
         "Pequenos tropeços em fala rápida",
         "'re-resolvidos' (0:46), 'salt...passos' (2:51)"
       ],
-      "timestamps": ["00:46", "02:51"],
+      "timestamps": [
+        "00:46",
+        "02:51"
+      ],
       "aula_recomendada": null,
       "tecnica_recomendada": null,
       "prioridade_acao": null
@@ -628,7 +648,12 @@ Manda ver.
         "CTA forte: 'Nos escolham como startup destaque'",
         "Fechamento humanizado: 'é sobre eles, os protagonistas'"
       ],
-      "timestamps": ["00:36", "00:57", "03:28", "03:45"],
+      "timestamps": [
+        "00:36",
+        "00:57",
+        "03:28",
+        "03:45"
+      ],
       "aula_recomendada": null,
       "tecnica_recomendada": null,
       "prioridade_acao": null
@@ -646,7 +671,10 @@ Manda ver.
         "Diferencial bem comunicado",
         "Comparação com concorrentes"
       ],
-      "timestamps": ["02:51", "03:21"],
+      "timestamps": [
+        "02:51",
+        "03:21"
+      ],
       "aula_recomendada": null,
       "tecnica_recomendada": null,
       "prioridade_acao": null
@@ -682,7 +710,10 @@ Manda ver.
         "Responde perguntas técnicas e de negócio",
         "Referencia equipe quando relevante (Rafael)"
       ],
-      "timestamps": ["03:54", "05:03"],
+      "timestamps": [
+        "03:54",
+        "05:03"
+      ],
       "aula_recomendada": null,
       "tecnica_recomendada": null,
       "prioridade_acao": null
@@ -700,7 +731,10 @@ Manda ver.
         "Encerramento humanizado",
         "Q&A factual, sem analogias"
       ],
-      "timestamps": ["00:36", "03:28"],
+      "timestamps": [
+        "00:36",
+        "03:28"
+      ],
       "aula_recomendada": "Aula 6: Repertório Criativo",
       "tecnica_recomendada": "Gerador de Analogias",
       "prioridade_acao": null
@@ -718,13 +752,106 @@ Manda ver.
         "Inclina-se ao ouvir perguntas (respeito)",
         "Tom de autoridade nas respostas"
       ],
-      "timestamps": ["03:54", "04:51", "06:05"],
+      "timestamps": [
+        "03:54",
+        "04:51",
+        "06:05"
+      ],
       "aula_recomendada": null,
       "tecnica_recomendada": null,
       "prioridade_acao": null
+    },
+    {
+      "codigo": "ESCUTATORIA",
+      "nome": "Escutatoria",
+      "pilar": "INTERPESSOAL",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao aplicavel em contexto de monologo - requer analise de dialogo/conversa"
+    },
+    {
+      "codigo": "VARIEDADE_CONHECIMENTO",
+      "nome": "Variedade de Conhecimento",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "CONEXAO_IDEIAS",
+      "nome": "Conexao de Ideias",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "ATUALIZACAO",
+      "nome": "Atualizacao",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "CULTURA_GERAL",
+      "nome": "Cultura Geral",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "APLICACAO_REPERTORIO",
+      "nome": "Aplicacao do Repertorio",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
     }
   ],
-
   "evolucao": {
     "historico": [
       {
@@ -737,10 +864,13 @@ Manda ver.
     "projecao_30_dias": 83,
     "projecao_90_dias": 87
   },
-
   "plano_acao": {
     "duracao_semanas": 4,
-    "indicadores_priorizados": ["FLUENCIA", "MODULACAO_VOZ", "LINGUAGEM_NAO_VERBAL"],
+    "indicadores_priorizados": [
+      "FLUENCIA",
+      "MODULACAO_VOZ",
+      "LINGUAGEM_NAO_VERBAL"
+    ],
     "trilhas": [
       {
         "semanas": "1-2",
@@ -806,7 +936,6 @@ Manda ver.
       "descricao": "Gravar pitch 3min + Q&A 4min. Medir: vícios no pitch (<3), vícios no Q&A (<5), modulação em dados, postura ao apontar. Meta: redução de 50% nos vícios vs baseline."
     }
   },
-
   "materiais": [
     {
       "tipo": "aula",
@@ -851,7 +980,6 @@ Manda ver.
       "link": null
     }
   ],
-
   "proximos_passos": {
     "imediatos": [
       "Assistir Aula 3: Fluência Magnética",

@@ -3,12 +3,11 @@
     "versao": "1.0-supremo",
     "timestamp": "2025-12-01T15:00:00Z",
     "analise_id": "lucas-harth-001",
-    "aluno_id": "lucas-harth",
-    "access_key": "qocx7a"
+    "aluno_id": "lucas-harth"
   },
   "resumo": {
     "score_geral": 68.2,
-    "score_autoconfianca": 56.65,
+    "score_autoconfianca": 67.5,
     "categoria_geral": "forte",
     "evolucao_percentual": null,
     "numero_analise": 1,
@@ -42,10 +41,11 @@
     "repertorio": {
       "score": null,
       "peso": 0.15,
-      "categoria": null,
+      "categoria": "nao_avaliavel",
       "delta": null,
       "indicador_ancora": null,
-      "indicador_gap": null
+      "indicador_gap": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
     }
   },
   "indicadores": [

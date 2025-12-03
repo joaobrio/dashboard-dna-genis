@@ -353,7 +353,6 @@ Bora pra cima. Te vejo na próxima avaliação com domínio total de contexto.
     "analise_id": "guilherme-lorenzatto-001",
     "aluno_id": "guilherme-lorenzatto"
   },
-
   "resumo": {
     "score_geral": 74,
     "score_autoconfianca": 78,
@@ -362,11 +361,10 @@ Bora pra cima. Te vejo na próxima avaliação com domínio total de contexto.
     "numero_analise": 1,
     "dias_desde_anterior": null
   },
-
   "pilares": {
     "oratoria": {
       "score": 72,
-      "peso": 0.40,
+      "peso": 0.4,
       "categoria": "forte",
       "delta": null,
       "indicador_ancora": "ASSERTIVIDADE",
@@ -374,7 +372,7 @@ Bora pra cima. Te vejo na próxima avaliação com domínio total de contexto.
     },
     "interpessoal": {
       "score": 82,
-      "peso": 0.20,
+      "peso": 0.2,
       "categoria": "excelente",
       "delta": null,
       "indicador_ancora": "MARKETING_PESSOAL",
@@ -394,10 +392,10 @@ Bora pra cima. Te vejo na próxima avaliação com domínio total de contexto.
       "categoria": "forte",
       "delta": null,
       "indicador_ancora": "APLICACAO_REPERTORIO",
-      "indicador_gap": "CONEXAO_IDEIAS"
+      "indicador_gap": "CONEXAO_IDEIAS",
+      "observacao": "Avaliacao indireta baseada em vocabulario, criatividade e didatica demonstrados no video"
     }
   },
-
   "indicadores": [
     {
       "codigo": "FLUENCIA",
@@ -407,8 +405,13 @@ Bora pra cima. Te vejo na próxima avaliação com domínio total de contexto.
       "categoria": "excelente",
       "delta": null,
       "confianca": 0.95,
-      "evidencias": ["Fala contínua sem hesitação", "Ritmo acelerado mas sem travas"],
-      "timestamps": ["00:00-00:17"],
+      "evidencias": [
+        "Fala contínua sem hesitação",
+        "Ritmo acelerado mas sem travas"
+      ],
+      "timestamps": [
+        "00:00-00:17"
+      ],
       "aula_recomendada": "Aula 3: Fluência Magnética",
       "tecnica_recomendada": "Pausa Estratégica",
       "prioridade_acao": null
@@ -420,9 +423,15 @@ Bora pra cima. Te vejo na próxima avaliação com domínio total de contexto.
       "score": 78,
       "categoria": "forte",
       "delta": null,
-      "confianca": 0.90,
-      "evidencias": ["Gesticulação intensa constante", "Olhar fixo", "Apontar para câmera no CTA"],
-      "timestamps": ["00:00-00:17"],
+      "confianca": 0.9,
+      "evidencias": [
+        "Gesticulação intensa constante",
+        "Olhar fixo",
+        "Apontar para câmera no CTA"
+      ],
+      "timestamps": [
+        "00:00-00:17"
+      ],
       "aula_recomendada": "Aula 2: Postura de Domínio",
       "tecnica_recomendada": "Variação Gestual Contextual",
       "prioridade_acao": null
@@ -435,8 +444,14 @@ Bora pra cima. Te vejo na próxima avaliação com domínio total de contexto.
       "categoria": "adequado",
       "delta": null,
       "confianca": 0.85,
-      "evidencias": ["Ritmo extremamente acelerado", "Falta pausas de ênfase", "Tom consistente sem variação"],
-      "timestamps": ["00:00-00:17"],
+      "evidencias": [
+        "Ritmo extremamente acelerado",
+        "Falta pausas de ênfase",
+        "Tom consistente sem variação"
+      ],
+      "timestamps": [
+        "00:00-00:17"
+      ],
       "aula_recomendada": "Aula 3: Fluência Magnética",
       "tecnica_recomendada": "Pausa Estratégica + 4 Tons de Voz",
       "prioridade_acao": 1
@@ -448,9 +463,13 @@ Bora pra cima. Te vejo na próxima avaliação com domínio total de contexto.
       "score": 80,
       "categoria": "forte",
       "delta": null,
-      "confianca": 0.90,
-      "evidencias": ["Articulação clara mesmo em ritmo acelerado"],
-      "timestamps": ["00:00-00:17"],
+      "confianca": 0.9,
+      "evidencias": [
+        "Articulação clara mesmo em ritmo acelerado"
+      ],
+      "timestamps": [
+        "00:00-00:17"
+      ],
       "aula_recomendada": "Aula 3: Fluência Magnética",
       "tecnica_recomendada": "Rotina Matinal de Voz",
       "prioridade_acao": null
@@ -463,8 +482,14 @@ Bora pra cima. Te vejo na próxima avaliação com domínio total de contexto.
       "categoria": "excelente",
       "delta": null,
       "confianca": 0.98,
-      "evidencias": ["Estrutura perfeita: identidade-nicho-credibilidade-CTA", "Zero hesitação", "Linguagem direta"],
-      "timestamps": ["00:00-00:17"],
+      "evidencias": [
+        "Estrutura perfeita: identidade-nicho-credibilidade-CTA",
+        "Zero hesitação",
+        "Linguagem direta"
+      ],
+      "timestamps": [
+        "00:00-00:17"
+      ],
       "aula_recomendada": "Aula 4: Estrutura de Raciocínio",
       "tecnica_recomendada": "Framework GIVE",
       "prioridade_acao": null
@@ -476,9 +501,13 @@ Bora pra cima. Te vejo na próxima avaliação com domínio total de contexto.
       "score": 75,
       "categoria": "forte",
       "delta": null,
-      "confianca": 0.80,
-      "evidencias": ["Terminologia técnica precisa do nicho"],
-      "timestamps": ["00:00-00:17"],
+      "confianca": 0.8,
+      "evidencias": [
+        "Terminologia técnica precisa do nicho"
+      ],
+      "timestamps": [
+        "00:00-00:17"
+      ],
       "aula_recomendada": "Aula 6: Repertório Criativo",
       "tecnica_recomendada": "Sinônimos Práticos",
       "prioridade_acao": null
@@ -491,8 +520,12 @@ Bora pra cima. Te vejo na próxima avaliação com domínio total de contexto.
       "categoria": "forte",
       "delta": null,
       "confianca": 0.75,
-      "evidencias": ["Construção frasal correta, estilo coloquial intencional"],
-      "timestamps": ["00:00-00:17"],
+      "evidencias": [
+        "Construção frasal correta, estilo coloquial intencional"
+      ],
+      "timestamps": [
+        "00:00-00:17"
+      ],
       "aula_recomendada": "Aula 4: Estrutura de Raciocínio",
       "tecnica_recomendada": "Leitura em Voz Alta",
       "prioridade_acao": null
@@ -505,8 +538,14 @@ Bora pra cima. Te vejo na próxima avaliação com domínio total de contexto.
       "categoria": "excelente",
       "delta": null,
       "confianca": 0.92,
-      "evidencias": ["Gatilho de autoridade (13 anos)", "Prova social (50 milhões)", "Reciprocidade (CTA final)"],
-      "timestamps": ["00:00-00:17"],
+      "evidencias": [
+        "Gatilho de autoridade (13 anos)",
+        "Prova social (50 milhões)",
+        "Reciprocidade (CTA final)"
+      ],
+      "timestamps": [
+        "00:00-00:17"
+      ],
       "aula_recomendada": "Aula 15: Timing e Fechamento",
       "tecnica_recomendada": "Gatilhos Mentais Éticos",
       "prioridade_acao": null
@@ -519,8 +558,14 @@ Bora pra cima. Te vejo na próxima avaliação com domínio total de contexto.
       "categoria": "excelente",
       "delta": null,
       "confianca": 0.98,
-      "evidencias": ["Posicionamento cirúrgico em nicho ultra-específico", "Números concretos (13 anos, 50 milhões)", "Diferenciação clara"],
-      "timestamps": ["00:00-00:17"],
+      "evidencias": [
+        "Posicionamento cirúrgico em nicho ultra-específico",
+        "Números concretos (13 anos, 50 milhões)",
+        "Diferenciação clara"
+      ],
+      "timestamps": [
+        "00:00-00:17"
+      ],
       "aula_recomendada": "Aula 10: Personal Branding",
       "tecnica_recomendada": "Pitch Pessoal",
       "prioridade_acao": null
@@ -533,8 +578,13 @@ Bora pra cima. Te vejo na próxima avaliação com domínio total de contexto.
       "categoria": "forte",
       "delta": null,
       "confianca": 0.75,
-      "evidencias": ["Jargão técnico sem simplificação", "Densidade alta sem pausas para absorção"],
-      "timestamps": ["00:00-00:17"],
+      "evidencias": [
+        "Jargão técnico sem simplificação",
+        "Densidade alta sem pausas para absorção"
+      ],
+      "timestamps": [
+        "00:00-00:17"
+      ],
       "aula_recomendada": "Aula 7: Recursos Didáticos",
       "tecnica_recomendada": "Analogias Simplificadoras",
       "prioridade_acao": 3
@@ -546,9 +596,13 @@ Bora pra cima. Te vejo na próxima avaliação com domínio total de contexto.
       "score": 75,
       "categoria": "forte",
       "delta": null,
-      "confianca": 0.70,
-      "evidencias": ["Otimizado para contexto específico (elevator pitch rápido)"],
-      "timestamps": ["00:00-00:17"],
+      "confianca": 0.7,
+      "evidencias": [
+        "Otimizado para contexto específico (elevator pitch rápido)"
+      ],
+      "timestamps": [
+        "00:00-00:17"
+      ],
       "aula_recomendada": "Aula 5: Autoconfiança",
       "tecnica_recomendada": "Adaptação Contextual",
       "prioridade_acao": null
@@ -560,9 +614,14 @@ Bora pra cima. Te vejo na próxima avaliação com domínio total de contexto.
       "score": 62,
       "categoria": "forte",
       "delta": null,
-      "confianca": 0.80,
-      "evidencias": ["Formato funcional mas previsível", "Sem analogias ou metáforas"],
-      "timestamps": ["00:00-00:17"],
+      "confianca": 0.8,
+      "evidencias": [
+        "Formato funcional mas previsível",
+        "Sem analogias ou metáforas"
+      ],
+      "timestamps": [
+        "00:00-00:17"
+      ],
       "aula_recomendada": "Aula 6: Repertório Criativo",
       "tecnica_recomendada": "Gerador de Analogias",
       "prioridade_acao": 2
@@ -574,15 +633,110 @@ Bora pra cima. Te vejo na próxima avaliação com domínio total de contexto.
       "score": 72,
       "categoria": "forte",
       "delta": null,
-      "confianca": 0.90,
-      "evidencias": ["Postura de dono da conversa", "Comando visual (apontar câmera)", "Tom assertivo"],
-      "timestamps": ["00:00-00:17"],
+      "confianca": 0.9,
+      "evidencias": [
+        "Postura de dono da conversa",
+        "Comando visual (apontar câmera)",
+        "Tom assertivo"
+      ],
+      "timestamps": [
+        "00:00-00:17"
+      ],
       "aula_recomendada": "Aula 16: Líder Comunicador",
       "tecnica_recomendada": "Comandos Verbais Diretos",
       "prioridade_acao": null
+    },
+    {
+      "codigo": "ESCUTATORIA",
+      "nome": "Escutatoria",
+      "pilar": "INTERPESSOAL",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao aplicavel em contexto de monologo - requer analise de dialogo/conversa"
+    },
+    {
+      "codigo": "VARIEDADE_CONHECIMENTO",
+      "nome": "Variedade de Conhecimento",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "CONEXAO_IDEIAS",
+      "nome": "Conexao de Ideias",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "ATUALIZACAO",
+      "nome": "Atualizacao",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "CULTURA_GERAL",
+      "nome": "Cultura Geral",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "APLICACAO_REPERTORIO",
+      "nome": "Aplicacao do Repertorio",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
     }
   ],
-
   "evolucao": {
     "historico": [
       {
@@ -595,10 +749,13 @@ Bora pra cima. Te vejo na próxima avaliação com domínio total de contexto.
     "projecao_30_dias": 80,
     "projecao_90_dias": 86
   },
-
   "plano_acao": {
     "duracao_semanas": 4,
-    "indicadores_priorizados": ["MODULACAO_VOZ", "CRIATIVIDADE", "DIDATICA"],
+    "indicadores_priorizados": [
+      "MODULACAO_VOZ",
+      "CRIATIVIDADE",
+      "DIDATICA"
+    ],
     "trilhas": [
       {
         "semanas": "1-2",
@@ -664,7 +821,6 @@ Bora pra cima. Te vejo na próxima avaliação com domínio total de contexto.
       "descricao": "Gravar pitch em 5 contextos reais adaptando velocidade/criatividade/didática: networking executivo, cliente leigo, LinkedIn, podcast, palestra"
     }
   },
-
   "materiais": [
     {
       "tipo": "aula",
@@ -716,7 +872,6 @@ Bora pra cima. Te vejo na próxima avaliação com domínio total de contexto.
       "link": null
     }
   ],
-
   "proximos_passos": {
     "imediatos": [
       "Assistir Aula 3 focando em Pausa Estratégica",

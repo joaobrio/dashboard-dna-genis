@@ -3,12 +3,11 @@
     "versao": "1.0-supremo",
     "timestamp": "2025-12-01T11:00:00Z",
     "analise_id": "vitor-sim-001",
-    "aluno_id": "vitor-sim",
-    "access_key": "wlsvs5"
+    "aluno_id": "vitor-sim"
   },
   "resumo": {
     "score_geral": 62,
-    "score_autoconfianca": 52.8,
+    "score_autoconfianca": 64,
     "categoria_geral": "forte",
     "evolucao_percentual": 0,
     "numero_analise": 1,
@@ -42,10 +41,11 @@
     "repertorio": {
       "score": null,
       "peso": 0.15,
-      "categoria": "nao_avaliado",
+      "categoria": "nao_avaliavel",
       "delta": null,
       "indicador_ancora": null,
-      "indicador_gap": null
+      "indicador_gap": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
     }
   },
   "indicadores": [

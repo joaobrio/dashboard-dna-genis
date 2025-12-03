@@ -322,7 +322,6 @@ Vamos juntos nessa jornada. Primeiro passo: assistir a Aula 3 e gravar teu prime
     "analise_id": "ricardo-petri-001",
     "aluno_id": "ricardo-petri"
   },
-
   "resumo": {
     "score_geral": 58,
     "score_autoconfianca": 56,
@@ -331,11 +330,10 @@ Vamos juntos nessa jornada. Primeiro passo: assistir a Aula 3 e gravar teu prime
     "numero_analise": 1,
     "dias_desde_anterior": null
   },
-
   "pilares": {
     "oratoria": {
       "score": 52,
-      "peso": 0.40,
+      "peso": 0.4,
       "categoria": "adequado",
       "delta": null,
       "indicador_ancora": "GRAMATICA",
@@ -343,7 +341,7 @@ Vamos juntos nessa jornada. Primeiro passo: assistir a Aula 3 e gravar teu prime
     },
     "interpessoal": {
       "score": 55,
-      "peso": 0.20,
+      "peso": 0.2,
       "categoria": "adequado",
       "delta": null,
       "indicador_ancora": "DIDATICA",
@@ -360,13 +358,13 @@ Vamos juntos nessa jornada. Primeiro passo: assistir a Aula 3 e gravar teu prime
     "repertorio": {
       "score": null,
       "peso": 0.15,
-      "categoria": "nao_avaliado",
+      "categoria": "nao_avaliavel",
       "delta": null,
       "indicador_ancora": null,
-      "indicador_gap": null
+      "indicador_gap": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
     }
   },
-
   "indicadores": [
     {
       "codigo": "FLUENCIA",
@@ -382,7 +380,12 @@ Vamos juntos nessa jornada. Primeiro passo: assistir a Aula 3 e gravar teu prime
         "Hesitacoes visiveis (predo... perdendo)",
         "Alongamento de sons sem funcao"
       ],
-      "timestamps": ["00:15", "00:32", "00:58", "01:12"],
+      "timestamps": [
+        "00:15",
+        "00:32",
+        "00:58",
+        "01:12"
+      ],
       "aula_recomendada": "Aula 3: Fluencia Magnetica",
       "tecnica_recomendada": "Pausa Estrategica",
       "prioridade_acao": 1
@@ -401,7 +404,11 @@ Vamos juntos nessa jornada. Primeiro passo: assistir a Aula 3 e gravar teu prime
         "Desvio de olhar nas pausas",
         "Oculos e barba grisalha transmitem experiencia"
       ],
-      "timestamps": ["00:08", "00:45", "01:05"],
+      "timestamps": [
+        "00:08",
+        "00:45",
+        "01:05"
+      ],
       "aula_recomendada": "Aula 2: Postura de Dominio",
       "tecnica_recomendada": "Power Pose",
       "prioridade_acao": 3
@@ -419,7 +426,10 @@ Vamos juntos nessa jornada. Primeiro passo: assistir a Aula 3 e gravar teu prime
         "Variacoes naturais presentes",
         "Energia moderada, poderia intensificar em pontos-chave"
       ],
-      "timestamps": ["00:22", "00:50"],
+      "timestamps": [
+        "00:22",
+        "00:50"
+      ],
       "aula_recomendada": "Aula 3: Fluencia Magnetica",
       "tecnica_recomendada": "4 Tons de Voz",
       "prioridade_acao": null
@@ -455,7 +465,10 @@ Vamos juntos nessa jornada. Primeiro passo: assistir a Aula 3 e gravar teu prime
         "Vai ao ponto mas com rodeios nas pausas",
         "Clareza na mensagem principal"
       ],
-      "timestamps": ["00:18", "01:00"],
+      "timestamps": [
+        "00:18",
+        "01:00"
+      ],
       "aula_recomendada": "Aula 4: Estrutura de Raciocinio",
       "tecnica_recomendada": "Framework GIVE",
       "prioridade_acao": null
@@ -467,7 +480,7 @@ Vamos juntos nessa jornada. Primeiro passo: assistir a Aula 3 e gravar teu prime
       "score": 54,
       "categoria": "adequado",
       "delta": null,
-      "confianca": 0.80,
+      "confianca": 0.8,
       "evidencias": [
         "Vocabulario tecnico adequado",
         "Uso de palavras acessiveis",
@@ -509,7 +522,9 @@ Vamos juntos nessa jornada. Primeiro passo: assistir a Aula 3 e gravar teu prime
         "Uso de analogias persuasivas",
         "Falta intencionalidade mais clara"
       ],
-      "timestamps": ["00:40"],
+      "timestamps": [
+        "00:40"
+      ],
       "aula_recomendada": "Aula 15: Timing e Fechamento",
       "tecnica_recomendada": "Construtor de Argumentos Triplos",
       "prioridade_acao": null
@@ -521,13 +536,15 @@ Vamos juntos nessa jornada. Primeiro passo: assistir a Aula 3 e gravar teu prime
       "score": 48,
       "categoria": "adequado",
       "delta": null,
-      "confianca": 0.90,
+      "confianca": 0.9,
       "evidencias": [
         "Apresenta empresa e area claramente",
         "USO DE LINGUAGEM MINIMIZADORA: 'mercado pouco explorado mas importante, pouco valorizado'",
         "Auto-sabotagem comunicacional ao minimizar valor do proprio mercado"
       ],
-      "timestamps": ["00:12"],
+      "timestamps": [
+        "00:12"
+      ],
       "aula_recomendada": "Aula 10: Personal Branding e Poder da Influencia",
       "tecnica_recomendada": "Zona de Potencia",
       "prioridade_acao": 2
@@ -545,7 +562,9 @@ Vamos juntos nessa jornada. Primeiro passo: assistir a Aula 3 e gravar teu prime
         "Explicacao clara de conceito tecnico complexo",
         "Adaptacao de linguagem para publico nao-tecnico"
       ],
-      "timestamps": ["00:35"],
+      "timestamps": [
+        "00:35"
+      ],
       "aula_recomendada": null,
       "tecnica_recomendada": "Gerador de Analogias",
       "prioridade_acao": null
@@ -557,7 +576,7 @@ Vamos juntos nessa jornada. Primeiro passo: assistir a Aula 3 e gravar teu prime
       "score": 55,
       "categoria": "adequado",
       "delta": null,
-      "confianca": 0.70,
+      "confianca": 0.7,
       "evidencias": [
         "Contexto limitado para avaliar adaptabilidade completa",
         "Demonstra capacidade de ajustar linguagem (tecnico → acessivel)"
@@ -580,7 +599,10 @@ Vamos juntos nessa jornada. Primeiro passo: assistir a Aula 3 e gravar teu prime
         "Metafora: 'TI tem 30 anos, e uma crianca ainda'",
         "Capacidade de gerar conexoes inusitadas entre areas diferentes"
       ],
-      "timestamps": ["00:35", "01:20"],
+      "timestamps": [
+        "00:35",
+        "01:20"
+      ],
       "aula_recomendada": "Aula 6: Repertorio Criativo",
       "tecnica_recomendada": "Gerador de Analogias Sistematicas",
       "prioridade_acao": null
@@ -598,13 +620,105 @@ Vamos juntos nessa jornada. Primeiro passo: assistir a Aula 3 e gravar teu prime
         "Posicionamento claro sobre importancia da infraestrutura",
         "Experiencia evidente na forma de falar"
       ],
-      "timestamps": ["00:25", "00:48"],
+      "timestamps": [
+        "00:25",
+        "00:48"
+      ],
       "aula_recomendada": "Aula 16: Lider Comunicador",
       "tecnica_recomendada": "Comandos Verbais Diretos",
       "prioridade_acao": null
+    },
+    {
+      "codigo": "ESCUTATORIA",
+      "nome": "Escutatoria",
+      "pilar": "INTERPESSOAL",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao aplicavel em contexto de monologo - requer analise de dialogo/conversa"
+    },
+    {
+      "codigo": "VARIEDADE_CONHECIMENTO",
+      "nome": "Variedade de Conhecimento",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "CONEXAO_IDEIAS",
+      "nome": "Conexao de Ideias",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "ATUALIZACAO",
+      "nome": "Atualizacao",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "CULTURA_GERAL",
+      "nome": "Cultura Geral",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "APLICACAO_REPERTORIO",
+      "nome": "Aplicacao do Repertorio",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
     }
   ],
-
   "evolucao": {
     "historico": [
       {
@@ -617,10 +731,13 @@ Vamos juntos nessa jornada. Primeiro passo: assistir a Aula 3 e gravar teu prime
     "projecao_30_dias": 65,
     "projecao_90_dias": 72
   },
-
   "plano_acao": {
     "duracao_semanas": 4,
-    "indicadores_priorizados": ["FLUENCIA", "MARKETING_PESSOAL", "LINGUAGEM_NAO_VERBAL"],
+    "indicadores_priorizados": [
+      "FLUENCIA",
+      "MARKETING_PESSOAL",
+      "LINGUAGEM_NAO_VERBAL"
+    ],
     "trilhas": [
       {
         "semanas": "1-2",
@@ -686,7 +803,6 @@ Vamos juntos nessa jornada. Primeiro passo: assistir a Aula 3 e gravar teu prime
       "descricao": "Gravar video de 90s apresentando Rede Petri com: zero vicios, analogia criativa, linguagem de autoridade, contato visual constante, estrutura GIVE. Validar com 3 clientes/prospects."
     }
   },
-
   "materiais": [
     {
       "tipo": "aula",
@@ -731,7 +847,6 @@ Vamos juntos nessa jornada. Primeiro passo: assistir a Aula 3 e gravar teu prime
       "link": null
     }
   ],
-
   "proximos_passos": {
     "imediatos": [
       "Assistir Aula 3: Fluencia Magnetica (25 min)",

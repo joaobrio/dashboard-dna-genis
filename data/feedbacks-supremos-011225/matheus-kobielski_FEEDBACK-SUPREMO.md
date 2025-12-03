@@ -448,7 +448,6 @@ Manda ver.
     "analise_id": "matheus-kobielski-001",
     "aluno_id": "matheus-kobielski-555180351446"
   },
-
   "resumo": {
     "score_geral": 76.2,
     "score_autoconfianca": 75.8,
@@ -457,11 +456,10 @@ Manda ver.
     "numero_analise": 1,
     "dias_desde_anterior": null
   },
-
   "pilares": {
     "oratoria": {
       "score": 75,
-      "peso": 0.40,
+      "peso": 0.4,
       "categoria": "forte",
       "delta": null,
       "indicador_ancora": "DICCAO",
@@ -469,7 +467,7 @@ Manda ver.
     },
     "interpessoal": {
       "score": 80,
-      "peso": 0.20,
+      "peso": 0.2,
       "categoria": "forte",
       "delta": null,
       "indicador_ancora": "DIDATICA",
@@ -489,10 +487,10 @@ Manda ver.
       "categoria": "forte",
       "delta": null,
       "indicador_ancora": null,
-      "indicador_gap": null
+      "indicador_gap": null,
+      "observacao": "Avaliacao indireta baseada em vocabulario, criatividade e didatica demonstrados no video"
     }
   },
-
   "indicadores": [
     {
       "codigo": "FLUENCIA",
@@ -507,7 +505,12 @@ Manda ver.
         "Apenas 2-3 preenchimentos vocais leves em 73 segundos",
         "Pausas intencionais entre blocos (trabalho, origem, família)"
       ],
-      "timestamps": ["00:04", "00:18", "00:29", "00:47"],
+      "timestamps": [
+        "00:04",
+        "00:18",
+        "00:29",
+        "00:47"
+      ],
       "aula_recomendada": "Aula 3: Fluência Magnética",
       "tecnica_recomendada": "Pausa Estratégica",
       "prioridade_acao": 3
@@ -526,7 +529,14 @@ Manda ver.
         "Breve abertura ao falar 'família grande' (30cm)",
         "Gestos limitados à zona baixa"
       ],
-      "timestamps": ["00:00", "00:10", "00:25", "00:40", "00:55", "01:13"],
+      "timestamps": [
+        "00:00",
+        "00:10",
+        "00:25",
+        "00:40",
+        "00:55",
+        "01:13"
+      ],
       "aula_recomendada": "Aula 2: Postura de Domínio",
       "tecnica_recomendada": "Caixa dos Gestos + Triângulo de Apoio",
       "prioridade_acao": 1
@@ -634,7 +644,10 @@ Manda ver.
         "Tom humilde e acessível",
         "Gera simpatia imediata"
       ],
-      "timestamps": ["01:04", "01:09"],
+      "timestamps": [
+        "01:04",
+        "01:09"
+      ],
       "aula_recomendada": null,
       "tecnica_recomendada": null,
       "prioridade_acao": null
@@ -706,7 +719,9 @@ Manda ver.
         "Sem elementos de storytelling",
         "Oportunidade em transformar '2 maratonas' em micro-história"
       ],
-      "timestamps": ["00:41"],
+      "timestamps": [
+        "00:41"
+      ],
       "aula_recomendada": "Aula 6: Repertório Criativo",
       "tecnica_recomendada": "Micro-Storytelling (Fato→Sentimento→Lição)",
       "prioridade_acao": 2
@@ -725,13 +740,107 @@ Manda ver.
         "Tom seguro, sem pedidos de validação",
         "Transmite acessibilidade + confiança"
       ],
-      "timestamps": ["00:00", "00:29", "00:41", "01:09"],
+      "timestamps": [
+        "00:00",
+        "00:29",
+        "00:41",
+        "01:09"
+      ],
       "aula_recomendada": null,
       "tecnica_recomendada": null,
       "prioridade_acao": null
+    },
+    {
+      "codigo": "ESCUTATORIA",
+      "nome": "Escutatoria",
+      "pilar": "INTERPESSOAL",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao aplicavel em contexto de monologo - requer analise de dialogo/conversa"
+    },
+    {
+      "codigo": "VARIEDADE_CONHECIMENTO",
+      "nome": "Variedade de Conhecimento",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "CONEXAO_IDEIAS",
+      "nome": "Conexao de Ideias",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "ATUALIZACAO",
+      "nome": "Atualizacao",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "CULTURA_GERAL",
+      "nome": "Cultura Geral",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "APLICACAO_REPERTORIO",
+      "nome": "Aplicacao do Repertorio",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
     }
   ],
-
   "evolucao": {
     "historico": [
       {
@@ -744,10 +853,13 @@ Manda ver.
     "projecao_30_dias": 79,
     "projecao_90_dias": 83
   },
-
   "plano_acao": {
     "duracao_semanas": 4,
-    "indicadores_priorizados": ["LINGUAGEM_NAO_VERBAL", "CRIATIVIDADE", "DIDATICA"],
+    "indicadores_priorizados": [
+      "LINGUAGEM_NAO_VERBAL",
+      "CRIATIVIDADE",
+      "DIDATICA"
+    ],
     "trilhas": [
       {
         "semanas": "1-2",
@@ -813,7 +925,6 @@ Manda ver.
       "descricao": "Gravar apresentação de 90-120seg aplicando variação gestual, apoio central, 1 micro-história e estrutura lógica. Obter feedback de 3 pessoas sobre memorabilidade e confiança transmitida."
     }
   },
-
   "materiais": [
     {
       "tipo": "aula",
@@ -851,7 +962,6 @@ Manda ver.
       "link": null
     }
   ],
-
   "proximos_passos": {
     "imediatos": [
       "Assistir Aula 2: Postura de Domínio",

@@ -23,6 +23,7 @@ export const dnaGenisAnalysisSchema = z.object({
       delta: z.number().nullable(),
       indicador_ancora: z.string().nullable(),
       indicador_gap: z.string().nullable(),
+      observacao: z.string().optional(), // Campo para pilar repertorio quando nao avaliavel
     })
   ),
   indicadores: z.array(

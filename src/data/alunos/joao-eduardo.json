@@ -3,12 +3,11 @@
     "versao": "1.0-supremo",
     "timestamp": "2025-12-01T00:00:00Z",
     "analise_id": "joao-eduardo-001",
-    "aluno_id": "joao-eduardo",
-    "access_key": "s7rkfl"
+    "aluno_id": "joao-eduardo"
   },
   "resumo": {
     "score_geral": 62,
-    "score_autoconfianca": 62.35,
+    "score_autoconfianca": 66,
     "categoria_geral": "forte",
     "evolucao_percentual": 0,
     "numero_analise": 1,
@@ -45,7 +44,8 @@
       "categoria": "forte",
       "delta": null,
       "indicador_ancora": "APLICACAO_REPERTORIO",
-      "indicador_gap": "VARIEDADE_CONHECIMENTO"
+      "indicador_gap": "VARIEDADE_CONHECIMENTO",
+      "observacao": "Avaliacao indireta baseada em vocabulario, criatividade e didatica demonstrados no video"
     }
   },
   "indicadores": [

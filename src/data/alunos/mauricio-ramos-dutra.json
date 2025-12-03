@@ -3,8 +3,7 @@
     "versao": "1.0-supremo",
     "timestamp": "2025-12-01T14:30:00Z",
     "analise_id": "mauricio-ramos-dutra-001",
-    "aluno_id": "mauricio-ramos-dutra-555193937827",
-    "access_key": "cldsl7"
+    "aluno_id": "mauricio-ramos-dutra-555193937827"
   },
   "resumo": {
     "score_geral": 68.5,
@@ -45,7 +44,8 @@
       "categoria": "forte",
       "delta": null,
       "indicador_ancora": null,
-      "indicador_gap": null
+      "indicador_gap": null,
+      "observacao": "Avaliacao indireta baseada em vocabulario, criatividade e didatica demonstrados no video"
     }
   },
   "indicadores": [

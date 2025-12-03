@@ -340,7 +340,6 @@ Bora pra cima, Guilherme. Te vejo na próxima avaliação com pitch afiado e ene
     "analise_id": "guilherme-001",
     "aluno_id": "guilherme"
   },
-
   "resumo": {
     "score_geral": 54,
     "score_autoconfianca": 58,
@@ -349,11 +348,10 @@ Bora pra cima, Guilherme. Te vejo na próxima avaliação com pitch afiado e ene
     "numero_analise": 1,
     "dias_desde_anterior": null
   },
-
   "pilares": {
     "oratoria": {
       "score": 56,
-      "peso": 0.40,
+      "peso": 0.4,
       "categoria": "adequado",
       "delta": null,
       "indicador_ancora": "GRAMATICA",
@@ -361,7 +359,7 @@ Bora pra cima, Guilherme. Te vejo na próxima avaliação com pitch afiado e ene
     },
     "interpessoal": {
       "score": 42,
-      "peso": 0.20,
+      "peso": 0.2,
       "categoria": "adequado",
       "delta": null,
       "indicador_ancora": "ADAPTABILIDADE",
@@ -381,10 +379,10 @@ Bora pra cima, Guilherme. Te vejo na próxima avaliação com pitch afiado e ene
       "categoria": "adequado",
       "delta": null,
       "indicador_ancora": "APLICACAO_REPERTORIO",
-      "indicador_gap": "VARIEDADE_CONHECIMENTO"
+      "indicador_gap": "VARIEDADE_CONHECIMENTO",
+      "observacao": "Avaliacao indireta baseada em vocabulario, criatividade e didatica demonstrados no video"
     }
   },
-
   "indicadores": [
     {
       "codigo": "FLUENCIA",
@@ -393,9 +391,14 @@ Bora pra cima, Guilherme. Te vejo na próxima avaliação com pitch afiado e ene
       "score": 68,
       "categoria": "forte",
       "delta": null,
-      "confianca": 0.80,
-      "evidencias": ["Fala contínua sem travas", "Transições claras entre tópicos"],
-      "timestamps": ["00:00-00:10"],
+      "confianca": 0.8,
+      "evidencias": [
+        "Fala contínua sem travas",
+        "Transições claras entre tópicos"
+      ],
+      "timestamps": [
+        "00:00-00:10"
+      ],
       "aula_recomendada": "Aula 3: Fluência Magnética",
       "tecnica_recomendada": "Pausa Estratégica",
       "prioridade_acao": null
@@ -408,8 +411,14 @@ Bora pra cima, Guilherme. Te vejo na próxima avaliação com pitch afiado e ene
       "categoria": "adequado",
       "delta": null,
       "confianca": 0.85,
-      "evidencias": ["Postura estável", "Gestual unilateral presente", "Contato visual direto"],
-      "timestamps": ["00:00-00:10"],
+      "evidencias": [
+        "Postura estável",
+        "Gestual unilateral presente",
+        "Contato visual direto"
+      ],
+      "timestamps": [
+        "00:00-00:10"
+      ],
       "aula_recomendada": "Aula 2: Postura de Domínio",
       "tecnica_recomendada": "Expansão Gestual",
       "prioridade_acao": null
@@ -421,9 +430,15 @@ Bora pra cima, Guilherme. Te vejo na próxima avaliação com pitch afiado e ene
       "score": 42,
       "categoria": "adequado",
       "delta": null,
-      "confianca": 0.90,
-      "evidencias": ["Tom plano e consistente", "Falta variação de energia", "Ausência de pausas de ênfase"],
-      "timestamps": ["00:00-00:10"],
+      "confianca": 0.9,
+      "evidencias": [
+        "Tom plano e consistente",
+        "Falta variação de energia",
+        "Ausência de pausas de ênfase"
+      ],
+      "timestamps": [
+        "00:00-00:10"
+      ],
       "aula_recomendada": "Aula 3: Fluência Magnética",
       "tecnica_recomendada": "4 Tons de Voz + Pausa Estratégica",
       "prioridade_acao": 2
@@ -436,8 +451,13 @@ Bora pra cima, Guilherme. Te vejo na próxima avaliação com pitch afiado e ene
       "categoria": "forte",
       "delta": null,
       "confianca": 0.85,
-      "evidencias": ["Articulação clara", "Pronúncia adequada"],
-      "timestamps": ["00:00-00:10"],
+      "evidencias": [
+        "Articulação clara",
+        "Pronúncia adequada"
+      ],
+      "timestamps": [
+        "00:00-00:10"
+      ],
       "aula_recomendada": "Aula 3: Fluência Magnética",
       "tecnica_recomendada": "Rotina Matinal de Voz",
       "prioridade_acao": null
@@ -449,9 +469,15 @@ Bora pra cima, Guilherme. Te vejo na próxima avaliação com pitch afiado e ene
       "score": 48,
       "categoria": "adequado",
       "delta": null,
-      "confianca": 0.80,
-      "evidencias": ["Informação sem estrutura GIVE", "Falta proposta de valor", "Sem encerramento claro"],
-      "timestamps": ["00:00-00:10"],
+      "confianca": 0.8,
+      "evidencias": [
+        "Informação sem estrutura GIVE",
+        "Falta proposta de valor",
+        "Sem encerramento claro"
+      ],
+      "timestamps": [
+        "00:00-00:10"
+      ],
       "aula_recomendada": "Aula 4: Estrutura de Raciocínio",
       "tecnica_recomendada": "Framework GIVE",
       "prioridade_acao": 3
@@ -463,9 +489,13 @@ Bora pra cima, Guilherme. Te vejo na próxima avaliação com pitch afiado e ene
       "score": 60,
       "categoria": "adequado",
       "delta": null,
-      "confianca": 0.70,
-      "evidencias": ["Linguagem clara e adequada"],
-      "timestamps": ["00:00-00:10"],
+      "confianca": 0.7,
+      "evidencias": [
+        "Linguagem clara e adequada"
+      ],
+      "timestamps": [
+        "00:00-00:10"
+      ],
       "aula_recomendada": "Aula 6: Repertório Criativo",
       "tecnica_recomendada": "Sinônimos Práticos",
       "prioridade_acao": null
@@ -477,9 +507,14 @@ Bora pra cima, Guilherme. Te vejo na próxima avaliação com pitch afiado e ene
       "score": 70,
       "categoria": "forte",
       "delta": null,
-      "confianca": 0.90,
-      "evidencias": ["Construção frasal correta", "Concordância adequada"],
-      "timestamps": ["00:00-00:10"],
+      "confianca": 0.9,
+      "evidencias": [
+        "Construção frasal correta",
+        "Concordância adequada"
+      ],
+      "timestamps": [
+        "00:00-00:10"
+      ],
       "aula_recomendada": "Aula 4: Estrutura de Raciocínio",
       "tecnica_recomendada": "Leitura em Voz Alta",
       "prioridade_acao": null
@@ -492,8 +527,14 @@ Bora pra cima, Guilherme. Te vejo na próxima avaliação com pitch afiado e ene
       "categoria": "a_desenvolver",
       "delta": null,
       "confianca": 0.85,
-      "evidencias": ["Ausência de gatilhos mentais", "Sem CTA", "Falta storytelling"],
-      "timestamps": ["00:00-00:10"],
+      "evidencias": [
+        "Ausência de gatilhos mentais",
+        "Sem CTA",
+        "Falta storytelling"
+      ],
+      "timestamps": [
+        "00:00-00:10"
+      ],
       "aula_recomendada": "Aula 15: Timing e Fechamento",
       "tecnica_recomendada": "Gatilhos Mentais Éticos",
       "prioridade_acao": null
@@ -505,9 +546,15 @@ Bora pra cima, Guilherme. Te vejo na próxima avaliação com pitch afiado e ene
       "score": 38,
       "categoria": "a_desenvolver",
       "delta": null,
-      "confianca": 0.90,
-      "evidencias": ["3 áreas mencionadas sem conexão", "Posicionamento genérico", "Falta diferencial claro"],
-      "timestamps": ["00:00-00:10"],
+      "confianca": 0.9,
+      "evidencias": [
+        "3 áreas mencionadas sem conexão",
+        "Posicionamento genérico",
+        "Falta diferencial claro"
+      ],
+      "timestamps": [
+        "00:00-00:10"
+      ],
       "aula_recomendada": "Aula 10: Personal Branding",
       "tecnica_recomendada": "Pitch Pessoal + Zona de Potência",
       "prioridade_acao": 1
@@ -519,9 +566,13 @@ Bora pra cima, Guilherme. Te vejo na próxima avaliação com pitch afiado e ene
       "score": 48,
       "categoria": "adequado",
       "delta": null,
-      "confianca": 0.70,
-      "evidencias": ["Informação básica sem profundidade"],
-      "timestamps": ["00:00-00:10"],
+      "confianca": 0.7,
+      "evidencias": [
+        "Informação básica sem profundidade"
+      ],
+      "timestamps": [
+        "00:00-00:10"
+      ],
       "aula_recomendada": "Aula 7: Recursos Didáticos",
       "tecnica_recomendada": "Analogias Simplificadoras",
       "prioridade_acao": null
@@ -534,8 +585,12 @@ Bora pra cima, Guilherme. Te vejo na próxima avaliação com pitch afiado e ene
       "categoria": "adequado",
       "delta": null,
       "confianca": 0.75,
-      "evidencias": ["Mantém coerência em formato ultra-curto"],
-      "timestamps": ["00:00-00:10"],
+      "evidencias": [
+        "Mantém coerência em formato ultra-curto"
+      ],
+      "timestamps": [
+        "00:00-00:10"
+      ],
       "aula_recomendada": "Aula 5: Autoconfiança",
       "tecnica_recomendada": "Gestão do Nervosismo",
       "prioridade_acao": null
@@ -547,9 +602,14 @@ Bora pra cima, Guilherme. Te vejo na próxima avaliação com pitch afiado e ene
       "score": 42,
       "categoria": "adequado",
       "delta": null,
-      "confianca": 0.80,
-      "evidencias": ["Formato previsível", "Sem analogias ou metáforas"],
-      "timestamps": ["00:00-00:10"],
+      "confianca": 0.8,
+      "evidencias": [
+        "Formato previsível",
+        "Sem analogias ou metáforas"
+      ],
+      "timestamps": [
+        "00:00-00:10"
+      ],
       "aula_recomendada": "Aula 6: Repertório Criativo",
       "tecnica_recomendada": "Gerador de Analogias",
       "prioridade_acao": null
@@ -561,15 +621,110 @@ Bora pra cima, Guilherme. Te vejo na próxima avaliação com pitch afiado e ene
       "score": 72,
       "categoria": "forte",
       "delta": null,
-      "confianca": 0.90,
-      "evidencias": ["Postura estável", "Contato visual direto", "Tom calmo e controlado"],
-      "timestamps": ["00:00-00:10"],
+      "confianca": 0.9,
+      "evidencias": [
+        "Postura estável",
+        "Contato visual direto",
+        "Tom calmo e controlado"
+      ],
+      "timestamps": [
+        "00:00-00:10"
+      ],
       "aula_recomendada": "Aula 16: Líder Comunicador",
       "tecnica_recomendada": "Power Pose",
       "prioridade_acao": null
+    },
+    {
+      "codigo": "ESCUTATORIA",
+      "nome": "Escutatoria",
+      "pilar": "INTERPESSOAL",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao aplicavel em contexto de monologo - requer analise de dialogo/conversa"
+    },
+    {
+      "codigo": "VARIEDADE_CONHECIMENTO",
+      "nome": "Variedade de Conhecimento",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "CONEXAO_IDEIAS",
+      "nome": "Conexao de Ideias",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "ATUALIZACAO",
+      "nome": "Atualizacao",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "CULTURA_GERAL",
+      "nome": "Cultura Geral",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
+    },
+    {
+      "codigo": "APLICACAO_REPERTORIO",
+      "nome": "Aplicacao do Repertorio",
+      "pilar": "REPERTORIO",
+      "score": null,
+      "categoria": "nao_avaliavel",
+      "delta": null,
+      "confianca": 0,
+      "evidencias": [],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null,
+      "observacao": "Nao avaliavel neste video - requer analise de conteudo mais extenso"
     }
   ],
-
   "evolucao": {
     "historico": [
       {
@@ -582,10 +737,13 @@ Bora pra cima, Guilherme. Te vejo na próxima avaliação com pitch afiado e ene
     "projecao_30_dias": 66,
     "projecao_90_dias": 76
   },
-
   "plano_acao": {
     "duracao_semanas": 4,
-    "indicadores_priorizados": ["MARKETING_PESSOAL", "MODULACAO_VOZ", "ASSERTIVIDADE"],
+    "indicadores_priorizados": [
+      "MARKETING_PESSOAL",
+      "MODULACAO_VOZ",
+      "ASSERTIVIDADE"
+    ],
     "trilhas": [
       {
         "semanas": "1-2",
@@ -651,7 +809,6 @@ Bora pra cima, Guilherme. Te vejo na próxima avaliação com pitch afiado e ene
       "descricao": "Gravar mesma apresentação em 3 durações: Elevator (20s), Networking (60s), Apresentação (90s)"
     }
   },
-
   "materiais": [
     {
       "tipo": "aula",
@@ -696,7 +853,6 @@ Bora pra cima, Guilherme. Te vejo na próxima avaliação com pitch afiado e ene
       "link": null
     }
   ],
-
   "proximos_passos": {
     "imediatos": [
       "Assistir Aula 10 focando em Zona de Potência",
