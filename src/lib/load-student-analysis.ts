@@ -4,8 +4,17 @@ import { dnaGenisAnalysisSchema, type DnaGenisAnalysis } from '@/lib/zod-student
 
 const DATA_DIR = path.resolve(process.cwd(), 'src/data/alunos');
 
+// Mapeamento de slugs para nomes reais (quando diferem do slug)
+const NOME_OVERRIDE: Record<string, string> = {
+  'lucas-harth': 'Lucas Appel',
+};
+
 export function prettyNameFromSlug(slug?: string): string {
   if (!slug) return 'Aluno';
+  // Verifica se há override de nome
+  if (NOME_OVERRIDE[slug]) {
+    return NOME_OVERRIDE[slug];
+  }
   return slug
     .split('-')
     .map((part) => part.charAt(0).toUpperCase() + part.slice(1))

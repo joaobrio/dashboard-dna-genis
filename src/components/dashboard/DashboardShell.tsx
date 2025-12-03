@@ -103,6 +103,25 @@ export function DashboardShell({ data, userName, analysisDate }: DashboardShellP
 
       {/* Main Content */}
       <main className="max-w-[1400px] mx-auto px-6 lg:px-12 py-12 space-y-12">
+        {/* Mobile Hero - Student Name Highlight */}
+        <motion.section
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.05 }}
+          className="sm:hidden -mt-6 mb-6"
+        >
+          <div className="text-center py-4">
+            <h2 className="text-2xl font-bold text-white">
+              {userName}
+            </h2>
+            {analysisDate && (
+              <p className="text-sm text-gray-400 mt-1">
+                {analysisDate}
+              </p>
+            )}
+          </div>
+        </motion.section>
+
         {/* Hero Score Section */}
         <motion.section
           initial={{ opacity: 0, y: 20 }}
