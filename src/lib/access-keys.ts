@@ -1,10 +1,21 @@
-import accessKeysData from '@/data/access-keys.json';
+import fs from 'fs';
+import path from 'path';
 
 // Type for the access keys object
 type AccessKeys = Record<string, string>;
 
-// Load access keys
-const accessKeys: AccessKeys = accessKeysData as AccessKeys;
+const ACCESS_KEYS_PATH = path.resolve(process.cwd(), 'src/data/access-keys.json');
+
+function loadAccessKeys(): AccessKeys {
+  try {
+    const raw = fs.readFileSync(ACCESS_KEYS_PATH, 'utf-8');
+    const parsed = JSON.parse(raw);
+    return parsed as AccessKeys;
+  } catch (error) {
+    console.error('Erro ao carregar access-keys.json', error);
+    return {};
+  }
+}
 
 /**
  * Validates if the provided key matches the slug's access key
@@ -13,6 +24,7 @@ const accessKeys: AccessKeys = accessKeysData as AccessKeys;
  * @returns boolean indicating if the key is valid
  */
 export function validateAccessKey(slug: string, key: string): boolean {
+  const accessKeys = loadAccessKeys();
   const expectedKey = accessKeys[slug];
   if (!expectedKey) return false;
 
@@ -32,6 +44,7 @@ export function validateAccessKey(slug: string, key: string): boolean {
  * @returns The access key or null if not found
  */
 export function getAccessKey(slug: string): string | null {
+  const accessKeys = loadAccessKeys();
   return accessKeys[slug] || null;
 }
 
@@ -40,6 +53,7 @@ export function getAccessKey(slug: string): string | null {
  * @returns Array of slugs
  */
 export function getAllSlugsWithKeys(): string[] {
+  const accessKeys = loadAccessKeys();
   return Object.keys(accessKeys).filter(slug => slug !== 'diretoria');
 }
 
@@ -49,5 +63,6 @@ export function getAllSlugsWithKeys(): string[] {
  * @returns boolean
  */
 export function slugExists(slug: string): boolean {
+  const accessKeys = loadAccessKeys();
   return slug in accessKeys;
 }

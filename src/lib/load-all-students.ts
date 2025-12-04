@@ -59,8 +59,12 @@ export async function loadAllStudentsData(): Promise<{
 
   // Calculate metrics
   const totalAlunos = students.length;
-  const mediaScoreGeral = students.reduce((acc, s) => acc + s.scoreGeral, 0) / totalAlunos;
-  const mediaAutoconfianca = students.reduce((acc, s) => acc + s.scoreAutoconfianca, 0) / totalAlunos;
+  const mediaScoreGeral = totalAlunos
+    ? students.reduce((acc, s) => acc + s.scoreGeral, 0) / totalAlunos
+    : 0;
+  const mediaAutoconfianca = totalAlunos
+    ? students.reduce((acc, s) => acc + s.scoreAutoconfianca, 0) / totalAlunos
+    : 0;
 
   const distribuicaoCategorias: Record<string, number> = {
     critico: 0,
@@ -83,10 +87,18 @@ export async function loadAllStudentsData(): Promise<{
   const repertoriosValidos = students.filter((s) => s.repertorio !== null) as Array<StudentSummary & { repertorio: number }>;
 
   const mediaPilares = {
-    oratoria: oratoriasValidas.reduce((acc, s) => acc + s.oratoria, 0) / (oratoriasValidas.length || 1),
-    interpessoal: interpessoaisValidas.reduce((acc, s) => acc + s.interpessoal, 0) / (interpessoaisValidas.length || 1),
-    intrapessoal: intrapessoaisValidas.reduce((acc, s) => acc + s.intrapessoal, 0) / (intrapessoaisValidas.length || 1),
-    repertorio: repertoriosValidos.reduce((acc, s) => acc + s.repertorio, 0) / (repertoriosValidos.length || 1),
+    oratoria: oratoriasValidas.length
+      ? oratoriasValidas.reduce((acc, s) => acc + s.oratoria, 0) / oratoriasValidas.length
+      : 0,
+    interpessoal: interpessoaisValidas.length
+      ? interpessoaisValidas.reduce((acc, s) => acc + s.interpessoal, 0) / interpessoaisValidas.length
+      : 0,
+    intrapessoal: intrapessoaisValidas.length
+      ? intrapessoaisValidas.reduce((acc, s) => acc + s.intrapessoal, 0) / intrapessoaisValidas.length
+      : 0,
+    repertorio: repertoriosValidos.length
+      ? repertoriosValidos.reduce((acc, s) => acc + s.repertorio, 0) / repertoriosValidos.length
+      : 0,
   };
 
   const metrics: ConsolidatedMetrics = {

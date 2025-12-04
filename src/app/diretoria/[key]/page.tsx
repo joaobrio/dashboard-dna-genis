@@ -1,5 +1,5 @@
 import { loadAllStudentsData } from '@/lib/load-all-students';
-import { validateAccessKey, getAccessKey } from '@/lib/access-keys';
+import { validateAccessKey } from '@/lib/access-keys';
 import { MetricsCards } from '@/components/diretoria/MetricsCards';
 import { StudentsTable } from '@/components/diretoria/StudentsTable';
 import { ChartsSection } from '@/components/diretoria/ChartsSection';
@@ -15,6 +15,9 @@ export const metadata = {
   title: 'Dashboard Diretoria - Grupo Genis',
   description: 'Visao consolidada de todos os alunos avaliados no DNA Genis',
 };
+
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
 
 export default async function DiretoriaPage({ params }: PageProps) {
   const { key } = await params;
@@ -88,10 +91,4 @@ export default async function DiretoriaPage({ params }: PageProps) {
       </div>
     </main>
   );
-}
-
-export async function generateStaticParams() {
-  const key = getAccessKey('diretoria');
-  if (!key) return [];
-  return [{ key }];
 }

@@ -1,11 +1,14 @@
 import { DashboardShell } from '@/components/dashboard/DashboardShell';
-import { prettyNameFromSlug, loadStudentJson, getAllStudentSlugs } from '@/lib/load-student-analysis';
-import { validateAccessKey, getAccessKey } from '@/lib/access-keys';
+import { prettyNameFromSlug, loadStudentJson } from '@/lib/load-student-analysis';
+import { validateAccessKey } from '@/lib/access-keys';
 import { notFound } from 'next/navigation';
 
 interface PageProps {
   params: Promise<{ aluno: string; key: string }>;
 }
+
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
 
 export default async function AlunoPage({ params }: PageProps) {
   const { aluno: slug, key } = await params;
@@ -35,12 +38,4 @@ export default async function AlunoPage({ params }: PageProps) {
       analysisDate={analysisDate}
     />
   );
-}
-
-export async function generateStaticParams() {
-  const slugs = getAllStudentSlugs();
-  return slugs.map((slug) => {
-    const key = getAccessKey(slug);
-    return { aluno: slug, key: key || '' };
-  }).filter(params => params.key !== '');
 }
