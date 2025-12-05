@@ -1,0 +1,250 @@
+{
+  "meta": {
+    "versao": "1.0-supremo",
+    "timestamp": "2025-12-04T22:45:17Z",
+    "analise_id": "jefferson-001",
+    "aluno_id": "jefferson-triade"
+  },
+  "resumo": {
+    "score_geral": 63,
+    "score_autoconfianca": 56.5,
+    "categoria_geral": "adequado",
+    "evolucao_percentual": null,
+    "numero_analise": 1,
+    "dias_desde_anterior": null
+  },
+  "pilares": {
+    "oratoria": {
+      "score": 61,
+      "peso": 0.40,
+      "categoria": "forte",
+      "delta": null,
+      "indicador_ancora": "DICCAO",
+      "indicador_gap": "LINGUAGEM_NAO_VERBAL"
+    },
+    "interpessoal": {
+      "score": 70,
+      "peso": 0.20,
+      "categoria": "forte",
+      "delta": null,
+      "indicador_ancora": "MARKETING_PESSOAL",
+      "indicador_gap": "PERSUASAO"
+    },
+    "intrapessoal": {
+      "score": 60,
+      "peso": 0.25,
+      "categoria": "adequado",
+      "delta": null,
+      "indicador_ancora": "LIDERANCA",
+      "indicador_gap": "CRIATIVIDADE"
+    },
+    "repertorio": {
+      "score": 65,
+      "peso": 0.15,
+      "categoria": "forte",
+      "delta": null,
+      "indicador_ancora": null,
+      "indicador_gap": null,
+      "observacao": "Avaliacao indireta baseada em vocabulario tecnico audiovisual e experiencia profissional"
+    }
+  },
+  "indicadores": [
+    {
+      "codigo": "LINGUAGEM_NAO_VERBAL",
+      "nome": "Linguagem Nao Verbal",
+      "pilar": "ORATORIA",
+      "score": 50,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.95,
+      "evidencias": ["Erro A3 (Balancar corpo) 90% do video", "Erro A2 (Mao proxima bolso) intermitente", "Erro D2 (Movimentacao nervosa)"],
+      "timestamps": ["00:00-01:06"],
+      "aula_recomendada": "Aula 2: Postura de Dominio",
+      "tecnica_recomendada": "Auto-Feedback de Cineasta",
+      "prioridade_acao": 1
+    },
+    {
+      "codigo": "FLUENCIA",
+      "nome": "Fluencia",
+      "pilar": "ORATORIA",
+      "score": 55,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.90,
+      "evidencias": ["Pausas preenchidas ('Hum...', 'Ah...')", "Hesitacao em transicoes"],
+      "timestamps": ["00:10", "00:22", "00:54"],
+      "aula_recomendada": "Aula 3: Fluencia Magnetica",
+      "tecnica_recomendada": "Pausa Consciente",
+      "prioridade_acao": 2
+    },
+    {
+      "codigo": "ASSERTIVIDADE",
+      "nome": "Assertividade",
+      "pilar": "ORATORIA",
+      "score": 55,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.90,
+      "evidencias": ["'digamos assim' reduz impacto", "Expressa inseguranca verbalmente"],
+      "timestamps": ["00:36", "01:00"],
+      "aula_recomendada": "Aula 5: Comunicacao Assertiva",
+      "tecnica_recomendada": "Eliminacao de Atenuadores",
+      "prioridade_acao": 3
+    },
+    {
+      "codigo": "DICCAO",
+      "nome": "Diccao",
+      "pilar": "ORATORIA",
+      "score": 75,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.90,
+      "evidencias": ["Pronuncia clara das palavras", "Nao engole finais de frases"],
+      "timestamps": ["00:00-01:06"],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "MODULACAO_VOZ",
+      "nome": "Modulacao de Voz",
+      "pilar": "ORATORIA",
+      "score": 70,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.80,
+      "evidencias": ["Variacao ao falar da filha"],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "MARKETING_PESSOAL",
+      "nome": "Marketing Pessoal",
+      "pilar": "INTERPESSOAL",
+      "score": 75,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.85,
+      "evidencias": ["Apresentacao visual impecavel (roupa)", "Posiciona-se como especialista tecnico"],
+      "timestamps": ["00:00", "00:25"],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "DIDATICA",
+      "nome": "Didatica",
+      "pilar": "INTERPESSOAL",
+      "score": 70,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.80,
+      "evidencias": ["Estrutura clara: Quem sou > O que faco > Por que estou aqui > Legado"],
+      "timestamps": ["00:00-01:06"],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "LIDERANCA",
+      "nome": "Lideranca/Posicionamento",
+      "pilar": "INTRAPESSOAL",
+      "score": 60,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.75,
+      "evidencias": ["Assume propria vulnerabilidade (traco de lideranca moderna)", "Postura fisica diminui percepcao de autoridade"],
+      "timestamps": ["00:36"],
+      "aula_recomendada": "Aula 2: Postura de Dominio",
+      "tecnica_recomendada": "Auto-Feedback de Cineasta",
+      "prioridade_acao": null
+    }
+  ],
+  "evolucao": {
+    "historico": [
+      {
+        "data": "2025-12-04",
+        "score_geral": 63,
+        "destaque": "Primeira analise - profissional audiovisual"
+      }
+    ],
+    "tendencia": null,
+    "projecao_30_dias": 69,
+    "projecao_90_dias": 73
+  },
+  "plano_acao": {
+    "duracao_semanas": 4,
+    "indicadores_priorizados": ["LINGUAGEM_NAO_VERBAL", "FLUENCIA", "ASSERTIVIDADE"],
+    "trilhas": [
+      {
+        "semanas": "1-2",
+        "foco": "LINGUAGEM_NAO_VERBAL",
+        "objetivo": "Eliminar balanco usando camera como feedback",
+        "aula_id": 2,
+        "aula_nome": "Postura de Dominio",
+        "exercicios": [
+          {
+            "nome": "Auto-Feedback de Cineasta",
+            "frequencia": "diaria",
+            "duracao_minutos": 15
+          },
+          {
+            "nome": "Gravacao diaria 60s",
+            "frequencia": "diaria",
+            "duracao_minutos": 5
+          }
+        ],
+        "criterios_sucesso": ["Menos de 3 balancos em 60s", "Manter energia com pes firmes"]
+      },
+      {
+        "semanas": "3-4",
+        "foco": "FLUENCIA",
+        "objetivo": "Substituir vicios por pausas estrategicas",
+        "aula_id": 3,
+        "aula_nome": "Fluencia Magnetica",
+        "exercicios": [
+          {
+            "nome": "Pausa Consciente",
+            "frequencia": "diaria",
+            "duracao_minutos": 15
+          },
+          {
+            "nome": "Contagem de vicios",
+            "frequencia": "diaria",
+            "duracao_minutos": 5
+          }
+        ],
+        "criterios_sucesso": ["Menos de 2 vicios/minuto", "Pausas naturais"]
+      }
+    ],
+    "desafio_mes": {
+      "nome": "O Cineasta na Frente das Cameras",
+      "descricao": "Video de 3 min apresentando trabalho com qualidade profissional e zero balanco"
+    }
+  },
+  "materiais": [
+    {
+      "tipo": "aula",
+      "nome": "Aula 2: Postura de Dominio",
+      "indicador_relacionado": "LINGUAGEM_NAO_VERBAL",
+      "prioridade": "alta",
+      "link": null
+    },
+    {
+      "tipo": "aula",
+      "nome": "Aula 3: Fluencia Magnetica",
+      "indicador_relacionado": "FLUENCIA",
+      "prioridade": "alta",
+      "link": null
+    }
+  ],
+  "proximos_passos": {
+    "imediatos": ["Assistir Aula 2: Postura de Dominio", "Montar setup gravacao diaria"],
+    "curto_prazo": ["0 balancos em 60s", "Video portfolio de comunicacao"],
+    "proxima_avaliacao": "2026-01-04",
+    "meta_score_30_dias": 69,
+    "meta_score_90_dias": 73
+  }
+}

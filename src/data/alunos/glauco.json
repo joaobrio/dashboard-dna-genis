@@ -1,0 +1,257 @@
+{
+  "meta": {
+    "versao": "1.0-supremo",
+    "timestamp": "2025-12-04T22:45:17Z",
+    "analise_id": "glauco-001",
+    "aluno_id": "glauco-triade"
+  },
+  "resumo": {
+    "score_geral": 70,
+    "score_autoconfianca": 67.45,
+    "categoria_geral": "forte",
+    "evolucao_percentual": null,
+    "numero_analise": 1,
+    "dias_desde_anterior": null
+  },
+  "pilares": {
+    "oratoria": {
+      "score": 64,
+      "peso": 0.40,
+      "categoria": "forte",
+      "delta": null,
+      "indicador_ancora": "GRAMATICA",
+      "indicador_gap": "LINGUAGEM_NAO_VERBAL"
+    },
+    "interpessoal": {
+      "score": 78,
+      "peso": 0.20,
+      "categoria": "forte",
+      "delta": null,
+      "indicador_ancora": "PERSUASAO",
+      "indicador_gap": "DIDATICA"
+    },
+    "intrapessoal": {
+      "score": 73,
+      "peso": 0.25,
+      "categoria": "forte",
+      "delta": null,
+      "indicador_ancora": "CRIATIVIDADE",
+      "indicador_gap": "LIDERANCA"
+    },
+    "repertorio": {
+      "score": 70,
+      "peso": 0.15,
+      "categoria": "forte",
+      "delta": null,
+      "indicador_ancora": null,
+      "indicador_gap": null,
+      "observacao": "Avaliacao indireta baseada em vocabulario, criatividade e storytelling demonstrados"
+    }
+  },
+  "indicadores": [
+    {
+      "codigo": "PERSUASAO",
+      "nome": "Persuasao",
+      "pilar": "INTERPESSOAL",
+      "score": 85,
+      "categoria": "excelente",
+      "delta": null,
+      "confianca": 0.85,
+      "evidencias": ["Uso excelente de humor (Funeraria)", "Storytelling engajante (Estadio Gremio)", "Conexao emocional com audiencia"],
+      "timestamps": ["00:45-01:10"],
+      "aula_recomendada": null,
+      "tecnica_recomendada": "Manter e expandir",
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "CRIATIVIDADE",
+      "nome": "Criatividade",
+      "pilar": "INTRAPESSOAL",
+      "score": 85,
+      "categoria": "excelente",
+      "delta": null,
+      "confianca": 0.80,
+      "evidencias": ["Slogan criativo 'Corpinho vai ser meu'", "Conexao futebol x funeraria original"],
+      "timestamps": ["01:10"],
+      "aula_recomendada": null,
+      "tecnica_recomendada": "Manter e expandir",
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "GRAMATICA",
+      "nome": "Gramatica",
+      "pilar": "ORATORIA",
+      "score": 85,
+      "categoria": "excelente",
+      "delta": null,
+      "confianca": 0.90,
+      "evidencias": ["Concordancia perfeita", "Construcao frasal correta durante todo o discurso"],
+      "timestamps": ["00:00-01:54"],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "LINGUAGEM_NAO_VERBAL",
+      "nome": "Linguagem Nao Verbal",
+      "pilar": "ORATORIA",
+      "score": 55,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.90,
+      "evidencias": ["Erro A1 (Maos entrelacadas) frequente", "Erro A3 (Balanco pendular) constante"],
+      "timestamps": ["00:00-01:50"],
+      "aula_recomendada": "Aula 2: Postura de Dominio",
+      "tecnica_recomendada": "Ancoragem Firme",
+      "prioridade_acao": 1
+    },
+    {
+      "codigo": "FLUENCIA",
+      "nome": "Fluencia",
+      "pilar": "ORATORIA",
+      "score": 60,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.95,
+      "evidencias": ["Uso frequente do vicio 'ne' (~10 ocorrencias)", "Pausas com 'e...' e 'hum...'"],
+      "timestamps": ["00:10", "00:17", "00:24", "01:06", "01:14"],
+      "aula_recomendada": "Aula 3: Fluencia Magnetica",
+      "tecnica_recomendada": "Pausa Estrategica",
+      "prioridade_acao": 2
+    },
+    {
+      "codigo": "DICCAO",
+      "nome": "Diccao",
+      "pilar": "ORATORIA",
+      "score": 80,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.85,
+      "evidencias": ["Pronuncia clara"],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "MODULACAO_VOZ",
+      "nome": "Modulacao de Voz",
+      "pilar": "ORATORIA",
+      "score": 75,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.80,
+      "evidencias": ["Boa variacao na piada"],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "LIDERANCA",
+      "nome": "Lideranca/Posicionamento",
+      "pilar": "INTRAPESSOAL",
+      "score": 60,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.75,
+      "evidencias": ["Conteudo demonstra senioridade", "Corpo trai inseguranca pelo balanco"],
+      "timestamps": ["00:00-01:50"],
+      "aula_recomendada": "Aula 2: Postura de Dominio",
+      "tecnica_recomendada": "Ancoragem Firme",
+      "prioridade_acao": 3
+    }
+  ],
+  "evolucao": {
+    "historico": [
+      {
+        "data": "2025-12-04",
+        "score_geral": 70,
+        "destaque": "Primeira analise - destaque em Persuasao e Criatividade"
+      }
+    ],
+    "tendencia": null,
+    "projecao_30_dias": 76,
+    "projecao_90_dias": 80
+  },
+  "plano_acao": {
+    "duracao_semanas": 4,
+    "indicadores_priorizados": ["LINGUAGEM_NAO_VERBAL", "FLUENCIA", "LIDERANCA"],
+    "trilhas": [
+      {
+        "semanas": "1-2",
+        "foco": "LINGUAGEM_NAO_VERBAL",
+        "objetivo": "Eliminar balanco pendular sem perder energia",
+        "aula_id": 2,
+        "aula_nome": "Postura de Dominio",
+        "exercicios": [
+          {
+            "nome": "Ancoragem Firme",
+            "frequencia": "diaria",
+            "duracao_minutos": 15
+          },
+          {
+            "nome": "Gravacao com pes fixos",
+            "frequencia": "diaria",
+            "duracao_minutos": 10
+          }
+        ],
+        "criterios_sucesso": ["Zero balanco perceptivel", "Manter mesma energia e leveza"]
+      },
+      {
+        "semanas": "3-4",
+        "foco": "FLUENCIA",
+        "objetivo": "Eliminar vicio 'ne' substituindo por pausas",
+        "aula_id": 3,
+        "aula_nome": "Fluencia Magnetica",
+        "exercicios": [
+          {
+            "nome": "Pausa Estrategica",
+            "frequencia": "diaria",
+            "duracao_minutos": 15
+          },
+          {
+            "nome": "Contagem de vicios",
+            "frequencia": "diaria",
+            "duracao_minutos": 5
+          }
+        ],
+        "criterios_sucesso": ["Menos de 2 'ne' por minuto", "Pausas naturais"]
+      }
+    ],
+    "desafio_mes": {
+      "nome": "O Comediante Ancorado",
+      "descricao": "Regravar apresentacao da Funeraria com pes ancorados e zero 'ne'"
+    }
+  },
+  "materiais": [
+    {
+      "tipo": "aula",
+      "nome": "Aula 2: Postura de Dominio",
+      "indicador_relacionado": "LINGUAGEM_NAO_VERBAL",
+      "prioridade": "alta",
+      "link": null
+    },
+    {
+      "tipo": "aula",
+      "nome": "Aula 3: Fluencia Magnetica",
+      "indicador_relacionado": "FLUENCIA",
+      "prioridade": "alta",
+      "link": null
+    },
+    {
+      "tipo": "exercicio",
+      "nome": "Pausa Estrategica",
+      "indicador_relacionado": "FLUENCIA",
+      "prioridade": "alta",
+      "link": null
+    }
+  ],
+  "proximos_passos": {
+    "imediatos": ["Assistir Aula 2: Postura de Dominio", "Praticar ancoragem em reunioes"],
+    "curto_prazo": ["Menos de 2 ne/min", "Zero balanco"],
+    "proxima_avaliacao": "2026-01-04",
+    "meta_score_30_dias": 76,
+    "meta_score_90_dias": 80
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "meta": {
+    "versao": "1.0-supremo",
+    "timestamp": "2025-12-04T22:45:17Z",
+    "analise_id": "jackson-001",
+    "aluno_id": "jackson-triade"
+  },
+  "resumo": {
+    "score_geral": 66,
+    "score_autoconfianca": 62.75,
+    "categoria_geral": "forte",
+    "evolucao_percentual": null,
+    "numero_analise": 1,
+    "dias_desde_anterior": null
+  },
+  "pilares": {
+    "oratoria": {
+      "score": 61,
+      "peso": 0.40,
+      "categoria": "forte",
+      "delta": null,
+      "indicador_ancora": "DICCAO",
+      "indicador_gap": "LINGUAGEM_NAO_VERBAL"
+    },
+    "interpessoal": {
+      "score": 73,
+      "peso": 0.20,
+      "categoria": "forte",
+      "delta": null,
+      "indicador_ancora": "MARKETING_PESSOAL",
+      "indicador_gap": "PERSUASAO"
+    },
+    "intrapessoal": {
+      "score": 65,
+      "peso": 0.25,
+      "categoria": "forte",
+      "delta": null,
+      "indicador_ancora": "LIDERANCA",
+      "indicador_gap": "CRIATIVIDADE"
+    },
+    "repertorio": {
+      "score": 68,
+      "peso": 0.15,
+      "categoria": "forte",
+      "delta": null,
+      "indicador_ancora": null,
+      "indicador_gap": null,
+      "observacao": "Avaliacao indireta baseada em vocabulario e experiencia profissional demonstrados"
+    }
+  },
+  "indicadores": [
+    {
+      "codigo": "LINGUAGEM_NAO_VERBAL",
+      "nome": "Linguagem Nao Verbal",
+      "pilar": "ORATORIA",
+      "score": 45,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.95,
+      "evidencias": ["Erro A2 CRITICO: Mao esquerda no bolso 100% do tempo", "Erro A3: Balanco constante", "Gestos unilaterais (apenas mao direita)"],
+      "timestamps": ["00:00-02:10"],
+      "aula_recomendada": "Aula 2: Postura de Dominio",
+      "tecnica_recomendada": "Regra das Maos Visiveis",
+      "prioridade_acao": 1
+    },
+    {
+      "codigo": "ASSERTIVIDADE",
+      "nome": "Assertividade",
+      "pilar": "ORATORIA",
+      "score": 55,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.85,
+      "evidencias": ["Uso de diminutivos 'pouquinho mais'", "Justificativas excessivas sobre ansiedade"],
+      "timestamps": ["00:09", "01:11"],
+      "aula_recomendada": "Aula 5: Comunicacao Assertiva",
+      "tecnica_recomendada": "Eliminacao de Atenuadores",
+      "prioridade_acao": 2
+    },
+    {
+      "codigo": "FLUENCIA",
+      "nome": "Fluencia",
+      "pilar": "ORATORIA",
+      "score": 60,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.90,
+      "evidencias": ["Pausas preenchidas 'ne', 'ah', 'entao' (8/min)", "Gagueira leve em 'Adminis... Administracao'"],
+      "timestamps": ["00:02", "00:09", "00:32", "01:19"],
+      "aula_recomendada": "Aula 3: Fluencia Magnetica",
+      "tecnica_recomendada": "Pausa Estrategica",
+      "prioridade_acao": 3
+    },
+    {
+      "codigo": "DICCAO",
+      "nome": "Diccao",
+      "pilar": "ORATORIA",
+      "score": 85,
+      "categoria": "excelente",
+      "delta": null,
+      "confianca": 0.95,
+      "evidencias": ["Pronuncia muito clara das palavras", "Nao engole finais de plural"],
+      "timestamps": ["00:00-02:10"],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "GRAMATICA",
+      "nome": "Gramatica",
+      "pilar": "ORATORIA",
+      "score": 80,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.90,
+      "evidencias": ["Concordancias corretas"],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "MARKETING_PESSOAL",
+      "nome": "Marketing Pessoal",
+      "pilar": "INTERPESSOAL",
+      "score": 80,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.85,
+      "evidencias": ["Apresenta credenciais solidas (25 anos, MBA, Federal)", "Posiciona-se como 'family man' e lifelong learner"],
+      "timestamps": ["00:15-00:40", "01:50"],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "LIDERANCA",
+      "nome": "Lideranca/Posicionamento",
+      "pilar": "INTRAPESSOAL",
+      "score": 70,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.80,
+      "evidencias": ["Proatividade em ser o primeiro (voluntario)", "Assume responsabilidade pelo seu desenvolvimento"],
+      "timestamps": ["00:02", "00:58"],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    }
+  ],
+  "evolucao": {
+    "historico": [
+      {
+        "data": "2025-12-04",
+        "score_geral": 66,
+        "destaque": "Primeira analise - GAP critico: mao no bolso"
+      }
+    ],
+    "tendencia": null,
+    "projecao_30_dias": 72,
+    "projecao_90_dias": 76
+  },
+  "plano_acao": {
+    "duracao_semanas": 4,
+    "indicadores_priorizados": ["LINGUAGEM_NAO_VERBAL", "ASSERTIVIDADE", "FLUENCIA"],
+    "trilhas": [
+      {
+        "semanas": "1-2",
+        "foco": "LINGUAGEM_NAO_VERBAL",
+        "objetivo": "Eliminar mao no bolso - tolerancia ZERO",
+        "aula_id": 2,
+        "aula_nome": "Postura de Dominio",
+        "exercicios": [
+          {
+            "nome": "Regra das Maos Visiveis",
+            "frequencia": "diaria",
+            "duracao_minutos": 15
+          },
+          {
+            "nome": "Esvaziar bolsos antes de falar",
+            "frequencia": "sempre",
+            "duracao_minutos": 1
+          }
+        ],
+        "criterios_sucesso": ["0 segundos com mao no bolso", "Perceber impulso de esconder mao"]
+      },
+      {
+        "semanas": "3-4",
+        "foco": "LINGUAGEM_NAO_VERBAL",
+        "objetivo": "Gesticulacao bilateral equilibrada",
+        "aula_id": 4,
+        "aula_nome": "Gestos que Convencem",
+        "exercicios": [
+          {
+            "nome": "Gesticulacao Bilateral",
+            "frequencia": "diaria",
+            "duracao_minutos": 15
+          },
+          {
+            "nome": "Espelho - gestos simetricos",
+            "frequencia": "3x semana",
+            "duracao_minutos": 10
+          }
+        ],
+        "criterios_sucesso": ["Mao esquerda ativa 50%+ gestos", "Simetria natural"]
+      }
+    ],
+    "desafio_mes": {
+      "nome": "O Financeiro de Maos Abertas",
+      "descricao": "Regravar apresentacao com zero mao no bolso e gesticulacao bilateral"
+    }
+  },
+  "materiais": [
+    {
+      "tipo": "aula",
+      "nome": "Aula 2: Postura de Dominio",
+      "indicador_relacionado": "LINGUAGEM_NAO_VERBAL",
+      "prioridade": "critica",
+      "link": null
+    },
+    {
+      "tipo": "exercicio",
+      "nome": "Regra das Maos Visiveis",
+      "indicador_relacionado": "LINGUAGEM_NAO_VERBAL",
+      "prioridade": "critica",
+      "link": null
+    }
+  ],
+  "proximos_passos": {
+    "imediatos": ["Assistir Aula 2: Postura de Dominio", "Esvaziar bolsos antes de reunioes"],
+    "curto_prazo": ["0% mao no bolso", "Gesticulacao bilateral"],
+    "proxima_avaliacao": "2026-01-04",
+    "meta_score_30_dias": 72,
+    "meta_score_90_dias": 76
+  }
+}

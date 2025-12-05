@@ -1,0 +1,264 @@
+{
+  "meta": {
+    "versao": "1.0-supremo",
+    "timestamp": "2025-12-04T22:41:48Z",
+    "analise_id": "kobi-001",
+    "aluno_id": "kobi-triade"
+  },
+  "resumo": {
+    "score_geral": 66,
+    "score_autoconfianca": 65.15,
+    "categoria_geral": "forte",
+    "evolucao_percentual": null,
+    "numero_analise": 1,
+    "dias_desde_anterior": null
+  },
+  "pilares": {
+    "oratoria": {
+      "score": 61,
+      "peso": 0.40,
+      "categoria": "forte",
+      "delta": null,
+      "indicador_ancora": "GRAMATICA",
+      "indicador_gap": "ASSERTIVIDADE"
+    },
+    "interpessoal": {
+      "score": 75,
+      "peso": 0.20,
+      "categoria": "forte",
+      "delta": null,
+      "indicador_ancora": "ADAPTABILIDADE",
+      "indicador_gap": "PERSUASAO"
+    },
+    "intrapessoal": {
+      "score": 65,
+      "peso": 0.25,
+      "categoria": "forte",
+      "delta": null,
+      "indicador_ancora": "LIDERANCA",
+      "indicador_gap": "CRIATIVIDADE"
+    },
+    "repertorio": {
+      "score": 70,
+      "peso": 0.15,
+      "categoria": "forte",
+      "delta": null,
+      "indicador_ancora": null,
+      "indicador_gap": null,
+      "observacao": "Avaliacao indireta baseada em vocabulario corporativo e experiencia de gestor"
+    }
+  },
+  "indicadores": [
+    {
+      "codigo": "ASSERTIVIDADE",
+      "nome": "Assertividade",
+      "pilar": "ORATORIA",
+      "score": 50,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.85,
+      "evidencias": ["Uso de diminutivos ('um pouquinho', 'tiquinho')", "Hesitacoes diminuem percepcao de certeza", "Frases iniciadas e reformuladas"],
+      "timestamps": ["00:43", "01:05"],
+      "aula_recomendada": "Aula 5: Comunicacao Assertiva",
+      "tecnica_recomendada": "Afirmativa de Maratonista",
+      "prioridade_acao": 1
+    },
+    {
+      "codigo": "FLUENCIA",
+      "nome": "Fluencia",
+      "pilar": "ORATORIA",
+      "score": 55,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.90,
+      "evidencias": ["Pausas preenchidas ('e...', 'hum...', 'ah...')", "Hesitacoes ao conectar ideias"],
+      "timestamps": ["00:09", "00:43", "01:03"],
+      "aula_recomendada": "Aula 3: Fluencia Magnetica",
+      "tecnica_recomendada": "Pausa Estrategica",
+      "prioridade_acao": 2
+    },
+    {
+      "codigo": "LINGUAGEM_NAO_VERBAL",
+      "nome": "Linguagem Nao Verbal",
+      "pilar": "ORATORIA",
+      "score": 58,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.95,
+      "evidencias": ["Erro A3 (Balanco) constante", "Maos em posicao de protecao ao falar de sentimentos"],
+      "timestamps": ["00:00-02:05"],
+      "aula_recomendada": "Aula 2: Postura de Dominio",
+      "tecnica_recomendada": "Postura de Linha de Chegada",
+      "prioridade_acao": 3
+    },
+    {
+      "codigo": "GRAMATICA",
+      "nome": "Gramatica",
+      "pilar": "ORATORIA",
+      "score": 85,
+      "categoria": "excelente",
+      "delta": null,
+      "confianca": 0.90,
+      "evidencias": ["Boa construcao gramatical", "Concordancias corretas"],
+      "timestamps": ["00:00-02:07"],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "DICCAO",
+      "nome": "Diccao",
+      "pilar": "ORATORIA",
+      "score": 80,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.90,
+      "evidencias": ["Pronuncia clara das palavras", "Boa articulacao mesmo nas hesitacoes"],
+      "timestamps": ["00:00-02:07"],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "ADAPTABILIDADE",
+      "nome": "Adaptabilidade",
+      "pilar": "INTERPESSOAL",
+      "score": 80,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.85,
+      "evidencias": ["Admite nervosismo e usa isso a seu favor", "Mantem fluxo mesmo com hesitacoes"],
+      "timestamps": ["01:10"],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "MARKETING_PESSOAL",
+      "nome": "Marketing Pessoal",
+      "pilar": "INTERPESSOAL",
+      "score": 75,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.85,
+      "evidencias": ["Apresenta credenciais (UFRGS, Gestao Internacional)", "Hobbies diferenciadores (Maratona)"],
+      "timestamps": ["00:16", "01:20", "01:36"],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "LIDERANCA",
+      "nome": "Lideranca/Posicionamento",
+      "pilar": "INTRAPESSOAL",
+      "score": 70,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.80,
+      "evidencias": ["Assume vulnerabilidade (lideranca moderna)", "Clareza de proposito (ser bom pai)", "Background de gestor de operacoes"],
+      "timestamps": ["01:36", "01:52"],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "CRIATIVIDADE",
+      "nome": "Criatividade",
+      "pilar": "INTRAPESSOAL",
+      "score": 60,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.75,
+      "evidencias": ["Termo 'caverna do home office' foi boa metafora", "Roteiro padrao mas bem executado"],
+      "timestamps": ["01:05"],
+      "aula_recomendada": null,
+      "tecnica_recomendada": "Uso de metaforas",
+      "prioridade_acao": null
+    }
+  ],
+  "evolucao": {
+    "historico": [
+      {
+        "data": "2025-12-04",
+        "score_geral": 66,
+        "destaque": "Primeira analise - maratonista com potencial"
+      }
+    ],
+    "tendencia": null,
+    "projecao_30_dias": 72,
+    "projecao_90_dias": 76
+  },
+  "plano_acao": {
+    "duracao_semanas": 4,
+    "indicadores_priorizados": ["ASSERTIVIDADE", "FLUENCIA", "LINGUAGEM_NAO_VERBAL"],
+    "trilhas": [
+      {
+        "semanas": "1-2",
+        "foco": "ASSERTIVIDADE",
+        "objetivo": "Eliminar diminutivos e afirmar como maratonista",
+        "aula_id": 5,
+        "aula_nome": "Comunicacao Assertiva",
+        "exercicios": [
+          {
+            "nome": "Afirmativa de Maratonista",
+            "frequencia": "diaria",
+            "duracao_minutos": 15
+          },
+          {
+            "nome": "Contagem de diminutivos",
+            "frequencia": "diaria",
+            "duracao_minutos": 5
+          }
+        ],
+        "criterios_sucesso": ["Zero diminutivos em 60s", "Afirmativas confiantes"]
+      },
+      {
+        "semanas": "3-4",
+        "foco": "LINGUAGEM_NAO_VERBAL",
+        "objetivo": "Postura de linha de chegada",
+        "aula_id": 2,
+        "aula_nome": "Postura de Dominio",
+        "exercicios": [
+          {
+            "nome": "Postura de Linha de Chegada",
+            "frequencia": "diaria",
+            "duracao_minutos": 15
+          },
+          {
+            "nome": "Visualizacao pre-apresentacao",
+            "frequencia": "sempre",
+            "duracao_minutos": 2
+          }
+        ],
+        "criterios_sucesso": ["Zero balanco", "Postura expansiva constante"]
+      }
+    ],
+    "desafio_mes": {
+      "nome": "O Maratonista que Fala como Vence",
+      "descricao": "Regravar apresentacao com zero diminutivos e postura de linha de chegada"
+    }
+  },
+  "materiais": [
+    {
+      "tipo": "aula",
+      "nome": "Aula 5: Comunicacao Assertiva",
+      "indicador_relacionado": "ASSERTIVIDADE",
+      "prioridade": "critica",
+      "link": null
+    },
+    {
+      "tipo": "aula",
+      "nome": "Aula 2: Postura de Dominio",
+      "indicador_relacionado": "LINGUAGEM_NAO_VERBAL",
+      "prioridade": "alta",
+      "link": null
+    }
+  ],
+  "proximos_passos": {
+    "imediatos": ["Assistir Aula 5: Comunicacao Assertiva", "Contar diminutivos em reuniao"],
+    "curto_prazo": ["Zero diminutivos em 2 min", "Postura de maratonista vencedor"],
+    "proxima_avaliacao": "2026-01-04",
+    "meta_score_30_dias": 72,
+    "meta_score_90_dias": 76
+  }
+}

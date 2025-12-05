@@ -1,0 +1,278 @@
+{
+  "meta": {
+    "versao": "1.0-supremo",
+    "timestamp": "2025-12-04T23:00:00Z",
+    "analise_id": "angelica-001",
+    "aluno_id": "angelica-triade"
+  },
+  "resumo": {
+    "score_geral": 76,
+    "score_autoconfianca": 76.5,
+    "categoria_geral": "forte",
+    "evolucao_percentual": null,
+    "numero_analise": 1,
+    "dias_desde_anterior": null
+  },
+  "pilares": {
+    "oratoria": {
+      "score": 72,
+      "peso": 0.40,
+      "categoria": "forte",
+      "delta": null,
+      "indicador_ancora": "MODULACAO_VOZ",
+      "indicador_gap": "LINGUAGEM_NAO_VERBAL"
+    },
+    "interpessoal": {
+      "score": 82,
+      "peso": 0.20,
+      "categoria": "excelente",
+      "delta": null,
+      "indicador_ancora": "PERSUASAO",
+      "indicador_gap": "DIDATICA"
+    },
+    "intrapessoal": {
+      "score": 75,
+      "peso": 0.25,
+      "categoria": "forte",
+      "delta": null,
+      "indicador_ancora": "LIDERANCA",
+      "indicador_gap": "CRIATIVIDADE"
+    },
+    "repertorio": {
+      "score": 75,
+      "peso": 0.15,
+      "categoria": "forte",
+      "delta": null,
+      "indicador_ancora": null,
+      "indicador_gap": null,
+      "observacao": "Avaliacao indireta baseada em storytelling e experiencia de vida transformada em narrativa"
+    }
+  },
+  "indicadores": [
+    {
+      "codigo": "PERSUASAO",
+      "nome": "Persuasao",
+      "pilar": "INTERPESSOAL",
+      "score": 90,
+      "categoria": "excelente",
+      "delta": null,
+      "confianca": 0.95,
+      "evidencias": ["Storytelling magnetico", "Estrutura trauma → superacao → transformacao", "Jornada do Heroi em acao"],
+      "timestamps": ["00:00-04:00"],
+      "aula_recomendada": null,
+      "tecnica_recomendada": "Manter e expandir",
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "MODULACAO_VOZ",
+      "nome": "Modulacao de Voz",
+      "pilar": "ORATORIA",
+      "score": 85,
+      "categoria": "excelente",
+      "delta": null,
+      "confianca": 0.90,
+      "evidencias": ["Fez a plateia sentir", "Variacao entre dor e alegria", "Dominio emocional da voz"],
+      "timestamps": ["01:57"],
+      "aula_recomendada": null,
+      "tecnica_recomendada": "Manter e expandir",
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "MARKETING_PESSOAL",
+      "nome": "Marketing Pessoal",
+      "pilar": "INTERPESSOAL",
+      "score": 85,
+      "categoria": "excelente",
+      "delta": null,
+      "confianca": 0.90,
+      "evidencias": ["Reposicionou-se em 4 minutos", "Entrou contando historia, saiu como empresaria", "Branding ao vivo"],
+      "timestamps": ["03:48"],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "LINGUAGEM_NAO_VERBAL",
+      "nome": "Linguagem Nao Verbal",
+      "pilar": "ORATORIA",
+      "score": 65,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.95,
+      "evidencias": ["Maos presas na frente do corpo (folha de parreira)", "Erro A1 frequente", "Erro A3 balanco corporal constante"],
+      "timestamps": ["00:00-03:30"],
+      "aula_recomendada": "Aula 2: Postura de Dominio",
+      "tecnica_recomendada": "Postura da Empresaria",
+      "prioridade_acao": 1
+    },
+    {
+      "codigo": "GRAMATICA",
+      "nome": "Gramatica",
+      "pilar": "ORATORIA",
+      "score": 70,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.85,
+      "evidencias": ["Pequenos deslizes como 'que Deus os tenham' (deveria ser 'tenha')"],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": 3
+    },
+    {
+      "codigo": "ASSERTIVIDADE",
+      "nome": "Assertividade",
+      "pilar": "ORATORIA",
+      "score": 70,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.85,
+      "evidencias": ["Assertiva emocionalmente", "Hesitacoes no inicio diminuem percepcao de comando"],
+      "timestamps": ["00:00-00:30"],
+      "aula_recomendada": "Aula 5: Comunicacao Assertiva",
+      "tecnica_recomendada": "Eliminacao de hesitacoes",
+      "prioridade_acao": 2
+    },
+    {
+      "codigo": "FLUENCIA",
+      "nome": "Fluencia",
+      "pilar": "ORATORIA",
+      "score": 75,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.85,
+      "evidencias": ["Fluxo natural na maior parte", "Algumas hesitacoes iniciais"],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "DICCAO",
+      "nome": "Diccao",
+      "pilar": "ORATORIA",
+      "score": 80,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.90,
+      "evidencias": ["Pronuncia clara"],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "LIDERANCA",
+      "nome": "Lideranca/Posicionamento",
+      "pilar": "INTRAPESSOAL",
+      "score": 80,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.85,
+      "evidencias": ["Cresceu no final da apresentacao", "Abriu bracos, ergueu queixo", "Declarou empresaria, empreendedora"],
+      "timestamps": ["03:48"],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "ADAPTABILIDADE",
+      "nome": "Adaptabilidade",
+      "pilar": "INTERPESSOAL",
+      "score": 80,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.85,
+      "evidencias": ["Transformou pressao em leveza", "Momento do funk/pagode - sala riu COM ela"],
+      "timestamps": ["01:57"],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    }
+  ],
+  "evolucao": {
+    "historico": [
+      {
+        "data": "2025-12-04",
+        "score_geral": 76,
+        "destaque": "Primeira analise - storytelling extraordinario"
+      }
+    ],
+    "tendencia": null,
+    "projecao_30_dias": 80,
+    "projecao_90_dias": 85
+  },
+  "plano_acao": {
+    "duracao_semanas": 4,
+    "indicadores_priorizados": ["LINGUAGEM_NAO_VERBAL", "ASSERTIVIDADE", "GRAMATICA"],
+    "trilhas": [
+      {
+        "semanas": "1-2",
+        "foco": "LINGUAGEM_NAO_VERBAL",
+        "objetivo": "Eliminar folha de parreira e balanco corporal",
+        "aula_id": 2,
+        "aula_nome": "Postura de Dominio",
+        "exercicios": [
+          {
+            "nome": "Postura da Empresaria",
+            "frequencia": "diaria",
+            "duracao_minutos": 5
+          },
+          {
+            "nome": "Pes plantados na largura dos ombros",
+            "frequencia": "diaria",
+            "duracao_minutos": 5
+          }
+        ],
+        "criterios_sucesso": ["Zero folha de parreira", "Maos livres na zona de poder"]
+      },
+      {
+        "semanas": "3-4",
+        "foco": "ASSERTIVIDADE",
+        "objetivo": "Manter comando desde o primeiro segundo",
+        "aula_id": 5,
+        "aula_nome": "Comunicacao Assertiva",
+        "exercicios": [
+          {
+            "nome": "Abertura com conviccao",
+            "frequencia": "diaria",
+            "duracao_minutos": 10
+          },
+          {
+            "nome": "Eliminacao de hesitacoes iniciais",
+            "frequencia": "diaria",
+            "duracao_minutos": 5
+          }
+        ],
+        "criterios_sucesso": ["Zero hesitacao nos primeiros 30 segundos", "Comando imediato"]
+      }
+    ],
+    "desafio_mes": {
+      "nome": "A Empresaria desde o Primeiro Segundo",
+      "descricao": "Apresentar historia com postura de poder desde o inicio ate o fim - sem folha de parreira, sem balanco"
+    }
+  },
+  "materiais": [
+    {
+      "tipo": "aula",
+      "nome": "Aula 2: Postura de Dominio",
+      "indicador_relacionado": "LINGUAGEM_NAO_VERBAL",
+      "prioridade": "alta",
+      "link": null
+    },
+    {
+      "tipo": "exercicio",
+      "nome": "Postura da Empresaria",
+      "indicador_relacionado": "LINGUAGEM_NAO_VERBAL",
+      "prioridade": "alta",
+      "link": null
+    }
+  ],
+  "proximos_passos": {
+    "imediatos": ["Praticar Postura da Empresaria 5min/dia", "Filmar proxima apresentacao"],
+    "curto_prazo": ["Zero folha de parreira", "Postura de poder desde o inicio"],
+    "proxima_avaliacao": "2026-01-04",
+    "meta_score_30_dias": 80,
+    "meta_score_90_dias": 85
+  }
+}

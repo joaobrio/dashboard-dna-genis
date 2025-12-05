@@ -1,0 +1,264 @@
+{
+  "meta": {
+    "versao": "1.0-supremo",
+    "timestamp": "2025-12-04T22:41:48Z",
+    "analise_id": "joao-001",
+    "aluno_id": "joao-triade"
+  },
+  "resumo": {
+    "score_geral": 72,
+    "score_autoconfianca": 67.8,
+    "categoria_geral": "forte",
+    "evolucao_percentual": null,
+    "numero_analise": 1,
+    "dias_desde_anterior": null
+  },
+  "pilares": {
+    "oratoria": {
+      "score": 68,
+      "peso": 0.40,
+      "categoria": "forte",
+      "delta": null,
+      "indicador_ancora": "GRAMATICA",
+      "indicador_gap": "ASSERTIVIDADE"
+    },
+    "interpessoal": {
+      "score": 78,
+      "peso": 0.20,
+      "categoria": "forte",
+      "delta": null,
+      "indicador_ancora": "DIDATICA",
+      "indicador_gap": "MARKETING_PESSOAL"
+    },
+    "intrapessoal": {
+      "score": 70,
+      "peso": 0.25,
+      "categoria": "forte",
+      "delta": null,
+      "indicador_ancora": "CRIATIVIDADE",
+      "indicador_gap": "LIDERANCA"
+    },
+    "repertorio": {
+      "score": 75,
+      "peso": 0.15,
+      "categoria": "forte",
+      "delta": null,
+      "indicador_ancora": null,
+      "indicador_gap": null,
+      "observacao": "Avaliacao indireta baseada em vocabulario rico, storytelling e capacidade narrativa"
+    }
+  },
+  "indicadores": [
+    {
+      "codigo": "ASSERTIVIDADE",
+      "nome": "Assertividade",
+      "pilar": "ORATORIA",
+      "score": 55,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.90,
+      "evidencias": ["Uso excessivo de atenuadores: 'acho que', 'meio que', 'um pouquinho'", "Postura de 'people pleaser' reduz autoridade", "Autodepreciacao leve"],
+      "timestamps": ["02:25", "03:15"],
+      "aula_recomendada": "Aula 5: Comunicacao Assertiva",
+      "tecnica_recomendada": "Afirmativa Direta",
+      "prioridade_acao": 1
+    },
+    {
+      "codigo": "FLUENCIA",
+      "nome": "Fluencia",
+      "pilar": "ORATORIA",
+      "score": 60,
+      "categoria": "adequado",
+      "delta": null,
+      "confianca": 0.95,
+      "evidencias": ["Pausas preenchidas ('e...', 'hum...')", "Vicio 'ne' repetitivo (6/min)"],
+      "timestamps": ["00:00", "00:12", "00:20", "01:25", "03:05"],
+      "aula_recomendada": "Aula 3: Fluencia Magnetica",
+      "tecnica_recomendada": "Pausa Estrategica",
+      "prioridade_acao": 2
+    },
+    {
+      "codigo": "GRAMATICA",
+      "nome": "Gramatica",
+      "pilar": "ORATORIA",
+      "score": 90,
+      "categoria": "excelente",
+      "delta": null,
+      "confianca": 0.95,
+      "evidencias": ["Concordancias corretas", "Construcao frasal perfeita mesmo no improviso"],
+      "timestamps": ["Totalidade"],
+      "aula_recomendada": null,
+      "tecnica_recomendada": "Manter e expandir",
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "DICCAO",
+      "nome": "Diccao",
+      "pilar": "ORATORIA",
+      "score": 85,
+      "categoria": "excelente",
+      "delta": null,
+      "confianca": 0.95,
+      "evidencias": ["Pronuncia clara", "Nao engole finais de palavras"],
+      "timestamps": ["Totalidade"],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "VOCABULARIO",
+      "nome": "Vocabulario",
+      "pilar": "ORATORIA",
+      "score": 80,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.85,
+      "evidencias": ["'fio condutor'", "'anseio'", "Vocabulario rico e variado"],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "DIDATICA",
+      "nome": "Didatica",
+      "pilar": "INTERPESSOAL",
+      "score": 85,
+      "categoria": "excelente",
+      "delta": null,
+      "confianca": 0.85,
+      "evidencias": ["Estrutura narrativa clara (Passado -> Problema -> Solucao)", "Explica conceitos com exemplos praticos"],
+      "timestamps": ["03:10"],
+      "aula_recomendada": null,
+      "tecnica_recomendada": "Manter e expandir",
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "PERSUASAO",
+      "nome": "Persuasao",
+      "pilar": "INTERPESSOAL",
+      "score": 75,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.85,
+      "evidencias": ["Storytelling inicial (Jornada do Heroi)", "Conecta com audiencia citando nomes"],
+      "timestamps": ["00:00-01:00"],
+      "aula_recomendada": "Aula 6: Narrativas de Impacto",
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "CRIATIVIDADE",
+      "nome": "Criatividade",
+      "pilar": "INTRAPESSOAL",
+      "score": 75,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.85,
+      "evidencias": ["Conexao inusitada entre 'curiosidade', 'Gremio' e mudanca de vida", "Humor autodepreciativo inteligente"],
+      "timestamps": ["00:00", "00:40"],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "LIDERANCA",
+      "nome": "Lideranca/Posicionamento",
+      "pilar": "INTRAPESSOAL",
+      "score": 65,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.80,
+      "evidencias": ["Assume vulnerabilidade", "Postura de 'people pleaser' enfraquece percepcao de autoridade"],
+      "timestamps": ["03:00-03:40"],
+      "aula_recomendada": "Aula 5: Comunicacao Assertiva",
+      "tecnica_recomendada": "Afirmativa Direta",
+      "prioridade_acao": null
+    }
+  ],
+  "evolucao": {
+    "historico": [
+      {
+        "data": "2025-12-04",
+        "score_geral": 72,
+        "destaque": "Primeira analise - storyteller nato"
+      }
+    ],
+    "tendencia": null,
+    "projecao_30_dias": 77,
+    "projecao_90_dias": 80
+  },
+  "plano_acao": {
+    "duracao_semanas": 4,
+    "indicadores_priorizados": ["ASSERTIVIDADE", "FLUENCIA", "MOVIMENTACAO"],
+    "trilhas": [
+      {
+        "semanas": "1-2",
+        "foco": "ASSERTIVIDADE",
+        "objetivo": "Eliminar atenuadores de discurso",
+        "aula_id": 5,
+        "aula_nome": "Comunicacao Assertiva",
+        "exercicios": [
+          {
+            "nome": "Afirmativa Direta",
+            "frequencia": "diaria",
+            "duracao_minutos": 15
+          },
+          {
+            "nome": "Contagem de atenuadores",
+            "frequencia": "diaria",
+            "duracao_minutos": 5
+          }
+        ],
+        "criterios_sucesso": ["Zero 'acho que' em 60s", "Afirmativas soam naturais"]
+      },
+      {
+        "semanas": "3-4",
+        "foco": "ASSERTIVIDADE",
+        "objetivo": "Storytelling com conviccao",
+        "aula_id": 6,
+        "aula_nome": "Narrativas de Impacto",
+        "exercicios": [
+          {
+            "nome": "Storytelling com Conviccao",
+            "frequencia": "diaria",
+            "duracao_minutos": 20
+          },
+          {
+            "nome": "Historia do Gremio assertiva",
+            "frequencia": "3x semana",
+            "duracao_minutos": 15
+          }
+        ],
+        "criterios_sucesso": ["Historias contadas COM conviccao", "Zero busca de aprovacao"]
+      }
+    ],
+    "desafio_mes": {
+      "nome": "De People Pleaser para People Impacter",
+      "descricao": "Regravar apresentacao com zero atenuadores e afirmativas diretas"
+    }
+  },
+  "materiais": [
+    {
+      "tipo": "aula",
+      "nome": "Aula 5: Comunicacao Assertiva",
+      "indicador_relacionado": "ASSERTIVIDADE",
+      "prioridade": "critica",
+      "link": null
+    },
+    {
+      "tipo": "aula",
+      "nome": "Aula 6: Narrativas de Impacto",
+      "indicador_relacionado": "PERSUASAO",
+      "prioridade": "alta",
+      "link": null
+    }
+  ],
+  "proximos_passos": {
+    "imediatos": ["Assistir Aula 5: Comunicacao Assertiva", "Contar atenuadores em conversa de 10 min"],
+    "curto_prazo": ["Zero atenuadores em 3 min", "Historia do Gremio versao assertiva"],
+    "proxima_avaliacao": "2026-01-04",
+    "meta_score_30_dias": 77,
+    "meta_score_90_dias": 80
+  }
+}
