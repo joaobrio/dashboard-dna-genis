@@ -51,7 +51,7 @@ const video2: VideoSnapshot = {
   ],
 };
 
-const delta = (a: number, b: number) => {
+const delta = (a: number, b: number): { value: number; trend: 'up' | 'down' | 'flat' } => {
   const diff = b - a;
   return {
     value: diff,
