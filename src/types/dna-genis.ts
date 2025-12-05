@@ -129,6 +129,7 @@ export interface DNAGenisAnalysis {
   plano_acao: ActionPlan;
   materiais: Material[];
   proximos_passos: NextSteps;
+  insights?: InsightsData;
 }
 
 // Dados formatados para o Radar Chart
@@ -198,3 +199,37 @@ export const GENIS_COLORS = {
   black: '#0A0A0A',
   dark: '#1A1A1A',
 } as const;
+
+// Insights auxiliares para UI premium
+export type InsightSeverity = 'low' | 'medium' | 'high';
+
+export interface InsightHighlight {
+  indicator: string;
+  label: string;
+  score: number;
+  severity: InsightSeverity;
+  description?: string;
+}
+
+export interface TimelineEvent {
+  time: number; // seconds
+  label: string;
+  indicator?: string;
+  severity: InsightSeverity;
+  category?: string;
+}
+
+export interface ConfidenceBand {
+  indicator: string;
+  confidence: number;
+  severity: InsightSeverity;
+}
+
+export interface InsightsData {
+  highlights: {
+    strengths: InsightHighlight[];
+    gaps: InsightHighlight[];
+  };
+  timeline: TimelineEvent[];
+  confidence: ConfidenceBand[];
+}

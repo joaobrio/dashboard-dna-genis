@@ -127,7 +127,37 @@ export const dnaGenisAnalysisSchema = z.object({
       dias30: z.string(),
       dias90: z.string(),
     }),
-    proximosPassos: z.array(z.string()),
+  proximosPassos: z.array(z.string()),
+  }).optional(),
+  insights: z.object({
+    highlights: z.object({
+      strengths: z.array(z.object({
+        indicator: z.string(),
+        label: z.string(),
+        score: z.number(),
+        severity: z.enum(['low', 'medium', 'high']),
+        description: z.string().optional(),
+      })),
+      gaps: z.array(z.object({
+        indicator: z.string(),
+        label: z.string(),
+        score: z.number(),
+        severity: z.enum(['low', 'medium', 'high']),
+        description: z.string().optional(),
+      })),
+    }),
+    timeline: z.array(z.object({
+      time: z.number(),
+      label: z.string(),
+      indicator: z.string().optional(),
+      severity: z.enum(['low', 'medium', 'high']),
+      category: z.string().optional(),
+    })),
+    confidence: z.array(z.object({
+      indicator: z.string(),
+      confidence: z.number(),
+      severity: z.enum(['low', 'medium', 'high']),
+    })),
   }).optional(),
 });
 

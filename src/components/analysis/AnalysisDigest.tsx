@@ -3,6 +3,8 @@
 import { motion } from 'framer-motion';
 import { CheckCircle, Target, TrendingUp, BookOpen, Calendar, Lightbulb } from 'lucide-react';
 import { DnaGenisAnalysis } from '@/lib/zod-student';
+import { buildInsightsFromAnalysis } from '@/lib/insights';
+import { InsightsTimeline } from '@/components/analysis/InsightsTimeline';
 
 interface AnalysisDigestProps {
   data: DnaGenisAnalysis;
@@ -15,6 +17,7 @@ export function AnalysisDigest({ data, userName, analysisDate }: AnalysisDigestP
   const evolucao = data.evolucao;
   const proximosPassos = data.proximos_passos;
   const materiais = data.materiais;
+  const insights = data.insights || buildInsightsFromAnalysis(data);
 
   // Pegar top 3 indicadores (pontos fortes) e bottom 3 (gaps)
   const sortedIndicadores = [...data.indicadores].sort((a, b) => b.score - a.score);
@@ -268,6 +271,17 @@ export function AnalysisDigest({ data, userName, analysisDate }: AnalysisDigestP
               </div>
             ))}
           </div>
+        </motion.div>
+      )}
+
+      {/* Linha do Tempo - Insights do Sensor Audiovisual */}
+      {insights.timeline.length > 0 && (
+        <motion.div
+          initial={{ opacity: 0, y: 12 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.15 }}
+        >
+          <InsightsTimeline events={insights.timeline.slice(0, 12)} />
         </motion.div>
       )}
     </section>
