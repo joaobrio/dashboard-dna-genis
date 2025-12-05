@@ -71,8 +71,9 @@ export interface EvolucaoAluno {
 
 // ============== PATHS ==============
 
-const VIDEO1_DIR = path.resolve(process.cwd(), '../analise-sensorial-041225/video-01/relatorios-feedback');
-const VIDEO2_DIR = path.resolve(process.cwd(), '../analise-sensorial-041225/video-02/feedback-supremo');
+// Use data folder inside the project (works in Vercel)
+const VIDEO1_DIR = path.resolve(process.cwd(), 'data/video-01');
+const VIDEO2_DIR = path.resolve(process.cwd(), 'data/video-02');
 
 // ============== HELPERS ==============
 
