@@ -27,6 +27,17 @@ function slugify(name: string): string {
     .replace(/^-|-$/g, '');
 }
 
+// Mapa de aliases para unificar nomes entre vídeo 01 e 02
+const ALIAS: Record<string, string> = {
+  jeff: 'jefferson',
+  will: 'william',
+  vic: 'victoria',
+};
+
+function normalizeSlug(slug: string): string {
+  return ALIAS[slug] || slug;
+}
+
 function extractScoreVideo1(content: string): number | null {
   const tableMatch = content.match(/Score Geral\s*\|\s*(\d+)/i);
   if (tableMatch) return Number(tableMatch[1]);
@@ -49,7 +60,7 @@ export function loadEvolucaoAlunos(): EvolucaoAluno[] {
       .forEach((file) => {
         const raw = fs.readFileSync(path.join(VIDEO1_DIR, file), 'utf-8');
         const score = extractScoreVideo1(raw);
-        const slug = slugify(file.replace(/-feedback-dna-genis\.md$/i, '').replace(/\.md$/i, ''));
+        const slug = normalizeSlug(slugify(file.replace(/-feedback-dna-genis\.md$/i, '').replace(/\.md$/i, '')));
         const nome = slug.split('-').map((p) => p.charAt(0).toUpperCase() + p.slice(1)).join(' ');
         if (!alunos[slug]) alunos[slug] = { slug, nome };
         alunos[slug]!.video1 = { label: 'Vídeo 01', scoreGeral: score, date: '22/05/2024' };
@@ -63,7 +74,7 @@ export function loadEvolucaoAlunos(): EvolucaoAluno[] {
       .forEach((file) => {
         const raw = fs.readFileSync(path.join(VIDEO2_DIR, file), 'utf-8');
         const score = extractScoreVideo2(raw);
-        const slug = slugify(file.replace(/_feedback\.md$/i, '').replace(/\.md$/i, ''));
+        const slug = normalizeSlug(slugify(file.replace(/_feedback\.md$/i, '').replace(/\.md$/i, '')));
         const nome = slug.split('-').map((p) => p.charAt(0).toUpperCase() + p.slice(1)).join(' ');
         if (!alunos[slug]) alunos[slug] = { slug, nome };
         alunos[slug]!.video2 = { label: 'Vídeo 02', scoreGeral: score, date: '04/12/2025' };
