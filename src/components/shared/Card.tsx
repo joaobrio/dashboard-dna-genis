@@ -4,7 +4,7 @@ import { cn } from '@/lib/utils';
 import React from 'react';
 import { motion, HoverLift, HoverGlow } from '@/components/motion';
 
-type CardVariant = 'solid' | 'glass' | 'glass-hover';
+type CardVariant = 'solid' | 'glass' | 'glass-hover' | 'gradient-border';
 type GlowColor = 'purple' | 'amber' | 'emerald' | 'orange' | 'red';
 
 interface CardProps {
@@ -16,12 +16,17 @@ interface CardProps {
   glow?: boolean;
   glowColor?: GlowColor;
   animate?: boolean;
+  /** ARIA label for accessibility */
+  ariaLabel?: string;
+  /** ARIA role for semantic meaning */
+  role?: 'region' | 'article' | 'group' | 'listitem';
 }
 
 const variantStyles: Record<CardVariant, string> = {
   solid: 'bg-white rounded-2xl border border-neutral-200 shadow-sm',
   glass: 'glass-card',
   'glass-hover': 'glass-card-hover',
+  'gradient-border': 'card-gradient-border glass-card',
 };
 
 export function Card({
@@ -33,7 +38,14 @@ export function Card({
   glow = false,
   glowColor = 'purple',
   animate = false,
+  ariaLabel,
+  role,
 }: CardProps) {
+  // Common ARIA props
+  const ariaProps = {
+    ...(ariaLabel && { 'aria-label': ariaLabel }),
+    ...(role && { role }),
+  };
   const baseClassName = cn(
     variantStyles[variant],
     'p-6',
@@ -137,7 +149,7 @@ export function Card({
 
   // Default
   return (
-    <div className={baseClassName}>
+    <div className={baseClassName} {...ariaProps}>
       {children}
     </div>
   );

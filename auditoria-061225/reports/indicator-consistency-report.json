@@ -1,0 +1,315 @@
+{
+  "compliant": [
+    {
+      "slug": "enio-prado",
+      "nome": "enio-prado",
+      "count": 13
+    },
+    {
+      "slug": "glauco",
+      "nome": "glauco-triade",
+      "count": 13
+    },
+    {
+      "slug": "guilherme-lorenzatto",
+      "nome": "guilherme-lorenzatto",
+      "count": 13
+    },
+    {
+      "slug": "guilherme",
+      "nome": "guilherme",
+      "count": 13
+    },
+    {
+      "slug": "jackson",
+      "nome": "jackson-triade",
+      "count": 13
+    },
+    {
+      "slug": "joao-eduardo",
+      "nome": "joao-eduardo",
+      "count": 13
+    },
+    {
+      "slug": "matheus-kobielski",
+      "nome": "matheus-kobielski-555180351446",
+      "count": 13
+    },
+    {
+      "slug": "mauricio-ramos-dutra",
+      "nome": "mauricio-ramos-dutra-555193937827",
+      "count": 13
+    },
+    {
+      "slug": "paulo-ricardo",
+      "nome": "paulo-ricardo-555184251484",
+      "count": 13
+    },
+    {
+      "slug": "pedro-werlang",
+      "nome": "pedro-werlang-555199483556",
+      "count": 13
+    },
+    {
+      "slug": "ricardo-petri",
+      "nome": "ricardo-petri",
+      "count": 13
+    },
+    {
+      "slug": "theo-fogaca",
+      "nome": "theo-fogaca-555184462514",
+      "count": 13
+    },
+    {
+      "slug": "victoria-clasen",
+      "nome": "victoria-clasen",
+      "count": 13
+    },
+    {
+      "slug": "vitor-sim",
+      "nome": "vitor-sim",
+      "count": 13
+    },
+    {
+      "slug": "willian",
+      "nome": "willian",
+      "count": 13
+    }
+  ],
+  "needsReanalysis": [
+    {
+      "slug": "angelica",
+      "nome": "angelica-triade",
+      "count": 10,
+      "missing": [
+        "RITMO",
+        "DIDATICA",
+        "AUTOCONFIANCA",
+        "CRIATIVIDADE",
+        "REPERTORIO_GERAL",
+        "STORYTELLING"
+      ],
+      "extra": [
+        "MARKETING_PESSOAL",
+        "GRAMATICA",
+        "ASSERTIVIDADE"
+      ]
+    },
+    {
+      "slug": "bruno-monteiro",
+      "nome": "bruno-monteiro",
+      "count": 8,
+      "missing": [
+        "RITMO",
+        "PERSUASAO",
+        "DIDATICA",
+        "AUTOCONFIANCA",
+        "REPERTORIO_GERAL",
+        "STORYTELLING"
+      ],
+      "extra": [
+        "ASSERTIVIDADE"
+      ]
+    },
+    {
+      "slug": "elias",
+      "nome": "elias-carvalho",
+      "count": 8,
+      "missing": [
+        "RITMO",
+        "MODULACAO_VOZ",
+        "ADAPTABILIDADE",
+        "AUTOCONFIANCA",
+        "REPERTORIO_GERAL",
+        "STORYTELLING"
+      ],
+      "extra": [
+        "GRAMATICA"
+      ]
+    },
+    {
+      "slug": "gabriel-creator",
+      "nome": "gabriel-creator",
+      "count": 5,
+      "missing": [
+        "DICCAO",
+        "RITMO",
+        "LINGUAGEM_NAO_VERBAL",
+        "PERSUASAO",
+        "ADAPTABILIDADE",
+        "AUTOCONFIANCA",
+        "CRIATIVIDADE",
+        "REPERTORIO_GERAL",
+        "STORYTELLING"
+      ],
+      "extra": [
+        "MARKETING_PESSOAL"
+      ]
+    },
+    {
+      "slug": "gabriel-ferreira",
+      "nome": "gabriel-ferreira",
+      "count": 5,
+      "missing": [
+        "FLUENCIA",
+        "DICCAO",
+        "RITMO",
+        "MODULACAO_VOZ",
+        "PERSUASAO",
+        "DIDATICA",
+        "AUTOCONFIANCA",
+        "CRIATIVIDADE",
+        "REPERTORIO_GERAL",
+        "STORYTELLING"
+      ],
+      "extra": [
+        "ASSERTIVIDADE",
+        "MARKETING_PESSOAL"
+      ]
+    },
+    {
+      "slug": "jefferson",
+      "nome": "jefferson-triade",
+      "count": 8,
+      "missing": [
+        "RITMO",
+        "PERSUASAO",
+        "ADAPTABILIDADE",
+        "AUTOCONFIANCA",
+        "CRIATIVIDADE",
+        "REPERTORIO_GERAL",
+        "STORYTELLING"
+      ],
+      "extra": [
+        "ASSERTIVIDADE",
+        "MARKETING_PESSOAL"
+      ]
+    },
+    {
+      "slug": "joao",
+      "nome": "joao-triade",
+      "count": 9,
+      "missing": [
+        "RITMO",
+        "MODULACAO_VOZ",
+        "LINGUAGEM_NAO_VERBAL",
+        "ADAPTABILIDADE",
+        "AUTOCONFIANCA",
+        "REPERTORIO_GERAL",
+        "STORYTELLING"
+      ],
+      "extra": [
+        "ASSERTIVIDADE",
+        "GRAMATICA",
+        "VOCABULARIO"
+      ]
+    },
+    {
+      "slug": "kobi",
+      "nome": "kobi-triade",
+      "count": 9,
+      "missing": [
+        "RITMO",
+        "MODULACAO_VOZ",
+        "PERSUASAO",
+        "DIDATICA",
+        "AUTOCONFIANCA",
+        "REPERTORIO_GERAL",
+        "STORYTELLING"
+      ],
+      "extra": [
+        "ASSERTIVIDADE",
+        "GRAMATICA",
+        "MARKETING_PESSOAL"
+      ]
+    },
+    {
+      "slug": "lucas-appel",
+      "nome": "lucas-harth",
+      "count": 7,
+      "missing": [
+        "DICCAO",
+        "RITMO",
+        "MODULACAO_VOZ",
+        "PERSUASAO",
+        "ADAPTABILIDADE",
+        "AUTOCONFIANCA",
+        "CRIATIVIDADE",
+        "REPERTORIO_GERAL",
+        "STORYTELLING"
+      ],
+      "extra": [
+        "VOCABULARIO",
+        "MARKETING_PESSOAL",
+        "PRESENCA_FISICA"
+      ]
+    },
+    {
+      "slug": "maite-balensiefer",
+      "nome": "maite-balensiefer",
+      "count": 8,
+      "missing": [
+        "DICCAO",
+        "RITMO",
+        "MODULACAO_VOZ",
+        "PERSUASAO",
+        "AUTOCONFIANCA",
+        "REPERTORIO_GERAL",
+        "STORYTELLING"
+      ],
+      "extra": [
+        "ASSERTIVIDADE",
+        "MARKETING_PESSOAL"
+      ]
+    },
+    {
+      "slug": "marco-birck",
+      "nome": "marco-birck",
+      "count": 8,
+      "missing": [
+        "DICCAO",
+        "RITMO",
+        "MODULACAO_VOZ",
+        "PERSUASAO",
+        "DIDATICA",
+        "ADAPTABILIDADE",
+        "AUTOCONFIANCA",
+        "LIDERANCA",
+        "CRIATIVIDADE",
+        "REPERTORIO_GERAL",
+        "STORYTELLING"
+      ],
+      "extra": [
+        "ASSERTIVIDADE",
+        "MARKETING_PESSOAL",
+        "AUTENTICIDADE",
+        "PERSUASAO_TECNICA",
+        "AUTOCONHECIMENTO",
+        "PRESENCA_FISICA"
+      ]
+    },
+    {
+      "slug": "marina-rocha",
+      "nome": "marina-rocha",
+      "count": 10,
+      "missing": [
+        "DICCAO",
+        "RITMO",
+        "AUTOCONFIANCA",
+        "CRIATIVIDADE",
+        "REPERTORIO_GERAL",
+        "STORYTELLING"
+      ],
+      "extra": [
+        "MARKETING_PESSOAL",
+        "ENTUSIASMO_GENUINO",
+        "PRESENCA_FISICA"
+      ]
+    }
+  ],
+  "summary": {
+    "total": 27,
+    "compliant": 15,
+    "needsReanalysis": 12
+  }
+}

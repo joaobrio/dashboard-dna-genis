@@ -6,6 +6,9 @@ import { cn } from '@/lib/utils';
 import { getScoreCategory, getCategoryLabelPt, type ScoreCategory } from '@/lib/design-tokens';
 import { CategoryBadge } from '@/components/shared/CategoryBadge';
 import { motion, AnimatedOrb, ScoreReveal } from '@/components/motion';
+import { CoreIndicatorsBadge } from './CoreIndicatorsBadge';
+import { ComplianceStatus } from './ComplianceStatus';
+import type { DnaGenisAnalysis } from '@/lib/zod-student';
 
 const heroVariants = cva(
   'relative flex flex-col items-center justify-center p-8 md:p-12 rounded-3xl transition-all overflow-hidden',
@@ -51,6 +54,8 @@ interface HeroScoreProps extends VariantProps<typeof heroVariants> {
   analysisNumber: number;
   autoconfianca?: number;
   analysisDate?: string;
+  analysis?: DnaGenisAnalysis;
+  showComplianceBadges?: boolean;
 }
 
 export function HeroScore({
@@ -59,6 +64,8 @@ export function HeroScore({
   analysisNumber,
   autoconfianca,
   analysisDate,
+  analysis,
+  showComplianceBadges = true,
 }: HeroScoreProps) {
   const category = getScoreCategory(score);
   const categoryLabel = getCategoryLabelPt(score);
@@ -69,6 +76,8 @@ export function HeroScore({
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
+      role="region"
+      aria-label={`Score principal de ${userName}: ${score.toFixed(1)} pontos, categoria ${categoryLabel}`}
     >
       {/* Animated Background Orbs */}
       <AnimatedOrb
@@ -120,10 +129,12 @@ export function HeroScore({
           >
             <span
               className={cn(
-                'text-7xl md:text-9xl score-display',
+                'text-7xl md:text-9xl score-display score-display-premium score-display-pulse',
                 scoreGradientVariants[category]
               )}
               style={{ fontFamily: '"Space Grotesk", sans-serif' }}
+              aria-label={`Score: ${score.toFixed(1)} pontos`}
+              role="text"
             >
               {score.toFixed(1)}
             </span>
@@ -144,13 +155,26 @@ export function HeroScore({
           </motion.div>
         </ScoreReveal>
 
+        {/* Compliance Badges */}
+        {showComplianceBadges && analysis && (
+          <motion.div
+            className="flex flex-wrap items-center justify-center gap-3 mt-4"
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.7 }}
+          >
+            <CoreIndicatorsBadge analysis={analysis} />
+            <ComplianceStatus analysis={analysis} />
+          </motion.div>
+        )}
+
         {/* Autoconfianca Score */}
         {autoconfianca !== undefined && (
           <motion.div
             className="flex items-center gap-2 text-neutral-500 text-sm glass px-4 py-2 rounded-full"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ delay: 0.7 }}
+            transition={{ delay: 0.8 }}
           >
             <span>Autoconfiança:</span>
             <span className="font-semibold text-neutral-700">{autoconfianca.toFixed(1)}</span>
@@ -162,7 +186,7 @@ export function HeroScore({
           className="flex flex-col md:flex-row items-center gap-2 mt-6 text-neutral-400 text-sm"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ delay: 0.8 }}
+          transition={{ delay: 0.9 }}
         >
           <span>Análise #{analysisNumber}</span>
           {analysisDate && (

@@ -85,20 +85,57 @@ html {
   scroll-behavior: smooth;
 }
 
+/* === ACCESSIBILITY: REDUCED MOTION === */
+/* WCAG 2.1 Success Criterion 2.3.3 - Animation from Interactions */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  /* Disable specific animations */
+  .score-display-pulse {
+    animation: none !important;
+  }
+
+  /* Disable GPU glow transitions */
+  .glow-gpu-alta-performance::before,
+  .glow-gpu-operacional::before,
+  .glow-gpu-essencial::before,
+  .glow-gpu-critico::before {
+    transition: none !important;
+  }
+
+  /* Disable card hover transforms */
+  .glass-card-hover:hover {
+    transform: none !important;
+  }
+
+  /* Disable gradient border animations */
+  .card-gradient-border::before {
+    transition: none !important;
+  }
+}
+
 /* Focus styles for accessibility */
 :focus-visible {
   outline: 2px solid var(--accent-primary);
   outline-offset: 2px;
 }
 
-/* Premium Scrollbar - Genis Gold */
+/* Premium Scrollbar - Genis Gold with Dark Mode Fix */
 ::-webkit-scrollbar {
   width: 10px;
   height: 10px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #F3F4F6;
+  background: rgba(255, 255, 255, 0.05);
   border-radius: 5px;
 }
 
@@ -109,6 +146,12 @@ html {
 
 ::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(180deg, #F0DC4D 0%, #E8D21D 100%);
+}
+
+/* Firefox scrollbar for dark mode */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--genis-yellow) rgba(255, 255, 255, 0.05);
 }
 
 /* Custom Selection - Genis Yellow */
@@ -132,12 +175,19 @@ html {
 }
 
 .glass-card {
-  background: var(--card-bg);
-  backdrop-filter: blur(24px);
-  -webkit-backdrop-filter: blur(24px);
-  border: 1px solid var(--card-border);
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.08) 0%,
+    rgba(255, 255, 255, 0.04) 100%
+  );
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-top: 1px solid rgba(255, 255, 255, 0.18); /* Light source effect */
   border-radius: var(--radius);
-  box-shadow: var(--shadow-soft-md);
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05); /* Inner highlight */
 }
 
 .glass-card-dark {
@@ -150,19 +200,31 @@ html {
 
 .glass-card-hover {
   background: var(--card-bg-strong);
-  backdrop-filter: blur(24px);
-  -webkit-backdrop-filter: blur(24px);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   border: 1px solid var(--card-border);
   border-radius: var(--radius);
   box-shadow: var(--shadow-soft-md);
-  transition: all 0.3s ease;
+  transition:
+    transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 0.3s ease;
 }
 
 .glass-card-hover:hover {
-  background: var(--card-bg-strong);
-  border-color: rgba(232, 210, 29, 0.25);
-  box-shadow: var(--shadow-soft-lg);
-  transform: translateY(-4px);
+  transform: translateY(-6px) scale(1.01);
+  border-color: rgba(232, 210, 29, 0.3);
+  box-shadow:
+    0 20px 40px rgba(0, 0, 0, 0.4),
+    0 0 30px rgba(232, 210, 29, 0.1);
+}
+
+/* Focus state para acessibilidade */
+.glass-card-hover:focus-within {
+  border-color: rgba(232, 210, 29, 0.5);
+  box-shadow:
+    0 0 0 3px rgba(232, 210, 29, 0.2),
+    0 20px 40px rgba(0, 0, 0, 0.3);
 }
 
 /* Fallback for browsers without backdrop-filter */
@@ -250,6 +312,116 @@ html {
   box-shadow: 0 0 15px rgba(245, 158, 11, 0.3);
 }
 
+/* === GPU-OPTIMIZED GLOWS === */
+
+/* GPU Accelerated Glow - Alta Performance */
+.glow-gpu-alta-performance {
+  position: relative;
+}
+
+.glow-gpu-alta-performance::before {
+  content: '';
+  position: absolute;
+  inset: -15px;
+  background: radial-gradient(
+    circle at center,
+    rgba(16, 185, 129, 0.4) 0%,
+    rgba(16, 185, 129, 0.15) 40%,
+    transparent 70%
+  );
+  filter: blur(15px);
+  z-index: -1;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+  will-change: opacity;
+  pointer-events: none;
+}
+
+.glow-gpu-alta-performance:hover::before {
+  opacity: 1;
+}
+
+/* GPU Accelerated Glow - Operacional (Genis Yellow) */
+.glow-gpu-operacional {
+  position: relative;
+}
+
+.glow-gpu-operacional::before {
+  content: '';
+  position: absolute;
+  inset: -15px;
+  background: radial-gradient(
+    circle at center,
+    rgba(232, 210, 29, 0.4) 0%,
+    rgba(232, 210, 29, 0.15) 40%,
+    transparent 70%
+  );
+  filter: blur(15px);
+  z-index: -1;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+  will-change: opacity;
+  pointer-events: none;
+}
+
+.glow-gpu-operacional:hover::before {
+  opacity: 1;
+}
+
+/* GPU Accelerated Glow - Essencial */
+.glow-gpu-essencial {
+  position: relative;
+}
+
+.glow-gpu-essencial::before {
+  content: '';
+  position: absolute;
+  inset: -15px;
+  background: radial-gradient(
+    circle at center,
+    rgba(249, 115, 22, 0.4) 0%,
+    rgba(249, 115, 22, 0.15) 40%,
+    transparent 70%
+  );
+  filter: blur(15px);
+  z-index: -1;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+  will-change: opacity;
+  pointer-events: none;
+}
+
+.glow-gpu-essencial:hover::before {
+  opacity: 1;
+}
+
+/* GPU Accelerated Glow - Critico */
+.glow-gpu-critico {
+  position: relative;
+}
+
+.glow-gpu-critico::before {
+  content: '';
+  position: absolute;
+  inset: -15px;
+  background: radial-gradient(
+    circle at center,
+    rgba(239, 68, 68, 0.4) 0%,
+    rgba(239, 68, 68, 0.15) 40%,
+    transparent 70%
+  );
+  filter: blur(15px);
+  z-index: -1;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+  will-change: opacity;
+  pointer-events: none;
+}
+
+.glow-gpu-critico:hover::before {
+  opacity: 1;
+}
+
 /* === PREMIUM TYPOGRAPHY === */
 
 .headline-premium {
@@ -273,6 +445,27 @@ html {
   line-height: 1;
   letter-spacing: -0.04em;
   font-feature-settings: "tnum" 1;
+}
+
+/* Score Display Premium com multi-layer text shadow */
+.score-display-premium {
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  text-shadow:
+    0 0 20px currentColor,
+    0 0 40px currentColor,
+    0 0 80px currentColor;
+  filter: drop-shadow(0 0 10px currentColor);
+}
+
+/* Score com animacao de pulse sutil */
+.score-display-pulse {
+  animation: score-pulse 3s ease-in-out infinite;
+}
+
+@keyframes score-pulse {
+  0%, 100% { filter: drop-shadow(0 0 10px currentColor); }
+  50% { filter: drop-shadow(0 0 20px currentColor); }
 }
 
 /* === GRADIENT TEXT === */
@@ -319,7 +512,83 @@ html {
   );
 }
 
+/* Enhanced Hero Glow with Depth */
+.bg-hero-glow-enhanced {
+  background:
+    /* Glow principal - amarelo Genis */
+    radial-gradient(
+      ellipse 50% 30% at 50% 0%,
+      rgba(232, 210, 29, 0.15) 0%,
+      transparent 50%
+    ),
+    /* Glow secundario - dourado */
+    radial-gradient(
+      ellipse 80% 50% at 50% -20%,
+      rgba(212, 175, 55, 0.08) 0%,
+      transparent 60%
+    ),
+    /* Ambient light sutil */
+    radial-gradient(
+      circle at 30% 20%,
+      rgba(139, 92, 246, 0.05) 0%,
+      transparent 40%
+    );
+}
+
 /* Genis Brand Background */
 .bg-genis-gradient {
   background: linear-gradient(135deg, rgba(232, 210, 29, 0.1) 0%, rgba(212, 175, 55, 0.05) 100%);
+}
+
+/* === PREMIUM CARD EFFECTS === */
+
+/* Card com Gradient Border animado */
+.card-gradient-border {
+  position: relative;
+  background: var(--genis-dark);
+  border-radius: var(--radius);
+}
+
+.card-gradient-border::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  padding: 1px;
+  border-radius: var(--radius);
+  background: linear-gradient(
+    135deg,
+    rgba(232, 210, 29, 0.3) 0%,
+    rgba(255, 255, 255, 0.1) 50%,
+    rgba(212, 175, 55, 0.3) 100%
+  );
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
+
+.card-gradient-border:hover::before {
+  opacity: 1;
+}
+
+/* Subtle Noise Texture */
+.texture-noise {
+  position: relative;
+}
+
+.texture-noise::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  opacity: 0.02;
+  pointer-events: none;
+  mix-blend-mode: overlay;
+  border-radius: inherit;
 }

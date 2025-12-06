@@ -35,7 +35,11 @@ interface CategoryBadgeProps extends VariantProps<typeof badgeVariants> {
 
 export function CategoryBadge({ label, category, size, className }: CategoryBadgeProps) {
   return (
-    <span className={cn(badgeVariants({ category, size }), className)}>
+    <span
+      className={cn(badgeVariants({ category, size }), className)}
+      role="status"
+      aria-label={`Categoria: ${label}`}
+    >
       {label}
     </span>
   );

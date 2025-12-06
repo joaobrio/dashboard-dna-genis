@@ -1,0 +1,8 @@
+{
+  "src/data/alunos/**/*.json": [
+    "node scripts/validate-all-students.js"
+  ],
+  "src/lib/zod-student.ts": [
+    "npx tsc --noEmit"
+  ]
+}
