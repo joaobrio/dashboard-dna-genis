@@ -1,134 +1,138 @@
 {
   "meta": {
-    "versao": "1.0-supremo",
-    "timestamp": "2025-12-04T22:45:17Z",
-    "analise_id": "glauco-001",
-    "aluno_id": "glauco-triade"
+    "versao": "2.0-supremo",
+    "timestamp": "2025-12-05T18:30:00Z",
+    "analise_id": "glauco-002",
+    "aluno_id": "glauco-triade",
+    "video_info": {
+      "video_atual": "video-02",
+      "contexto": "apresentacao-debate"
+    }
   },
   "resumo": {
-    "score_geral": 70,
-    "score_autoconfianca": 67.45,
+    "score_geral": 78,
+    "score_autoconfianca": 77.2,
     "categoria_geral": "forte",
-    "evolucao_percentual": null,
-    "numero_analise": 1,
-    "dias_desde_anterior": null
+    "evolucao_percentual": 11.4,
+    "numero_analise": 2,
+    "dias_desde_anterior": 0
   },
   "pilares": {
     "oratoria": {
-      "score": 64,
+      "score": 76,
       "peso": 0.40,
       "categoria": "forte",
-      "delta": null,
-      "indicador_ancora": "GRAMATICA",
+      "delta": 12,
+      "indicador_ancora": "DICCAO",
       "indicador_gap": "LINGUAGEM_NAO_VERBAL"
     },
     "interpessoal": {
-      "score": 78,
+      "score": 82,
       "peso": 0.20,
-      "categoria": "forte",
-      "delta": null,
-      "indicador_ancora": "PERSUASAO",
-      "indicador_gap": "DIDATICA"
+      "categoria": "excelente",
+      "delta": 4,
+      "indicador_ancora": "DIDATICA",
+      "indicador_gap": "ADAPTABILIDADE"
     },
     "intrapessoal": {
-      "score": 73,
+      "score": 78,
       "peso": 0.25,
       "categoria": "forte",
-      "delta": null,
-      "indicador_ancora": "CRIATIVIDADE",
-      "indicador_gap": "LIDERANCA"
+      "delta": 5,
+      "indicador_ancora": "LIDERANCA",
+      "indicador_gap": "CRIATIVIDADE"
     },
     "repertorio": {
-      "score": 70,
+      "score": 75,
       "peso": 0.15,
       "categoria": "forte",
-      "delta": null,
+      "delta": 5,
       "indicador_ancora": null,
       "indicador_gap": null,
-      "observacao": "Avaliacao indireta baseada em vocabulario, criatividade e storytelling demonstrados"
+      "observacao": "Avaliacao indireta baseada em debate filosofico sobre dinheiro e mentalidade"
     }
   },
   "indicadores": [
     {
-      "codigo": "PERSUASAO",
-      "nome": "Persuasao",
-      "pilar": "INTERPESSOAL",
-      "score": 85,
-      "categoria": "excelente",
-      "delta": null,
-      "confianca": 0.85,
-      "evidencias": ["Uso excelente de humor (Funeraria)", "Storytelling engajante (Estadio Gremio)", "Conexao emocional com audiencia"],
-      "timestamps": ["00:45-01:10"],
-      "aula_recomendada": null,
-      "tecnica_recomendada": "Manter e expandir",
-      "prioridade_acao": null
-    },
-    {
-      "codigo": "CRIATIVIDADE",
-      "nome": "Criatividade",
+      "codigo": "LIDERANCA",
+      "nome": "Lideranca/Posicionamento",
       "pilar": "INTRAPESSOAL",
       "score": 85,
       "categoria": "excelente",
-      "delta": null,
-      "confianca": 0.80,
-      "evidencias": ["Slogan criativo 'Corpinho vai ser meu'", "Conexao futebol x funeraria original"],
-      "timestamps": ["01:10"],
+      "delta": 25,
+      "confianca": 0.95,
+      "evidencias": ["Domina o palco e o tempo", "Direciona quem fala e quando", "Encerra com comando: 'Tenhamos a mentalidade certa e o dinheiro vem por si so'"],
+      "timestamps": ["01:58-02:37"],
       "aula_recomendada": null,
       "tecnica_recomendada": "Manter e expandir",
       "prioridade_acao": null
     },
     {
-      "codigo": "GRAMATICA",
-      "nome": "Gramatica",
-      "pilar": "ORATORIA",
+      "codigo": "DIDATICA",
+      "nome": "Didatica",
+      "pilar": "INTERPESSOAL",
       "score": 85,
       "categoria": "excelente",
-      "delta": null,
-      "confianca": 0.90,
-      "evidencias": ["Concordancia perfeita", "Construcao frasal correta durante todo o discurso"],
-      "timestamps": ["00:00-01:54"],
-      "aula_recomendada": null,
-      "tecnica_recomendada": null,
-      "prioridade_acao": null
-    },
-    {
-      "codigo": "LINGUAGEM_NAO_VERBAL",
-      "nome": "Linguagem Nao Verbal",
-      "pilar": "ORATORIA",
-      "score": 55,
-      "categoria": "adequado",
-      "delta": null,
-      "confianca": 0.90,
-      "evidencias": ["Erro A1 (Maos entrelacadas) frequente", "Erro A3 (Balanco pendular) constante"],
-      "timestamps": ["00:00-01:50"],
-      "aula_recomendada": "Aula 2: Postura de Dominio",
-      "tecnica_recomendada": "Ancoragem Firme",
-      "prioridade_acao": 1
-    },
-    {
-      "codigo": "FLUENCIA",
-      "nome": "Fluencia",
-      "pilar": "ORATORIA",
-      "score": 60,
-      "categoria": "adequado",
-      "delta": null,
+      "delta": 15,
       "confianca": 0.95,
-      "evidencias": ["Uso frequente do vicio 'ne' (~10 ocorrencias)", "Pausas com 'e...' e 'hum...'"],
-      "timestamps": ["00:10", "00:17", "00:24", "01:06", "01:14"],
-      "aula_recomendada": "Aula 3: Fluencia Magnetica",
-      "tecnica_recomendada": "Pausa Estrategica",
-      "prioridade_acao": 2
+      "evidencias": ["Estrutura impecavel: Pergunta → Debate → Conclusao", "Usou 3 pessoas diferentes para construir argumento", "Analogia Cidreira/Havai para debate filosofico"],
+      "timestamps": ["00:35-00:45"],
+      "aula_recomendada": null,
+      "tecnica_recomendada": "Manter e expandir",
+      "prioridade_acao": null
     },
     {
       "codigo": "DICCAO",
       "nome": "Diccao",
       "pilar": "ORATORIA",
+      "score": 85,
+      "categoria": "excelente",
+      "delta": 5,
+      "confianca": 0.95,
+      "evidencias": ["Pronuncia cristalina", "Nenhuma palavra engolida", "Cada silaba chegou na plateia"],
+      "timestamps": ["00:00-02:37"],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "PERSUASAO",
+      "nome": "Persuasao",
+      "pilar": "INTERPESSOAL",
       "score": 80,
       "categoria": "forte",
-      "delta": null,
+      "delta": -5,
       "confianca": 0.85,
-      "evidencias": ["Pronuncia clara"],
+      "evidencias": ["Opening de impacto: Libido e Dinheiro", "Analogia matadora Cidreira/Havai", "Conclusao magistral sobre mentalidade"],
+      "timestamps": ["00:00-00:16", "00:35-00:45", "01:58-02:37"],
+      "aula_recomendada": null,
+      "tecnica_recomendada": "Manter e expandir",
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "FLUENCIA",
+      "nome": "Fluencia",
+      "pilar": "ORATORIA",
+      "score": 80,
+      "categoria": "forte",
+      "delta": 20,
+      "confianca": 0.90,
+      "evidencias": ["Melhoria significativa em relacao ao video-01", "Menos vicios de linguagem"],
       "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "ASSERTIVIDADE",
+      "nome": "Assertividade",
+      "pilar": "ORATORIA",
+      "score": 80,
+      "categoria": "forte",
+      "delta": 15,
+      "confianca": 0.85,
+      "evidencias": ["Afirmacoes diretas e impactantes", "Sem atenuadores"],
+      "timestamps": ["00:00-00:16"],
       "aula_recomendada": null,
       "tecnica_recomendada": null,
       "prioridade_acao": null
@@ -139,89 +143,167 @@
       "pilar": "ORATORIA",
       "score": 75,
       "categoria": "forte",
-      "delta": null,
+      "delta": 0,
       "confianca": 0.80,
-      "evidencias": ["Boa variacao na piada"],
+      "evidencias": ["Boa variacao tonal"],
       "timestamps": [],
       "aula_recomendada": null,
       "tecnica_recomendada": null,
       "prioridade_acao": null
     },
     {
-      "codigo": "LIDERANCA",
-      "nome": "Lideranca/Posicionamento",
-      "pilar": "INTRAPESSOAL",
-      "score": 60,
-      "categoria": "adequado",
-      "delta": null,
-      "confianca": 0.75,
-      "evidencias": ["Conteudo demonstra senioridade", "Corpo trai inseguranca pelo balanco"],
-      "timestamps": ["00:00-01:50"],
+      "codigo": "VOCABULARIO",
+      "nome": "Vocabulario",
+      "pilar": "ORATORIA",
+      "score": 75,
+      "categoria": "forte",
+      "delta": 5,
+      "confianca": 0.80,
+      "evidencias": ["Termos adequados ao debate filosofico"],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "LINGUAGEM_NAO_VERBAL",
+      "nome": "Linguagem Nao Verbal",
+      "pilar": "ORATORIA",
+      "score": 70,
+      "categoria": "forte",
+      "delta": 15,
+      "confianca": 0.90,
+      "evidencias": ["Bracos cruzados ao ouvir (Erro A1)", "Maos na cintura 'jarra' (dominancia excessiva)", "Recuo fisico ao ouvir (Erro D3)"],
+      "timestamps": ["01:16-01:25", "01:05-01:15", "00:55-00:58"],
       "aula_recomendada": "Aula 2: Postura de Dominio",
-      "tecnica_recomendada": "Ancoragem Firme",
+      "tecnica_recomendada": "Escuta de Poder Aberto",
+      "prioridade_acao": 1,
+      "metricas": {
+        "erros_postura_detectados": ["A1"],
+        "erros_gesticulacao_detectados": [],
+        "erros_movimentacao_detectados": ["D3"],
+        "erros_dominancia": ["Jarra/Akimbo"]
+      }
+    },
+    {
+      "codigo": "GRAMATICA",
+      "nome": "Gramatica",
+      "pilar": "ORATORIA",
+      "score": 70,
+      "categoria": "forte",
+      "delta": -15,
+      "confianca": 0.85,
+      "evidencias": ["Coloquialismos regionais: 'tu prefere', 'tu tomou'", "Aceitavel no contexto, atencao em ambientes formais"],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
       "prioridade_acao": 3
+    },
+    {
+      "codigo": "CRIATIVIDADE",
+      "nome": "Criatividade",
+      "pilar": "INTRAPESSOAL",
+      "score": 70,
+      "categoria": "forte",
+      "delta": -15,
+      "confianca": 0.80,
+      "evidencias": ["Analogia Cidreira/Havai foi ponto alto criativo", "Pode ousar mais com mais elementos criativos"],
+      "timestamps": ["00:35-00:45"],
+      "aula_recomendada": null,
+      "tecnica_recomendada": "Adicionar mais analogias",
+      "prioridade_acao": 2
+    },
+    {
+      "codigo": "ADAPTABILIDADE",
+      "nome": "Adaptabilidade",
+      "pilar": "INTERPESSOAL",
+      "score": 78,
+      "categoria": "forte",
+      "delta": null,
+      "confianca": 0.80,
+      "evidencias": ["Conduziu debate com multiplas pessoas"],
+      "timestamps": [],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
+    },
+    {
+      "codigo": "MARKETING_PESSOAL",
+      "nome": "Marketing Pessoal",
+      "pilar": "INTERPESSOAL",
+      "score": 85,
+      "categoria": "excelente",
+      "delta": 10,
+      "confianca": 0.85,
+      "evidencias": ["Posicionamento de lider de pensamento", "Nao deu resposta, deu perspectiva"],
+      "timestamps": ["01:58-02:37"],
+      "aula_recomendada": null,
+      "tecnica_recomendada": null,
+      "prioridade_acao": null
     }
   ],
   "evolucao": {
     "historico": [
       {
         "data": "2025-12-04",
+        "video": "video-01",
         "score_geral": 70,
-        "destaque": "Primeira analise - destaque em Persuasao e Criatividade"
+        "destaque": "Primeira analise - destaque em Persuasao e Criatividade (piada Funeraria)"
+      },
+      {
+        "data": "2025-12-04",
+        "video": "video-02",
+        "score_geral": 78,
+        "destaque": "Evolucao +8 pontos - Lideranca saltou de 60 para 85, Fluencia +20"
       }
     ],
-    "tendencia": null,
-    "projecao_30_dias": 76,
-    "projecao_90_dias": 80
+    "tendencia": "evolucao",
+    "projecao_30_dias": 82,
+    "projecao_90_dias": 85
   },
   "plano_acao": {
     "duracao_semanas": 4,
-    "indicadores_priorizados": ["LINGUAGEM_NAO_VERBAL", "FLUENCIA", "LIDERANCA"],
+    "indicadores_priorizados": ["LINGUAGEM_NAO_VERBAL", "CRIATIVIDADE", "GRAMATICA"],
     "trilhas": [
       {
         "semanas": "1-2",
         "foco": "LINGUAGEM_NAO_VERBAL",
-        "objetivo": "Eliminar balanco pendular sem perder energia",
+        "objetivo": "Equalizar postura de OUVIR com postura de FALAR",
         "aula_id": 2,
         "aula_nome": "Postura de Dominio",
         "exercicios": [
           {
-            "nome": "Ancoragem Firme",
+            "nome": "Escuta de Poder Aberto",
             "frequencia": "diaria",
-            "duracao_minutos": 15
+            "duracao_minutos": 3
           },
           {
-            "nome": "Gravacao com pes fixos",
-            "frequencia": "diaria",
-            "duracao_minutos": 10
-          }
-        ],
-        "criterios_sucesso": ["Zero balanco perceptivel", "Manter mesma energia e leveza"]
-      },
-      {
-        "semanas": "3-4",
-        "foco": "FLUENCIA",
-        "objetivo": "Eliminar vicio 'ne' substituindo por pausas",
-        "aula_id": 3,
-        "aula_nome": "Fluencia Magnetica",
-        "exercicios": [
-          {
-            "nome": "Pausa Estrategica",
-            "frequencia": "diaria",
-            "duracao_minutos": 15
-          },
-          {
-            "nome": "Contagem de vicios",
+            "nome": "Maos visiveis ao ouvir",
             "frequencia": "diaria",
             "duracao_minutos": 5
           }
         ],
-        "criterios_sucesso": ["Menos de 2 'ne' por minuto", "Pausas naturais"]
+        "criterios_sucesso": ["Zero bracos cruzados ao ouvir", "Postura de jarra max 3-5 segundos"]
+      },
+      {
+        "semanas": "3-4",
+        "foco": "CRIATIVIDADE",
+        "objetivo": "Adicionar mais analogias e elementos criativos",
+        "aula_id": 6,
+        "aula_nome": "Narrativas de Impacto",
+        "exercicios": [
+          {
+            "nome": "Banco de Analogias",
+            "frequencia": "3x semana",
+            "duracao_minutos": 15
+          }
+        ],
+        "criterios_sucesso": ["2+ analogias por apresentacao", "Variedade de recursos criativos"]
       }
     ],
     "desafio_mes": {
-      "nome": "O Comediante Ancorado",
-      "descricao": "Regravar apresentacao da Funeraria com pes ancorados e zero 'ne'"
+      "nome": "O Lider que Ouve",
+      "descricao": "Conduzir debate mantendo postura aberta tanto ao falar quanto ao ouvir"
     }
   },
   "materiais": [
@@ -233,25 +315,18 @@
       "link": null
     },
     {
-      "tipo": "aula",
-      "nome": "Aula 3: Fluencia Magnetica",
-      "indicador_relacionado": "FLUENCIA",
-      "prioridade": "alta",
-      "link": null
-    },
-    {
       "tipo": "exercicio",
-      "nome": "Pausa Estrategica",
-      "indicador_relacionado": "FLUENCIA",
+      "nome": "Escuta de Poder Aberto",
+      "indicador_relacionado": "LINGUAGEM_NAO_VERBAL",
       "prioridade": "alta",
       "link": null
     }
   ],
   "proximos_passos": {
-    "imediatos": ["Assistir Aula 2: Postura de Dominio", "Praticar ancoragem em reunioes"],
-    "curto_prazo": ["Menos de 2 ne/min", "Zero balanco"],
+    "imediatos": ["Praticar Escuta de Poder Aberto 3min/dia", "Pedir feedback: postura ao ouvir transmite abertura?"],
+    "curto_prazo": ["Zero bracos cruzados", "Postura equalizada falar/ouvir"],
     "proxima_avaliacao": "2026-01-04",
-    "meta_score_30_dias": 76,
-    "meta_score_90_dias": 80
+    "meta_score_30_dias": 82,
+    "meta_score_90_dias": 85
   }
 }
